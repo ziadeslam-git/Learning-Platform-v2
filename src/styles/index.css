@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange-500: #f97316;
+  --color-brand-orange-600: #ea580c;
+  --color-brand-dark-bg: #0b0c10;
+  --color-brand-dark-surface: #12141a;
+  --color-brand-dark-border: #1f232e;
+  --color-brand-neon-orange: #ff6b00;
+  
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: var(--color-brand-dark-bg);
+    --foreground: #f8fafc;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  
+  .glass-orange {
+    @apply bg-orange-500/10 backdrop-blur-md border border-orange-500/20;
+  }
+  
+  .glow-orange {
+    box-shadow: 0 0 15px 0px rgba(255, 107, 0, 0.4);
+  }
+  
+  .glow-orange-strong {
+    box-shadow: 0 0 25px 5px rgba(255, 107, 0, 0.6);
+  }
+  
+  .glow-text {
+    text-shadow: 0 0 10px rgba(255, 107, 0, 0.5);
+  }
+}
