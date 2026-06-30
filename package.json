@@ -1,0 +1,36 @@
+{
+  "name": "learning-platform-v2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "import-content": "vite-node scripts/content-importer/index.ts"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.42.0",
+    "fs-extra": "^11.3.6",
+    "lucide-react": "^1.22.0",
+    "mammoth": "^1.12.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "oxlint": "^1.69.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.0"
+  }
+}
