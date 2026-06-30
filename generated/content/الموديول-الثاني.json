@@ -1,0 +1,1079 @@
+{
+  "id": "الموديول-الثاني",
+  "title": "الموديول الثاني",
+  "type": "module",
+  "language": "ar",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Section",
+      "blocks": [
+        {
+          "id": "paragraph_1",
+          "type": "ParagraphBlock",
+          "content": ":"
+        },
+        {
+          "id": "paragraph_2",
+          "type": "ParagraphBlock",
+          "content": "الموديول الثاني"
+        },
+        {
+          "id": "paragraph_3",
+          "type": "ParagraphBlock",
+          "content": "الاتصال والتواصل الرقمي &amp; إدارة البيانات واتخاذ القرار"
+        },
+        {
+          "id": "paragraph_4",
+          "type": "ParagraphBlock",
+          "content": "الهدف العام للموديول"
+        },
+        {
+          "id": "paragraph_5",
+          "type": "ParagraphBlock",
+          "content": "تنمية مهارات الاتصال والتواصل الرقمي وإدارة البيانات واتخاذ القرار لدى القيادات التعليمية بما يسهم في تحسين الأداء المؤسسي ودعم التحول الرقمي."
+        },
+        {
+          "id": "paragraph_6",
+          "type": "ParagraphBlock",
+          "content": "الدرس الأول"
+        },
+        {
+          "id": "paragraph_7",
+          "type": "ParagraphBlock",
+          "content": "الاتصال والتواصل الرقمي"
+        },
+        {
+          "id": "paragraph_8",
+          "type": "ParagraphBlock",
+          "content": "الأهداف التعليمية"
+        },
+        {
+          "id": "paragraph_9",
+          "type": "ParagraphBlock",
+          "content": "بعد دراسة هذا الدرس يصبح المتدرب قادراً على أن:"
+        },
+        {
+          "id": "paragraph_10",
+          "type": "ParagraphBlock",
+          "content": "يذكر أدوات التواصل الرقمي المستخدمة في المؤسسات التعليمية."
+        },
+        {
+          "id": "paragraph_11",
+          "type": "ParagraphBlock",
+          "content": "يوضح خطوات إنشاء الاجتماعات الإلكترونية باستخدام المنصات الرقمية."
+        },
+        {
+          "id": "paragraph_12",
+          "type": "ParagraphBlock",
+          "content": "يفسر أهمية تسجيل الاجتماعات الإلكترونية."
+        },
+        {
+          "id": "paragraph_13",
+          "type": "ParagraphBlock",
+          "content": "يتابع استفسارات أولياء الأمور والمعلمين إلكترونياً بفاعلية."
+        },
+        {
+          "id": "paragraph_14",
+          "type": "ParagraphBlock",
+          "content": "يطبق مهارات التواصل الرقمي من خلال الرد على المراسلات الإلكترونية."
+        },
+        {
+          "id": "paragraph_15",
+          "type": "ParagraphBlock",
+          "content": "يوضح دور التعليمات الرقمية في تحسين فهم المستفيدين."
+        },
+        {
+          "id": "paragraph_16",
+          "type": "ParagraphBlock",
+          "content": "عرض المحتوى"
+        },
+        {
+          "id": "paragraph_17",
+          "type": "ParagraphBlock",
+          "content": "العنصر الاول: مفهوم الاتصال والتواصل الرقمي"
+        },
+        {
+          "id": "paragraph_18",
+          "type": "ParagraphBlock",
+          "content": "مفهوم الاتصال الرقمي"
+        },
+        {
+          "id": "paragraph_19",
+          "type": "ParagraphBlock",
+          "content": "هو عملية تبادل المعلومات والرسائل باستخدام الوسائط والتقنيات الرقمية بما يحقق التفاعل الفعال بين الأفراد والمؤسسات."
+        },
+        {
+          "id": "paragraph_20",
+          "type": "ParagraphBlock",
+          "content": "أهمية الاتصال الرقمي"
+        },
+        {
+          "id": "paragraph_21",
+          "type": "ParagraphBlock",
+          "content": "سرعة تبادل المعلومات."
+        },
+        {
+          "id": "paragraph_22",
+          "type": "ParagraphBlock",
+          "content": "تحسين التواصل المؤسسي."
+        },
+        {
+          "id": "paragraph_23",
+          "type": "ParagraphBlock",
+          "content": "دعم العمل التعاوني."
+        },
+        {
+          "id": "paragraph_24",
+          "type": "ParagraphBlock",
+          "content": "توفير الوقت والجهد."
+        },
+        {
+          "id": "paragraph_25",
+          "type": "ParagraphBlock",
+          "content": "دعم اتخاذ القرار."
+        },
+        {
+          "id": "paragraph_26",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثاني: أدوات التواصل الرقمي"
+        },
+        {
+          "id": "paragraph_27",
+          "type": "ParagraphBlock",
+          "content": "أدوات التواصل المتزامن"
+        },
+        {
+          "id": "paragraph_28",
+          "type": "ParagraphBlock",
+          "content": "Microsoft Teams"
+        },
+        {
+          "id": "paragraph_29",
+          "type": "ParagraphBlock",
+          "content": "Zoom"
+        },
+        {
+          "id": "paragraph_30",
+          "type": "ParagraphBlock",
+          "content": "Google Meet"
+        },
+        {
+          "id": "paragraph_31",
+          "type": "ParagraphBlock",
+          "content": "أدوات التواصل غير المتزامن"
+        },
+        {
+          "id": "paragraph_32",
+          "type": "ParagraphBlock",
+          "content": "البريد الإلكتروني."
+        },
+        {
+          "id": "paragraph_33",
+          "type": "ParagraphBlock",
+          "content": "المنتديات التعليمية."
+        },
+        {
+          "id": "paragraph_34",
+          "type": "ParagraphBlock",
+          "content": "مجموعات العمل الرقمية."
+        },
+        {
+          "id": "paragraph_35",
+          "type": "ParagraphBlock",
+          "content": "معايير اختيار أداة التواصل"
+        },
+        {
+          "id": "paragraph_36",
+          "type": "ParagraphBlock",
+          "content": "سهولة الاستخدام."
+        },
+        {
+          "id": "paragraph_37",
+          "type": "ParagraphBlock",
+          "content": "الأمان."
+        },
+        {
+          "id": "paragraph_38",
+          "type": "ParagraphBlock",
+          "content": "جودة الاتصال."
+        },
+        {
+          "id": "paragraph_39",
+          "type": "ParagraphBlock",
+          "content": "إمكانية المشاركة والتفاعل."
+        },
+        {
+          "id": "paragraph_40",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثالث: الاجتماعات الإلكترونية"
+        },
+        {
+          "id": "paragraph_41",
+          "type": "ParagraphBlock",
+          "content": "مفهوم الاجتماعات الإلكترونية"
+        },
+        {
+          "id": "paragraph_42",
+          "type": "ParagraphBlock",
+          "content": "اجتماعات تتم عبر المنصات الرقمية دون الحاجة للحضور الفعلي."
+        },
+        {
+          "id": "paragraph_43",
+          "type": "ParagraphBlock",
+          "content": "خطوات إنشاء اجتماع إلكتروني"
+        },
+        {
+          "id": "paragraph_44",
+          "type": "ParagraphBlock",
+          "content": "تحديد الهدف."
+        },
+        {
+          "id": "paragraph_45",
+          "type": "ParagraphBlock",
+          "content": "اختيار المنصة."
+        },
+        {
+          "id": "paragraph_46",
+          "type": "ParagraphBlock",
+          "content": "إرسال الدعوات."
+        },
+        {
+          "id": "paragraph_47",
+          "type": "ParagraphBlock",
+          "content": "إدارة الاجتماع."
+        },
+        {
+          "id": "paragraph_48",
+          "type": "ParagraphBlock",
+          "content": "تسجيل الاجتماع وحفظه."
+        },
+        {
+          "id": "paragraph_49",
+          "type": "ParagraphBlock",
+          "content": "فوائد الاجتماعات الإلكترونية"
+        },
+        {
+          "id": "paragraph_50",
+          "type": "ParagraphBlock",
+          "content": "تقليل الوقت والتكاليف."
+        },
+        {
+          "id": "paragraph_51",
+          "type": "ParagraphBlock",
+          "content": "توثيق الاجتماعات."
+        },
+        {
+          "id": "paragraph_52",
+          "type": "ParagraphBlock",
+          "content": "سهولة مشاركة الملفات."
+        },
+        {
+          "id": "paragraph_53",
+          "type": "ParagraphBlock",
+          "content": "العنصر الرابع: المراسلات الرقمية"
+        },
+        {
+          "id": "paragraph_54",
+          "type": "ParagraphBlock",
+          "content": "مفهوم المراسلات الرقمية"
+        },
+        {
+          "id": "paragraph_55",
+          "type": "ParagraphBlock",
+          "content": "تبادل الرسائل والوثائق إلكترونياً بين العاملين والمؤسسات."
+        },
+        {
+          "id": "paragraph_56",
+          "type": "ParagraphBlock",
+          "content": "قواعد المراسلات الرقمية"
+        },
+        {
+          "id": "paragraph_57",
+          "type": "ParagraphBlock",
+          "content": "كتابة عنوان واضح."
+        },
+        {
+          "id": "paragraph_58",
+          "type": "ParagraphBlock",
+          "content": "استخدام لغة رسمية."
+        },
+        {
+          "id": "paragraph_59",
+          "type": "ParagraphBlock",
+          "content": "وضوح الرسالة."
+        },
+        {
+          "id": "paragraph_60",
+          "type": "ParagraphBlock",
+          "content": "سرعة الرد."
+        },
+        {
+          "id": "paragraph_61",
+          "type": "ParagraphBlock",
+          "content": "حفظ المراسلات المهمة."
+        },
+        {
+          "id": "paragraph_62",
+          "type": "ParagraphBlock",
+          "content": "العنصر الخامس: أخلاقيات التواصل الرقمي"
+        },
+        {
+          "id": "paragraph_63",
+          "type": "ParagraphBlock",
+          "content": "مبادئ التواصل الرقمي"
+        },
+        {
+          "id": "paragraph_64",
+          "type": "ParagraphBlock",
+          "content": "الاحترام."
+        },
+        {
+          "id": "paragraph_65",
+          "type": "ParagraphBlock",
+          "content": "المسؤولية."
+        },
+        {
+          "id": "paragraph_66",
+          "type": "ParagraphBlock",
+          "content": "المصداقية."
+        },
+        {
+          "id": "paragraph_67",
+          "type": "ParagraphBlock",
+          "content": "حماية الخصوصية."
+        },
+        {
+          "id": "paragraph_68",
+          "type": "ParagraphBlock",
+          "content": "احترام الملكية الفكرية."
+        },
+        {
+          "id": "paragraph_69",
+          "type": "ParagraphBlock",
+          "content": "توظيف الذكاء الاصطناعي في التواصل"
+        },
+        {
+          "id": "paragraph_70",
+          "type": "ParagraphBlock",
+          "content": "صياغة الرسائل."
+        },
+        {
+          "id": "paragraph_71",
+          "type": "ParagraphBlock",
+          "content": "إعداد التعاميم."
+        },
+        {
+          "id": "paragraph_72",
+          "type": "ParagraphBlock",
+          "content": "تلخيص الاجتماعات."
+        },
+        {
+          "id": "paragraph_73",
+          "type": "ParagraphBlock",
+          "content": "تنظيم المعلومات."
+        },
+        {
+          "id": "paragraph_74",
+          "type": "ParagraphBlock",
+          "content": "الأنشطة"
+        },
+        {
+          "id": "paragraph_75",
+          "type": "ParagraphBlock",
+          "content": "النشاط الأول"
+        },
+        {
+          "id": "paragraph_76",
+          "type": "ParagraphBlock",
+          "content": "حدد أدوات التواصل الرقمي المستخدمة في مؤسستك التعليمية مع توضيح استخدام كل أداة."
+        },
+        {
+          "id": "paragraph_77",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثاني"
+        },
+        {
+          "id": "paragraph_78",
+          "type": "ParagraphBlock",
+          "content": "قم بإنشاء اجتماع إلكتروني تجريبي وحدد خطوات تنظيمه."
+        },
+        {
+          "id": "paragraph_79",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثالث"
+        },
+        {
+          "id": "paragraph_80",
+          "type": "ParagraphBlock",
+          "content": "استخدم ChatGPT لصياغة رسالة رسمية موجهة للمعلمين بشأن مشروع رقمي جديد."
+        },
+        {
+          "id": "paragraph_81",
+          "type": "ParagraphBlock",
+          "content": "التقويم"
+        },
+        {
+          "id": "paragraph_82",
+          "type": "ParagraphBlock",
+          "content": "اختيار من متعدد"
+        },
+        {
+          "id": "paragraph_83",
+          "type": "ParagraphBlock",
+          "content": "من أدوات التواصل المتزامن:"
+        },
+        {
+          "id": "paragraph_84",
+          "type": "ParagraphBlock",
+          "content": "أ) البريد الإلكتروني"
+        },
+        {
+          "id": "paragraph_85",
+          "type": "ParagraphBlock",
+          "content": "Microsoft Teamsب)"
+        },
+        {
+          "id": "paragraph_86",
+          "type": "ParagraphBlock",
+          "content": "ملفات PDFج)"
+        },
+        {
+          "id": "paragraph_87",
+          "type": "ParagraphBlock",
+          "content": "Wordد)"
+        },
+        {
+          "id": "paragraph_88",
+          "type": "ParagraphBlock",
+          "content": "صح أم خطأ"
+        },
+        {
+          "id": "paragraph_89",
+          "type": "ParagraphBlock",
+          "content": "تساعد الاجتماعات الإلكترونية في توفير الوقت والجهد."
+        },
+        {
+          "id": "paragraph_90",
+          "type": "ParagraphBlock",
+          "content": "لا يجب حفظ تسجيلات الاجتماعات الإلكترونية."
+        },
+        {
+          "id": "paragraph_91",
+          "type": "ParagraphBlock",
+          "content": "مهمة أدائية"
+        },
+        {
+          "id": "paragraph_92",
+          "type": "ParagraphBlock",
+          "content": "إعداد دعوة إلكترونية لاجتماع افتراضي مع تحديد"
+        },
+        {
+          "id": "paragraph_93",
+          "type": "ParagraphBlock",
+          "content": "الهدف."
+        },
+        {
+          "id": "paragraph_94",
+          "type": "ParagraphBlock",
+          "content": "الموعد."
+        },
+        {
+          "id": "paragraph_95",
+          "type": "ParagraphBlock",
+          "content": "رابط الاجتماع."
+        },
+        {
+          "id": "paragraph_96",
+          "type": "ParagraphBlock",
+          "content": "جدول الأعمال."
+        },
+        {
+          "id": "paragraph_97",
+          "type": "ParagraphBlock",
+          "content": "ملخص الدرس"
+        },
+        {
+          "id": "paragraph_98",
+          "type": "ParagraphBlock",
+          "content": "الدرس الثاني"
+        },
+        {
+          "id": "paragraph_99",
+          "type": "ParagraphBlock",
+          "content": "إدارة البيانات واتخاذ القرار"
+        },
+        {
+          "id": "paragraph_100",
+          "type": "ParagraphBlock",
+          "content": "الأهداف التعليمية"
+        },
+        {
+          "id": "paragraph_101",
+          "type": "ParagraphBlock",
+          "content": "بعد دراسة هذا الدرس يصبح المتدرب قادراً على أن:"
+        },
+        {
+          "id": "paragraph_102",
+          "type": "ParagraphBlock",
+          "content": "يصنف البيانات إلكترونياً بما يسهل الوصول إليها."
+        },
+        {
+          "id": "paragraph_103",
+          "type": "ParagraphBlock",
+          "content": "يوضح أهمية النسخ الاحتياطي في حماية البيانات الرقمية."
+        },
+        {
+          "id": "paragraph_104",
+          "type": "ParagraphBlock",
+          "content": "يذكر مهارات حماية البيانات من الفقد."
+        },
+        {
+          "id": "paragraph_105",
+          "type": "ParagraphBlock",
+          "content": "يطبق مهارة تحديث البيانات الرقمية بصورة مستمرة."
+        },
+        {
+          "id": "paragraph_106",
+          "type": "ParagraphBlock",
+          "content": "يوضح أهمية ترتيب الملفات الرقمية في سهولة الوصول للمعلومات."
+        },
+        {
+          "id": "paragraph_107",
+          "type": "ParagraphBlock",
+          "content": "عرض المحتوى"
+        },
+        {
+          "id": "paragraph_108",
+          "type": "ParagraphBlock",
+          "content": "العنصر الأول: البيانات الرقمية وأنواعها"
+        },
+        {
+          "id": "paragraph_109",
+          "type": "ParagraphBlock",
+          "content": "مفهوم البيانات الرقمية"
+        },
+        {
+          "id": "paragraph_110",
+          "type": "ParagraphBlock",
+          "content": "هي مجموعة من الحقائق والأرقام والمعلومات التي يتم جمعها وتخزينها ومعالجتها إلكترونياً بهدف الاستفادة منها في العمل المؤسسي واتخاذ القرار."
+        },
+        {
+          "id": "paragraph_111",
+          "type": "ParagraphBlock",
+          "content": "أنواع البيانات بالمؤسسات التعليمية"
+        },
+        {
+          "id": "paragraph_112",
+          "type": "ParagraphBlock",
+          "content": "بيانات الطلاب."
+        },
+        {
+          "id": "paragraph_113",
+          "type": "ParagraphBlock",
+          "content": "بيانات المعلمين."
+        },
+        {
+          "id": "paragraph_114",
+          "type": "ParagraphBlock",
+          "content": "البيانات الإدارية."
+        },
+        {
+          "id": "paragraph_115",
+          "type": "ParagraphBlock",
+          "content": "البيانات المالية."
+        },
+        {
+          "id": "paragraph_116",
+          "type": "ParagraphBlock",
+          "content": "بيانات الأداء والمؤشرات."
+        },
+        {
+          "id": "paragraph_117",
+          "type": "ParagraphBlock",
+          "content": "أهمية البيانات الرقمية"
+        },
+        {
+          "id": "paragraph_118",
+          "type": "ParagraphBlock",
+          "content": "دعم اتخاذ القرار."
+        },
+        {
+          "id": "paragraph_119",
+          "type": "ParagraphBlock",
+          "content": "تحسين التخطيط."
+        },
+        {
+          "id": "paragraph_120",
+          "type": "ParagraphBlock",
+          "content": "متابعة الأداء."
+        },
+        {
+          "id": "paragraph_121",
+          "type": "ParagraphBlock",
+          "content": "رفع كفاءة العمل المؤسسي."
+        },
+        {
+          "id": "paragraph_122",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثاني: تنظيم البيانات والملفات الرقمية"
+        },
+        {
+          "id": "paragraph_123",
+          "type": "ParagraphBlock",
+          "content": "مفهوم تنظيم البيانات"
+        },
+        {
+          "id": "paragraph_124",
+          "type": "ParagraphBlock",
+          "content": "ترتيب وتصنيف البيانات بطريقة منظمة تسهل الوصول إليها واسترجاعها عند الحاجة."
+        },
+        {
+          "id": "paragraph_125",
+          "type": "ParagraphBlock",
+          "content": "أساليب تنظيم البيانات"
+        },
+        {
+          "id": "paragraph_126",
+          "type": "ParagraphBlock",
+          "content": "التصنيف حسب النوع."
+        },
+        {
+          "id": "paragraph_127",
+          "type": "ParagraphBlock",
+          "content": "التصنيف حسب التاريخ."
+        },
+        {
+          "id": "paragraph_128",
+          "type": "ParagraphBlock",
+          "content": "التصنيف حسب الإدارة."
+        },
+        {
+          "id": "paragraph_129",
+          "type": "ParagraphBlock",
+          "content": "التصنيف حسب درجة السرية."
+        },
+        {
+          "id": "paragraph_130",
+          "type": "ParagraphBlock",
+          "content": "فوائد التنظيم"
+        },
+        {
+          "id": "paragraph_131",
+          "type": "ParagraphBlock",
+          "content": "سرعة الوصول للمعلومات."
+        },
+        {
+          "id": "paragraph_132",
+          "type": "ParagraphBlock",
+          "content": "تقليل التكرار."
+        },
+        {
+          "id": "paragraph_133",
+          "type": "ParagraphBlock",
+          "content": "تحسين جودة العمل."
+        },
+        {
+          "id": "paragraph_134",
+          "type": "ParagraphBlock",
+          "content": "تسهيل المتابعة."
+        },
+        {
+          "id": "paragraph_135",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثالث: حفظ البيانات والنسخ الاحتياطي"
+        },
+        {
+          "id": "paragraph_136",
+          "type": "ParagraphBlock",
+          "content": "مفهوم النسخ الاحتياطي"
+        },
+        {
+          "id": "paragraph_137",
+          "type": "ParagraphBlock",
+          "content": "إنشاء نسخة إضافية من البيانات لحمايتها من الفقد أو التلف."
+        },
+        {
+          "id": "paragraph_138",
+          "type": "ParagraphBlock",
+          "content": "أهمية النسخ الاحتياطي"
+        },
+        {
+          "id": "paragraph_139",
+          "type": "ParagraphBlock",
+          "content": "حماية المعلومات."
+        },
+        {
+          "id": "paragraph_140",
+          "type": "ParagraphBlock",
+          "content": "استمرارية العمل."
+        },
+        {
+          "id": "paragraph_141",
+          "type": "ParagraphBlock",
+          "content": "استعادة البيانات عند الطوارئ."
+        },
+        {
+          "id": "paragraph_142",
+          "type": "ParagraphBlock",
+          "content": "تقليل مخاطر فقد الملفات."
+        },
+        {
+          "id": "paragraph_143",
+          "type": "ParagraphBlock",
+          "content": "أنواع النسخ الاحتياطي"
+        },
+        {
+          "id": "paragraph_144",
+          "type": "ParagraphBlock",
+          "content": "النسخ الكامل."
+        },
+        {
+          "id": "paragraph_145",
+          "type": "ParagraphBlock",
+          "content": "النسخ التزايدي."
+        },
+        {
+          "id": "paragraph_146",
+          "type": "ParagraphBlock",
+          "content": "النسخ التفاضلي."
+        },
+        {
+          "id": "paragraph_147",
+          "type": "ParagraphBlock",
+          "content": "العنصر الرابع: حماية البيانات الرقمية"
+        },
+        {
+          "id": "paragraph_148",
+          "type": "ParagraphBlock",
+          "content": "مفهوم حماية البيانات"
+        },
+        {
+          "id": "paragraph_149",
+          "type": "ParagraphBlock",
+          "content": "مجموعة الإجراءات التي تهدف إلى الحفاظ على سرية البيانات وسلامتها ومنع الوصول غير المصرح به إليها."
+        },
+        {
+          "id": "paragraph_150",
+          "type": "ParagraphBlock",
+          "content": "المصدر: YouTube"
+        },
+        {
+          "id": "paragraph_151",
+          "type": "ParagraphBlock",
+          "content": "https://share.google/LeJZXEAjaLf1ZZgh7"
+        },
+        {
+          "id": "paragraph_152",
+          "type": "ParagraphBlock",
+          "content": "أساليب حماية البيانات"
+        },
+        {
+          "id": "paragraph_153",
+          "type": "ParagraphBlock",
+          "content": "كلمات المرور القوية."
+        },
+        {
+          "id": "paragraph_154",
+          "type": "ParagraphBlock",
+          "content": "التشفير."
+        },
+        {
+          "id": "paragraph_155",
+          "type": "ParagraphBlock",
+          "content": "تحديد صلاحيات المستخدمين."
+        },
+        {
+          "id": "paragraph_156",
+          "type": "ParagraphBlock",
+          "content": "برامج الحماية."
+        },
+        {
+          "id": "paragraph_157",
+          "type": "ParagraphBlock",
+          "content": "النسخ الاحتياطي المنتظم."
+        },
+        {
+          "id": "paragraph_158",
+          "type": "ParagraphBlock",
+          "content": "مخاطر فقد البيانات"
+        },
+        {
+          "id": "paragraph_159",
+          "type": "ParagraphBlock",
+          "content": "الأعطال التقنية."
+        },
+        {
+          "id": "paragraph_160",
+          "type": "ParagraphBlock",
+          "content": "الحذف غير المقصود."
+        },
+        {
+          "id": "paragraph_161",
+          "type": "ParagraphBlock",
+          "content": "الهجمات الإلكترونية."
+        },
+        {
+          "id": "paragraph_162",
+          "type": "ParagraphBlock",
+          "content": "تلف الأجهزة."
+        },
+        {
+          "id": "paragraph_163",
+          "type": "ParagraphBlock",
+          "content": "العنصر الخامس: اتخاذ القرار المبني على البيانات"
+        },
+        {
+          "id": "paragraph_164",
+          "type": "ParagraphBlock",
+          "content": "مفهوم اتخاذ القرار"
+        },
+        {
+          "id": "paragraph_165",
+          "type": "ParagraphBlock",
+          "content": "اختيار أفضل بديل متاح لتحقيق هدف أو حل مشكلة معينة."
+        },
+        {
+          "id": "paragraph_166",
+          "type": "ParagraphBlock",
+          "content": "خطوات اتخاذ القرار"
+        },
+        {
+          "id": "paragraph_167",
+          "type": "ParagraphBlock",
+          "content": "تحديد المشكلة."
+        },
+        {
+          "id": "paragraph_168",
+          "type": "ParagraphBlock",
+          "content": "جمع البيانات."
+        },
+        {
+          "id": "paragraph_169",
+          "type": "ParagraphBlock",
+          "content": "تحليل البيانات."
+        },
+        {
+          "id": "paragraph_170",
+          "type": "ParagraphBlock",
+          "content": "تحديد البدائل."
+        },
+        {
+          "id": "paragraph_171",
+          "type": "ParagraphBlock",
+          "content": "اختيار البديل المناسب."
+        },
+        {
+          "id": "paragraph_172",
+          "type": "ParagraphBlock",
+          "content": "تنفيذ القرار."
+        },
+        {
+          "id": "paragraph_173",
+          "type": "ParagraphBlock",
+          "content": "متابعة النتائج."
+        },
+        {
+          "id": "paragraph_174",
+          "type": "ParagraphBlock",
+          "content": "دور الذكاء الاصطناعي في دعم القرار"
+        },
+        {
+          "id": "paragraph_175",
+          "type": "ParagraphBlock",
+          "content": "تحليل البيانات."
+        },
+        {
+          "id": "paragraph_176",
+          "type": "ParagraphBlock",
+          "content": "اكتشاف الأنماط."
+        },
+        {
+          "id": "paragraph_177",
+          "type": "ParagraphBlock",
+          "content": "إعداد التقارير."
+        },
+        {
+          "id": "paragraph_178",
+          "type": "ParagraphBlock",
+          "content": "التنبؤ بالنتائج."
+        },
+        {
+          "id": "paragraph_179",
+          "type": "ParagraphBlock",
+          "content": "تقديم التوصيات."
+        },
+        {
+          "id": "paragraph_180",
+          "type": "ParagraphBlock",
+          "content": "الأنشطة"
+        },
+        {
+          "id": "paragraph_181",
+          "type": "ParagraphBlock",
+          "content": "النشاط الأول"
+        },
+        {
+          "id": "paragraph_182",
+          "type": "ParagraphBlock",
+          "content": "قم بتصنيف مجموعة من البيانات الخاصة بمؤسستك التعليمية إلى فئات رئيسية."
+        },
+        {
+          "id": "paragraph_183",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثاني"
+        },
+        {
+          "id": "paragraph_184",
+          "type": "ParagraphBlock",
+          "content": "صمم هيكلاً تنظيمياً لحفظ الملفات الرقمية داخل المؤسسة."
+        },
+        {
+          "id": "paragraph_185",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثالث"
+        },
+        {
+          "id": "paragraph_186",
+          "type": "ParagraphBlock",
+          "content": "استخدم أحد تطبيقات الذكاء الاصطناعي لتحليل مجموعة بيانات تعليمية واستخراج أهم النتائج."
+        },
+        {
+          "id": "paragraph_187",
+          "type": "ParagraphBlock",
+          "content": "النشاط الرابع"
+        },
+        {
+          "id": "paragraph_188",
+          "type": "ParagraphBlock",
+          "content": "اقترح قراراً تطويرياً يعتمد على بيانات فعلية من بيئة العمل التعليمية."
+        },
+        {
+          "id": "paragraph_189",
+          "type": "ParagraphBlock",
+          "content": "التقويم"
+        },
+        {
+          "id": "paragraph_190",
+          "type": "ParagraphBlock",
+          "content": "أولاً: أسئلة اختيار من متعدد"
+        },
+        {
+          "id": "paragraph_191",
+          "type": "ParagraphBlock",
+          "content": "1- يهدف النسخ الاحتياطي إلى"
+        },
+        {
+          "id": "paragraph_192",
+          "type": "ParagraphBlock",
+          "content": "أ) حذف البيانات"
+        },
+        {
+          "id": "paragraph_193",
+          "type": "ParagraphBlock",
+          "content": "ب) حماية البيانات من الفقد"
+        },
+        {
+          "id": "paragraph_194",
+          "type": "ParagraphBlock",
+          "content": "ج) تقليل عدد الملفات"
+        },
+        {
+          "id": "paragraph_195",
+          "type": "ParagraphBlock",
+          "content": "د)مشاركة البيانات"
+        },
+        {
+          "id": "paragraph_196",
+          "type": "ParagraphBlock",
+          "content": "2: من خطوات اتخاذ القرار"
+        },
+        {
+          "id": "paragraph_197",
+          "type": "ParagraphBlock",
+          "content": "ا) تجاهل البيانات."
+        },
+        {
+          "id": "paragraph_198",
+          "type": "ParagraphBlock",
+          "content": "ب) حذف التقارير."
+        },
+        {
+          "id": "paragraph_199",
+          "type": "ParagraphBlock",
+          "content": "ج) تحليل البيانات."
+        },
+        {
+          "id": "paragraph_200",
+          "type": "ParagraphBlock",
+          "content": "د) إيقاف المتابعة."
+        },
+        {
+          "id": "paragraph_201",
+          "type": "ParagraphBlock",
+          "content": "ثانياً: صح أم خطأ"
+        },
+        {
+          "id": "paragraph_202",
+          "type": "ParagraphBlock",
+          "content": "يساعد تنظيم البيانات على سرعة الوصول للمعلومات."
+        },
+        {
+          "id": "paragraph_203",
+          "type": "ParagraphBlock",
+          "content": "لا أهمية لتحديث البيانات الرقمية بصورة مستمرة."
+        },
+        {
+          "id": "paragraph_204",
+          "type": "ParagraphBlock",
+          "content": "يمكن للذكاء الاصطناعي دعم عملية اتخاذ القرار."
+        },
+        {
+          "id": "paragraph_205",
+          "type": "ParagraphBlock",
+          "content": "ثالثاً: مهمة أدائية"
+        },
+        {
+          "id": "paragraph_206",
+          "type": "ParagraphBlock",
+          "content": "بصفتك قائداً تربوياً:"
+        },
+        {
+          "id": "paragraph_207",
+          "type": "ParagraphBlock",
+          "content": "قم بإعداد نموذج مبسط يتضمن:"
+        },
+        {
+          "id": "paragraph_208",
+          "type": "ParagraphBlock",
+          "content": "نوع البيانات."
+        },
+        {
+          "id": "paragraph_209",
+          "type": "ParagraphBlock",
+          "content": "طريقة حفظها."
+        },
+        {
+          "id": "paragraph_210",
+          "type": "ParagraphBlock",
+          "content": "آلية النسخ الاحتياطي."
+        },
+        {
+          "id": "paragraph_211",
+          "type": "ParagraphBlock",
+          "content": "مؤشرات الأداء المرتبطة بها."
+        },
+        {
+          "id": "paragraph_212",
+          "type": "ParagraphBlock",
+          "content": "قرار تطويري مبني على نتائج البيانات."
+        },
+        {
+          "id": "paragraph_213",
+          "type": "ParagraphBlock",
+          "content": "ملخص الدرس"
+        }
+      ]
+    }
+  ]
+}

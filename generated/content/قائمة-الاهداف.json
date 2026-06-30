@@ -1,0 +1,509 @@
+{
+  "id": "قائمة-الاهداف",
+  "title": "قائمة الاهداف",
+  "type": "platform",
+  "language": "ar",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Section",
+      "blocks": [
+        {
+          "id": "paragraph_1",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية"
+        },
+        {
+          "id": "paragraph_2",
+          "type": "ParagraphBlock",
+          "content": "قسم تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_3",
+          "type": "ParagraphBlock",
+          "content": "قائمة أهداف بيئة تدريب شخصية قائمة على تطبيقات الذكاء الاصطناعي لتنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية"
+        },
+        {
+          "id": "paragraph_4",
+          "type": "ParagraphBlock",
+          "content": "إعداد"
+        },
+        {
+          "id": "paragraph_5",
+          "type": "ParagraphBlock",
+          "content": "أيه محمد عنتر على"
+        },
+        {
+          "id": "paragraph_6",
+          "type": "ParagraphBlock",
+          "content": "إشراف"
+        },
+        {
+          "id": "paragraph_7",
+          "type": "ParagraphBlock",
+          "content": "أ.د / الغريب زاهر إسماعيل"
+        },
+        {
+          "id": "paragraph_8",
+          "type": "ParagraphBlock",
+          "content": "أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة، ومقرر اللجنة العلمية لترقية الاساتذة والأساتذة المساعدين تخصص تكنولوجيا التعليم والحاسب الآلي بالمجلس الأعلى للجامعات المصرية"
+        },
+        {
+          "id": "paragraph_9",
+          "type": "ParagraphBlock",
+          "content": "أ.د/ رشا حمدى حسن هداية"
+        },
+        {
+          "id": "paragraph_10",
+          "type": "ParagraphBlock",
+          "content": "استاذ تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_11",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية جامعة المنصورة"
+        },
+        {
+          "id": "paragraph_12",
+          "type": "ParagraphBlock",
+          "content": "2026م- 1448هـ"
+        },
+        {
+          "id": "paragraph_13",
+          "type": "ParagraphBlock",
+          "content": "الأستاذ الدكتور/ ..................................................................................................."
+        },
+        {
+          "id": "paragraph_14",
+          "type": "ParagraphBlock",
+          "content": "السلام عليكم ورحمة الله وبركاته"
+        },
+        {
+          "id": "paragraph_15",
+          "type": "ParagraphBlock",
+          "content": "تقوم الباحثة/ أيه محمد عنتر على بإجراء دراسة بعنوان: \" فاعلية توظيف تطبيقات الذكاء الاصطناعي ببيئة تدريب شخصية في تنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية\" للحصول على درجة الدكتوراه في التربية تخصص تكنولوجيا التعليم، ومن متطلبات الدراسة إعداد قائمة بأهداف بيئة تدريب شخصية قائمة على تطبيقات الذكاء الاصطناعي لتنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية."
+        },
+        {
+          "id": "paragraph_16",
+          "type": "ParagraphBlock",
+          "content": "وتأمل الباحثة من سيادتكم التكرم بالإطلاع على القائمة وإبداء الرأى حول ما يلى:"
+        },
+        {
+          "id": "paragraph_17",
+          "type": "ParagraphBlock",
+          "content": "ولسيادتكم جزيل الشكر"
+        },
+        {
+          "id": "paragraph_18",
+          "type": "ParagraphBlock",
+          "content": "الباحثة"
+        },
+        {
+          "id": "paragraph_19",
+          "type": "ParagraphBlock",
+          "content": "م"
+        },
+        {
+          "id": "paragraph_20",
+          "type": "ParagraphBlock",
+          "content": "مستوى الهدف"
+        },
+        {
+          "id": "paragraph_21",
+          "type": "ParagraphBlock",
+          "content": "الهــــــــــــــــــــــــدف"
+        },
+        {
+          "id": "paragraph_22",
+          "type": "ParagraphBlock",
+          "content": "مدى وضوح الهدف"
+        },
+        {
+          "id": "paragraph_23",
+          "type": "ParagraphBlock",
+          "content": "مناسبة الهدف للمحتوى"
+        },
+        {
+          "id": "paragraph_24",
+          "type": "ParagraphBlock",
+          "content": "إمكانية تحقيق الهدف"
+        },
+        {
+          "id": "paragraph_25",
+          "type": "ParagraphBlock",
+          "content": "دقة الصياغة"
+        },
+        {
+          "id": "paragraph_26",
+          "type": "ParagraphBlock",
+          "content": "واضح"
+        },
+        {
+          "id": "paragraph_27",
+          "type": "ParagraphBlock",
+          "content": "غير واضح"
+        },
+        {
+          "id": "paragraph_28",
+          "type": "ParagraphBlock",
+          "content": "مناسب"
+        },
+        {
+          "id": "paragraph_29",
+          "type": "ParagraphBlock",
+          "content": "غير مناسب"
+        },
+        {
+          "id": "paragraph_30",
+          "type": "ParagraphBlock",
+          "content": "ممكن"
+        },
+        {
+          "id": "paragraph_31",
+          "type": "ParagraphBlock",
+          "content": "غير ممكن"
+        },
+        {
+          "id": "paragraph_32",
+          "type": "ParagraphBlock",
+          "content": "دقيق"
+        },
+        {
+          "id": "paragraph_33",
+          "type": "ParagraphBlock",
+          "content": "غير دقيق"
+        },
+        {
+          "id": "paragraph_34",
+          "type": "ParagraphBlock",
+          "content": "الموديول الأول: القيادة والتخطيط الرقمي &amp; إدارة التقنية والبنية الرقمية"
+        },
+        {
+          "id": "paragraph_35",
+          "type": "ParagraphBlock",
+          "content": "بعد دراسة هذا الموديول يجب أن يكون المتدرب قادرًا على:"
+        },
+        {
+          "id": "paragraph_36",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_37",
+          "type": "ParagraphBlock",
+          "content": "أن يوضح أهمية تحديد الاحتياجات الرقمية للمؤسسة التعليمية في نجاح التحول الرقمي."
+        },
+        {
+          "id": "paragraph_38",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_39",
+          "type": "ParagraphBlock",
+          "content": "أن يفسر دور الأهداف الرقمية في تحسين كفاءة العمل المؤسسي."
+        },
+        {
+          "id": "paragraph_40",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_41",
+          "type": "ParagraphBlock",
+          "content": "أن يطبق مهارة توزيع المهام إلكترونيًا لدعم التحول الرقمي."
+        },
+        {
+          "id": "paragraph_42",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_43",
+          "type": "ParagraphBlock",
+          "content": "أن يستخدم التقارير الإلكترونية في متابعة تنفيذ الخطط الرقمية."
+        },
+        {
+          "id": "paragraph_44",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_45",
+          "type": "ParagraphBlock",
+          "content": "أن يذكر خطوات استخراج التقارير من المنصات التعليمية بصورة صحيحة."
+        },
+        {
+          "id": "paragraph_46",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_47",
+          "type": "ParagraphBlock",
+          "content": "أن يوضح أهمية تحديث التطبيقات الرقمية في تحسين الأداء التقني."
+        },
+        {
+          "id": "paragraph_48",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_49",
+          "type": "ParagraphBlock",
+          "content": "أن ينظم الملفات الرقمية بما ييسر استرجاعها عند الحاجة."
+        },
+        {
+          "id": "paragraph_50",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_51",
+          "type": "ParagraphBlock",
+          "content": "أن يستخدم المنصات الرقمية في مشاركة الموارد التعليمية وإدارة الحسابات الإلكترونية."
+        },
+        {
+          "id": "paragraph_52",
+          "type": "ParagraphBlock",
+          "content": "الموديول الثاني: الاتصال والتواصل الرقمي &amp;  إدارة البيانات واتخاذ القرار"
+        },
+        {
+          "id": "paragraph_53",
+          "type": "ParagraphBlock",
+          "content": "بعد دراسة هذا الموديول يجب أن يكون المتدرب قادرًا على:"
+        },
+        {
+          "id": "paragraph_54",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_55",
+          "type": "ParagraphBlock",
+          "content": "أن يذكر أدوات التواصل الرقمي المستخدمة في المؤسسات التعليمية."
+        },
+        {
+          "id": "paragraph_56",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_57",
+          "type": "ParagraphBlock",
+          "content": "أن يذكر خطوات انشاء الاجتماعات الإلكترونية باستخدام المنصات الرقمية المناسبة."
+        },
+        {
+          "id": "paragraph_58",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_59",
+          "type": "ParagraphBlock",
+          "content": "أن يوضح أهمية تسجيل الاجتماعات الإلكترونية في العمل الإداري."
+        },
+        {
+          "id": "paragraph_60",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_61",
+          "type": "ParagraphBlock",
+          "content": "أن يتابع استفسارات أولياء الأمور والمعلمين إلكترونيًا بفاعلية."
+        },
+        {
+          "id": "paragraph_62",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_63",
+          "type": "ParagraphBlock",
+          "content": "أن يطبق مهارات التواصل الرقمي من خلال الرد على المراسلات الإلكترونية."
+        },
+        {
+          "id": "paragraph_64",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_65",
+          "type": "ParagraphBlock",
+          "content": "أن يوضح دور التعليمات الرقمية في تحسين فهم الطلاب."
+        },
+        {
+          "id": "paragraph_66",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_67",
+          "type": "ParagraphBlock",
+          "content": "أن يصنف البيانات إلكترونيًا بما يسهل الوصول إليها."
+        },
+        {
+          "id": "paragraph_68",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_69",
+          "type": "ParagraphBlock",
+          "content": "أن يوضح أهمية النسخ الاحتياطي في حماية البيانات الرقمية."
+        },
+        {
+          "id": "paragraph_70",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_71",
+          "type": "ParagraphBlock",
+          "content": "أن يذكر مهارات حماية البيانات من الفقد ضمن إدارة البيانات الرقمية."
+        },
+        {
+          "id": "paragraph_72",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_73",
+          "type": "ParagraphBlock",
+          "content": "أن يطبق مهارة تحديث البيانات الرقمية بصورة مستمرة."
+        },
+        {
+          "id": "paragraph_74",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_75",
+          "type": "ParagraphBlock",
+          "content": "أن يوضح أهمية ترتيب الملفات الرقمية في سهولة الوصول للمعلومات."
+        },
+        {
+          "id": "paragraph_76",
+          "type": "ParagraphBlock",
+          "content": "الموديول الثالث: مهارات الأمن السيبراني &amp;  الإشراف الرقمي على التعليم"
+        },
+        {
+          "id": "paragraph_77",
+          "type": "ParagraphBlock",
+          "content": "بعد دراسة هذا الموديول يجب أن يكون المتدرب قادرًا على:"
+        },
+        {
+          "id": "paragraph_78",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_79",
+          "type": "ParagraphBlock",
+          "content": "أن يذكر إجراءات إنشاء كلمات مرور قوية لحماية البيانات الرقمية."
+        },
+        {
+          "id": "paragraph_80",
+          "type": "ParagraphBlock",
+          "content": "تحليل"
+        },
+        {
+          "id": "paragraph_81",
+          "type": "ParagraphBlock",
+          "content": "أن يحلل مخاطر الروابط المشبوهة على أمن المعلومات الرقمية."
+        },
+        {
+          "id": "paragraph_82",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_83",
+          "type": "ParagraphBlock",
+          "content": "أن يوضح أهمية تحديث برامج الحماية في تقليل المخاطر الأمنية."
+        },
+        {
+          "id": "paragraph_84",
+          "type": "ParagraphBlock",
+          "content": "تحليل"
+        },
+        {
+          "id": "paragraph_85",
+          "type": "ParagraphBlock",
+          "content": "أن يحلل دور فحص الأجهزة في اكتشاف المشكلات الأمنية الرقمية."
+        },
+        {
+          "id": "paragraph_86",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_87",
+          "type": "ParagraphBlock",
+          "content": "أن يعرف إجراءات الإبلاغ عن الأعطال والاختراقات الأمنية إلكترونيًا."
+        },
+        {
+          "id": "paragraph_88",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_89",
+          "type": "ParagraphBlock",
+          "content": "أن يوضح أهمية متابعة تنفيذ الدروس إلكترونيًا في تحسين الإشراف التعليمي."
+        },
+        {
+          "id": "paragraph_90",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_91",
+          "type": "ParagraphBlock",
+          "content": "أن يستخدم المنصات التعليمية في متابعة حضور الطلاب إلكترونيًا."
+        },
+        {
+          "id": "paragraph_92",
+          "type": "ParagraphBlock",
+          "content": "تقويم"
+        },
+        {
+          "id": "paragraph_93",
+          "type": "ParagraphBlock",
+          "content": "أن يقييم أثر التغذية الراجعة الرقمية في تحسين الأداء التدريسي للمعلمين."
+        },
+        {
+          "id": "paragraph_94",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_95",
+          "type": "ParagraphBlock",
+          "content": "أن يذكر أدوات التقويم الرقمي المستخدمة في العملية التعليمية."
+        },
+        {
+          "id": "paragraph_96",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_97",
+          "type": "ParagraphBlock",
+          "content": "أن يوضح أهمية استخدام أدوات التصحيح الإلكتروني في سرعة تصحيح الاختبارات."
+        },
+        {
+          "id": "paragraph_98",
+          "type": "ParagraphBlock",
+          "content": "تحليل"
+        },
+        {
+          "id": "paragraph_99",
+          "type": "ParagraphBlock",
+          "content": "أن يحلل نتائج الاختبارات الرقمية لتحديد مستوى الطلاب."
+        }
+      ]
+    }
+  ]
+}

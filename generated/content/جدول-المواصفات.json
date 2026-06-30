@@ -1,0 +1,489 @@
+{
+  "id": "جدول-المواصفات",
+  "title": "جدول المواصفات",
+  "type": "platform",
+  "language": "ar",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Section",
+      "blocks": [
+        {
+          "id": "paragraph_1",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية"
+        },
+        {
+          "id": "paragraph_2",
+          "type": "ParagraphBlock",
+          "content": "قسم تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_3",
+          "type": "ParagraphBlock",
+          "content": "جدول مواصفات اختبار تحصيل الجوانب المعرفية لمهارات التحول الرقمي المهنية لدي القيادات التعليمية"
+        },
+        {
+          "id": "paragraph_4",
+          "type": "ParagraphBlock",
+          "content": "إعداد"
+        },
+        {
+          "id": "paragraph_5",
+          "type": "ParagraphBlock",
+          "content": "أيه محمد عنتر على"
+        },
+        {
+          "id": "paragraph_6",
+          "type": "ParagraphBlock",
+          "content": "إشراف"
+        },
+        {
+          "id": "paragraph_7",
+          "type": "ParagraphBlock",
+          "content": "أ.د / الغريب زاهر إسماعيل"
+        },
+        {
+          "id": "paragraph_8",
+          "type": "ParagraphBlock",
+          "content": "أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة، ومقرر اللجنة العلمية لترقية الاساتذة والأساتذة المساعدين تخصص تكنولوجيا التعليم والحاسب الآلي بالمجلس الأعلى للجامعات المصرية"
+        },
+        {
+          "id": "paragraph_9",
+          "type": "ParagraphBlock",
+          "content": "أ.د/ رشا حمدى حسن هداية"
+        },
+        {
+          "id": "paragraph_10",
+          "type": "ParagraphBlock",
+          "content": "استاذ تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_11",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية جامعة المنصورة"
+        },
+        {
+          "id": "paragraph_12",
+          "type": "ParagraphBlock",
+          "content": "ر"
+        },
+        {
+          "id": "paragraph_13",
+          "type": "ParagraphBlock",
+          "content": "2026م- 1448هـ"
+        },
+        {
+          "id": "paragraph_14",
+          "type": "ParagraphBlock",
+          "content": "جدول مواصفات اختبار تحصيل الجوانب المعرفية لمهارات التحول الرقمي المهنية لدي القيادات التعليمية"
+        },
+        {
+          "id": "paragraph_15",
+          "type": "ParagraphBlock",
+          "content": "المستويات"
+        },
+        {
+          "id": "paragraph_16",
+          "type": "ParagraphBlock",
+          "content": "الموضوعات"
+        },
+        {
+          "id": "paragraph_17",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_18",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_19",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_20",
+          "type": "ParagraphBlock",
+          "content": "تحليل"
+        },
+        {
+          "id": "paragraph_21",
+          "type": "ParagraphBlock",
+          "content": "تقويم"
+        },
+        {
+          "id": "paragraph_22",
+          "type": "ParagraphBlock",
+          "content": "مجموع أهداف الموضوع"
+        },
+        {
+          "id": "paragraph_23",
+          "type": "ParagraphBlock",
+          "content": "مجموع الأسئلة المرتبطة بالموضوع"
+        },
+        {
+          "id": "paragraph_24",
+          "type": "ParagraphBlock",
+          "content": "الأوزان النسبية للأهداف"
+        },
+        {
+          "id": "paragraph_25",
+          "type": "ParagraphBlock",
+          "content": "الأوزان النسبية للأسئلة"
+        },
+        {
+          "id": "paragraph_26",
+          "type": "ParagraphBlock",
+          "content": "عدد الأهداف"
+        },
+        {
+          "id": "paragraph_27",
+          "type": "ParagraphBlock",
+          "content": "عدد الأسئلة"
+        },
+        {
+          "id": "paragraph_28",
+          "type": "ParagraphBlock",
+          "content": "عدد الأهداف"
+        },
+        {
+          "id": "paragraph_29",
+          "type": "ParagraphBlock",
+          "content": "عدد الأسئلة"
+        },
+        {
+          "id": "paragraph_30",
+          "type": "ParagraphBlock",
+          "content": "عدد الأهداف"
+        },
+        {
+          "id": "paragraph_31",
+          "type": "ParagraphBlock",
+          "content": "عدد الأسئلة"
+        },
+        {
+          "id": "paragraph_32",
+          "type": "ParagraphBlock",
+          "content": "عدد الأهداف"
+        },
+        {
+          "id": "paragraph_33",
+          "type": "ParagraphBlock",
+          "content": "عدد الأسئلة"
+        },
+        {
+          "id": "paragraph_34",
+          "type": "ParagraphBlock",
+          "content": "عدد الأهداف"
+        },
+        {
+          "id": "paragraph_35",
+          "type": "ParagraphBlock",
+          "content": "عدد الأسئلة"
+        },
+        {
+          "id": "paragraph_36",
+          "type": "ParagraphBlock",
+          "content": "الموديول الأول: القيادة والتخطيط الرقمي &amp; إدارة التقنية والبنية الرقمية"
+        },
+        {
+          "id": "paragraph_37",
+          "type": "ParagraphBlock",
+          "content": "1"
+        },
+        {
+          "id": "paragraph_38",
+          "type": "ParagraphBlock",
+          "content": "8"
+        },
+        {
+          "id": "paragraph_39",
+          "type": "ParagraphBlock",
+          "content": "3"
+        },
+        {
+          "id": "paragraph_40",
+          "type": "ParagraphBlock",
+          "content": "6"
+        },
+        {
+          "id": "paragraph_41",
+          "type": "ParagraphBlock",
+          "content": "4"
+        },
+        {
+          "id": "paragraph_42",
+          "type": "ParagraphBlock",
+          "content": "4"
+        },
+        {
+          "id": "paragraph_43",
+          "type": "ParagraphBlock",
+          "content": "-"
+        },
+        {
+          "id": "paragraph_44",
+          "type": "ParagraphBlock",
+          "content": "-"
+        },
+        {
+          "id": "paragraph_45",
+          "type": "ParagraphBlock",
+          "content": "-"
+        },
+        {
+          "id": "paragraph_46",
+          "type": "ParagraphBlock",
+          "content": "-"
+        },
+        {
+          "id": "paragraph_47",
+          "type": "ParagraphBlock",
+          "content": "8"
+        },
+        {
+          "id": "paragraph_48",
+          "type": "ParagraphBlock",
+          "content": "18"
+        },
+        {
+          "id": "paragraph_49",
+          "type": "ParagraphBlock",
+          "content": "26.66%"
+        },
+        {
+          "id": "paragraph_50",
+          "type": "ParagraphBlock",
+          "content": "36%"
+        },
+        {
+          "id": "paragraph_51",
+          "type": "ParagraphBlock",
+          "content": "الموديول الثاني: الاتصال والتواصل الرقمي &amp;  إدارة البيانات واتخاذ القرار"
+        },
+        {
+          "id": "paragraph_52",
+          "type": "ParagraphBlock",
+          "content": "3"
+        },
+        {
+          "id": "paragraph_53",
+          "type": "ParagraphBlock",
+          "content": "5"
+        },
+        {
+          "id": "paragraph_54",
+          "type": "ParagraphBlock",
+          "content": "4"
+        },
+        {
+          "id": "paragraph_55",
+          "type": "ParagraphBlock",
+          "content": "8"
+        },
+        {
+          "id": "paragraph_56",
+          "type": "ParagraphBlock",
+          "content": "4"
+        },
+        {
+          "id": "paragraph_57",
+          "type": "ParagraphBlock",
+          "content": "5"
+        },
+        {
+          "id": "paragraph_58",
+          "type": "ParagraphBlock",
+          "content": "-"
+        },
+        {
+          "id": "paragraph_59",
+          "type": "ParagraphBlock",
+          "content": "-"
+        },
+        {
+          "id": "paragraph_60",
+          "type": "ParagraphBlock",
+          "content": "-"
+        },
+        {
+          "id": "paragraph_61",
+          "type": "ParagraphBlock",
+          "content": "-"
+        },
+        {
+          "id": "paragraph_62",
+          "type": "ParagraphBlock",
+          "content": "11"
+        },
+        {
+          "id": "paragraph_63",
+          "type": "ParagraphBlock",
+          "content": "18"
+        },
+        {
+          "id": "paragraph_64",
+          "type": "ParagraphBlock",
+          "content": "36.66%"
+        },
+        {
+          "id": "paragraph_65",
+          "type": "ParagraphBlock",
+          "content": "36%"
+        },
+        {
+          "id": "paragraph_66",
+          "type": "ParagraphBlock",
+          "content": "الموديول الثالث: مهارات الأمن السيبراني &amp;  الإشراف الرقمي على التعليم"
+        },
+        {
+          "id": "paragraph_67",
+          "type": "ParagraphBlock",
+          "content": "3"
+        },
+        {
+          "id": "paragraph_68",
+          "type": "ParagraphBlock",
+          "content": "4"
+        },
+        {
+          "id": "paragraph_69",
+          "type": "ParagraphBlock",
+          "content": "3"
+        },
+        {
+          "id": "paragraph_70",
+          "type": "ParagraphBlock",
+          "content": "4"
+        },
+        {
+          "id": "paragraph_71",
+          "type": "ParagraphBlock",
+          "content": "1"
+        },
+        {
+          "id": "paragraph_72",
+          "type": "ParagraphBlock",
+          "content": "1"
+        },
+        {
+          "id": "paragraph_73",
+          "type": "ParagraphBlock",
+          "content": "3"
+        },
+        {
+          "id": "paragraph_74",
+          "type": "ParagraphBlock",
+          "content": "3"
+        },
+        {
+          "id": "paragraph_75",
+          "type": "ParagraphBlock",
+          "content": "1"
+        },
+        {
+          "id": "paragraph_76",
+          "type": "ParagraphBlock",
+          "content": "2"
+        },
+        {
+          "id": "paragraph_77",
+          "type": "ParagraphBlock",
+          "content": "11"
+        },
+        {
+          "id": "paragraph_78",
+          "type": "ParagraphBlock",
+          "content": "14"
+        },
+        {
+          "id": "paragraph_79",
+          "type": "ParagraphBlock",
+          "content": "36.66%"
+        },
+        {
+          "id": "paragraph_80",
+          "type": "ParagraphBlock",
+          "content": "28%"
+        },
+        {
+          "id": "paragraph_81",
+          "type": "ParagraphBlock",
+          "content": "المجموع"
+        },
+        {
+          "id": "paragraph_82",
+          "type": "ParagraphBlock",
+          "content": "7"
+        },
+        {
+          "id": "paragraph_83",
+          "type": "ParagraphBlock",
+          "content": "17"
+        },
+        {
+          "id": "paragraph_84",
+          "type": "ParagraphBlock",
+          "content": "10"
+        },
+        {
+          "id": "paragraph_85",
+          "type": "ParagraphBlock",
+          "content": "18"
+        },
+        {
+          "id": "paragraph_86",
+          "type": "ParagraphBlock",
+          "content": "9"
+        },
+        {
+          "id": "paragraph_87",
+          "type": "ParagraphBlock",
+          "content": "10"
+        },
+        {
+          "id": "paragraph_88",
+          "type": "ParagraphBlock",
+          "content": "3"
+        },
+        {
+          "id": "paragraph_89",
+          "type": "ParagraphBlock",
+          "content": "3"
+        },
+        {
+          "id": "paragraph_90",
+          "type": "ParagraphBlock",
+          "content": "1"
+        },
+        {
+          "id": "paragraph_91",
+          "type": "ParagraphBlock",
+          "content": "2"
+        },
+        {
+          "id": "paragraph_92",
+          "type": "ParagraphBlock",
+          "content": "30"
+        },
+        {
+          "id": "paragraph_93",
+          "type": "ParagraphBlock",
+          "content": "50"
+        },
+        {
+          "id": "paragraph_94",
+          "type": "ParagraphBlock",
+          "content": "100%"
+        },
+        {
+          "id": "paragraph_95",
+          "type": "ParagraphBlock",
+          "content": "100%"
+        }
+      ]
+    }
+  ]
+}

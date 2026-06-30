@@ -1,0 +1,2074 @@
+{
+  "id": "اجابة-الاختبار",
+  "title": "اجابة الاختبار",
+  "type": "assessment",
+  "language": "ar",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Section",
+      "blocks": [
+        {
+          "id": "paragraph_1",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية"
+        },
+        {
+          "id": "paragraph_2",
+          "type": "ParagraphBlock",
+          "content": "قسم تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_3",
+          "type": "ParagraphBlock",
+          "content": "إجـــــــــــابة"
+        },
+        {
+          "id": "paragraph_4",
+          "type": "ParagraphBlock",
+          "content": "اختبار تحصيل الجوانب المعرفية لمهارات التحول الرقمي المهنية لدي القيادات التعليمية"
+        },
+        {
+          "id": "paragraph_5",
+          "type": "ParagraphBlock",
+          "content": "إعداد"
+        },
+        {
+          "id": "paragraph_6",
+          "type": "ParagraphBlock",
+          "content": "أيه محمد عنتر على"
+        },
+        {
+          "id": "paragraph_7",
+          "type": "ParagraphBlock",
+          "content": "إشراف"
+        },
+        {
+          "id": "paragraph_8",
+          "type": "ParagraphBlock",
+          "content": "أ.د / الغريب زاهر إسماعيل"
+        },
+        {
+          "id": "paragraph_9",
+          "type": "ParagraphBlock",
+          "content": "أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة، ومقرر اللجنة العلمية لترقية الاساتذة والأساتذة المساعدين تخصص تكنولوجيا التعليم والحاسب الآلي بالمجلس الأعلى للجامعات المصرية"
+        },
+        {
+          "id": "paragraph_10",
+          "type": "ParagraphBlock",
+          "content": "أ.د/ رشا حمدى حسن هداية"
+        },
+        {
+          "id": "paragraph_11",
+          "type": "ParagraphBlock",
+          "content": "استاذ تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_12",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية جامعة المنصورة"
+        },
+        {
+          "id": "paragraph_13",
+          "type": "ParagraphBlock",
+          "content": "2026م- 1448هـ"
+        },
+        {
+          "id": "paragraph_14",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية"
+        },
+        {
+          "id": "paragraph_15",
+          "type": "ParagraphBlock",
+          "content": "قسم تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_16",
+          "type": "ParagraphBlock",
+          "content": "استطلاع رأي السادة المحكمين في اختبار تحصيل الجوانب المعرفية لمهارات التحول الرقمي المهنية لدى القيادات التعليمية."
+        },
+        {
+          "id": "paragraph_17",
+          "type": "ParagraphBlock",
+          "content": "السيد الأستاذ الدكتور/ ................................................................................"
+        },
+        {
+          "id": "paragraph_18",
+          "type": "ParagraphBlock",
+          "content": "السلام عليكم ورحمة الله وبركاته"
+        },
+        {
+          "id": "paragraph_19",
+          "type": "ParagraphBlock",
+          "content": "تقوم الباحثة / أيه محمد عنتر على، بإعداد دراسة بعنوان \" فاعلية توظيف تطبيقات الذكاء الاصطناعي ببيئة تدريب شخصية في تنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية\" للحصول على درجة الدكتوراه في التربية تخصص تكنولوجيا التعليم، ومن متطلبات الدراسة إعداد اختبار تحصيل خاص بمهارات التحول الرقمي المهنية لقياس الجوانب المعرفية لدى القيادات التعليمية، وتأمل الباحثة من سيادتكم التكرم بالإطلاع على اسئلة الاختبار وابداء الرأى فيما يلى:"
+        },
+        {
+          "id": "paragraph_20",
+          "type": "ParagraphBlock",
+          "content": "ولسيادتكم جزيل الشكر"
+        },
+        {
+          "id": "paragraph_21",
+          "type": "ParagraphBlock",
+          "content": "الباحثة"
+        },
+        {
+          "id": "paragraph_22",
+          "type": "ParagraphBlock",
+          "content": "تعليمات الاختبار"
+        },
+        {
+          "id": "paragraph_23",
+          "type": "ParagraphBlock",
+          "content": "عزيزي المدير/ المديرة:"
+        },
+        {
+          "id": "paragraph_24",
+          "type": "ParagraphBlock",
+          "content": "اقرأ التعليمات جيدا قبل أن تبدأ الاختبار:"
+        },
+        {
+          "id": "paragraph_25",
+          "type": "ParagraphBlock",
+          "content": "مع أطيب التمنيات بالنجاح والتوفيق"
+        },
+        {
+          "id": "paragraph_26",
+          "type": "ParagraphBlock",
+          "content": "م"
+        },
+        {
+          "id": "paragraph_27",
+          "type": "ParagraphBlock",
+          "content": "أسئلة الاختبار"
+        },
+        {
+          "id": "paragraph_28",
+          "type": "ParagraphBlock",
+          "content": "المستوى المعرفي"
+        },
+        {
+          "id": "paragraph_29",
+          "type": "ParagraphBlock",
+          "content": "مناسب"
+        },
+        {
+          "id": "paragraph_30",
+          "type": "ParagraphBlock",
+          "content": "غير مناسب"
+        },
+        {
+          "id": "paragraph_31",
+          "type": "ParagraphBlock",
+          "content": "أولا: أسئلة تحديد الصواب من الخطأ:"
+        },
+        {
+          "id": "paragraph_32",
+          "type": "ParagraphBlock",
+          "content": "يساعد تحديد الاحتياجات الرقمية للمؤسسة في نجاح التحول الرقمي."
+        },
+        {
+          "id": "paragraph_33",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_34",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_35",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_36",
+          "type": "ParagraphBlock",
+          "content": "يعد توزيع المهام إلكترونيًا من معوقات التحول الرقمي."
+        },
+        {
+          "id": "paragraph_37",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_38",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_39",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_40",
+          "type": "ParagraphBlock",
+          "content": "تستخدم التقارير الإلكترونية في متابعة تنفيذ الخطط الرقمية."
+        },
+        {
+          "id": "paragraph_41",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_42",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_43",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_44",
+          "type": "ParagraphBlock",
+          "content": "لا يمكن استخراج تقارير من المنصات التعليمية."
+        },
+        {
+          "id": "paragraph_45",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_46",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_47",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_48",
+          "type": "ParagraphBlock",
+          "content": "يساعد تحديث التطبيقات الرقمية في تحسين الأداء التقني."
+        },
+        {
+          "id": "paragraph_49",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_50",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_51",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_52",
+          "type": "ParagraphBlock",
+          "content": "يمكن استرجاع الملفات الإلكترونية عند الحاجة إذا تم حفظها بطريقة منظمة."
+        },
+        {
+          "id": "paragraph_53",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_54",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_55",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_56",
+          "type": "ParagraphBlock",
+          "content": "تعد الاجتماعات الإلكترونية أحد أساليب التواصل الرقمي."
+        },
+        {
+          "id": "paragraph_57",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_58",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_59",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_60",
+          "type": "ParagraphBlock",
+          "content": "لا يفيد تسجيل الاجتماعات الإلكترونية في العمل الإداري."
+        },
+        {
+          "id": "paragraph_61",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_62",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_63",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_64",
+          "type": "ParagraphBlock",
+          "content": "يجب متابعة استفسارات أولياء الأمور إلكترونيًا."
+        },
+        {
+          "id": "paragraph_65",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_66",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_67",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_68",
+          "type": "ParagraphBlock",
+          "content": "يساعد تصنيف البيانات إلكترونيًا في سهولة الوصول إليها."
+        },
+        {
+          "id": "paragraph_69",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_70",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_71",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_72",
+          "type": "ParagraphBlock",
+          "content": "ليس من المهم إنشاء نسخ احتياطية للبيانات."
+        },
+        {
+          "id": "paragraph_73",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_74",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_75",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_76",
+          "type": "ParagraphBlock",
+          "content": "حماية البيانات من الفقد من مهارات إدارة البيانات الرقمية."
+        },
+        {
+          "id": "paragraph_77",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_78",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_79",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_80",
+          "type": "ParagraphBlock",
+          "content": "تعد كلمات المرور القوية من وسائل الأمن السيبراني."
+        },
+        {
+          "id": "paragraph_81",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_82",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_83",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_84",
+          "type": "ParagraphBlock",
+          "content": "يجب فتح جميع الروابط الواردة بالبريد الإلكتروني للتأكد من محتواها."
+        },
+        {
+          "id": "paragraph_85",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_86",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_87",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_88",
+          "type": "ParagraphBlock",
+          "content": "يساعد تحديث برامج الحماية في تقليل المخاطر الأمنية."
+        },
+        {
+          "id": "paragraph_89",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_90",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_91",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_92",
+          "type": "ParagraphBlock",
+          "content": "الإبلاغ عن الأعطال الأمنية من مسؤوليات القيادة التعليمية."
+        },
+        {
+          "id": "paragraph_93",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_94",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_95",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_96",
+          "type": "ParagraphBlock",
+          "content": "يمكن متابعة حضور الطلاب باستخدام المنصات التعليمية."
+        },
+        {
+          "id": "paragraph_97",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_98",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_99",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_100",
+          "type": "ParagraphBlock",
+          "content": "لا تستخدم الاختبارات الإلكترونية في تقويم الطلاب."
+        },
+        {
+          "id": "paragraph_101",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_102",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_103",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_104",
+          "type": "ParagraphBlock",
+          "content": "تساعد التغذية الراجعة الرقمية في تحسين أداء المعلمين."
+        },
+        {
+          "id": "paragraph_105",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_106",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_107",
+          "type": "ParagraphBlock",
+          "content": "تقويم"
+        },
+        {
+          "id": "paragraph_108",
+          "type": "ParagraphBlock",
+          "content": "يستخدم التصحيح الإلكتروني في تصحيح الاختبارات الرقمية."
+        },
+        {
+          "id": "paragraph_109",
+          "type": "ParagraphBlock",
+          "content": "صواب"
+        },
+        {
+          "id": "paragraph_110",
+          "type": "ParagraphBlock",
+          "content": "خطأ"
+        },
+        {
+          "id": "paragraph_111",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_112",
+          "type": "ParagraphBlock",
+          "content": "ثانيا: أسئلة الاختيار من متعدد"
+        },
+        {
+          "id": "paragraph_113",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يعد خطوة أولى في التخطيط للتحول الرقمي؟"
+        },
+        {
+          "id": "paragraph_114",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_115",
+          "type": "ParagraphBlock",
+          "content": "إعداد التقارير."
+        },
+        {
+          "id": "paragraph_116",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_117",
+          "type": "ParagraphBlock",
+          "content": "تحديد الاحتياجات الرقمية."
+        },
+        {
+          "id": "paragraph_118",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_119",
+          "type": "ParagraphBlock",
+          "content": "تحديث التطبيقات."
+        },
+        {
+          "id": "paragraph_120",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_121",
+          "type": "ParagraphBlock",
+          "content": "حفظ الملفات."
+        },
+        {
+          "id": "paragraph_122",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_123",
+          "type": "ParagraphBlock",
+          "content": "الهدف الرئيس من صياغة أهداف رقمية واضحة هو:"
+        },
+        {
+          "id": "paragraph_124",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_125",
+          "type": "ParagraphBlock",
+          "content": "زيادة الأعمال الورقية"
+        },
+        {
+          "id": "paragraph_126",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_127",
+          "type": "ParagraphBlock",
+          "content": "تنظيم العمل الرقمي"
+        },
+        {
+          "id": "paragraph_128",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_129",
+          "type": "ParagraphBlock",
+          "content": "تقليل التواصل"
+        },
+        {
+          "id": "paragraph_130",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_131",
+          "type": "ParagraphBlock",
+          "content": "حذف البيانات"
+        },
+        {
+          "id": "paragraph_132",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_133",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يساعد في متابعة تنفيذ الخطة الرقمية؟"
+        },
+        {
+          "id": "paragraph_134",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_135",
+          "type": "ParagraphBlock",
+          "content": "التقارير الإلكترونية"
+        },
+        {
+          "id": "paragraph_136",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_137",
+          "type": "ParagraphBlock",
+          "content": "حذف الملفات"
+        },
+        {
+          "id": "paragraph_138",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_139",
+          "type": "ParagraphBlock",
+          "content": "تجاهل البيانات"
+        },
+        {
+          "id": "paragraph_140",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_141",
+          "type": "ParagraphBlock",
+          "content": "إيقاف المنصات"
+        },
+        {
+          "id": "paragraph_142",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_143",
+          "type": "ParagraphBlock",
+          "content": "أي من الآتي يستخدم لإدارة الحسابات الإلكترونية؟"
+        },
+        {
+          "id": "paragraph_144",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_145",
+          "type": "ParagraphBlock",
+          "content": "المنصات التعليمية"
+        },
+        {
+          "id": "paragraph_146",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_147",
+          "type": "ParagraphBlock",
+          "content": "الطابعة"
+        },
+        {
+          "id": "paragraph_148",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_149",
+          "type": "ParagraphBlock",
+          "content": "الماسح الضوئي"
+        },
+        {
+          "id": "paragraph_150",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_151",
+          "type": "ParagraphBlock",
+          "content": "السبورة التقليدية"
+        },
+        {
+          "id": "paragraph_152",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_153",
+          "type": "ParagraphBlock",
+          "content": "رفع الموارد التعليمية على المنصة يساعد في:"
+        },
+        {
+          "id": "paragraph_154",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_155",
+          "type": "ParagraphBlock",
+          "content": "صعوبة الوصول للمحتوى"
+        },
+        {
+          "id": "paragraph_156",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_157",
+          "type": "ParagraphBlock",
+          "content": "مشاركة المحتوى مع المستخدمين."
+        },
+        {
+          "id": "paragraph_158",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_159",
+          "type": "ParagraphBlock",
+          "content": "حذف البيانات"
+        },
+        {
+          "id": "paragraph_160",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_161",
+          "type": "ParagraphBlock",
+          "content": "إيقاف التعلم"
+        },
+        {
+          "id": "paragraph_162",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_163",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يعد من مهارات إدارة التقنية؟"
+        },
+        {
+          "id": "paragraph_164",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_165",
+          "type": "ParagraphBlock",
+          "content": "إرسال الرسائل الورقية"
+        },
+        {
+          "id": "paragraph_166",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_167",
+          "type": "ParagraphBlock",
+          "content": "تحديث التطبيقات الرقمية"
+        },
+        {
+          "id": "paragraph_168",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_169",
+          "type": "ParagraphBlock",
+          "content": "إهمال الأجهزة"
+        },
+        {
+          "id": "paragraph_170",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_171",
+          "type": "ParagraphBlock",
+          "content": "حذف الملفات المهمة"
+        },
+        {
+          "id": "paragraph_172",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_173",
+          "type": "ParagraphBlock",
+          "content": "أفضل طريقة لحفظ الملفات الرقمية هي:"
+        },
+        {
+          "id": "paragraph_174",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_175",
+          "type": "ParagraphBlock",
+          "content": "حفظها دون تصنيف"
+        },
+        {
+          "id": "paragraph_176",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_177",
+          "type": "ParagraphBlock",
+          "content": "حذفها باستمرار"
+        },
+        {
+          "id": "paragraph_178",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_179",
+          "type": "ParagraphBlock",
+          "content": "تنظيمها في مجلدات"
+        },
+        {
+          "id": "paragraph_180",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_181",
+          "type": "ParagraphBlock",
+          "content": "تجاهل تسميتها"
+        },
+        {
+          "id": "paragraph_182",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_183",
+          "type": "ParagraphBlock",
+          "content": "مشاركة الملفات عبر المنصات الرقمية تساعد في:"
+        },
+        {
+          "id": "paragraph_184",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_185",
+          "type": "ParagraphBlock",
+          "content": "ضعف التواصل"
+        },
+        {
+          "id": "paragraph_186",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_187",
+          "type": "ParagraphBlock",
+          "content": "تسهيل تبادل المعلومات"
+        },
+        {
+          "id": "paragraph_188",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_189",
+          "type": "ParagraphBlock",
+          "content": "زيادة المشكلات التقنية"
+        },
+        {
+          "id": "paragraph_190",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_191",
+          "type": "ParagraphBlock",
+          "content": "إيقاف العمل الجماعي"
+        },
+        {
+          "id": "paragraph_192",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_193",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يعد من أدوات التواصل الرقمي:"
+        },
+        {
+          "id": "paragraph_194",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_195",
+          "type": "ParagraphBlock",
+          "content": "البريد الإلكتروني"
+        },
+        {
+          "id": "paragraph_196",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_197",
+          "type": "ParagraphBlock",
+          "content": "السبورة التقليدية"
+        },
+        {
+          "id": "paragraph_198",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_199",
+          "type": "ParagraphBlock",
+          "content": "الملف الورقي"
+        },
+        {
+          "id": "paragraph_200",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_201",
+          "type": "ParagraphBlock",
+          "content": "الطابعة اليدوية"
+        },
+        {
+          "id": "paragraph_202",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_203",
+          "type": "ParagraphBlock",
+          "content": "عند إنشاء اجتماع إلكتروني يجب أولًا:"
+        },
+        {
+          "id": "paragraph_204",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_205",
+          "type": "ParagraphBlock",
+          "content": "حذف المشاركين"
+        },
+        {
+          "id": "paragraph_206",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_207",
+          "type": "ParagraphBlock",
+          "content": "اختيار منصة مناسبة"
+        },
+        {
+          "id": "paragraph_208",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_209",
+          "type": "ParagraphBlock",
+          "content": "إغلاق الشبكة"
+        },
+        {
+          "id": "paragraph_210",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_211",
+          "type": "ParagraphBlock",
+          "content": "إيقاف الصوت دائمًا"
+        },
+        {
+          "id": "paragraph_212",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_213",
+          "type": "ParagraphBlock",
+          "content": "من فوائد تسجيل الاجتماعات الإلكترونية:"
+        },
+        {
+          "id": "paragraph_214",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_215",
+          "type": "ParagraphBlock",
+          "content": "صعوبة المراجعة"
+        },
+        {
+          "id": "paragraph_216",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_217",
+          "type": "ParagraphBlock",
+          "content": "الرجوع للاجتماع لاحقًا"
+        },
+        {
+          "id": "paragraph_218",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_219",
+          "type": "ParagraphBlock",
+          "content": "حذف المعلومات"
+        },
+        {
+          "id": "paragraph_220",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_221",
+          "type": "ParagraphBlock",
+          "content": "تقليل التواصل"
+        },
+        {
+          "id": "paragraph_222",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_223",
+          "type": "ParagraphBlock",
+          "content": "توضيح التعليمات الدراسية رقميًا يساعد في:"
+        },
+        {
+          "id": "paragraph_224",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_225",
+          "type": "ParagraphBlock",
+          "content": "زيادة الغموض"
+        },
+        {
+          "id": "paragraph_226",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_227",
+          "type": "ParagraphBlock",
+          "content": "تحسين الفهم لدى الطلاب"
+        },
+        {
+          "id": "paragraph_228",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_229",
+          "type": "ParagraphBlock",
+          "content": "تقليل التواصل"
+        },
+        {
+          "id": "paragraph_230",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_231",
+          "type": "ParagraphBlock",
+          "content": "إيقاف التعلم"
+        },
+        {
+          "id": "paragraph_232",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_233",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يعد مثالًا على إدارة البيانات؟"
+        },
+        {
+          "id": "paragraph_234",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_235",
+          "type": "ParagraphBlock",
+          "content": "تصنيف البيانات إلكترونيًا"
+        },
+        {
+          "id": "paragraph_236",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_237",
+          "type": "ParagraphBlock",
+          "content": "حذف التقارير"
+        },
+        {
+          "id": "paragraph_238",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_239",
+          "type": "ParagraphBlock",
+          "content": "تجاهل التحديثات"
+        },
+        {
+          "id": "paragraph_240",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_241",
+          "type": "ParagraphBlock",
+          "content": "إغلاق الأجهزة"
+        },
+        {
+          "id": "paragraph_242",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_243",
+          "type": "ParagraphBlock",
+          "content": "الغرض من النسخ الاحتياطي للبيانات هو:"
+        },
+        {
+          "id": "paragraph_244",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_245",
+          "type": "ParagraphBlock",
+          "content": "حذف البيانات"
+        },
+        {
+          "id": "paragraph_246",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_247",
+          "type": "ParagraphBlock",
+          "content": "حماية البيانات من الفقد"
+        },
+        {
+          "id": "paragraph_248",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_249",
+          "type": "ParagraphBlock",
+          "content": "إبطاء الأجهزة"
+        },
+        {
+          "id": "paragraph_250",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_251",
+          "type": "ParagraphBlock",
+          "content": "تقليل التخزين"
+        },
+        {
+          "id": "paragraph_252",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_253",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يساعد في حماية البيانات الرقمية؟"
+        },
+        {
+          "id": "paragraph_254",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_255",
+          "type": "ParagraphBlock",
+          "content": "مشاركة كلمات المرور"
+        },
+        {
+          "id": "paragraph_256",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_257",
+          "type": "ParagraphBlock",
+          "content": "إنشاء كلمات مرور قوية"
+        },
+        {
+          "id": "paragraph_258",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_259",
+          "type": "ParagraphBlock",
+          "content": "فتح الروابط المشبوهة"
+        },
+        {
+          "id": "paragraph_260",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_261",
+          "type": "ParagraphBlock",
+          "content": "تعطيل برامج الحماية"
+        },
+        {
+          "id": "paragraph_262",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_263",
+          "type": "ParagraphBlock",
+          "content": "يجب تجنب الروابط المشبوهة لأنها قد:"
+        },
+        {
+          "id": "paragraph_264",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_265",
+          "type": "ParagraphBlock",
+          "content": "تحسن الأداء"
+        },
+        {
+          "id": "paragraph_266",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_267",
+          "type": "ParagraphBlock",
+          "content": "تسبب اختراقًا أمنيًا"
+        },
+        {
+          "id": "paragraph_268",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_269",
+          "type": "ParagraphBlock",
+          "content": "تنظم الملفات"
+        },
+        {
+          "id": "paragraph_270",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_271",
+          "type": "ParagraphBlock",
+          "content": "تسرع الإنترنت"
+        },
+        {
+          "id": "paragraph_272",
+          "type": "ParagraphBlock",
+          "content": "تحليل"
+        },
+        {
+          "id": "paragraph_273",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يعد إجراءً وقائيًا للأمن السيبراني؟"
+        },
+        {
+          "id": "paragraph_274",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_275",
+          "type": "ParagraphBlock",
+          "content": "تعطيل برامج الحماية"
+        },
+        {
+          "id": "paragraph_276",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_277",
+          "type": "ParagraphBlock",
+          "content": "تحديث برامج الحماية"
+        },
+        {
+          "id": "paragraph_278",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_279",
+          "type": "ParagraphBlock",
+          "content": "مشاركة الحسابات"
+        },
+        {
+          "id": "paragraph_280",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_281",
+          "type": "ParagraphBlock",
+          "content": "تجاهل الأعطال"
+        },
+        {
+          "id": "paragraph_282",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_283",
+          "type": "ParagraphBlock",
+          "content": "فحص الأجهزة دوريًا يساعد في:"
+        },
+        {
+          "id": "paragraph_284",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_285",
+          "type": "ParagraphBlock",
+          "content": "اكتشاف المشكلات الأمنية"
+        },
+        {
+          "id": "paragraph_286",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_287",
+          "type": "ParagraphBlock",
+          "content": "حذف البيانات"
+        },
+        {
+          "id": "paragraph_288",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_289",
+          "type": "ParagraphBlock",
+          "content": "تعطيل الشبكة"
+        },
+        {
+          "id": "paragraph_290",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_291",
+          "type": "ParagraphBlock",
+          "content": "إيقاف البرامج"
+        },
+        {
+          "id": "paragraph_292",
+          "type": "ParagraphBlock",
+          "content": "تحليل"
+        },
+        {
+          "id": "paragraph_293",
+          "type": "ParagraphBlock",
+          "content": "عند اكتشاف اختراق إلكتروني يجب:"
+        },
+        {
+          "id": "paragraph_294",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_295",
+          "type": "ParagraphBlock",
+          "content": "تجاهله"
+        },
+        {
+          "id": "paragraph_296",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_297",
+          "type": "ParagraphBlock",
+          "content": "مشاركة المعلومات"
+        },
+        {
+          "id": "paragraph_298",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_299",
+          "type": "ParagraphBlock",
+          "content": "الإبلاغ عنه فورًا"
+        },
+        {
+          "id": "paragraph_300",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_301",
+          "type": "ParagraphBlock",
+          "content": "حذف النظام"
+        },
+        {
+          "id": "paragraph_302",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_303",
+          "type": "ParagraphBlock",
+          "content": "متابعة تنفيذ الدروس إلكترونيًا تساعد في:"
+        },
+        {
+          "id": "paragraph_304",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_305",
+          "type": "ParagraphBlock",
+          "content": "تحسين الإشراف التعليمي"
+        },
+        {
+          "id": "paragraph_306",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_307",
+          "type": "ParagraphBlock",
+          "content": "إيقاف التعليم"
+        },
+        {
+          "id": "paragraph_308",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_309",
+          "type": "ParagraphBlock",
+          "content": "تقليل التواصل"
+        },
+        {
+          "id": "paragraph_310",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_311",
+          "type": "ParagraphBlock",
+          "content": "حذف الأنشطة"
+        },
+        {
+          "id": "paragraph_312",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_313",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يستخدم لمتابعة حضور الطلاب؟"
+        },
+        {
+          "id": "paragraph_314",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_315",
+          "type": "ParagraphBlock",
+          "content": "المنصات التعليمية"
+        },
+        {
+          "id": "paragraph_316",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_317",
+          "type": "ParagraphBlock",
+          "content": "الأوراق القديمة"
+        },
+        {
+          "id": "paragraph_318",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_319",
+          "type": "ParagraphBlock",
+          "content": "الملفات التالفة"
+        },
+        {
+          "id": "paragraph_320",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_321",
+          "type": "ParagraphBlock",
+          "content": "الأجهزة المعطلة"
+        },
+        {
+          "id": "paragraph_322",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_323",
+          "type": "ParagraphBlock",
+          "content": "يساعد تقديم التغذية الراجعة الرقمية للمعلمين في:"
+        },
+        {
+          "id": "paragraph_324",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_325",
+          "type": "ParagraphBlock",
+          "content": "تحسين الأداء التدريسي"
+        },
+        {
+          "id": "paragraph_326",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_327",
+          "type": "ParagraphBlock",
+          "content": "تعطيل التعليم"
+        },
+        {
+          "id": "paragraph_328",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_329",
+          "type": "ParagraphBlock",
+          "content": "تقليل المتابعة"
+        },
+        {
+          "id": "paragraph_330",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_331",
+          "type": "ParagraphBlock",
+          "content": "حذف الأنشطة"
+        },
+        {
+          "id": "paragraph_332",
+          "type": "ParagraphBlock",
+          "content": "تقويم"
+        },
+        {
+          "id": "paragraph_333",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يعد من أدوات التقويم الرقمي؟"
+        },
+        {
+          "id": "paragraph_334",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_335",
+          "type": "ParagraphBlock",
+          "content": "الاختبارات الإلكترونية"
+        },
+        {
+          "id": "paragraph_336",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_337",
+          "type": "ParagraphBlock",
+          "content": "السبورة التقليدية"
+        },
+        {
+          "id": "paragraph_338",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_339",
+          "type": "ParagraphBlock",
+          "content": "الملفات الورقية"
+        },
+        {
+          "id": "paragraph_340",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_341",
+          "type": "ParagraphBlock",
+          "content": "الكتاب اليدوي"
+        },
+        {
+          "id": "paragraph_342",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_343",
+          "type": "ParagraphBlock",
+          "content": "استخدام أدوات التصحيح الإلكتروني يؤدي إلى:"
+        },
+        {
+          "id": "paragraph_344",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_345",
+          "type": "ParagraphBlock",
+          "content": "زيادة الوقت المستغرق"
+        },
+        {
+          "id": "paragraph_346",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_347",
+          "type": "ParagraphBlock",
+          "content": "سرعة تصحيح الاختبارات"
+        },
+        {
+          "id": "paragraph_348",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_349",
+          "type": "ParagraphBlock",
+          "content": "حذف النتائج"
+        },
+        {
+          "id": "paragraph_350",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_351",
+          "type": "ParagraphBlock",
+          "content": "إيقاف الاختبارات"
+        },
+        {
+          "id": "paragraph_352",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_353",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يعد من مهارات الاتصال الرقمي؟"
+        },
+        {
+          "id": "paragraph_354",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_355",
+          "type": "ParagraphBlock",
+          "content": "الرد على المراسلات إلكترونيًا"
+        },
+        {
+          "id": "paragraph_356",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_357",
+          "type": "ParagraphBlock",
+          "content": "إهمال الرسائل"
+        },
+        {
+          "id": "paragraph_358",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_359",
+          "type": "ParagraphBlock",
+          "content": "حذف الاجتماعات"
+        },
+        {
+          "id": "paragraph_360",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_361",
+          "type": "ParagraphBlock",
+          "content": "تعطيل المنصات"
+        },
+        {
+          "id": "paragraph_362",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_363",
+          "type": "ParagraphBlock",
+          "content": "من مهارات إدارة البيانات:؟"
+        },
+        {
+          "id": "paragraph_364",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_365",
+          "type": "ParagraphBlock",
+          "content": "تحديث البيانات باستمرار"
+        },
+        {
+          "id": "paragraph_366",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_367",
+          "type": "ParagraphBlock",
+          "content": "تجاهل التقارير"
+        },
+        {
+          "id": "paragraph_368",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_369",
+          "type": "ParagraphBlock",
+          "content": "حذف الملفات"
+        },
+        {
+          "id": "paragraph_370",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_371",
+          "type": "ParagraphBlock",
+          "content": "تعطيل الحفظ"
+        },
+        {
+          "id": "paragraph_372",
+          "type": "ParagraphBlock",
+          "content": "تطبيق"
+        },
+        {
+          "id": "paragraph_373",
+          "type": "ParagraphBlock",
+          "content": "يساعد ترتيب الملفات الرقمية في:"
+        },
+        {
+          "id": "paragraph_374",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_375",
+          "type": "ParagraphBlock",
+          "content": "صعوبة الوصول للبيانات"
+        },
+        {
+          "id": "paragraph_376",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_377",
+          "type": "ParagraphBlock",
+          "content": "سهولة الوصول للمعلومات"
+        },
+        {
+          "id": "paragraph_378",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_379",
+          "type": "ParagraphBlock",
+          "content": "زيادة الفوضى"
+        },
+        {
+          "id": "paragraph_380",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_381",
+          "type": "ParagraphBlock",
+          "content": "حذف البيانات"
+        },
+        {
+          "id": "paragraph_382",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        },
+        {
+          "id": "paragraph_383",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يعد من مهارات الأمن السيبراني؟"
+        },
+        {
+          "id": "paragraph_384",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_385",
+          "type": "ParagraphBlock",
+          "content": "مشاركة الحسابات"
+        },
+        {
+          "id": "paragraph_386",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_387",
+          "type": "ParagraphBlock",
+          "content": "الإبلاغ عن الأعطال الأمنية"
+        },
+        {
+          "id": "paragraph_388",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_389",
+          "type": "ParagraphBlock",
+          "content": "فتح الروابط المشبوهة"
+        },
+        {
+          "id": "paragraph_390",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_391",
+          "type": "ParagraphBlock",
+          "content": "تعطيل الحماية"
+        },
+        {
+          "id": "paragraph_392",
+          "type": "ParagraphBlock",
+          "content": "تذكر"
+        },
+        {
+          "id": "paragraph_393",
+          "type": "ParagraphBlock",
+          "content": "متابعة نتائج الاختبارات الرقمية تساعد في:"
+        },
+        {
+          "id": "paragraph_394",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_395",
+          "type": "ParagraphBlock",
+          "content": "تحليل مستوى الطلاب"
+        },
+        {
+          "id": "paragraph_396",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_397",
+          "type": "ParagraphBlock",
+          "content": "حذف النتائج"
+        },
+        {
+          "id": "paragraph_398",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_399",
+          "type": "ParagraphBlock",
+          "content": "تقليل التقويم"
+        },
+        {
+          "id": "paragraph_400",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_401",
+          "type": "ParagraphBlock",
+          "content": "تعطيل المتابعة"
+        },
+        {
+          "id": "paragraph_402",
+          "type": "ParagraphBlock",
+          "content": "تحليل"
+        },
+        {
+          "id": "paragraph_403",
+          "type": "ParagraphBlock",
+          "content": "أي مما يلي يعد من أهداف التحول الرقمي في التعليم؟"
+        },
+        {
+          "id": "paragraph_404",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_405",
+          "type": "ParagraphBlock",
+          "content": "تحسين كفاءة العمل"
+        },
+        {
+          "id": "paragraph_406",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_407",
+          "type": "ParagraphBlock",
+          "content": "زيادة المعاملات الورقية"
+        },
+        {
+          "id": "paragraph_408",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_409",
+          "type": "ParagraphBlock",
+          "content": "تعطيل الاتصال"
+        },
+        {
+          "id": "paragraph_410",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_411",
+          "type": "ParagraphBlock",
+          "content": "تقليل استخدام التقنية"
+        },
+        {
+          "id": "paragraph_412",
+          "type": "ParagraphBlock",
+          "content": "فهم"
+        }
+      ]
+    }
+  ]
+}

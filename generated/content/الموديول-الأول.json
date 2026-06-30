@@ -1,0 +1,1239 @@
+{
+  "id": "الموديول-الأول",
+  "title": "الموديول الأول",
+  "type": "module",
+  "language": "ar",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Section",
+      "blocks": [
+        {
+          "id": "paragraph_1",
+          "type": "ParagraphBlock",
+          "content": "الموديول الأول"
+        },
+        {
+          "id": "paragraph_2",
+          "type": "ParagraphBlock",
+          "content": "القيادة والتخطيط الرقمي &amp; إدارة التقنية والبنية الرقمية"
+        },
+        {
+          "id": "paragraph_3",
+          "type": "ParagraphBlock",
+          "content": "الهدف العام للموديول"
+        },
+        {
+          "id": "paragraph_4",
+          "type": "ParagraphBlock",
+          "content": "تنمية مهارات القيادة والتخطيط الرقمي وإدارة التقنية والبنية الرقمية لدى القيادات التعليمية بما يدعم التحول الرقمي بالمؤسسات التعليمية"
+        },
+        {
+          "id": "paragraph_5",
+          "type": "ParagraphBlock",
+          "content": "الدرس الأول"
+        },
+        {
+          "id": "paragraph_6",
+          "type": "ParagraphBlock",
+          "content": "القيادة والتخطيط الرقمي"
+        },
+        {
+          "id": "paragraph_7",
+          "type": "ParagraphBlock",
+          "content": "الأهداف التعليمية"
+        },
+        {
+          "id": "paragraph_8",
+          "type": "ParagraphBlock",
+          "content": "بعد دراسة هذا الدرس يصبح المتدرب قادراً على أن:"
+        },
+        {
+          "id": "paragraph_9",
+          "type": "ParagraphBlock",
+          "content": "1-يوضح مفهوم القيادة الرقمية في المؤسسات التعليمية"
+        },
+        {
+          "id": "paragraph_10",
+          "type": "ParagraphBlock",
+          "content": "2-يحدد الاحتياجات الرقمية بالمؤسسة التعليمية"
+        },
+        {
+          "id": "paragraph_11",
+          "type": "ParagraphBlock",
+          "content": "3-يفسر أهمية التخطيط الرقمي في تطوير الأداء المؤسسي"
+        },
+        {
+          "id": "paragraph_12",
+          "type": "ParagraphBlock",
+          "content": "4-يطبق مهارة توزيع المهام إلكترونياً"
+        },
+        {
+          "id": "paragraph_13",
+          "type": "ParagraphBlock",
+          "content": "5-يستخدم التقارير الرقمية في متابعة الأداء واتخاذ القرار"
+        },
+        {
+          "id": "paragraph_14",
+          "type": "ParagraphBlock",
+          "content": "عرض المحتوى"
+        },
+        {
+          "id": "paragraph_15",
+          "type": "ParagraphBlock",
+          "content": "العنصر الاول: مفهوم القيادة الرقمية وأهميتها"
+        },
+        {
+          "id": "paragraph_16",
+          "type": "ParagraphBlock",
+          "content": "مفهوم القيادة الرقمية"
+        },
+        {
+          "id": "paragraph_17",
+          "type": "ParagraphBlock",
+          "content": "القيادة الرقمية هي:"
+        },
+        {
+          "id": "paragraph_18",
+          "type": "ParagraphBlock",
+          "content": "قدرة القائد التعليمي على توظيف التقنيات الرقمية والأنظمة الذكية في التخطيط والتنظيم والتوجيه والمتابعة وتحسين الأداء المؤسسي"
+        },
+        {
+          "id": "paragraph_19",
+          "type": "ParagraphBlock",
+          "content": "وتعتمد القيادة الرقمية على استخدام التكنولوجيا بصورة استراتيجية لتحقيق أهداف المؤسسة التعليمية وتحسين جودة الخدمات التعليمية والإدارية"
+        },
+        {
+          "id": "paragraph_20",
+          "type": "ParagraphBlock",
+          "content": "أهمية القيادة الرقمية"
+        },
+        {
+          "id": "paragraph_21",
+          "type": "ParagraphBlock",
+          "content": "دعم التحول الرقمي بالمؤسسة"
+        },
+        {
+          "id": "paragraph_22",
+          "type": "ParagraphBlock",
+          "content": "تحسين كفاءة الأداء الإداري"
+        },
+        {
+          "id": "paragraph_23",
+          "type": "ParagraphBlock",
+          "content": "تعزيز سرعة اتخاذ القرار"
+        },
+        {
+          "id": "paragraph_24",
+          "type": "ParagraphBlock",
+          "content": "رفع جودة الخدمات التعليمية"
+        },
+        {
+          "id": "paragraph_25",
+          "type": "ParagraphBlock",
+          "content": "تحسين التواصل والتعاون بين العاملين"
+        },
+        {
+          "id": "paragraph_26",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثاني: تحديد الاحتياجات الرقمية"
+        },
+        {
+          "id": "paragraph_27",
+          "type": "ParagraphBlock",
+          "content": "يقصد بالاحتياجات الرقمية"
+        },
+        {
+          "id": "paragraph_28",
+          "type": "ParagraphBlock",
+          "content": "المتطلبات التقنية والتدريبية والتنظيمية اللازمة لتحقيق التحول الرقمي بالمؤسسة التعليمية"
+        },
+        {
+          "id": "paragraph_29",
+          "type": "ParagraphBlock",
+          "content": "مجالات الاحتياجات الرقمية"
+        },
+        {
+          "id": "paragraph_30",
+          "type": "ParagraphBlock",
+          "content": "الأجهزة والمعدات"
+        },
+        {
+          "id": "paragraph_31",
+          "type": "ParagraphBlock",
+          "content": "البرمجيات والتطبيقات"
+        },
+        {
+          "id": "paragraph_32",
+          "type": "ParagraphBlock",
+          "content": "البنية التحتية للشبكات"
+        },
+        {
+          "id": "paragraph_33",
+          "type": "ParagraphBlock",
+          "content": "المهارات الرقمية للعاملين"
+        },
+        {
+          "id": "paragraph_34",
+          "type": "ParagraphBlock",
+          "content": "الأمن السيبراني"
+        },
+        {
+          "id": "paragraph_35",
+          "type": "ParagraphBlock",
+          "content": "خطوات تحديد الاحتياجات الرقمية"
+        },
+        {
+          "id": "paragraph_36",
+          "type": "ParagraphBlock",
+          "content": "تحليل الوضع الحالي"
+        },
+        {
+          "id": "paragraph_37",
+          "type": "ParagraphBlock",
+          "content": "تحديد الفجوات الرقمية"
+        },
+        {
+          "id": "paragraph_38",
+          "type": "ParagraphBlock",
+          "content": "تحديد الأولويات"
+        },
+        {
+          "id": "paragraph_39",
+          "type": "ParagraphBlock",
+          "content": "إعداد خطة التطوير"
+        },
+        {
+          "id": "paragraph_40",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثالث:التخطيط الرقمي"
+        },
+        {
+          "id": "paragraph_41",
+          "type": "ParagraphBlock",
+          "content": "مفهوم التخطيط الرقمي"
+        },
+        {
+          "id": "paragraph_42",
+          "type": "ParagraphBlock",
+          "content": "هو عملية إعداد خطط مستقبلية تعتمد على البيانات والتقنيات الرقمية لتحقيق أهداف المؤسسة التعليمية"
+        },
+        {
+          "id": "paragraph_43",
+          "type": "ParagraphBlock",
+          "content": "أهمية التخطيط الرقمي"
+        },
+        {
+          "id": "paragraph_44",
+          "type": "ParagraphBlock",
+          "content": "تحسين استثمار الموارد"
+        },
+        {
+          "id": "paragraph_45",
+          "type": "ParagraphBlock",
+          "content": "رفع كفاءة الأداء"
+        },
+        {
+          "id": "paragraph_46",
+          "type": "ParagraphBlock",
+          "content": "دعم اتخاذ القرار"
+        },
+        {
+          "id": "paragraph_47",
+          "type": "ParagraphBlock",
+          "content": "تحقيق أهداف التحول الرقمي"
+        },
+        {
+          "id": "paragraph_48",
+          "type": "ParagraphBlock",
+          "content": "مراحل التخطيط الرقمي"
+        },
+        {
+          "id": "paragraph_49",
+          "type": "ParagraphBlock",
+          "content": "تحليل الواقع"
+        },
+        {
+          "id": "paragraph_50",
+          "type": "ParagraphBlock",
+          "content": "تحديد الأهداف"
+        },
+        {
+          "id": "paragraph_51",
+          "type": "ParagraphBlock",
+          "content": "تحديد الموارد"
+        },
+        {
+          "id": "paragraph_52",
+          "type": "ParagraphBlock",
+          "content": "التنفيذ"
+        },
+        {
+          "id": "paragraph_53",
+          "type": "ParagraphBlock",
+          "content": "المتابعة والتقويم"
+        },
+        {
+          "id": "paragraph_54",
+          "type": "ParagraphBlock",
+          "content": "العنصر الرابع: توزيع المهام إلكترونياً"
+        },
+        {
+          "id": "paragraph_55",
+          "type": "ParagraphBlock",
+          "content": "مفهوم توزيع المهام إلكترونياً"
+        },
+        {
+          "id": "paragraph_56",
+          "type": "ParagraphBlock",
+          "content": "إسناد المهام للعاملين باستخدام المنصات والتطبيقات الرقمية"
+        },
+        {
+          "id": "paragraph_57",
+          "type": "ParagraphBlock",
+          "content": "فوائد توزيع المهام إلكترونياً"
+        },
+        {
+          "id": "paragraph_58",
+          "type": "ParagraphBlock",
+          "content": "وضوح المسؤوليات"
+        },
+        {
+          "id": "paragraph_59",
+          "type": "ParagraphBlock",
+          "content": "سرعة المتابعة"
+        },
+        {
+          "id": "paragraph_60",
+          "type": "ParagraphBlock",
+          "content": "تقليل الأخطاء"
+        },
+        {
+          "id": "paragraph_61",
+          "type": "ParagraphBlock",
+          "content": "تحسين الإنجاز"
+        },
+        {
+          "id": "paragraph_62",
+          "type": "ParagraphBlock",
+          "content": "أدوات توزيع المهام"
+        },
+        {
+          "id": "paragraph_63",
+          "type": "ParagraphBlock",
+          "content": ")Microsoft Teams("
+        },
+        {
+          "id": "paragraph_64",
+          "type": "ParagraphBlock",
+          "content": "المصدر: YouTube https://share.google/JaRd84es7uFHKhxql"
+        },
+        {
+          "id": "paragraph_65",
+          "type": "ParagraphBlock",
+          "content": ")Google Workspace("
+        },
+        {
+          "id": "paragraph_66",
+          "type": "ParagraphBlock",
+          "content": "المصدر: YouTube https://share.google/Ej8hGsfrTv9QinwT1"
+        },
+        {
+          "id": "paragraph_67",
+          "type": "ParagraphBlock",
+          "content": ")Trello("
+        },
+        {
+          "id": "paragraph_68",
+          "type": "ParagraphBlock",
+          "content": "المصدر: YouTube https://share.google/VKaWSOHpbzNQJ9IXl"
+        },
+        {
+          "id": "paragraph_69",
+          "type": "ParagraphBlock",
+          "content": ")Asana("
+        },
+        {
+          "id": "paragraph_70",
+          "type": "ParagraphBlock",
+          "content": "المصدر: YouTube https://share.google/qtMwC96Dilh4uotrC"
+        },
+        {
+          "id": "paragraph_71",
+          "type": "ParagraphBlock",
+          "content": "العنصر الخامس: التقارير الرقمية ومتابعة الأداء"
+        },
+        {
+          "id": "paragraph_72",
+          "type": "ParagraphBlock",
+          "content": "مفهوم التقارير الرقمية"
+        },
+        {
+          "id": "paragraph_73",
+          "type": "ParagraphBlock",
+          "content": "وثائق إلكترونية تعرض بيانات ومؤشرات الأداء بصورة منظمة تساعد في اتخاذ القرار"
+        },
+        {
+          "id": "paragraph_74",
+          "type": "ParagraphBlock",
+          "content": "فوائد التقارير الرقمية"
+        },
+        {
+          "id": "paragraph_75",
+          "type": "ParagraphBlock",
+          "content": "متابعة تنفيذ الخطط"
+        },
+        {
+          "id": "paragraph_76",
+          "type": "ParagraphBlock",
+          "content": "قياس مؤشرات الأداء"
+        },
+        {
+          "id": "paragraph_77",
+          "type": "ParagraphBlock",
+          "content": "دعم اتخاذ القرار"
+        },
+        {
+          "id": "paragraph_78",
+          "type": "ParagraphBlock",
+          "content": "تحسين الشفافية"
+        },
+        {
+          "id": "paragraph_79",
+          "type": "ParagraphBlock",
+          "content": "أنواع التقارير الرقمية"
+        },
+        {
+          "id": "paragraph_80",
+          "type": "ParagraphBlock",
+          "content": "تقارير الأداء"
+        },
+        {
+          "id": "paragraph_81",
+          "type": "ParagraphBlock",
+          "content": "تقارير المتابعة"
+        },
+        {
+          "id": "paragraph_82",
+          "type": "ParagraphBlock",
+          "content": "التقارير الإحصائية"
+        },
+        {
+          "id": "paragraph_83",
+          "type": "ParagraphBlock",
+          "content": "التقارير التحليلية"
+        },
+        {
+          "id": "paragraph_84",
+          "type": "ParagraphBlock",
+          "content": "الأنشطة"
+        },
+        {
+          "id": "paragraph_85",
+          "type": "ParagraphBlock",
+          "content": "النشاط الأول"
+        },
+        {
+          "id": "paragraph_86",
+          "type": "ParagraphBlock",
+          "content": "حلل واقع التحول الرقمي بمؤسستك التعليمية وحدد ثلاثة احتياجات رقمية رئيسية"
+        },
+        {
+          "id": "paragraph_87",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثاني"
+        },
+        {
+          "id": "paragraph_88",
+          "type": "ParagraphBlock",
+          "content": "صمم خطة رقمية مختصرة تتضمن:"
+        },
+        {
+          "id": "paragraph_89",
+          "type": "ParagraphBlock",
+          "content": "هدفاً رقمياً"
+        },
+        {
+          "id": "paragraph_90",
+          "type": "ParagraphBlock",
+          "content": "إجراءات التنفيذ"
+        },
+        {
+          "id": "paragraph_91",
+          "type": "ParagraphBlock",
+          "content": "مؤشرات النجاح"
+        },
+        {
+          "id": "paragraph_92",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثالث"
+        },
+        {
+          "id": "paragraph_93",
+          "type": "ParagraphBlock",
+          "content": "استخدم أحد تطبيقات الذكاء الاصطناعي مثل"
+        },
+        {
+          "id": "paragraph_94",
+          "type": "ParagraphBlock",
+          "content": "لإعداد تقرير رقمي مختصر عن مستوي التحول الرقمي بمؤسستك."
+        },
+        {
+          "id": "paragraph_95",
+          "type": "ParagraphBlock",
+          "content": "ChatGPT"
+        },
+        {
+          "id": "paragraph_96",
+          "type": "ParagraphBlock",
+          "content": "التقويم"
+        },
+        {
+          "id": "paragraph_97",
+          "type": "ParagraphBlock",
+          "content": "اولا: أسئلة اختيار من متعدد"
+        },
+        {
+          "id": "paragraph_98",
+          "type": "ParagraphBlock",
+          "content": "يقصد بالقيادة الرقمية"
+        },
+        {
+          "id": "paragraph_99",
+          "type": "ParagraphBlock",
+          "content": "أ) استخدام التكنولوجيا في العمل الإداري."
+        },
+        {
+          "id": "paragraph_100",
+          "type": "ParagraphBlock",
+          "content": "ب) إدارة الموارد المالية."
+        },
+        {
+          "id": "paragraph_101",
+          "type": "ParagraphBlock",
+          "content": ". ج) الإشراف التقليدي"
+        },
+        {
+          "id": "paragraph_102",
+          "type": "ParagraphBlock",
+          "content": "د) تنظيم الملفات الورقية."
+        },
+        {
+          "id": "paragraph_103",
+          "type": "ParagraphBlock",
+          "content": "من مراحل التخطيط الرقمي:"
+        },
+        {
+          "id": "paragraph_104",
+          "type": "ParagraphBlock",
+          "content": ". أ) التنفيذ"
+        },
+        {
+          "id": "paragraph_105",
+          "type": "ParagraphBlock",
+          "content": "ب) الإلغاء."
+        },
+        {
+          "id": "paragraph_106",
+          "type": "ParagraphBlock",
+          "content": "ج) التجميد."
+        },
+        {
+          "id": "paragraph_107",
+          "type": "ParagraphBlock",
+          "content": "د)الحذف."
+        },
+        {
+          "id": "paragraph_108",
+          "type": "ParagraphBlock",
+          "content": "ثانيا: صح أم خطأ"
+        },
+        {
+          "id": "paragraph_109",
+          "type": "ParagraphBlock",
+          "content": "تساعد التقارير الرقمية في دعم اتخاذ القرار."
+        },
+        {
+          "id": "paragraph_110",
+          "type": "ParagraphBlock",
+          "content": "لا ترتبط القيادة الرقمية بالتحول الرقمي."
+        },
+        {
+          "id": "paragraph_111",
+          "type": "ParagraphBlock",
+          "content": "ثالثا: مهمة أدائية"
+        },
+        {
+          "id": "paragraph_112",
+          "type": "ParagraphBlock",
+          "content": "قم بإعداد نموذج تقرير رقمي يتضمن"
+        },
+        {
+          "id": "paragraph_113",
+          "type": "ParagraphBlock",
+          "content": "هدف المؤسسة."
+        },
+        {
+          "id": "paragraph_114",
+          "type": "ParagraphBlock",
+          "content": "مؤشرات الأداء."
+        },
+        {
+          "id": "paragraph_115",
+          "type": "ParagraphBlock",
+          "content": "نتائج المتابعة."
+        },
+        {
+          "id": "paragraph_116",
+          "type": "ParagraphBlock",
+          "content": "التوصيات المقترحة."
+        },
+        {
+          "id": "paragraph_117",
+          "type": "ParagraphBlock",
+          "content": "ملخص الدرس"
+        },
+        {
+          "id": "paragraph_118",
+          "type": "ParagraphBlock",
+          "content": "الدرس الثاني"
+        },
+        {
+          "id": "paragraph_119",
+          "type": "ParagraphBlock",
+          "content": "إدارة التقنية والبنية الرقمية"
+        },
+        {
+          "id": "paragraph_120",
+          "type": "ParagraphBlock",
+          "content": "الأهداف التعليمية"
+        },
+        {
+          "id": "paragraph_121",
+          "type": "ParagraphBlock",
+          "content": "بعد دراسة هذا الدرس يصبح المتدرب قادراً على أن:"
+        },
+        {
+          "id": "paragraph_122",
+          "type": "ParagraphBlock",
+          "content": "يوضح مفهوم البنية الرقمية في المؤسسات التعليمية."
+        },
+        {
+          "id": "paragraph_123",
+          "type": "ParagraphBlock",
+          "content": "يحدد مكونات البنية الرقمية الفعالة."
+        },
+        {
+          "id": "paragraph_124",
+          "type": "ParagraphBlock",
+          "content": "يستخدم المنصات والتطبيقات الرقمية المناسبة للعمل المؤسسي."
+        },
+        {
+          "id": "paragraph_125",
+          "type": "ParagraphBlock",
+          "content": "ينظم الملفات الرقمية بصورة تسهل الوصول إليها."
+        },
+        {
+          "id": "paragraph_126",
+          "type": "ParagraphBlock",
+          "content": "يشارك الموارد التعليمية إلكترونياً بكفاءة."
+        },
+        {
+          "id": "paragraph_127",
+          "type": "ParagraphBlock",
+          "content": "يوضح أهمية تحديث التطبيقات والأنظمة الرقمية."
+        },
+        {
+          "id": "paragraph_128",
+          "type": "ParagraphBlock",
+          "content": "يطبق إجراءات إدارة الحسابات الرقمية بصورة آمنة."
+        },
+        {
+          "id": "paragraph_129",
+          "type": "ParagraphBlock",
+          "content": "عرض المحتوى"
+        },
+        {
+          "id": "paragraph_130",
+          "type": "ParagraphBlock",
+          "content": "العنصر الاول: البنية الرقمية في المؤسسات التعليمية"
+        },
+        {
+          "id": "paragraph_131",
+          "type": "ParagraphBlock",
+          "content": "مفهوم البنية الرقمية"
+        },
+        {
+          "id": "paragraph_132",
+          "type": "ParagraphBlock",
+          "content": "يقصد بالبنية الرقمية"
+        },
+        {
+          "id": "paragraph_133",
+          "type": "ParagraphBlock",
+          "content": "مجموعة الأجهزة والشبكات والبرمجيات والأنظمة الرقمية التي تعتمد عليها المؤسسة التعليمية في تنفيذ أعمالها التعليمية والإدارية."
+        },
+        {
+          "id": "paragraph_134",
+          "type": "ParagraphBlock",
+          "content": "مكونات البنية الرقمية"
+        },
+        {
+          "id": "paragraph_135",
+          "type": "ParagraphBlock",
+          "content": "أجهزة الحاسب والأجهزة الذكية."
+        },
+        {
+          "id": "paragraph_136",
+          "type": "ParagraphBlock",
+          "content": "شبكات الإنترنت والاتصالات."
+        },
+        {
+          "id": "paragraph_137",
+          "type": "ParagraphBlock",
+          "content": "المنصات التعليمية."
+        },
+        {
+          "id": "paragraph_138",
+          "type": "ParagraphBlock",
+          "content": "قواعد البيانات."
+        },
+        {
+          "id": "paragraph_139",
+          "type": "ParagraphBlock",
+          "content": "أنظمة إدارة التعلم."
+        },
+        {
+          "id": "paragraph_140",
+          "type": "ParagraphBlock",
+          "content": "تطبيقات الذكاء الاصطناعي."
+        },
+        {
+          "id": "paragraph_141",
+          "type": "ParagraphBlock",
+          "content": "أهمية البنية الرقمية"
+        },
+        {
+          "id": "paragraph_142",
+          "type": "ParagraphBlock",
+          "content": "دعم التحول الرقمي."
+        },
+        {
+          "id": "paragraph_143",
+          "type": "ParagraphBlock",
+          "content": "تسهيل العمليات الإدارية."
+        },
+        {
+          "id": "paragraph_144",
+          "type": "ParagraphBlock",
+          "content": "تحسين جودة الخدمات التعليمية."
+        },
+        {
+          "id": "paragraph_145",
+          "type": "ParagraphBlock",
+          "content": "رفع كفاءة الأداء المؤسسي."
+        },
+        {
+          "id": "paragraph_146",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثاني: إدارة التطبيقات والمنصات الرقمية"
+        },
+        {
+          "id": "paragraph_147",
+          "type": "ParagraphBlock",
+          "content": "مفهوم المنصات الرقمية"
+        },
+        {
+          "id": "paragraph_148",
+          "type": "ParagraphBlock",
+          "content": "هي بيئات إلكترونية توفر أدوات وخدمات تساعد في إدارة التعليم والعمل الإداري"
+        },
+        {
+          "id": "paragraph_149",
+          "type": "ParagraphBlock",
+          "content": "أمثلة للمنصات الرقمية."
+        },
+        {
+          "id": "paragraph_150",
+          "type": "ParagraphBlock",
+          "content": "Microsoft Teams"
+        },
+        {
+          "id": "paragraph_151",
+          "type": "ParagraphBlock",
+          "content": "Google Classroom"
+        },
+        {
+          "id": "paragraph_152",
+          "type": "ParagraphBlock",
+          "content": "Moodle"
+        },
+        {
+          "id": "paragraph_153",
+          "type": "ParagraphBlock",
+          "content": "Zoom"
+        },
+        {
+          "id": "paragraph_154",
+          "type": "ParagraphBlock",
+          "content": "أهمية إدارة المنصات"
+        },
+        {
+          "id": "paragraph_155",
+          "type": "ParagraphBlock",
+          "content": "تنظيم العمل."
+        },
+        {
+          "id": "paragraph_156",
+          "type": "ParagraphBlock",
+          "content": "متابعة الأداء."
+        },
+        {
+          "id": "paragraph_157",
+          "type": "ParagraphBlock",
+          "content": "تسهيل التواصل."
+        },
+        {
+          "id": "paragraph_158",
+          "type": "ParagraphBlock",
+          "content": "إدارة المحتوى التعليمي."
+        },
+        {
+          "id": "paragraph_159",
+          "type": "ParagraphBlock",
+          "content": "معايير اختيار المنصة المناسبة"
+        },
+        {
+          "id": "paragraph_160",
+          "type": "ParagraphBlock",
+          "content": "سهولة الاستخدام."
+        },
+        {
+          "id": "paragraph_161",
+          "type": "ParagraphBlock",
+          "content": "الأمان والحماية."
+        },
+        {
+          "id": "paragraph_162",
+          "type": "ParagraphBlock",
+          "content": "التوافق مع احتياجات المؤسسة."
+        },
+        {
+          "id": "paragraph_163",
+          "type": "ParagraphBlock",
+          "content": "دعم المستخدمين."
+        },
+        {
+          "id": "paragraph_164",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثالث: تنظيم الملفات الرقمية"
+        },
+        {
+          "id": "paragraph_165",
+          "type": "ParagraphBlock",
+          "content": "مفهوم تنظيم الملفات الرقمية"
+        },
+        {
+          "id": "paragraph_166",
+          "type": "ParagraphBlock",
+          "content": "عملية ترتيب الملفات والمجلدات بطريقة منظمة تسهل حفظها واسترجاعها."
+        },
+        {
+          "id": "paragraph_167",
+          "type": "ParagraphBlock",
+          "content": "فوائد تنظيم الملفات"
+        },
+        {
+          "id": "paragraph_168",
+          "type": "ParagraphBlock",
+          "content": "سهولة الوصول للمعلومات."
+        },
+        {
+          "id": "paragraph_169",
+          "type": "ParagraphBlock",
+          "content": "توفير الوقت والجهد."
+        },
+        {
+          "id": "paragraph_170",
+          "type": "ParagraphBlock",
+          "content": "تقليل فقد البيانات."
+        },
+        {
+          "id": "paragraph_171",
+          "type": "ParagraphBlock",
+          "content": "تحسين كفاءة العمل."
+        },
+        {
+          "id": "paragraph_172",
+          "type": "ParagraphBlock",
+          "content": "قواعد تنظيم الملفات"
+        },
+        {
+          "id": "paragraph_173",
+          "type": "ParagraphBlock",
+          "content": "تسمية الملفات بأسماء واضحة."
+        },
+        {
+          "id": "paragraph_174",
+          "type": "ParagraphBlock",
+          "content": "إنشاء مجلدات رئيسية وفرعية."
+        },
+        {
+          "id": "paragraph_175",
+          "type": "ParagraphBlock",
+          "content": "حذف الملفات المكررة."
+        },
+        {
+          "id": "paragraph_176",
+          "type": "ParagraphBlock",
+          "content": "تحديث الملفات بصفة دورية."
+        },
+        {
+          "id": "paragraph_177",
+          "type": "ParagraphBlock",
+          "content": "العنصر الرابع: مشاركة الموارد التعليمية إلكترونياً"
+        },
+        {
+          "id": "paragraph_178",
+          "type": "ParagraphBlock",
+          "content": "مفهوم الموارد التعليمية الرقمية"
+        },
+        {
+          "id": "paragraph_179",
+          "type": "ParagraphBlock",
+          "content": "هي المواد التعليمية التي يتم إنتاجها أو تداولها عبر الوسائط الرقمية."
+        },
+        {
+          "id": "paragraph_180",
+          "type": "ParagraphBlock",
+          "content": "أمثلة للموارد الرقمية"
+        },
+        {
+          "id": "paragraph_181",
+          "type": "ParagraphBlock",
+          "content": "ملفات. PDF"
+        },
+        {
+          "id": "paragraph_182",
+          "type": "ParagraphBlock",
+          "content": "العروض التقديمية."
+        },
+        {
+          "id": "paragraph_183",
+          "type": "ParagraphBlock",
+          "content": "الفيديوهات التعليمية."
+        },
+        {
+          "id": "paragraph_184",
+          "type": "ParagraphBlock",
+          "content": "الإنفوجرافيك."
+        },
+        {
+          "id": "paragraph_185",
+          "type": "ParagraphBlock",
+          "content": "الاختبارات الإلكترونية."
+        },
+        {
+          "id": "paragraph_186",
+          "type": "ParagraphBlock",
+          "content": "فوائد المشاركة الرقمية"
+        },
+        {
+          "id": "paragraph_187",
+          "type": "ParagraphBlock",
+          "content": "تعزيز التعاون."
+        },
+        {
+          "id": "paragraph_188",
+          "type": "ParagraphBlock",
+          "content": "سهولة تبادل المعرفة."
+        },
+        {
+          "id": "paragraph_189",
+          "type": "ParagraphBlock",
+          "content": "سرعة الوصول للمحتوى."
+        },
+        {
+          "id": "paragraph_190",
+          "type": "ParagraphBlock",
+          "content": "دعم التعلم المستمر."
+        },
+        {
+          "id": "paragraph_191",
+          "type": "ParagraphBlock",
+          "content": "أدوات المشاركة"
+        },
+        {
+          "id": "paragraph_192",
+          "type": "ParagraphBlock",
+          "content": "Google Drive"
+        },
+        {
+          "id": "paragraph_193",
+          "type": "ParagraphBlock",
+          "content": "OneDrive"
+        },
+        {
+          "id": "paragraph_194",
+          "type": "ParagraphBlock",
+          "content": "Microsoft Teams"
+        },
+        {
+          "id": "paragraph_195",
+          "type": "ParagraphBlock",
+          "content": "Dropbox"
+        },
+        {
+          "id": "paragraph_196",
+          "type": "ParagraphBlock",
+          "content": "العنصر الخامس: تحديث الأنظمة والتطبيقات الرقمية"
+        },
+        {
+          "id": "paragraph_197",
+          "type": "ParagraphBlock",
+          "content": "أهمية التحديث المستمر"
+        },
+        {
+          "id": "paragraph_198",
+          "type": "ParagraphBlock",
+          "content": "تحسين الأداء."
+        },
+        {
+          "id": "paragraph_199",
+          "type": "ParagraphBlock",
+          "content": "معالجة الأخطاء."
+        },
+        {
+          "id": "paragraph_200",
+          "type": "ParagraphBlock",
+          "content": "تعزيز الأمان."
+        },
+        {
+          "id": "paragraph_201",
+          "type": "ParagraphBlock",
+          "content": "إضافة مزايا جديدة."
+        },
+        {
+          "id": "paragraph_202",
+          "type": "ParagraphBlock",
+          "content": "إجراءات التحديث"
+        },
+        {
+          "id": "paragraph_203",
+          "type": "ParagraphBlock",
+          "content": "متابعة الإصدارات الجديدة."
+        },
+        {
+          "id": "paragraph_204",
+          "type": "ParagraphBlock",
+          "content": "عمل نسخة احتياطية قبل التحديث."
+        },
+        {
+          "id": "paragraph_205",
+          "type": "ParagraphBlock",
+          "content": "تثبيت التحديثات."
+        },
+        {
+          "id": "paragraph_206",
+          "type": "ParagraphBlock",
+          "content": "اختبار الأنظمة بعد التحديث."
+        },
+        {
+          "id": "paragraph_207",
+          "type": "ParagraphBlock",
+          "content": "مخاطر إهمال التحديث"
+        },
+        {
+          "id": "paragraph_208",
+          "type": "ParagraphBlock",
+          "content": "ضعف الحماية."
+        },
+        {
+          "id": "paragraph_209",
+          "type": "ParagraphBlock",
+          "content": "بطء الأنظمة."
+        },
+        {
+          "id": "paragraph_210",
+          "type": "ParagraphBlock",
+          "content": "زيادة الأعطال."
+        },
+        {
+          "id": "paragraph_211",
+          "type": "ParagraphBlock",
+          "content": "فقد البيانات."
+        },
+        {
+          "id": "paragraph_212",
+          "type": "ParagraphBlock",
+          "content": "الأنشطة"
+        },
+        {
+          "id": "paragraph_213",
+          "type": "ParagraphBlock",
+          "content": "النشاط الأول"
+        },
+        {
+          "id": "paragraph_214",
+          "type": "ParagraphBlock",
+          "content": "قم بإعداد قائمة بمكونات البنية الرقمية الموجودة في مؤسستك التعليمية."
+        },
+        {
+          "id": "paragraph_215",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثاني"
+        },
+        {
+          "id": "paragraph_216",
+          "type": "ParagraphBlock",
+          "content": "صمم هيكلاً تنظيمياً للمجلدات والملفات الرقمية الخاصة بالعمل الإداري."
+        },
+        {
+          "id": "paragraph_217",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثالث"
+        },
+        {
+          "id": "paragraph_218",
+          "type": "ParagraphBlock",
+          "content": "شارك مورداً تعليمياً رقمياً عبر إحدى المنصات الإلكترونية مع توضيح خطوات المشاركة."
+        },
+        {
+          "id": "paragraph_219",
+          "type": "ParagraphBlock",
+          "content": "النشاط الرابع"
+        },
+        {
+          "id": "paragraph_220",
+          "type": "ParagraphBlock",
+          "content": "استخدم أحد تطبيقات الذكاء الاصطناعي لاقتراح حلول لتحسين البنية الرقمية بمؤسستك."
+        },
+        {
+          "id": "paragraph_221",
+          "type": "ParagraphBlock",
+          "content": "التقويم"
+        },
+        {
+          "id": "paragraph_222",
+          "type": "ParagraphBlock",
+          "content": "أولا: أسئلة اختيار من متعدد"
+        },
+        {
+          "id": "paragraph_223",
+          "type": "ParagraphBlock",
+          "content": "1- من مكونات البنية الرقمية"
+        },
+        {
+          "id": "paragraph_224",
+          "type": "ParagraphBlock",
+          "content": "أ) الملفات الورقية فقط"
+        },
+        {
+          "id": "paragraph_225",
+          "type": "ParagraphBlock",
+          "content": "ب) الشبكات والأجهزة والبرمجيات"
+        },
+        {
+          "id": "paragraph_226",
+          "type": "ParagraphBlock",
+          "content": "ج) الأثاث المدرسي"
+        },
+        {
+          "id": "paragraph_227",
+          "type": "ParagraphBlock",
+          "content": "د) الكتب المطبوعة"
+        },
+        {
+          "id": "paragraph_228",
+          "type": "ParagraphBlock",
+          "content": "2- من فوائد تنظيم الملفات الرقمية"
+        },
+        {
+          "id": "paragraph_229",
+          "type": "ParagraphBlock",
+          "content": "أ)زيادة التكرار"
+        },
+        {
+          "id": "paragraph_230",
+          "type": "ParagraphBlock",
+          "content": "ب) صعوبة الوصول للمعلومات"
+        },
+        {
+          "id": "paragraph_231",
+          "type": "ParagraphBlock",
+          "content": "ج) سهولة استرجاع الملفات"
+        },
+        {
+          "id": "paragraph_232",
+          "type": "ParagraphBlock",
+          "content": "د) زيادة الأخطاء"
+        },
+        {
+          "id": "paragraph_233",
+          "type": "ParagraphBlock",
+          "content": "ثانيا: صح أم خطأ"
+        },
+        {
+          "id": "paragraph_234",
+          "type": "ParagraphBlock",
+          "content": "تساعد مشاركة الموارد الرقمية في تعزيز التعاون بين العاملين"
+        },
+        {
+          "id": "paragraph_235",
+          "type": "ParagraphBlock",
+          "content": "لا تؤثر تحديثات الأنظمة على أمن المعلومات"
+        },
+        {
+          "id": "paragraph_236",
+          "type": "ParagraphBlock",
+          "content": "يعد Google Drive من أدوات مشاركة الموارد التعليمية"
+        },
+        {
+          "id": "paragraph_237",
+          "type": "ParagraphBlock",
+          "content": "ثالثا: مهمة أدائية"
+        },
+        {
+          "id": "paragraph_238",
+          "type": "ParagraphBlock",
+          "content": "بصفتك قائداً تربويا:"
+        },
+        {
+          "id": "paragraph_239",
+          "type": "ParagraphBlock",
+          "content": "قم بإعداد خطة مختصرة لتطوير البنية الرقمية بمؤسستك تتضمن"
+        },
+        {
+          "id": "paragraph_240",
+          "type": "ParagraphBlock",
+          "content": "الوضع الحالي."
+        },
+        {
+          "id": "paragraph_241",
+          "type": "ParagraphBlock",
+          "content": "الاحتياجات التقنية."
+        },
+        {
+          "id": "paragraph_242",
+          "type": "ParagraphBlock",
+          "content": "الأدوات المطلوبة."
+        },
+        {
+          "id": "paragraph_243",
+          "type": "ParagraphBlock",
+          "content": "آلية التنفيذ."
+        },
+        {
+          "id": "paragraph_244",
+          "type": "ParagraphBlock",
+          "content": "مؤشرات النجاح."
+        },
+        {
+          "id": "paragraph_245",
+          "type": "ParagraphBlock",
+          "content": "ملخص الدرس"
+        }
+      ]
+    }
+  ]
+}

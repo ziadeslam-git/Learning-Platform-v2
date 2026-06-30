@@ -1,0 +1,1119 @@
+{
+  "id": "الموديول-الثالث",
+  "title": "الموديول الثالث",
+  "type": "module",
+  "language": "ar",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Section",
+      "blocks": [
+        {
+          "id": "paragraph_1",
+          "type": "ParagraphBlock",
+          "content": "الموديول الثالث"
+        },
+        {
+          "id": "paragraph_2",
+          "type": "ParagraphBlock",
+          "content": "مهارات الأمن السيبراني &amp; الإشراف الرقمي على التعليم"
+        },
+        {
+          "id": "paragraph_3",
+          "type": "ParagraphBlock",
+          "content": "الهدف العام للموديول"
+        },
+        {
+          "id": "paragraph_4",
+          "type": "ParagraphBlock",
+          "content": "تنمية مهارات الأمن السيبراني والإشراف الرقمي على التعليم لدى القيادات التعليمية بما يضمن حماية البيئة الرقمية وتحسين جودة المتابعة والتقويم الإلكتروني"
+        },
+        {
+          "id": "paragraph_5",
+          "type": "ParagraphBlock",
+          "content": "الدرس الأول"
+        },
+        {
+          "id": "paragraph_6",
+          "type": "ParagraphBlock",
+          "content": "مهارات الأمن السيبراني"
+        },
+        {
+          "id": "paragraph_7",
+          "type": "ParagraphBlock",
+          "content": "الأهداف التعليمية"
+        },
+        {
+          "id": "paragraph_8",
+          "type": "ParagraphBlock",
+          "content": "بعد دراسة هذا الدرس يصبح المتدرب قادراً على أن:"
+        },
+        {
+          "id": "paragraph_9",
+          "type": "ParagraphBlock",
+          "content": "ينشئ كلمات مرور قوية وآمنة للحسابات الرقمية."
+        },
+        {
+          "id": "paragraph_10",
+          "type": "ParagraphBlock",
+          "content": "يميز بين الروابط الآمنة والروابط المشبوهة."
+        },
+        {
+          "id": "paragraph_11",
+          "type": "ParagraphBlock",
+          "content": "يوضح أهمية برامج الحماية ومكافحة الفيروسات."
+        },
+        {
+          "id": "paragraph_12",
+          "type": "ParagraphBlock",
+          "content": "يطبق إجراءات فحص الأجهزة الرقمية بصورة دورية."
+        },
+        {
+          "id": "paragraph_13",
+          "type": "ParagraphBlock",
+          "content": "يحدد خطوات الإبلاغ عن الحوادث والاختراقات الإلكترونية."
+        },
+        {
+          "id": "paragraph_14",
+          "type": "ParagraphBlock",
+          "content": "يوضح دور الأمن السيبراني في حماية البيانات والمؤسسات التعليمية."
+        },
+        {
+          "id": "paragraph_15",
+          "type": "ParagraphBlock",
+          "content": "عرض المحتوى"
+        },
+        {
+          "id": "paragraph_16",
+          "type": "ParagraphBlock",
+          "content": "العنصر الأول: مفهوم الأمن السيبراني"
+        },
+        {
+          "id": "paragraph_17",
+          "type": "ParagraphBlock",
+          "content": "مفهوم الأمن السيبراني"
+        },
+        {
+          "id": "paragraph_18",
+          "type": "ParagraphBlock",
+          "content": "هو مجموعة السياسات والإجراءات والتقنيات المستخدمة لحماية الأنظمة والشبكات والبيانات من الهجمات الإلكترونية والوصول غير المصرح به."
+        },
+        {
+          "id": "paragraph_19",
+          "type": "ParagraphBlock",
+          "content": "المصدر: YouTube"
+        },
+        {
+          "id": "paragraph_20",
+          "type": "ParagraphBlock",
+          "content": "https://share.google/kNqmXJdRI8TdDFm7s"
+        },
+        {
+          "id": "paragraph_21",
+          "type": "ParagraphBlock",
+          "content": "أهمية الأمن السيبراني"
+        },
+        {
+          "id": "paragraph_22",
+          "type": "ParagraphBlock",
+          "content": "حماية المعلومات والبيانات."
+        },
+        {
+          "id": "paragraph_23",
+          "type": "ParagraphBlock",
+          "content": "الحفاظ على استمرارية العمل."
+        },
+        {
+          "id": "paragraph_24",
+          "type": "ParagraphBlock",
+          "content": "منع الاختراقات الإلكترونية."
+        },
+        {
+          "id": "paragraph_25",
+          "type": "ParagraphBlock",
+          "content": "تعزيز الثقة في البيئة الرقمية."
+        },
+        {
+          "id": "paragraph_26",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثاني: حماية الحسابات الرقمية"
+        },
+        {
+          "id": "paragraph_27",
+          "type": "ParagraphBlock",
+          "content": "كلمات المرور القوية"
+        },
+        {
+          "id": "paragraph_28",
+          "type": "ParagraphBlock",
+          "content": "يجب أن تتسم كلمات المرور بـ:"
+        },
+        {
+          "id": "paragraph_29",
+          "type": "ParagraphBlock",
+          "content": "الطول المناسب."
+        },
+        {
+          "id": "paragraph_30",
+          "type": "ParagraphBlock",
+          "content": "التنوع بين الحروف والأرقام والرموز."
+        },
+        {
+          "id": "paragraph_31",
+          "type": "ParagraphBlock",
+          "content": "عدم استخدام المعلومات الشخصية."
+        },
+        {
+          "id": "paragraph_32",
+          "type": "ParagraphBlock",
+          "content": "التغيير الدوري."
+        },
+        {
+          "id": "paragraph_33",
+          "type": "ParagraphBlock",
+          "content": "المصادقة متعددة العوامل."
+        },
+        {
+          "id": "paragraph_34",
+          "type": "ParagraphBlock",
+          "content": "إضافة طبقة حماية إضافية عند تسجيل الدخول."
+        },
+        {
+          "id": "paragraph_35",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثالث: الروابط والرسائل المشبوهة"
+        },
+        {
+          "id": "paragraph_36",
+          "type": "ParagraphBlock",
+          "content": "مؤشرات الروابط المشبوهة"
+        },
+        {
+          "id": "paragraph_37",
+          "type": "ParagraphBlock",
+          "content": "وجود أخطاء لغوية."
+        },
+        {
+          "id": "paragraph_38",
+          "type": "ParagraphBlock",
+          "content": "طلب معلومات شخصية."
+        },
+        {
+          "id": "paragraph_39",
+          "type": "ParagraphBlock",
+          "content": "روابط غير معروفة."
+        },
+        {
+          "id": "paragraph_40",
+          "type": "ParagraphBlock",
+          "content": "رسائل عاجلة ومضللة."
+        },
+        {
+          "id": "paragraph_41",
+          "type": "ParagraphBlock",
+          "content": "كيفية التعامل معها"
+        },
+        {
+          "id": "paragraph_42",
+          "type": "ParagraphBlock",
+          "content": "عدم الضغط على الروابط المجهولة."
+        },
+        {
+          "id": "paragraph_43",
+          "type": "ParagraphBlock",
+          "content": "التحقق من المصدر."
+        },
+        {
+          "id": "paragraph_44",
+          "type": "ParagraphBlock",
+          "content": "الإبلاغ عن الرسائل المشبوهة."
+        },
+        {
+          "id": "paragraph_45",
+          "type": "ParagraphBlock",
+          "content": "العنصر الرابع: برامج الحماية وفحص الأجهزة"
+        },
+        {
+          "id": "paragraph_46",
+          "type": "ParagraphBlock",
+          "content": "أهمية برامج الحماية"
+        },
+        {
+          "id": "paragraph_47",
+          "type": "ParagraphBlock",
+          "content": "اكتشاف البرمجيات الضارة."
+        },
+        {
+          "id": "paragraph_48",
+          "type": "ParagraphBlock",
+          "content": "حماية الأجهزة."
+        },
+        {
+          "id": "paragraph_49",
+          "type": "ParagraphBlock",
+          "content": "منع الاختراقات."
+        },
+        {
+          "id": "paragraph_50",
+          "type": "ParagraphBlock",
+          "content": "إجراءات الفحص الدوري"
+        },
+        {
+          "id": "paragraph_51",
+          "type": "ParagraphBlock",
+          "content": "تحديث برنامج الحماية."
+        },
+        {
+          "id": "paragraph_52",
+          "type": "ParagraphBlock",
+          "content": "فحص الجهاز بانتظام."
+        },
+        {
+          "id": "paragraph_53",
+          "type": "ParagraphBlock",
+          "content": "إزالة الملفات الضارة."
+        },
+        {
+          "id": "paragraph_54",
+          "type": "ParagraphBlock",
+          "content": "تحديث نظام التشغيل."
+        },
+        {
+          "id": "paragraph_55",
+          "type": "ParagraphBlock",
+          "content": "العنصر الخامس: الاستجابة للحوادث الإلكترونية"
+        },
+        {
+          "id": "paragraph_56",
+          "type": "ParagraphBlock",
+          "content": "مفهوم الحادث الإلكتروني"
+        },
+        {
+          "id": "paragraph_57",
+          "type": "ParagraphBlock",
+          "content": "أي نشاط يؤدي إلى تهديد أمن المعلومات أو تعطيل الأنظمة."
+        },
+        {
+          "id": "paragraph_58",
+          "type": "ParagraphBlock",
+          "content": "خطوات التعامل مع الحوادث"
+        },
+        {
+          "id": "paragraph_59",
+          "type": "ParagraphBlock",
+          "content": "اكتشاف المشكلة."
+        },
+        {
+          "id": "paragraph_60",
+          "type": "ParagraphBlock",
+          "content": "توثيق الحادث."
+        },
+        {
+          "id": "paragraph_61",
+          "type": "ParagraphBlock",
+          "content": "الإبلاغ للجهة المختصة."
+        },
+        {
+          "id": "paragraph_62",
+          "type": "ParagraphBlock",
+          "content": "معالجة المشكلة."
+        },
+        {
+          "id": "paragraph_63",
+          "type": "ParagraphBlock",
+          "content": "تقييم الإجراءات المتخذة."
+        },
+        {
+          "id": "paragraph_64",
+          "type": "ParagraphBlock",
+          "content": "الأنشطة"
+        },
+        {
+          "id": "paragraph_65",
+          "type": "ParagraphBlock",
+          "content": "النشاط الأول"
+        },
+        {
+          "id": "paragraph_66",
+          "type": "ParagraphBlock",
+          "content": "قم بتقييم قوة كلمة المرور المستخدمة في أحد حساباتك الرقمية وفق معايير الأمان."
+        },
+        {
+          "id": "paragraph_67",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثاني"
+        },
+        {
+          "id": "paragraph_68",
+          "type": "ParagraphBlock",
+          "content": "حلل مجموعة من الرسائل الإلكترونية وحدد الرسائل المشبوهة."
+        },
+        {
+          "id": "paragraph_69",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثالث"
+        },
+        {
+          "id": "paragraph_70",
+          "type": "ParagraphBlock",
+          "content": "أعد قائمة بالإجراءات الوقائية التي يمكن تطبيقها لحماية أجهزة المؤسسة التعليمية."
+        },
+        {
+          "id": "paragraph_71",
+          "type": "ParagraphBlock",
+          "content": "النشاط الرابع"
+        },
+        {
+          "id": "paragraph_72",
+          "type": "ParagraphBlock",
+          "content": "صمم خطة استجابة أولية لحادث اختراق إلكتروني داخل المؤسسة."
+        },
+        {
+          "id": "paragraph_73",
+          "type": "ParagraphBlock",
+          "content": "التقويم"
+        },
+        {
+          "id": "paragraph_74",
+          "type": "ParagraphBlock",
+          "content": "اولا: اختيار من متعدد"
+        },
+        {
+          "id": "paragraph_75",
+          "type": "ParagraphBlock",
+          "content": "من خصائص كلمة المرور القوية"
+        },
+        {
+          "id": "paragraph_76",
+          "type": "ParagraphBlock",
+          "content": "أ) تاريخ الميلاد"
+        },
+        {
+          "id": "paragraph_77",
+          "type": "ParagraphBlock",
+          "content": "ب) الاسم فقط"
+        },
+        {
+          "id": "paragraph_78",
+          "type": "ParagraphBlock",
+          "content": "ج) مزيج من الحروف والأرقام والرموز"
+        },
+        {
+          "id": "paragraph_79",
+          "type": "ParagraphBlock",
+          "content": "د) رقم الهاتف"
+        },
+        {
+          "id": "paragraph_80",
+          "type": "ParagraphBlock",
+          "content": "من مؤشرات الروابط المشبوهة:"
+        },
+        {
+          "id": "paragraph_81",
+          "type": "ParagraphBlock",
+          "content": "أ) مصدر موثوق"
+        },
+        {
+          "id": "paragraph_82",
+          "type": "ParagraphBlock",
+          "content": "ب) طلب معلومات شخصية"
+        },
+        {
+          "id": "paragraph_83",
+          "type": "ParagraphBlock",
+          "content": "ج) موقع رسمي"
+        },
+        {
+          "id": "paragraph_84",
+          "type": "ParagraphBlock",
+          "content": "د) عنوان معروف"
+        },
+        {
+          "id": "paragraph_85",
+          "type": "ParagraphBlock",
+          "content": "ثانيا: صح أم خطأ"
+        },
+        {
+          "id": "paragraph_86",
+          "type": "ParagraphBlock",
+          "content": "يساعد تحديث برامج الحماية في تعزيز الأمن السيبراني."
+        },
+        {
+          "id": "paragraph_87",
+          "type": "ParagraphBlock",
+          "content": "يمكن فتح أي رابط يصل عبر البريد الإلكتروني دون التحقق منه."
+        },
+        {
+          "id": "paragraph_88",
+          "type": "ParagraphBlock",
+          "content": "تعد المصادقة متعددة العوامل وسيلة لتعزيز حماية الحسابات."
+        },
+        {
+          "id": "paragraph_89",
+          "type": "ParagraphBlock",
+          "content": "مهمة أدائية"
+        },
+        {
+          "id": "paragraph_90",
+          "type": "ParagraphBlock",
+          "content": "قم بإعداد دليل مبسط للأمن السيبراني داخل مؤسستك التعليمية يتضمن"
+        },
+        {
+          "id": "paragraph_91",
+          "type": "ParagraphBlock",
+          "content": "قواعد إنشاء كلمات المرور."
+        },
+        {
+          "id": "paragraph_92",
+          "type": "ParagraphBlock",
+          "content": "إجراءات حماية الأجهزة."
+        },
+        {
+          "id": "paragraph_93",
+          "type": "ParagraphBlock",
+          "content": "آلية التعامل مع الرسائل المشبوهة."
+        },
+        {
+          "id": "paragraph_94",
+          "type": "ParagraphBlock",
+          "content": "خطوات الإبلاغ عن الحوادث الإلكترونية."
+        },
+        {
+          "id": "paragraph_95",
+          "type": "ParagraphBlock",
+          "content": "ملخص الدرس"
+        },
+        {
+          "id": "paragraph_96",
+          "type": "ParagraphBlock",
+          "content": "الدرس الثاني"
+        },
+        {
+          "id": "paragraph_97",
+          "type": "ParagraphBlock",
+          "content": "الإشراف الرقمي على التعليم"
+        },
+        {
+          "id": "paragraph_98",
+          "type": "ParagraphBlock",
+          "content": "الأهداف التعليمية"
+        },
+        {
+          "id": "paragraph_99",
+          "type": "ParagraphBlock",
+          "content": "بعد دراسة هذا الدرس يصبح المتدرب قادراً على أن:"
+        },
+        {
+          "id": "paragraph_100",
+          "type": "ParagraphBlock",
+          "content": "يوضح مفهوم الإشراف الرقمي على التعليم."
+        },
+        {
+          "id": "paragraph_101",
+          "type": "ParagraphBlock",
+          "content": "يتابع تنفيذ الدروس والأنشطة التعليمية إلكترونياً."
+        },
+        {
+          "id": "paragraph_102",
+          "type": "ParagraphBlock",
+          "content": "يستخدم أدوات متابعة الحضور والانضباط الرقمي."
+        },
+        {
+          "id": "paragraph_103",
+          "type": "ParagraphBlock",
+          "content": "يوظف أدوات التغذية الراجعة الرقمية لتحسين الأداء التعليمي."
+        },
+        {
+          "id": "paragraph_104",
+          "type": "ParagraphBlock",
+          "content": "يطبق أساليب التقويم الرقمي المناسبة."
+        },
+        {
+          "id": "paragraph_105",
+          "type": "ParagraphBlock",
+          "content": "يحلل نتائج الاختبارات الإلكترونية لاتخاذ قرارات تطويرية."
+        },
+        {
+          "id": "paragraph_106",
+          "type": "ParagraphBlock",
+          "content": "يوظف تطبيقات الذكاء الاصطناعي لدعم عمليات الإشراف والمتابعة التعليمية."
+        },
+        {
+          "id": "paragraph_107",
+          "type": "ParagraphBlock",
+          "content": "عرض المحتوى"
+        },
+        {
+          "id": "paragraph_108",
+          "type": "ParagraphBlock",
+          "content": "العنصر الأول: مفهوم الإشراف الرقمي على التعليم"
+        },
+        {
+          "id": "paragraph_109",
+          "type": "ParagraphBlock",
+          "content": "مفهوم الإشراف الرقمي"
+        },
+        {
+          "id": "paragraph_110",
+          "type": "ParagraphBlock",
+          "content": "هو استخدام التقنيات والمنصات الرقمية لمتابعة العملية التعليمية وتقويمها وتحسينها بصورة مستمرة."
+        },
+        {
+          "id": "paragraph_111",
+          "type": "ParagraphBlock",
+          "content": "أهمية الإشراف الرقمي"
+        },
+        {
+          "id": "paragraph_112",
+          "type": "ParagraphBlock",
+          "content": "تحسين جودة التعليم."
+        },
+        {
+          "id": "paragraph_113",
+          "type": "ParagraphBlock",
+          "content": "سرعة متابعة الأداء."
+        },
+        {
+          "id": "paragraph_114",
+          "type": "ParagraphBlock",
+          "content": "دعم اتخاذ القرار."
+        },
+        {
+          "id": "paragraph_115",
+          "type": "ParagraphBlock",
+          "content": "توفير بيانات دقيقة."
+        },
+        {
+          "id": "paragraph_116",
+          "type": "ParagraphBlock",
+          "content": "تعزيز التواصل مع المعلمين والطلاب."
+        },
+        {
+          "id": "paragraph_117",
+          "type": "ParagraphBlock",
+          "content": "أهداف الإشراف الرقمي"
+        },
+        {
+          "id": "paragraph_118",
+          "type": "ParagraphBlock",
+          "content": "متابعة تنفيذ الخطط التعليمية."
+        },
+        {
+          "id": "paragraph_119",
+          "type": "ParagraphBlock",
+          "content": "تحسين الممارسات التدريسية."
+        },
+        {
+          "id": "paragraph_120",
+          "type": "ParagraphBlock",
+          "content": "رفع مستوى التحصيل الدراسي."
+        },
+        {
+          "id": "paragraph_121",
+          "type": "ParagraphBlock",
+          "content": "دعم التحول الرقمي بالمؤسسات التعليمية."
+        },
+        {
+          "id": "paragraph_122",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثاني: متابعة الدروس والأنشطة التعليمية إلكترونياً"
+        },
+        {
+          "id": "paragraph_123",
+          "type": "ParagraphBlock",
+          "content": "مفهوم المتابعة الرقمية"
+        },
+        {
+          "id": "paragraph_124",
+          "type": "ParagraphBlock",
+          "content": "هي عملية مراقبة تنفيذ الدروس والأنشطة عبر المنصات التعليمية."
+        },
+        {
+          "id": "paragraph_125",
+          "type": "ParagraphBlock",
+          "content": "مجالات المتابعة"
+        },
+        {
+          "id": "paragraph_126",
+          "type": "ParagraphBlock",
+          "content": "تنفيذ الخطة الدراسية."
+        },
+        {
+          "id": "paragraph_127",
+          "type": "ParagraphBlock",
+          "content": "الالتزام بالمواعيد."
+        },
+        {
+          "id": "paragraph_128",
+          "type": "ParagraphBlock",
+          "content": "مشاركة الطلاب."
+        },
+        {
+          "id": "paragraph_129",
+          "type": "ParagraphBlock",
+          "content": "استخدام الموارد الرقمية."
+        },
+        {
+          "id": "paragraph_130",
+          "type": "ParagraphBlock",
+          "content": "أدوات المتابعة"
+        },
+        {
+          "id": "paragraph_131",
+          "type": "ParagraphBlock",
+          "content": "(Microsoft Teams)."
+        },
+        {
+          "id": "paragraph_132",
+          "type": "ParagraphBlock",
+          "content": "المصدر: YouTube"
+        },
+        {
+          "id": "paragraph_133",
+          "type": "ParagraphBlock",
+          "content": "https://share.google/rYkuNtiaMTenVkfmR"
+        },
+        {
+          "id": "paragraph_134",
+          "type": "ParagraphBlock",
+          "content": "(Google Classroom)."
+        },
+        {
+          "id": "paragraph_135",
+          "type": "ParagraphBlock",
+          "content": "المصدر: YouTube"
+        },
+        {
+          "id": "paragraph_136",
+          "type": "ParagraphBlock",
+          "content": "https://share.google/JM2daddtKaFYz6PMp"
+        },
+        {
+          "id": "paragraph_137",
+          "type": "ParagraphBlock",
+          "content": "(Moodle)."
+        },
+        {
+          "id": "paragraph_138",
+          "type": "ParagraphBlock",
+          "content": "المصدر: YouTube"
+        },
+        {
+          "id": "paragraph_139",
+          "type": "ParagraphBlock",
+          "content": "https://share.google/uO2gq56twDPBhyirS"
+        },
+        {
+          "id": "paragraph_140",
+          "type": "ParagraphBlock",
+          "content": "ا(لمنصات التعليمية المؤسسية)."
+        },
+        {
+          "id": "paragraph_141",
+          "type": "ParagraphBlock",
+          "content": "المصدر: YouTube"
+        },
+        {
+          "id": "paragraph_142",
+          "type": "ParagraphBlock",
+          "content": "https://share.google/TNOB3euTQRybyIZFY"
+        },
+        {
+          "id": "paragraph_143",
+          "type": "ParagraphBlock",
+          "content": "العنصر الثالث: متابعة الحضور والانضباط الرقمي"
+        },
+        {
+          "id": "paragraph_144",
+          "type": "ParagraphBlock",
+          "content": "أهمية متابعة الحضور"
+        },
+        {
+          "id": "paragraph_145",
+          "type": "ParagraphBlock",
+          "content": "قياس مدى التفاعل."
+        },
+        {
+          "id": "paragraph_146",
+          "type": "ParagraphBlock",
+          "content": "الكشف المبكر عن الغياب."
+        },
+        {
+          "id": "paragraph_147",
+          "type": "ParagraphBlock",
+          "content": "تحسين الانضباط التعليمي."
+        },
+        {
+          "id": "paragraph_148",
+          "type": "ParagraphBlock",
+          "content": "أدوات متابعة الحضور"
+        },
+        {
+          "id": "paragraph_149",
+          "type": "ParagraphBlock",
+          "content": "سجلات المنصات التعليمية."
+        },
+        {
+          "id": "paragraph_150",
+          "type": "ParagraphBlock",
+          "content": "أنظمة إدارة التعلم."
+        },
+        {
+          "id": "paragraph_151",
+          "type": "ParagraphBlock",
+          "content": "تطبيقات الحضور الإلكتروني."
+        },
+        {
+          "id": "paragraph_152",
+          "type": "ParagraphBlock",
+          "content": "مؤشرات الحضور"
+        },
+        {
+          "id": "paragraph_153",
+          "type": "ParagraphBlock",
+          "content": "نسبة الحضور."
+        },
+        {
+          "id": "paragraph_154",
+          "type": "ParagraphBlock",
+          "content": "معدل الغياب."
+        },
+        {
+          "id": "paragraph_155",
+          "type": "ParagraphBlock",
+          "content": "معدل المشاركة."
+        },
+        {
+          "id": "paragraph_156",
+          "type": "ParagraphBlock",
+          "content": "العنصر الرابع: التغذية الراجعة الرقمية"
+        },
+        {
+          "id": "paragraph_157",
+          "type": "ParagraphBlock",
+          "content": "مفهوم التغذية الراجعة الرقمية"
+        },
+        {
+          "id": "paragraph_158",
+          "type": "ParagraphBlock",
+          "content": "هي المعلومات والتوجيهات التي تقدم للمتعلمين أو المعلمين إلكترونياً بهدف تحسين الأداء."
+        },
+        {
+          "id": "paragraph_159",
+          "type": "ParagraphBlock",
+          "content": "خصائص التغذية الراجعة الفعالة"
+        },
+        {
+          "id": "paragraph_160",
+          "type": "ParagraphBlock",
+          "content": "الوضوح."
+        },
+        {
+          "id": "paragraph_161",
+          "type": "ParagraphBlock",
+          "content": "السرعة."
+        },
+        {
+          "id": "paragraph_162",
+          "type": "ParagraphBlock",
+          "content": "الموضوعية."
+        },
+        {
+          "id": "paragraph_163",
+          "type": "ParagraphBlock",
+          "content": "الارتباط بالأداء."
+        },
+        {
+          "id": "paragraph_164",
+          "type": "ParagraphBlock",
+          "content": "فوائد التغذية الراجعة"
+        },
+        {
+          "id": "paragraph_165",
+          "type": "ParagraphBlock",
+          "content": "تحسين التعلم."
+        },
+        {
+          "id": "paragraph_166",
+          "type": "ParagraphBlock",
+          "content": "معالجة جوانب الضعف."
+        },
+        {
+          "id": "paragraph_167",
+          "type": "ParagraphBlock",
+          "content": "تعزيز الدافعية."
+        },
+        {
+          "id": "paragraph_168",
+          "type": "ParagraphBlock",
+          "content": "دعم التطوير المهني."
+        },
+        {
+          "id": "paragraph_169",
+          "type": "ParagraphBlock",
+          "content": "العنصر الخامس: التقويم الرقمي وتحليل النتائج"
+        },
+        {
+          "id": "paragraph_170",
+          "type": "ParagraphBlock",
+          "content": "مفهوم التقويم الرقمي"
+        },
+        {
+          "id": "paragraph_171",
+          "type": "ParagraphBlock",
+          "content": "استخدام الأدوات الرقمية لقياس نواتج التعلم والأداء المؤسسي."
+        },
+        {
+          "id": "paragraph_172",
+          "type": "ParagraphBlock",
+          "content": "أدوات التقويم الرقمي"
+        },
+        {
+          "id": "paragraph_173",
+          "type": "ParagraphBlock",
+          "content": "Google Forms."
+        },
+        {
+          "id": "paragraph_174",
+          "type": "ParagraphBlock",
+          "content": "Microsoft Forms."
+        },
+        {
+          "id": "paragraph_175",
+          "type": "ParagraphBlock",
+          "content": "Quizizz."
+        },
+        {
+          "id": "paragraph_176",
+          "type": "ParagraphBlock",
+          "content": "Kahoot."
+        },
+        {
+          "id": "paragraph_177",
+          "type": "ParagraphBlock",
+          "content": "خطوات تحليل النتائج"
+        },
+        {
+          "id": "paragraph_178",
+          "type": "ParagraphBlock",
+          "content": "جمع البيانات."
+        },
+        {
+          "id": "paragraph_179",
+          "type": "ParagraphBlock",
+          "content": "تنظيم النتائج."
+        },
+        {
+          "id": "paragraph_180",
+          "type": "ParagraphBlock",
+          "content": "حساب المؤشرات."
+        },
+        {
+          "id": "paragraph_181",
+          "type": "ParagraphBlock",
+          "content": "تحديد نقاط القوة والضعف."
+        },
+        {
+          "id": "paragraph_182",
+          "type": "ParagraphBlock",
+          "content": "إعداد التوصيات."
+        },
+        {
+          "id": "paragraph_183",
+          "type": "ParagraphBlock",
+          "content": "دور الذكاء الاصطناعي في التقويم"
+        },
+        {
+          "id": "paragraph_184",
+          "type": "ParagraphBlock",
+          "content": "تحليل نتائج الاختبارات."
+        },
+        {
+          "id": "paragraph_185",
+          "type": "ParagraphBlock",
+          "content": "إعداد التقارير التلقائية."
+        },
+        {
+          "id": "paragraph_186",
+          "type": "ParagraphBlock",
+          "content": "اكتشاف أنماط الأداء."
+        },
+        {
+          "id": "paragraph_187",
+          "type": "ParagraphBlock",
+          "content": "تقديم توصيات للتحسين."
+        },
+        {
+          "id": "paragraph_188",
+          "type": "ParagraphBlock",
+          "content": "الأنشطة"
+        },
+        {
+          "id": "paragraph_189",
+          "type": "ParagraphBlock",
+          "content": "النشاط الأول"
+        },
+        {
+          "id": "paragraph_190",
+          "type": "ParagraphBlock",
+          "content": "قم بمتابعة درس إلكتروني من خلال إحدى المنصات التعليمية وسجل ملاحظاتك حول مستوى التفاعل والمشاركة."
+        },
+        {
+          "id": "paragraph_191",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثاني"
+        },
+        {
+          "id": "paragraph_192",
+          "type": "ParagraphBlock",
+          "content": "صمم نموذجاً رقمياً لمتابعة حضور الطلاب باستخدام Microsoft Forms أو Google Forms."
+        },
+        {
+          "id": "paragraph_193",
+          "type": "ParagraphBlock",
+          "content": "النشاط الثالث"
+        },
+        {
+          "id": "paragraph_194",
+          "type": "ParagraphBlock",
+          "content": "أعد نموذج تغذية راجعة رقمية للمعلمين بعد تنفيذ درس إلكتروني."
+        },
+        {
+          "id": "paragraph_195",
+          "type": "ParagraphBlock",
+          "content": "النشاط الرابع"
+        },
+        {
+          "id": "paragraph_196",
+          "type": "ParagraphBlock",
+          "content": "استخدم إحدى أدوات الذكاء الاصطناعي لتحليل نتائج اختبار إلكتروني واستخراج أهم نقاط القوة وجوانب التحسين."
+        },
+        {
+          "id": "paragraph_197",
+          "type": "ParagraphBlock",
+          "content": "التقويم"
+        },
+        {
+          "id": "paragraph_198",
+          "type": "ParagraphBlock",
+          "content": "أولاً: أسئلة اختيار من متعدد"
+        },
+        {
+          "id": "paragraph_199",
+          "type": "ParagraphBlock",
+          "content": "1. يقصد بالإشراف الرقمي:"
+        },
+        {
+          "id": "paragraph_200",
+          "type": "ParagraphBlock",
+          "content": "أ) متابعة العملية التعليمية باستخدام التقنيات الرقمية."
+        },
+        {
+          "id": "paragraph_201",
+          "type": "ParagraphBlock",
+          "content": "ب) حفظ الملفات الورقية."
+        },
+        {
+          "id": "paragraph_202",
+          "type": "ParagraphBlock",
+          "content": "ج) إدارة المخازن المدرسية."
+        },
+        {
+          "id": "paragraph_203",
+          "type": "ParagraphBlock",
+          "content": "د) تنظيم الأثاث المدرسي."
+        },
+        {
+          "id": "paragraph_204",
+          "type": "ParagraphBlock",
+          "content": "2. من أدوات التقويم الرقمي:"
+        },
+        {
+          "id": "paragraph_205",
+          "type": "ParagraphBlock",
+          "content": "أ) Google Forms"
+        },
+        {
+          "id": "paragraph_206",
+          "type": "ParagraphBlock",
+          "content": "ب) الدفاتر الورقية"
+        },
+        {
+          "id": "paragraph_207",
+          "type": "ParagraphBlock",
+          "content": "ج) السبورة التقليدية"
+        },
+        {
+          "id": "paragraph_208",
+          "type": "ParagraphBlock",
+          "content": "د) الملفات الورقية"
+        },
+        {
+          "id": "paragraph_209",
+          "type": "ParagraphBlock",
+          "content": "ثانياً: صح أم خطأ"
+        },
+        {
+          "id": "paragraph_210",
+          "type": "ParagraphBlock",
+          "content": "تساعد التغذية الراجعة الرقمية في تحسين الأداء التعليمي. (✓)"
+        },
+        {
+          "id": "paragraph_211",
+          "type": "ParagraphBlock",
+          "content": "لا يمكن تحليل نتائج الاختبارات إلكترونياً. (✗)"
+        },
+        {
+          "id": "paragraph_212",
+          "type": "ParagraphBlock",
+          "content": "يعد Microsoft Forms من أدوات التقويم الرقمي. (✓)"
+        },
+        {
+          "id": "paragraph_213",
+          "type": "ParagraphBlock",
+          "content": "ثالثاً: مهمة أدائية"
+        },
+        {
+          "id": "paragraph_214",
+          "type": "ParagraphBlock",
+          "content": "بصفتك قائداً تربوياً:"
+        },
+        {
+          "id": "paragraph_215",
+          "type": "ParagraphBlock",
+          "content": "قم بإعداد خطة إشراف رقمي تتضمن:"
+        },
+        {
+          "id": "paragraph_216",
+          "type": "ParagraphBlock",
+          "content": "آلية متابعة الدروس."
+        },
+        {
+          "id": "paragraph_217",
+          "type": "ParagraphBlock",
+          "content": "مؤشرات الحضور والمشاركة."
+        },
+        {
+          "id": "paragraph_218",
+          "type": "ParagraphBlock",
+          "content": "أدوات التغذية الراجعة."
+        },
+        {
+          "id": "paragraph_219",
+          "type": "ParagraphBlock",
+          "content": "أساليب التقويم الرقمي."
+        },
+        {
+          "id": "paragraph_220",
+          "type": "ParagraphBlock",
+          "content": "كيفية الاستفادة من نتائج التقويم في تحسين الأداء."
+        },
+        {
+          "id": "paragraph_221",
+          "type": "ParagraphBlock",
+          "content": "ملخص الدرس"
+        }
+      ]
+    }
+  ]
+}

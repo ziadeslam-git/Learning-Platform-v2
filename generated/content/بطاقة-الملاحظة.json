@@ -1,0 +1,484 @@
+{
+  "id": "بطاقة-الملاحظة",
+  "title": "بطاقة الملاحظة",
+  "type": "assessment",
+  "language": "ar",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Section",
+      "blocks": [
+        {
+          "id": "paragraph_1",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية"
+        },
+        {
+          "id": "paragraph_2",
+          "type": "ParagraphBlock",
+          "content": "قسم تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_3",
+          "type": "ParagraphBlock",
+          "content": "بطاقة ملاحظة الأداء لمهارات التحول الرقمي المهنية"
+        },
+        {
+          "id": "paragraph_4",
+          "type": "ParagraphBlock",
+          "content": "لدي القيادات التعليمية"
+        },
+        {
+          "id": "paragraph_5",
+          "type": "ParagraphBlock",
+          "content": "إعداد"
+        },
+        {
+          "id": "paragraph_6",
+          "type": "ParagraphBlock",
+          "content": "أيه محمد عنتر على"
+        },
+        {
+          "id": "paragraph_7",
+          "type": "ParagraphBlock",
+          "content": "إشراف"
+        },
+        {
+          "id": "paragraph_8",
+          "type": "ParagraphBlock",
+          "content": "أ.د / الغريب زاهر إسماعيل"
+        },
+        {
+          "id": "paragraph_9",
+          "type": "ParagraphBlock",
+          "content": "أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة، ومقرر اللجنة العلمية لترقية الاساتذة والأساتذة المساعدين تخصص تكنولوجيا التعليم والحاسب الآلي بالمجلس الأعلى للجامعات المصرية"
+        },
+        {
+          "id": "paragraph_10",
+          "type": "ParagraphBlock",
+          "content": "أ.د/ رشا حمدى حسن هداية"
+        },
+        {
+          "id": "paragraph_11",
+          "type": "ParagraphBlock",
+          "content": "استاذ تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_12",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية جامعة المنصورة"
+        },
+        {
+          "id": "paragraph_13",
+          "type": "ParagraphBlock",
+          "content": "ر"
+        },
+        {
+          "id": "paragraph_14",
+          "type": "ParagraphBlock",
+          "content": "2026م- 1448هـ"
+        },
+        {
+          "id": "paragraph_15",
+          "type": "ParagraphBlock",
+          "content": "الأستاذ الدكتور/ ........................................................................................."
+        },
+        {
+          "id": "paragraph_16",
+          "type": "ParagraphBlock",
+          "content": "السلام عليكم ورحمة الله وبركاته"
+        },
+        {
+          "id": "paragraph_17",
+          "type": "ParagraphBlock",
+          "content": "تقوم الباحثة/ أيه محمد عنتر على بإجراء دراسة بعنوان: \"فاعلية توظيف تطبيقات الذكاء الاصطناعي ببيئة تدريب شخصية في تنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية\" للحصول على درجة الدكتوراه في التربية تخصص تكنولوجيا التعليم، ومن متطلبات الدراسة إعداد بطاقة ملاحظة الأداء لمهارات التحول الرقمي المهنية لدي القيادات التعليمية."
+        },
+        {
+          "id": "paragraph_18",
+          "type": "ParagraphBlock",
+          "content": "وتأمل الباحثة من سيادتكم التكرم بالإطلاع على قائمة المهارات وإبداء الرأى حول ما يلى:"
+        },
+        {
+          "id": "paragraph_19",
+          "type": "ParagraphBlock",
+          "content": "ولسيادتكم جزيل الشكر"
+        },
+        {
+          "id": "paragraph_20",
+          "type": "ParagraphBlock",
+          "content": "الباحثة"
+        },
+        {
+          "id": "paragraph_21",
+          "type": "ParagraphBlock",
+          "content": "م"
+        },
+        {
+          "id": "paragraph_22",
+          "type": "ParagraphBlock",
+          "content": "المهـــــــــــــــــــــارة"
+        },
+        {
+          "id": "paragraph_23",
+          "type": "ParagraphBlock",
+          "content": "درجة الصياغة"
+        },
+        {
+          "id": "paragraph_24",
+          "type": "ParagraphBlock",
+          "content": "درجة الأهمية"
+        },
+        {
+          "id": "paragraph_25",
+          "type": "ParagraphBlock",
+          "content": "واضحة"
+        },
+        {
+          "id": "paragraph_26",
+          "type": "ParagraphBlock",
+          "content": "غير واضحة"
+        },
+        {
+          "id": "paragraph_27",
+          "type": "ParagraphBlock",
+          "content": "مهمة"
+        },
+        {
+          "id": "paragraph_28",
+          "type": "ParagraphBlock",
+          "content": "غير مهمة"
+        },
+        {
+          "id": "paragraph_29",
+          "type": "ParagraphBlock",
+          "content": "(١) أولًا: القيادة والتخطيط الرقمي"
+        },
+        {
+          "id": "paragraph_30",
+          "type": "ParagraphBlock",
+          "content": "يحديد الاحتياجات الرقمية للمؤسسة."
+        },
+        {
+          "id": "paragraph_31",
+          "type": "ParagraphBlock",
+          "content": "يصوغ أهداف رقمية واضحة."
+        },
+        {
+          "id": "paragraph_32",
+          "type": "ParagraphBlock",
+          "content": "يحدد أولويات التحول الرقمي."
+        },
+        {
+          "id": "paragraph_33",
+          "type": "ParagraphBlock",
+          "content": "يعد خطة زمنية للتحول الرقمي."
+        },
+        {
+          "id": "paragraph_34",
+          "type": "ParagraphBlock",
+          "content": "يحدد الموارد اللازمة للتنفيذ."
+        },
+        {
+          "id": "paragraph_35",
+          "type": "ParagraphBlock",
+          "content": "يوزع المهام إلكترونيًا."
+        },
+        {
+          "id": "paragraph_36",
+          "type": "ParagraphBlock",
+          "content": "يتابع تنفيذ الخطة الرقمية."
+        },
+        {
+          "id": "paragraph_37",
+          "type": "ParagraphBlock",
+          "content": "يعد تقارير متابعة إلكترونية."
+        },
+        {
+          "id": "paragraph_38",
+          "type": "ParagraphBlock",
+          "content": "(٢) ثانيًا: إدارة التقنية والبنية الرقمية"
+        },
+        {
+          "id": "paragraph_39",
+          "type": "ParagraphBlock",
+          "content": "يسجل الدخول وإدارة الحسابات."
+        },
+        {
+          "id": "paragraph_40",
+          "type": "ParagraphBlock",
+          "content": "يرفع الملفات والموارد التعليمية."
+        },
+        {
+          "id": "paragraph_41",
+          "type": "ParagraphBlock",
+          "content": "يتابع المستخدمين على المنصة."
+        },
+        {
+          "id": "paragraph_42",
+          "type": "ParagraphBlock",
+          "content": "يستخرج التقارير من المنصة."
+        },
+        {
+          "id": "paragraph_43",
+          "type": "ParagraphBlock",
+          "content": "يثبت البرامج التعليمية."
+        },
+        {
+          "id": "paragraph_44",
+          "type": "ParagraphBlock",
+          "content": "يحدث التطبيقات الرقمية."
+        },
+        {
+          "id": "paragraph_45",
+          "type": "ParagraphBlock",
+          "content": "يحفظ الملفات إلكترونيًا."
+        },
+        {
+          "id": "paragraph_46",
+          "type": "ParagraphBlock",
+          "content": "يشارك الملفات عبر المنصات."
+        },
+        {
+          "id": "paragraph_47",
+          "type": "ParagraphBlock",
+          "content": "يسترجع الملفات عند الحاجة."
+        },
+        {
+          "id": "paragraph_48",
+          "type": "ParagraphBlock",
+          "content": "(٣) ثالثًا: الاتصال والتواصل الرقمي"
+        },
+        {
+          "id": "paragraph_49",
+          "type": "ParagraphBlock",
+          "content": "يرسل الرسائل الإلكترونية."
+        },
+        {
+          "id": "paragraph_50",
+          "type": "ParagraphBlock",
+          "content": "يرد على المراسلات إلكترونيًا."
+        },
+        {
+          "id": "paragraph_51",
+          "type": "ParagraphBlock",
+          "content": "ينشيء الاجتماعات الإلكترونية."
+        },
+        {
+          "id": "paragraph_52",
+          "type": "ParagraphBlock",
+          "content": "يدعو المشاركين للاجتماعات."
+        },
+        {
+          "id": "paragraph_53",
+          "type": "ParagraphBlock",
+          "content": "يدير الحوار أثناء الاجتماع."
+        },
+        {
+          "id": "paragraph_54",
+          "type": "ParagraphBlock",
+          "content": "يسجل الاجتماعات ويحفظها."
+        },
+        {
+          "id": "paragraph_55",
+          "type": "ParagraphBlock",
+          "content": "يرسل التعليمات إلكترونيًا."
+        },
+        {
+          "id": "paragraph_56",
+          "type": "ParagraphBlock",
+          "content": "يتابع استفسارات المعلمين."
+        },
+        {
+          "id": "paragraph_57",
+          "type": "ParagraphBlock",
+          "content": "يتابع تنفيذ المهام التعليمية."
+        },
+        {
+          "id": "paragraph_58",
+          "type": "ParagraphBlock",
+          "content": "يتابع استفسارات أولياء الأمور."
+        },
+        {
+          "id": "paragraph_59",
+          "type": "ParagraphBlock",
+          "content": "يوضح التعليمات الدراسية رقميًا."
+        },
+        {
+          "id": "paragraph_60",
+          "type": "ParagraphBlock",
+          "content": "يتابع تفاعلات الطلاب."
+        },
+        {
+          "id": "paragraph_61",
+          "type": "ParagraphBlock",
+          "content": "(٤) رابعًا: إدارة البيانات واتخاذ القرار"
+        },
+        {
+          "id": "paragraph_62",
+          "type": "ParagraphBlock",
+          "content": "يدخل البيانات الرقمية بشكل صحيح."
+        },
+        {
+          "id": "paragraph_63",
+          "type": "ParagraphBlock",
+          "content": "يحدث البيانات باستمرار."
+        },
+        {
+          "id": "paragraph_64",
+          "type": "ParagraphBlock",
+          "content": "يصنف البيانات إلكترونيًا."
+        },
+        {
+          "id": "paragraph_65",
+          "type": "ParagraphBlock",
+          "content": "يرتب الملفات الرقمية."
+        },
+        {
+          "id": "paragraph_66",
+          "type": "ParagraphBlock",
+          "content": "يحفظ البيانات في قواعد منظمة."
+        },
+        {
+          "id": "paragraph_67",
+          "type": "ParagraphBlock",
+          "content": "ينشيء نسخ احتياطية."
+        },
+        {
+          "id": "paragraph_68",
+          "type": "ParagraphBlock",
+          "content": "يسترجع البيانات عند الحاجة."
+        },
+        {
+          "id": "paragraph_69",
+          "type": "ParagraphBlock",
+          "content": "يحمي البيانات من الفقد."
+        },
+        {
+          "id": "paragraph_70",
+          "type": "ParagraphBlock",
+          "content": "(٥) خامسًا: الأمن السيبراني"
+        },
+        {
+          "id": "paragraph_71",
+          "type": "ParagraphBlock",
+          "content": "يحفظ سرية البيانات."
+        },
+        {
+          "id": "paragraph_72",
+          "type": "ParagraphBlock",
+          "content": "يحدد لمن تكون صلاحيات الوصول."
+        },
+        {
+          "id": "paragraph_73",
+          "type": "ParagraphBlock",
+          "content": "يمنع مشاركة المعلومات غير المصرح بها."
+        },
+        {
+          "id": "paragraph_74",
+          "type": "ParagraphBlock",
+          "content": "ينشيء كلمات مرور قوية."
+        },
+        {
+          "id": "paragraph_75",
+          "type": "ParagraphBlock",
+          "content": "يغيير كلمات المرور دوريًا."
+        },
+        {
+          "id": "paragraph_76",
+          "type": "ParagraphBlock",
+          "content": "يتجنب الروابط المشبوهة."
+        },
+        {
+          "id": "paragraph_77",
+          "type": "ParagraphBlock",
+          "content": "يحدث برامج الحماية."
+        },
+        {
+          "id": "paragraph_78",
+          "type": "ParagraphBlock",
+          "content": "يفحص الأجهزة دوريًا."
+        },
+        {
+          "id": "paragraph_79",
+          "type": "ParagraphBlock",
+          "content": "يتابع أمن الشبكات."
+        },
+        {
+          "id": "paragraph_80",
+          "type": "ParagraphBlock",
+          "content": "يبلغ عن الأعطال الأمنية."
+        },
+        {
+          "id": "paragraph_81",
+          "type": "ParagraphBlock",
+          "content": "يكتشف المشكلات الأمنية."
+        },
+        {
+          "id": "paragraph_82",
+          "type": "ParagraphBlock",
+          "content": "يبلغ عن الاختراقات."
+        },
+        {
+          "id": "paragraph_83",
+          "type": "ParagraphBlock",
+          "content": "(6) سادسًا: الإشراف الرقمي على التعليم"
+        },
+        {
+          "id": "paragraph_84",
+          "type": "ParagraphBlock",
+          "content": "يتابع تنفيذ الدروس إلكترونيًا."
+        },
+        {
+          "id": "paragraph_85",
+          "type": "ParagraphBlock",
+          "content": "يتابع حضور الطلاب إلكترونيًا."
+        },
+        {
+          "id": "paragraph_86",
+          "type": "ParagraphBlock",
+          "content": "يتابع استخدام المنصات التعليمية."
+        },
+        {
+          "id": "paragraph_87",
+          "type": "ParagraphBlock",
+          "content": "يعد تقارير المتابعة الرقمية."
+        },
+        {
+          "id": "paragraph_88",
+          "type": "ParagraphBlock",
+          "content": "يقدم التغذية الراجعة للمعلمين."
+        },
+        {
+          "id": "paragraph_89",
+          "type": "ParagraphBlock",
+          "content": "يُقوم الأداء التدريسي رقميًا."
+        },
+        {
+          "id": "paragraph_90",
+          "type": "ParagraphBlock",
+          "content": "يتابع غياب الطلاب إلكترونيًا."
+        },
+        {
+          "id": "paragraph_91",
+          "type": "ParagraphBlock",
+          "content": "يتواصل مع أولياء الأمور بشأن الغياب إلكترونيًا."
+        },
+        {
+          "id": "paragraph_92",
+          "type": "ParagraphBlock",
+          "content": "يعد الاختبارات الإلكترونية."
+        },
+        {
+          "id": "paragraph_93",
+          "type": "ParagraphBlock",
+          "content": "يتابع نتائج الاختبارات إلكترونيًا."
+        },
+        {
+          "id": "paragraph_94",
+          "type": "ParagraphBlock",
+          "content": "يستخدم أدوات التصحيح الإلكتروني."
+        }
+      ]
+    }
+  ]
+}

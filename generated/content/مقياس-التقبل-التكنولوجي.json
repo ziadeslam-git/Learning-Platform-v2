@@ -1,0 +1,359 @@
+{
+  "id": "مقياس-التقبل-التكنولوجي",
+  "title": "مقياس التقبل التكنولوجي",
+  "type": "platform",
+  "language": "ar",
+  "sections": [
+    {
+      "id": "section_1",
+      "title": "Main Section",
+      "blocks": [
+        {
+          "id": "paragraph_1",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية"
+        },
+        {
+          "id": "paragraph_2",
+          "type": "ParagraphBlock",
+          "content": "قسم تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_3",
+          "type": "ParagraphBlock",
+          "content": "مقياس التقبل التكنولوجي لدى القيادات التعليمية"
+        },
+        {
+          "id": "paragraph_4",
+          "type": "ParagraphBlock",
+          "content": "إعداد"
+        },
+        {
+          "id": "paragraph_5",
+          "type": "ParagraphBlock",
+          "content": "أيه محمد عنتر على"
+        },
+        {
+          "id": "paragraph_6",
+          "type": "ParagraphBlock",
+          "content": "إشراف"
+        },
+        {
+          "id": "paragraph_7",
+          "type": "ParagraphBlock",
+          "content": "أ.د / الغريب زاهر إسماعيل"
+        },
+        {
+          "id": "paragraph_8",
+          "type": "ParagraphBlock",
+          "content": "أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة، ومقرر اللجنة العلمية لترقية الاساتذة والأساتذة المساعدين تخصص تكنولوجيا التعليم والحاسب الآلي بالمجلس الأعلى للجامعات المصرية"
+        },
+        {
+          "id": "paragraph_9",
+          "type": "ParagraphBlock",
+          "content": "أ.د/ رشا حمدي حسن هداية"
+        },
+        {
+          "id": "paragraph_10",
+          "type": "ParagraphBlock",
+          "content": "أستاذ تكنولوجيا التعليم"
+        },
+        {
+          "id": "paragraph_11",
+          "type": "ParagraphBlock",
+          "content": "كلية التربية جامعة المنصورة"
+        },
+        {
+          "id": "paragraph_12",
+          "type": "ParagraphBlock",
+          "content": "1448هـ / 2026م"
+        },
+        {
+          "id": "paragraph_13",
+          "type": "ParagraphBlock",
+          "content": "الأستاذ الدكتور/ ............................................................................"
+        },
+        {
+          "id": "paragraph_14",
+          "type": "ParagraphBlock",
+          "content": "السلام عليكم ورحمة الله وبركاته"
+        },
+        {
+          "id": "paragraph_15",
+          "type": "ParagraphBlock",
+          "content": "تقوم الباحثة بإعداد دراسة بعنوان \" فاعلية توظيف تطبيقات الذكاء الاصطناعي ببيئة تدريب شخصية في تنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية\" للحصول على درجة الدكتوراه في التربية تخصص تكنولوجيا التعليم. ومن متطلبات الدراسة إعداد مقياس للتقبل التكنولوجي لدى القيادات التعليمية، وتأمل الباحثة من سيادتكم التكرم بالاطلاع على المقياس وإبداء الرأي في محاوره وبنوده من حيث:"
+        },
+        {
+          "id": "paragraph_16",
+          "type": "ParagraphBlock",
+          "content": "ولسيادتكم جزيل الشكر"
+        },
+        {
+          "id": "paragraph_17",
+          "type": "ParagraphBlock",
+          "content": "الباحثة"
+        },
+        {
+          "id": "paragraph_18",
+          "type": "ParagraphBlock",
+          "content": "توضيح حول المقياس:"
+        },
+        {
+          "id": "paragraph_19",
+          "type": "ParagraphBlock",
+          "content": "يتكون هذا المقياس من خمسة محاور أساسية و25 نقطة فرعية وتم وضع خمس استجابات لكل عبارة من عبارات المقياس ويقوم المدير بالتأشير في الخانة التي تتفق مع رأيه. هذه الاستجابات هي: أوافق بشدة، أوافق، لا أدري، لا أوافق، لا أوافق بشدة. ويتم تصحيح المقياس بحيث:"
+        },
+        {
+          "id": "paragraph_20",
+          "type": "ParagraphBlock",
+          "content": "تقدر العبارات كالتالي: (درجة واحدة) لا أوافق بشدة، (درجتان) لا أوافق، (ثلاث درجات) لا أدري، (أربع درجات) أوافق، (خمس درجات) أوافق بشدة. وبذلك تكون النهاية العظمى للمقياس 125 درجة والصغرى 25 درجة."
+        },
+        {
+          "id": "paragraph_21",
+          "type": "ParagraphBlock",
+          "content": "م"
+        },
+        {
+          "id": "paragraph_22",
+          "type": "ParagraphBlock",
+          "content": "العبــــــــــــــــــــــــــــــــارة"
+        },
+        {
+          "id": "paragraph_23",
+          "type": "ParagraphBlock",
+          "content": "أوافق بشدة"
+        },
+        {
+          "id": "paragraph_24",
+          "type": "ParagraphBlock",
+          "content": "أوافق"
+        },
+        {
+          "id": "paragraph_25",
+          "type": "ParagraphBlock",
+          "content": "لا أدري"
+        },
+        {
+          "id": "paragraph_26",
+          "type": "ParagraphBlock",
+          "content": "لا اوافق"
+        },
+        {
+          "id": "paragraph_27",
+          "type": "ParagraphBlock",
+          "content": "لا أوافق بشدة"
+        },
+        {
+          "id": "paragraph_28",
+          "type": "ParagraphBlock",
+          "content": "المحور الأول: الإدراك لأهمية التكنولوجيا"
+        },
+        {
+          "id": "paragraph_29",
+          "type": "ParagraphBlock",
+          "content": "1"
+        },
+        {
+          "id": "paragraph_30",
+          "type": "ParagraphBlock",
+          "content": "أرى أن التكنولوجيا تسهم في تحسين جودة العمل الإداري."
+        },
+        {
+          "id": "paragraph_31",
+          "type": "ParagraphBlock",
+          "content": "عزيزى المدير هذا مقياس للتقبل التكنولوجي، نرجو منك قراءته جيدًا والتأشير على جميع العبارات فيه بعد تسجيل الاسم."
+        },
+        {
+          "id": "paragraph_32",
+          "type": "ParagraphBlock",
+          "content": "ملاحظات:"
+        },
+        {
+          "id": "paragraph_33",
+          "type": "ParagraphBlock",
+          "content": "م"
+        },
+        {
+          "id": "paragraph_34",
+          "type": "ParagraphBlock",
+          "content": "العبارة"
+        },
+        {
+          "id": "paragraph_35",
+          "type": "ParagraphBlock",
+          "content": "أوافق بشدة"
+        },
+        {
+          "id": "paragraph_36",
+          "type": "ParagraphBlock",
+          "content": "أوافق"
+        },
+        {
+          "id": "paragraph_37",
+          "type": "ParagraphBlock",
+          "content": "لا أدري"
+        },
+        {
+          "id": "paragraph_38",
+          "type": "ParagraphBlock",
+          "content": "لا أوافق"
+        },
+        {
+          "id": "paragraph_39",
+          "type": "ParagraphBlock",
+          "content": "لا أوافق بشدة"
+        },
+        {
+          "id": "paragraph_40",
+          "type": "ParagraphBlock",
+          "content": "المحور الأول: الإدراك لأهمية التكنولوجيا"
+        },
+        {
+          "id": "paragraph_41",
+          "type": "ParagraphBlock",
+          "content": "أرى أن التكنولوجيا تسهم في تحسين جودة العمل الإداري."
+        },
+        {
+          "id": "paragraph_42",
+          "type": "ParagraphBlock",
+          "content": "تساعد الأنظمة الرقمية في سرعة اتخاذ القرار."
+        },
+        {
+          "id": "paragraph_43",
+          "type": "ParagraphBlock",
+          "content": "استخدام التكنولوجيا يرفع كفاءة المؤسسة التعليمية."
+        },
+        {
+          "id": "paragraph_44",
+          "type": "ParagraphBlock",
+          "content": "التكنولوجيا تسهم في تحسين التواصل داخل المؤسسة."
+        },
+        {
+          "id": "paragraph_45",
+          "type": "ParagraphBlock",
+          "content": "أعتقد أن التحول الرقمي ضرورة للعمل التعليمي الحديث."
+        },
+        {
+          "id": "paragraph_46",
+          "type": "ParagraphBlock",
+          "content": "المحور الثاني: سهولة استخدام التكنولوجيا"
+        },
+        {
+          "id": "paragraph_47",
+          "type": "ParagraphBlock",
+          "content": "أجد أن استخدام المنصات الرقمية سهل بالنسبة لي."
+        },
+        {
+          "id": "paragraph_48",
+          "type": "ParagraphBlock",
+          "content": "أستطيع تعلم التطبيقات الجديدة بسرعة."
+        },
+        {
+          "id": "paragraph_49",
+          "type": "ParagraphBlock",
+          "content": "أواجه صعوبة في التعامل مع الأنظمة الإلكترونية. (عكسية)"
+        },
+        {
+          "id": "paragraph_50",
+          "type": "ParagraphBlock",
+          "content": "التعليمات الخاصة بالبرامج الرقمية واضحة ومفهومة."
+        },
+        {
+          "id": "paragraph_51",
+          "type": "ParagraphBlock",
+          "content": "أستطيع حل المشكلات التقنية البسيطة بنفسي."
+        },
+        {
+          "id": "paragraph_52",
+          "type": "ParagraphBlock",
+          "content": "المحور الثالث: الاتجاه نحو استخدام التكنولوجيا"
+        },
+        {
+          "id": "paragraph_53",
+          "type": "ParagraphBlock",
+          "content": "أشعر بالحماس عند استخدام التقنيات الحديثة."
+        },
+        {
+          "id": "paragraph_54",
+          "type": "ParagraphBlock",
+          "content": "أفضل إنجاز الأعمال إلكترونيًا بدلًا من الطرق التقليدية."
+        },
+        {
+          "id": "paragraph_55",
+          "type": "ParagraphBlock",
+          "content": "أشعر بالقلق عند استخدام التكنولوجيا الحديثة. (عكسية)"
+        },
+        {
+          "id": "paragraph_56",
+          "type": "ParagraphBlock",
+          "content": "أستمتع بتجربة التطبيقات التعليمية الجديدة."
+        },
+        {
+          "id": "paragraph_57",
+          "type": "ParagraphBlock",
+          "content": "أحرص على متابعة التطورات التقنية الحديثة."
+        },
+        {
+          "id": "paragraph_58",
+          "type": "ParagraphBlock",
+          "content": "المحور الرابع: النية السلوكية لاستخدام التكنولوجيا"
+        },
+        {
+          "id": "paragraph_59",
+          "type": "ParagraphBlock",
+          "content": "أنوي استخدام التقنيات الرقمية بصورة مستمرة."
+        },
+        {
+          "id": "paragraph_60",
+          "type": "ParagraphBlock",
+          "content": "أخطط لتوسيع استخدام التكنولوجيا في عملي."
+        },
+        {
+          "id": "paragraph_61",
+          "type": "ParagraphBlock",
+          "content": "أشجع العاملين على استخدام الأنظمة الرقمية."
+        },
+        {
+          "id": "paragraph_62",
+          "type": "ParagraphBlock",
+          "content": "أرغب في حضور دورات تدريبية تقنية متقدمة."
+        },
+        {
+          "id": "paragraph_63",
+          "type": "ParagraphBlock",
+          "content": "سأستمر في استخدام التكنولوجيا حتى عند وجود صعوبات."
+        },
+        {
+          "id": "paragraph_64",
+          "type": "ParagraphBlock",
+          "content": "المحور الخامس: الدعم المؤسسي والتقني"
+        },
+        {
+          "id": "paragraph_65",
+          "type": "ParagraphBlock",
+          "content": "توفر المؤسسة الدعم الفني عند الحاجة."
+        },
+        {
+          "id": "paragraph_66",
+          "type": "ParagraphBlock",
+          "content": "توجد بنية تقنية مناسبة داخل المؤسسة التعليمية."
+        },
+        {
+          "id": "paragraph_67",
+          "type": "ParagraphBlock",
+          "content": "الإدارة العليا تشجع استخدام التكنولوجيا."
+        },
+        {
+          "id": "paragraph_68",
+          "type": "ParagraphBlock",
+          "content": "تتوفر برامج تدريبية تساعد على استخدام الأنظمة الرقمية."
+        },
+        {
+          "id": "paragraph_69",
+          "type": "ParagraphBlock",
+          "content": "توفر المؤسسة أدوات رقمية حديثة تساعد في العمل."
+        }
+      ]
+    }
+  ]
+}
