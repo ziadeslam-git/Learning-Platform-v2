@@ -48,5 +48,15 @@ export const contentRepository = {
     } catch {
       return null;
     }
+  },
+
+  getImage(src: string): string | null {
+    try {
+      const images = import.meta.glob('../../../generated/images/**/*.{png,jpg,jpeg,svg,gif,webp}', { eager: true, query: '?url', import: 'default' });
+      const path = `../../../${src}`;
+      return (images[path] as string) || null;
+    } catch {
+      return null;
+    }
   }
 };

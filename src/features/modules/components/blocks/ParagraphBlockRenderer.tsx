@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import type { ParagraphBlock } from '../../../../../types/blocks';
 import { motion } from 'framer-motion';
-import { Info, AlertTriangle, Lightbulb, CheckSquare } from 'lucide-react';
+import { Info, AlertTriangle, Lightbulb, CheckSquare, Square } from 'lucide-react';
 
 interface Props {
   block: ParagraphBlock;
@@ -9,21 +9,22 @@ interface Props {
 
 export const ParagraphBlockRenderer: React.FC<Props> = React.memo(({ block }) => {
   const content = block.content.trim();
+  const [isChecked, setIsChecked] = useState(false);
   
   // Enhancement Heuristics Layer
-  const isNote = content.startsWith('ملاحظة') || content.startsWith('ملحوظة');
+  const isNote = content.startsWith('ملاحظة') || content.startsWith('ملحوظة') || content.startsWith('هام');
   const isWarning = content.startsWith('تحذير') || content.startsWith('تنبيه');
-  const isActivity = content.startsWith('نشاط');
+  const isActivity = content.startsWith('نشاط') || content.includes('تدريب');
   const isReflection = content.startsWith('فكر') || content.startsWith('تأمل');
   
   if (isNote) {
     return (
       <motion.div 
         initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-        className="my-4 p-4 rounded-2xl glass border border-blue-500/30 bg-blue-500/10 flex items-start gap-4 text-blue-100"
+        className="my-4 p-5 rounded-2xl glass border-l-4 border-l-orange-500 border-white/10 bg-orange-500/5 flex items-start gap-4 text-orange-100"
       >
-        <Info className="w-6 h-6 text-blue-400 shrink-0 mt-1" />
-        <p className="leading-relaxed">{content}</p>
+        <Info className="w-6 h-6 text-orange-400 shrink-0 mt-1" />
+        <p className="leading-relaxed text-lg">{content}</p>
       </motion.div>
     );
   }
@@ -32,10 +33,10 @@ export const ParagraphBlockRenderer: React.FC<Props> = React.memo(({ block }) =>
     return (
       <motion.div 
         initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-        className="my-4 p-4 rounded-2xl glass border border-red-500/30 bg-red-500/10 flex items-start gap-4 text-red-100"
+        className="my-4 p-5 rounded-2xl glass border-l-4 border-l-red-500 border-white/10 bg-red-500/5 flex items-start gap-4 text-red-100"
       >
         <AlertTriangle className="w-6 h-6 text-red-400 shrink-0 mt-1" />
-        <p className="leading-relaxed">{content}</p>
+        <p className="leading-relaxed text-lg">{content}</p>
       </motion.div>
     );
   }
@@ -44,12 +45,23 @@ export const ParagraphBlockRenderer: React.FC<Props> = React.memo(({ block }) =>
     return (
       <motion.div 
         initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
-        className="my-6 p-6 rounded-3xl glass-orange border border-orange-500/40 bg-orange-500/10 flex items-start gap-4"
+        className={`my-6 p-6 rounded-3xl border transition-colors flex items-start gap-4 cursor-pointer select-none
+          ${isChecked ? 'bg-green-500/10 border-green-500/30' : 'glass border-white/10 hover:border-orange-500/30'}
+        `}
+        onClick={() => setIsChecked(!isChecked)}
       >
-        <CheckSquare className="w-8 h-8 text-orange-400 shrink-0" />
+        <div className="shrink-0 mt-1 transition-colors">
+          {isChecked ? (
+            <CheckSquare className="w-8 h-8 text-green-400" />
+          ) : (
+            <Square className="w-8 h-8 text-orange-400" />
+          )}
+        </div>
         <div>
-          <h4 className="text-orange-400 font-bold mb-2">نشاط عملي</h4>
-          <p className="text-gray-200 leading-relaxed">{content.replace(/^نشاط[\s:]*/, '')}</p>
+          <h4 className={`font-bold mb-2 ${isChecked ? 'text-green-400' : 'text-orange-400'}`}>نشاط تفاعلي</h4>
+          <p className={`${isChecked ? 'text-gray-400 line-through' : 'text-gray-200'} leading-relaxed text-lg transition-all`}>
+            {content.replace(/^(نشاط|تدريب)[\s:]*/, '')}
+          </p>
         </div>
       </motion.div>
     );
@@ -61,24 +73,26 @@ export const ParagraphBlockRenderer: React.FC<Props> = React.memo(({ block }) =>
         initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
         className="my-6 p-6 rounded-3xl glass border border-purple-500/40 bg-purple-500/10 flex items-start gap-4"
       >
-        <Lightbulb className="w-8 h-8 text-purple-400 shrink-0" />
+        <Lightbulb className="w-8 h-8 text-purple-400 shrink-0 mt-1" />
         <div>
           <h4 className="text-purple-400 font-bold mb-2">دعوة للتفكير</h4>
-          <p className="text-gray-200 leading-relaxed">{content}</p>
+          <p className="text-gray-200 leading-relaxed text-lg">{content}</p>
         </div>
       </motion.div>
     );
   }
 
-  // Base fallback rendering for standard paragraphs
+  // Base fallback rendering for standard paragraphs (Glass Card)
   return (
-    <motion.p 
-      initial={{ opacity: 0 }} 
-      whileInView={{ opacity: 1 }} 
+    <motion.div 
+      initial={{ opacity: 0, y: 10 }} 
+      whileInView={{ opacity: 1, y: 0 }} 
       viewport={{ once: true }}
-      className="text-gray-300 leading-loose mb-4 text-lg"
+      className="my-4 p-5 md:p-6 rounded-2xl glass border border-white/5 hover:border-white/10 transition-colors bg-white/[0.02]"
     >
-      {content}
-    </motion.p>
+      <p className="text-gray-200 leading-loose text-lg font-arabic">
+        {content}
+      </p>
+    </motion.div>
   );
 });

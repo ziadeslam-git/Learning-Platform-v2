@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import type { ImageBlock } from '../../../../../types/blocks';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ZoomIn, X } from 'lucide-react';
+import { contentRepository } from '../../../../services/content/contentRepository';
 
 interface Props {
   block: ImageBlock;
@@ -10,15 +11,7 @@ interface Props {
 export const ImageBlockRenderer: React.FC<Props> = React.memo(({ block }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // We need to resolve the image path correctly from the generated images folder.
-  // The block.src looks like "generated/images/الموديول-الأول/image_1.png"
-  // Since we are using Vite, we can just point to the URL if we copy it to public,
-  // or we need to import it. Wait, the generated folder is outside src.
-  // To serve generated images in Vite, we can create a proxy or import dynamically.
-  // For now, assuming the dev server can serve `/generated/...` if we configure it,
-  // or we treat `src` as `../../../` relative path. 
-  // Actually, Vite serves from root `/`, so `/generated/images/...` will work if we prefix with `/`
-  const imageSrc = `/${block.src}`;
+  const imageSrc = contentRepository.getImage(block.src) || `/${block.src}`;
 
   return (
     <>

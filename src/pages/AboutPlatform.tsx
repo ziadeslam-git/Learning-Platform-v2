@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { contentRepository } from '../services/content/contentRepository';
-import { User, Users, Info, ChevronLeft } from 'lucide-react';
+import { User, Users, Info, ChevronLeft, Target, ShieldCheck } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 export function AboutPlatform() {
@@ -21,10 +21,10 @@ export function AboutPlatform() {
   // Based on the generated JSON structure
   const researcherName = blocks.find(b => b.content === 'أيه محمد عنتر على')?.content || 'أيه محمد عنتر على';
   const supervisor1 = blocks.find(b => b.content?.includes('الغريب زاهر إسماعيل'))?.content || 'أ.د / الغريب زاهر إسماعيل';
-  const supervisor1Title = blocks.find(b => b.content?.includes('أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة'))?.content || '';
+  const supervisor1Title = blocks.find(b => b.content?.includes('أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة'))?.content || 'أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة';
   const supervisor2 = blocks.find(b => b.content?.includes('رشا حمدى حسن هداية'))?.content || 'أ.د / رشا حمدى حسن هداية';
-  const supervisor2Title = blocks.find(b => b.content === 'استاذ تكنولوجيا التعليم' || b.content?.includes('كلية التربية'))?.content || '';
-  const description = blocks.find(b => b.content?.includes('بيئة تدريب شخصية قائمة على تطبيقات الذكاء الاصطناعي'))?.content || '';
+  const supervisor2Title = blocks.find(b => b.content === 'استاذ تكنولوجيا التعليم' || b.content?.includes('كلية التربية'))?.content || 'استاذ تكنولوجيا التعليم - كلية التربية جامعة المنصورة';
+  const description = blocks.find(b => b.content?.includes('بيئة تدريب شخصية قائمة على تطبيقات الذكاء الاصطناعي'))?.content || 'بيئة تدريب شخصية قائمة على تطبيقات الذكاء الاصطناعي لتنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية';
 
   return (
     <div className="min-h-screen bg-black text-white p-6 md:p-12 font-arabic selection:bg-orange-500/30 overflow-hidden relative" dir="rtl">
@@ -58,7 +58,7 @@ export function AboutPlatform() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.1 }}
-          className="glass-orange rounded-3xl p-8 mb-12 text-center relative overflow-hidden group"
+          className="glass-orange rounded-3xl p-8 mb-12 text-center relative overflow-hidden group border border-orange-500/30"
         >
           <div className="absolute inset-0 bg-gradient-to-b from-orange-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
           <div className="w-20 h-20 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-4 border border-orange-500/30">
@@ -80,7 +80,6 @@ export function AboutPlatform() {
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6 relative">
-              {/* Decorative connecting lines for pyramid effect on desktop */}
               <div className="hidden md:block absolute top-0 left-1/4 right-1/4 h-px bg-gradient-to-r from-transparent via-orange-500/50 to-transparent -translate-y-4" />
               <div className="hidden md:block absolute top-0 left-1/4 w-px h-4 bg-orange-500/50 -translate-y-4" />
               <div className="hidden md:block absolute top-0 right-1/4 w-px h-4 bg-orange-500/50 -translate-y-4" />
@@ -89,7 +88,7 @@ export function AboutPlatform() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
-                className="glass-card rounded-2xl p-6 hover:border-orange-500/30 transition-colors"
+                className="glass-card rounded-2xl p-6 hover:border-orange-500/30 transition-colors border border-white/10"
               >
                 <h4 className="text-xl font-bold text-orange-400 mb-3">{supervisor1}</h4>
                 <p className="text-sm text-gray-400 leading-relaxed">{supervisor1Title}</p>
@@ -99,39 +98,68 @@ export function AboutPlatform() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
-                className="glass-card rounded-2xl p-6 hover:border-orange-500/30 transition-colors"
+                className="glass-card rounded-2xl p-6 hover:border-orange-500/30 transition-colors border border-white/10"
               >
                 <h4 className="text-xl font-bold text-orange-400 mb-3">{supervisor2}</h4>
-                <p className="text-sm text-gray-400 leading-relaxed">{supervisor2Title}<br/>كلية التربية جامعة المنصورة</p>
+                <p className="text-sm text-gray-400 leading-relaxed">{supervisor2Title}</p>
               </motion.div>
             </div>
           </div>
         </div>
 
-        {/* Description Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          className="glass-card rounded-3xl p-8 md:p-10"
-        >
-          <div className="flex items-center gap-3 mb-6">
-            <Info className="w-6 h-6 text-orange-500" />
-            <h3 className="text-2xl font-bold">عن الدراسة</h3>
-          </div>
-          <div className="space-y-4">
-            <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/5 hover:bg-white/10 transition-colors">
-              <div className="w-2 h-2 rounded-full bg-orange-500 mt-2 shrink-0" />
-              <p className="text-gray-300 leading-relaxed text-lg">{description}</p>
+        {/* Study Details */}
+        <div className="space-y-6 mb-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4 }}
+            className="glass p-8 rounded-3xl border border-white/10 hover:border-orange-500/30 transition-all bg-white/[0.02]"
+          >
+            <div className="flex items-center gap-4 mb-4">
+              <div className="p-3 bg-blue-500/20 rounded-xl text-blue-400">
+                <Info className="w-6 h-6" />
+              </div>
+              <h2 className="text-2xl font-bold text-white">عن الدراسة</h2>
             </div>
-            <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/5 hover:bg-white/10 transition-colors">
-              <div className="w-2 h-2 rounded-full bg-orange-500 mt-2 shrink-0" />
-              <p className="text-gray-300 leading-relaxed text-lg">
-                تهدف المنصة إلى تنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية من خلال بيئة تدريب شخصية.
-              </p>
+            <p className="text-gray-300 leading-relaxed text-lg">
+              {description}
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            className="glass p-8 rounded-3xl border border-white/10 hover:border-orange-500/30 transition-all bg-white/[0.02]"
+          >
+            <div className="flex items-center gap-4 mb-4">
+              <div className="p-3 bg-green-500/20 rounded-xl text-green-400">
+                <Target className="w-6 h-6" />
+              </div>
+              <h2 className="text-2xl font-bold text-white">أهداف المنصة</h2>
             </div>
-          </div>
-        </motion.div>
+            <p className="text-gray-300 leading-relaxed text-lg">
+              تهدف هذه المنصة إلى تنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدى القيادات التعليمية من خلال مسار تعليمي متكامل يتضمن وحدات تدريبية، تقييمات، وأنشطة تفاعلية مدعومة بتقنيات الذكاء الاصطناعي.
+            </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+            className="glass p-8 rounded-3xl border border-white/10 hover:border-orange-500/30 transition-all bg-white/[0.02]"
+          >
+            <div className="flex items-center gap-4 mb-4">
+              <div className="p-3 bg-purple-500/20 rounded-xl text-purple-400">
+                <ShieldCheck className="w-6 h-6" />
+              </div>
+              <h2 className="text-2xl font-bold text-white">الفئة المستهدفة</h2>
+            </div>
+            <p className="text-gray-300 leading-relaxed text-lg">
+              القيادات التعليمية بوزارة التربية والتعليم، بما في ذلك مديري المدارس، والمشرفين التربويين، ورؤساء الأقسام.
+            </p>
+          </motion.div>
+        </div>
       </div>
     </div>
   );
