@@ -23,7 +23,7 @@ export const contentRepository = {
   getPlatform(): DocumentModel | null {
     try {
       const modules = import.meta.glob('../../../generated/content/*.json', { eager: true });
-      const path = `../../../generated/content/جدول-المواصفات.json`; // Example platform doc
+      const path = `../../../generated/content/قائمة-الاهداف.json`;
       return (modules[path] as any)?.default as DocumentModel || null;
     } catch {
       return null;
