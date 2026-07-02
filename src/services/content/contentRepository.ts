@@ -4,8 +4,11 @@ import type { AssessmentModel } from '../../../types/assessment';
 
 const idMap: Record<string, string> = {
   'm1': 'الموديول-الأول',
+  'module-1': 'الموديول-الأول',
   'm2': 'الموديول-الثاني',
-  'm3': 'الموديول-الثالث'
+  'module-2': 'الموديول-الثاني',
+  'm3': 'الموديول-الثالث',
+  'module-3': 'الموديول-الثالث'
 };
 
 export const contentRepository = {
@@ -30,20 +33,20 @@ export const contentRepository = {
     }
   },
 
-  getPreAssessment(): AssessmentModel | null {
+  getAssessment(id: string): AssessmentModel | null {
     try {
       const modules = import.meta.glob('../../../generated/content/*.json', { eager: true });
-      const path = `../../../generated/content/الاختبار-التحصيلي.json`;
-      return (modules[path] as any)?.default as AssessmentModel || null;
-    } catch {
-      return null;
-    }
-  },
-
-  getPostAssessment(): AssessmentModel | null {
-    try {
-      const modules = import.meta.glob('../../../generated/content/*.json', { eager: true });
-      const path = `../../../generated/content/مقياس-التقبل-التكنولوجي.json`;
+      const pathMap: Record<string, string> = {
+         'pre-test': 'الاختبار-التحصيلي',
+         'pre-scale': 'مقياس-التقبل-التكنولوجي',
+         'post-test': 'الاختبار-التحصيلي',
+         'post-scale': 'مقياس-التقبل-التكنولوجي',
+         'pre': 'الاختبار-التحصيلي',
+         'post': 'مقياس-التقبل-التكنولوجي'
+      };
+      const fileName = pathMap[id];
+      if (!fileName) return null;
+      const path = `../../../generated/content/${fileName}.json`;
       return (modules[path] as any)?.default as AssessmentModel || null;
     } catch {
       return null;
@@ -53,8 +56,19 @@ export const contentRepository = {
   getImage(src: string): string | null {
     try {
       const images = import.meta.glob('../../../generated/images/**/*.{png,jpg,jpeg,svg,gif,webp}', { eager: true, query: '?url', import: 'default' });
-      const path = `../../../${src}`;
-      return (images[path] as string) || null;
+      const decodedSrc = decodeURIComponent(src);
+      const pathsToTry = [
+        `../../../${decodedSrc}`,
+        `../../../${encodeURI(decodedSrc)}`,
+        `../../../${src}`,
+        `../../../generated/images/${decodedSrc.split('/').pop()}`, // Fallback if directory name mismatch
+      ];
+
+      for (const p of pathsToTry) {
+        if (images[p]) return images[p] as string;
+      }
+      
+      return null;
     } catch {
       return null;
     }

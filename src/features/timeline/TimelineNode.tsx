@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { type TimelineNodeData } from '../../data/learningPath';
 import { cn } from '../../lib/utils';
-import { CheckCircle, CircleDot, Lock } from '../../shared/icons';
+import { CheckCircle, CircleDot } from '../../shared/icons';
+import { Circle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
+import { useLearningProgress } from '../../hooks/useLearningProgress';
 
 interface TimelineNodeProps {
   node: TimelineNodeData;
@@ -11,9 +13,15 @@ interface TimelineNodeProps {
 
 export function TimelineNode({ node, index }: TimelineNodeProps) {
   const navigate = useNavigate();
-  const isCompleted = node.status === 'completed';
-  const isActive = node.status === 'active';
-  const isLocked = node.status === 'locked';
+  const { modules, completedAssessments, lastModuleId, lastAssessmentId } = useLearningProgress();
+  const moduleProgress = node.moduleId ? modules[node.moduleId] : null;
+  const isCompleted = node.type === 'assessment'
+    ? Boolean(completedAssessments[node.id])
+    : Boolean(moduleProgress && moduleProgress.percent >= 100);
+  const isActive = !isCompleted && (
+    (node.type === 'assessment' && lastAssessmentId === node.id) ||
+    (node.type === 'module' && lastModuleId === node.moduleId)
+  );
 
   // Determine alignment based on index to create the S-shape flow
   const alignmentClass = [
@@ -25,10 +33,8 @@ export function TimelineNode({ node, index }: TimelineNodeProps) {
   ][index % 5];
 
   const handleNavigation = () => {
-    if (isLocked) return;
     if (node.type === 'assessment') {
-      const type = node.id === 'pre-assessment' ? 'pre' : 'post';
-      navigate(`/assessment/${type}`);
+      navigate(`/assessment/${node.id}`);
     } else if (node.type === 'module' && node.moduleId) {
       navigate(`/module/${node.moduleId}`);
     }
@@ -45,17 +51,16 @@ export function TimelineNode({ node, index }: TimelineNodeProps) {
     >
       <button
         onClick={handleNavigation}
-        disabled={isLocked}
         className={cn(
-          'w-24 h-24 md:w-32 md:h-32 rounded-full flex items-center justify-center border-4 transition-all duration-500',
-          isActive ? 'border-orange-500 bg-orange-500/20 glow-orange hover:scale-105' : 
-          isCompleted ? 'border-orange-400/50 bg-white/5 hover:scale-105 hover:bg-white/10' : 
-          'border-gray-800 bg-black/50 glass cursor-not-allowed'
+          'w-24 h-24 md:w-32 md:h-32 rounded-full flex items-center justify-center border-4 transition-all duration-500 hover:scale-105 cursor-pointer',
+          isActive ? 'border-orange-500 bg-orange-500/20 glow-orange' : 
+          isCompleted ? 'border-orange-400/50 bg-white/5 hover:bg-white/10' : 
+          'border-white/10 bg-black/50 glass hover:border-orange-500/30'
         )}
       >
         {isCompleted && <CheckCircle className="w-10 h-10 md:w-12 md:h-12 text-orange-400" />}
         {isActive && <CircleDot className="w-10 h-10 md:w-12 md:h-12 text-orange-500 animate-pulse" />}
-        {isLocked && <Lock className="w-8 h-8 md:w-10 md:h-10 text-gray-600" />}
+        {!isCompleted && !isActive && <Circle className="w-8 h-8 md:w-10 md:h-10 text-gray-500" />}
       </button>
       
       <div className={cn('mt-6 text-center glass px-6 py-3 rounded-2xl border flex flex-col items-center', 
@@ -65,7 +70,7 @@ export function TimelineNode({ node, index }: TimelineNodeProps) {
           {node.type === 'assessment' ? 'التقييم' : `المرحلة 0${index}`}
         </p>
         <h3 className={cn("text-lg md:text-xl font-semibold font-arabic", isActive ? "text-white glow-text" : "text-gray-300")}>
-          {node.title.includes('Assessment') ? (node.id === 'pre-assessment' ? 'التقييم القبلي' : 'التقييم البعدي') : node.title.replace('Module', 'الموديول')}
+          {node.title}
         </h3>
       </div>
     </motion.div>

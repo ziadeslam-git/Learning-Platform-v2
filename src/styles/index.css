@@ -8,6 +8,11 @@
   --color-brand-dark-border: #1f232e;
   --color-brand-neon-orange: #ff6b00;
   
+  --spacing-module: 3rem;
+  --spacing-section: 1.5rem;
+  --spacing-element: 1rem;
+  --spacing-text: 0.5rem;
+  
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
 

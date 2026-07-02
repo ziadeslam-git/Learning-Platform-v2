@@ -1,18 +1,33 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, ChevronRight, RotateCcw } from 'lucide-react';
+import type { GradedQuestion } from '../../../types/assessment';
 
 interface Props {
   score: number;
   total: number;
+  gradedTotal: number;
+  wrong: number;
+  percent: number;
+  durationSeconds: number;
+  ungradedCount: number;
+  review: GradedQuestion[];
   onContinue: () => void;
   onRetry?: () => void;
 }
 
-export const ResultScreen: React.FC<Props> = ({ score, total, onContinue, onRetry }) => {
-  const percentage = Math.round((score / total) * 100);
-  const isPass = percentage >= 60;
-
+export const ResultScreen: React.FC<Props> = ({
+  score,
+  total,
+  gradedTotal,
+  wrong,
+  percent,
+  durationSeconds,
+  ungradedCount,
+  review,
+  onContinue,
+  onRetry,
+}) => {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.9 }}
@@ -26,26 +41,47 @@ export const ResultScreen: React.FC<Props> = ({ score, total, onContinue, onRetr
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ type: 'spring', delay: 0.2 }}
-          className={`w-24 h-24 rounded-full mx-auto flex items-center justify-center mb-6 border ${isPass ? 'bg-green-500/20 border-green-500/40 glow-green text-green-400' : 'bg-orange-500/20 border-orange-500/40 glow-orange text-orange-400'}`}
+          className="w-24 h-24 rounded-full mx-auto flex items-center justify-center mb-6 border bg-green-500/20 border-green-500/40 glow-green text-green-400"
         >
           <Award className="w-12 h-12" />
         </motion.div>
 
-        <h2 className="text-3xl font-bold text-white mb-2">
-          {isPass ? 'لقد اجتزت التقييم بنجاح!' : 'لقد أتممت التقييم'}
+        <h2 className="text-3xl font-bold text-white mb-8">
+          تم حفظ إجاباتك بنجاح!
         </h2>
-        <p className="text-gray-400 mb-8">النتيجة النهائية الخاصة بك</p>
+        
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center">
+             <span className="text-gray-400 text-sm mb-1">الدرجة</span>
+             <bdi dir="ltr" className="text-2xl font-bold text-orange-400">{score} / {gradedTotal}</bdi>
+          </div>
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center">
+             <span className="text-gray-400 text-sm mb-1">النسبة</span>
+             <span className="text-2xl font-bold text-blue-400">{percent}%</span>
+          </div>
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center">
+             <span className="text-gray-400 text-sm mb-1">إجابات صحيحة</span>
+             <span className="text-2xl font-bold text-green-400">{score}</span>
+          </div>
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center">
+             <span className="text-gray-400 text-sm mb-1">إجابات خاطئة</span>
+             <span className="text-2xl font-bold text-red-400">{wrong}</span>
+          </div>
+        </div>
 
-        <div className="flex justify-center items-center gap-8 mb-10">
-          <div className="text-center">
-            <div className="text-5xl font-black text-orange-400 mb-2">{percentage}%</div>
-            <div className="text-sm text-gray-500 uppercase tracking-widest">النسبة المئوية</div>
-          </div>
-          <div className="w-px h-16 bg-white/10" />
-          <div className="text-center">
-            <div className="text-5xl font-black text-white mb-2">{score}/{total}</div>
-            <div className="text-sm text-gray-500 uppercase tracking-widest">الإجابات الصحيحة</div>
-          </div>
+        <p className="text-gray-400 mb-8 text-sm">
+          مدة الحل: {Math.floor(durationSeconds / 60)} دقيقة و {durationSeconds % 60} ثانية. عدد الأسئلة الكلي: {total}. {ungradedCount > 0 ? `يوجد ${ungradedCount} سؤال بدون مفتاح إجابة موثق ولم يتم تخمينه.` : 'تم تصحيح جميع الأسئلة بمفتاح إجابة موثق.'}
+        </p>
+
+        <div className="text-right mb-8 max-h-80 overflow-y-auto space-y-3 pr-1">
+          {review.map((item, index) => (
+            <div key={item.id} className="bg-white/5 border border-white/10 rounded-2xl p-4">
+              <p className="text-white font-semibold mb-2">{index + 1}. {item.text}</p>
+              <p className="text-gray-300 text-sm">إجابتك: {item.selectedAnswer ?? 'لم تتم الإجابة'}</p>
+              <p className="text-gray-300 text-sm">الإجابة الصحيحة: {item.correctAnswer ?? 'غير متاحة بمصدر موثق'}</p>
+              {item.rationale && <p className="text-orange-300 text-sm mt-2">{item.rationale}</p>}
+            </div>
+          ))}
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -53,7 +89,7 @@ export const ResultScreen: React.FC<Props> = ({ score, total, onContinue, onRetr
             onClick={onContinue}
             className="w-full sm:w-auto px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-all glow-orange flex items-center justify-center gap-2"
           >
-            <span>المتابعة</span>
+            <span>العودة للمسار التعليمي</span>
             <ChevronRight className="w-5 h-5 rotate-180" />
           </button>
           

@@ -27,7 +27,7 @@ export function AboutPlatform() {
   const description = blocks.find(b => b.content?.includes('بيئة تدريب شخصية قائمة على تطبيقات الذكاء الاصطناعي'))?.content || 'بيئة تدريب شخصية قائمة على تطبيقات الذكاء الاصطناعي لتنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية';
 
   return (
-    <div className="min-h-screen bg-black text-white p-6 md:p-12 font-arabic selection:bg-orange-500/30 overflow-hidden relative" dir="rtl">
+    <div className="relative p-6 md:p-12">
       {/* Dynamic Background Effects */}
       <div className="absolute top-0 inset-x-0 h-64 bg-gradient-to-b from-orange-500/10 to-transparent pointer-events-none" />
       <div className="absolute -top-32 -right-32 w-96 h-96 bg-orange-600/20 rounded-full blur-[100px] pointer-events-none" />

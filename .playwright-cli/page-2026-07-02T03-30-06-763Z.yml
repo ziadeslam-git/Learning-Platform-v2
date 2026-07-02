@@ -1,0 +1,81 @@
+- main [ref=e5]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e10]: L
+      - generic [ref=e11]: PLATFORM v2
+    - generic [ref=e12]:
+      - link "الإحصائيات" [ref=e13] [cursor=pointer]:
+        - /url: /stats
+        - img [ref=e14]
+        - generic [ref=e16]: الإحصائيات
+      - link "عن المنصة" [ref=e17] [cursor=pointer]:
+        - /url: /about
+        - img [ref=e18]
+        - generic [ref=e20]: عن المنصة
+  - generic [ref=e22]:
+    - generic [ref=e23]: System Online
+    - heading "Master the Science of Tomorrow" [level=1] [ref=e27]:
+      - text: Master the Science
+      - text: of Tomorrow
+    - paragraph [ref=e28]: An advanced, enterprise-grade learning platform designed to accelerate your scientific journey through interactive modules and rigorous assessments.
+    - button "Start Learning" [ref=e30]:
+      - text: Start Learning
+      - img [ref=e31]
+  - generic [ref=e33]:
+    - generic [ref=e34]:
+      - heading "Your Journey" [level=2] [ref=e35]
+      - paragraph [ref=e36]: Follow the structured path to mastery. Each node unlocks profound scientific concepts.
+    - generic [ref=e37]:
+      - generic:
+        - img
+      - generic [ref=e38]:
+        - button [ref=e39] [cursor=pointer]:
+          - img [ref=e40]
+        - generic [ref=e42]:
+          - paragraph [ref=e43]: التقييم
+          - heading "الاختبار التحصيلي القبلي" [level=3] [ref=e44]
+      - generic [ref=e45]:
+        - button [ref=e46] [cursor=pointer]:
+          - img [ref=e47]
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: التقييم
+          - heading "مقياس التقبل القبلي" [level=3] [ref=e51]
+      - generic [ref=e52]:
+        - button [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+        - generic [ref=e56]:
+          - paragraph [ref=e57]: المرحلة 02
+          - heading "الموديول الأول" [level=3] [ref=e58]
+      - generic [ref=e59]:
+        - button [ref=e60] [cursor=pointer]:
+          - img [ref=e61]
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: المرحلة 03
+          - heading "الموديول الثاني" [level=3] [ref=e65]
+      - generic [ref=e66]:
+        - button [ref=e67] [cursor=pointer]:
+          - img [ref=e68]
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: المرحلة 04
+          - heading "الموديول الثالث" [level=3] [ref=e72]
+      - generic [ref=e73]:
+        - button [ref=e74] [cursor=pointer]:
+          - img [ref=e75]
+        - generic [ref=e77]:
+          - paragraph [ref=e78]: التقييم
+          - heading "الاختبار التحصيلي البعدي" [level=3] [ref=e79]
+      - generic [ref=e80]:
+        - button [ref=e81] [cursor=pointer]:
+          - img [ref=e82]
+        - generic [ref=e84]:
+          - paragraph [ref=e85]: التقييم
+          - heading "مقياس التقبل البعدي" [level=3] [ref=e86]
+  - generic [ref=e88]:
+    - paragraph [ref=e89]: Enterprise Learning Platform © 2026
+    - generic [ref=e90]:
+      - link "Privacy Policy" [ref=e91] [cursor=pointer]:
+        - /url: "#"
+      - link "Terms of Service" [ref=e92] [cursor=pointer]:
+        - /url: "#"
+      - link "Support" [ref=e93] [cursor=pointer]:
+        - /url: "#"

@@ -1,0 +1,26 @@
+import type { AssessmentAnswerKeyEntry } from '../../types/assessment';
+
+export const achievementAnswerKey: AssessmentAnswerKeyEntry[] = [
+  { question: 'أي مما يلي يعد خطوة أولى في التخطيط للتحول الرقمي؟', correctAnswer: 'تحديد الاحتياجات الرقمية.', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'الهدف الرئيس من صياغة أهداف رقمية واضحة هو:', correctAnswer: 'تنظيم العمل الرقمي', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'أي مما يلي يساعد في متابعة تنفيذ الخطة الرقمية؟', correctAnswer: 'التقارير الإلكترونية', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'أي من الآتي يستخدم لإدارة الحسابات الإلكترونية؟', correctAnswer: 'المنصات التعليمية', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'رفع الموارد التعليمية على المنصة يساعد في:', correctAnswer: 'مشاركة المحتوى مع المستخدمين.', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'أي مما يلي يعد من مهارات إدارة التقنية؟', correctAnswer: 'تحديث التطبيقات الرقمية', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'أفضل طريقة لحفظ الملفات الرقمية هي:', correctAnswer: 'تنظيمها في مجلدات', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'مشاركة الملفات عبر المنصات الرقمية تساعد في:', correctAnswer: 'تسهيل تبادل المعلومات', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'أي مما يلي يعد من أدوات التواصل الرقمي:', correctAnswer: 'البريد الإلكتروني', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'عند إنشاء اجتماع إلكتروني يجب أولًا:', correctAnswer: 'اختيار منصة مناسبة', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'من فوائد تسجيل الاجتماعات الإلكترونية:', correctAnswer: 'الرجوع للاجتماع لاحقًا', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'توضيح التعليمات الدراسية رقميًا يساعد في:', correctAnswer: 'تحسين الفهم لدى الطلاب', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'أي مما يلي يعد مثالًا على إدارة البيانات؟', correctAnswer: 'تصنيف البيانات إلكترونيًا', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'الغرض من النسخ الاحتياطي للبيانات هو:', correctAnswer: 'حماية البيانات من الفقد', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'أي مما يلي يساعد في حماية البيانات الرقمية؟', correctAnswer: 'إنشاء كلمات مرور قوية', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'يجب تجنب الروابط المشبوهة لأنها قد:', correctAnswer: 'تسبب اختراقًا أمنيًا', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'أي مما يلي يستخدم لمتابعة حضور الطلاب؟', correctAnswer: 'المنصات التعليمية', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'يساعد تقديم التغذية الراجعة الرقمية للمعلمين في:', correctAnswer: 'تحسين الأداء التدريسي', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'أي مما يلي يعد من أدوات التقويم الرقمي؟', correctAnswer: 'الاختبارات الإلكترونية', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'من مهارات إدارة البيانات:؟', correctAnswer: 'تحديث البيانات باستمرار', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'يساعد ترتيب الملفات الرقمية في:', correctAnswer: 'سهولة الوصول للمعلومات', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+  { question: 'أي مما يلي يعد من أهداف التحول الرقمي في التعليم؟', correctAnswer: 'تحسين كفاءة العمل', source: 'docs/assessments/اجابة الاختبار.docx', rationale: 'الإجابة مميزة بخط عريض داخل ملف إجابة الاختبار الأصلي.' },
+];
