@@ -33,7 +33,9 @@ export function TimelineNode({ node, index }: TimelineNodeProps) {
   ][index % 5];
 
   const handleNavigation = () => {
-    if (node.type === 'assessment') {
+    if (node.id === 'final-results') {
+      navigate('/final-results');
+    } else if (node.type === 'assessment') {
       navigate(`/assessment/${node.id}`);
     } else if (node.type === 'module' && node.moduleId) {
       navigate(`/module/${node.moduleId}`);

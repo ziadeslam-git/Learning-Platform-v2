@@ -17,4 +17,5 @@ export const learningPath: TimelineNodeData[] = [
   { id: 'module-3', title: 'الموديول الثالث', type: 'module', moduleId: 'm3' },
   { id: 'post-test', title: 'الاختبار التحصيلي البعدي', type: 'assessment' },
   { id: 'post-scale', title: 'مقياس التقبل البعدي', type: 'assessment' },
+  { id: 'final-results', title: 'التقييم النهائي', type: 'assessment' },
 ];
