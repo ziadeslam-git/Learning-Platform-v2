@@ -3,7 +3,7 @@ import { Timeline } from '../timeline';
 import { Footer } from '../footer';
 
 import { Link } from 'react-router-dom';
-import { BarChart3, Info, Play } from 'lucide-react';
+import { Info, Play } from 'lucide-react';
 import { useLearningProgress } from '../../hooks/useLearningProgress';
 
 export function LandingPage() {
@@ -32,13 +32,7 @@ export function LandingPage() {
                 <span className="font-semibold tracking-wide">متابعة من حيث توقفت</span>
               </Link>
             )}
-            <Link
-              to="/stats"
-              className="flex items-center gap-2 px-4 md:px-5 py-2.5 bg-white/5 hover:bg-white/10 text-gray-200 border border-white/10 rounded-xl transition-all hover:-translate-y-0.5"
-            >
-              <BarChart3 className="w-4 h-4" />
-              <span className="font-semibold tracking-wide">الإحصائيات</span>
-            </Link>
+
             <Link 
               to="/about"
               className="flex items-center gap-2 px-4 md:px-5 py-2.5 bg-orange-500/10 hover:bg-orange-500/20 text-orange-400 border border-orange-500/30 rounded-xl transition-all glow-orange hover:-translate-y-0.5"

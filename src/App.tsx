@@ -8,7 +8,6 @@ import { useLearningProgress } from './hooks/useLearningProgress';
 const AboutPlatform = lazy(() => import('./pages/AboutPlatform').then(module => ({ default: module.AboutPlatform })));
 const ModulePage = lazy(() => import('./pages/ModulePage').then(module => ({ default: module.ModulePage })));
 const AssessmentPage = lazy(() => import('./pages/AssessmentPage').then(module => ({ default: module.AssessmentPage })));
-const StatsPage = lazy(() => import('./pages/StatsPage').then(module => ({ default: module.StatsPage })));
 
 function App() {
   const { addLearningSeconds } = useLearningProgress();
@@ -26,7 +25,6 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/about" element={<AboutPlatform />} />
-            <Route path="/stats" element={<StatsPage />} />
             <Route path="/module/:id" element={<ModulePage />} />
             <Route path="/assessment/:type" element={<AssessmentPage />} />
           </Routes>

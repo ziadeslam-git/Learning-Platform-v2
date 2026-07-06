@@ -42,7 +42,7 @@ export function AboutPlatform() {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-orange-500 mb-4 py-2 drop-shadow-md">
             عن المنصة
           </h1>
           <p className="text-gray-400 text-lg">منصة تفاعلية قائمة على تطبيقات الذكاء الاصطناعي</p>

@@ -51,7 +51,7 @@ export function TimelinePath({ points, containerHeight, progressRatio }: Timelin
         <defs>
           <linearGradient id="pathGradient" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stopColor="rgba(249, 115, 22, 0.8)" />
-            <stop offset="100%" stopColor="rgba(249, 115, 22, 0.1)" />
+            <stop offset="100%" stopColor="rgba(249, 115, 22, 0.8)" />
           </linearGradient>
           <filter id="glow">
             <feGaussianBlur stdDeviation="4" result="coloredBlur"/>

@@ -52,10 +52,10 @@ export function TimelineNode({ node, index }: TimelineNodeProps) {
       <button
         onClick={handleNavigation}
         className={cn(
-          'w-24 h-24 md:w-32 md:h-32 rounded-full flex items-center justify-center border-4 transition-all duration-500 hover:scale-105 cursor-pointer',
-          isActive ? 'border-orange-500 bg-orange-500/20 glow-orange shadow-[0_0_30px_rgba(249,115,22,0.4)]' : 
-          isCompleted ? 'border-orange-400/50 bg-white/5 hover:bg-white/10' : 
-          'border-white/10 bg-black/50 glass hover:border-orange-500/30'
+          'w-24 h-24 md:w-32 md:h-32 rounded-full flex items-center justify-center border-4 transition-all duration-500 hover:scale-105 cursor-pointer backdrop-blur-[2px]',
+          isActive ? 'border-orange-500 bg-transparent shadow-[0_0_30px_rgba(249,115,22,0.4)]' : 
+          isCompleted ? 'border-orange-400/50 bg-transparent' : 
+          'border-white/10 bg-transparent hover:border-orange-500/30'
         )}
       >
         {isCompleted && <CheckCircle className="w-10 h-10 md:w-12 md:h-12 text-orange-400" />}
@@ -63,8 +63,8 @@ export function TimelineNode({ node, index }: TimelineNodeProps) {
         {!isCompleted && !isActive && <Circle className="w-8 h-8 md:w-10 md:h-10 text-gray-500" />}
       </button>
       
-      <div className={cn('mt-6 text-center glass px-6 py-3 rounded-2xl border flex flex-col items-center', 
-        isActive ? 'border-orange-500/30' : 'border-white/5'
+      <div className={cn('mt-6 text-center glass px-6 py-3 rounded-2xl border flex flex-col items-center transition-all duration-500', 
+        isActive ? 'border-orange-500 shadow-[0_0_15px_rgba(249,115,22,0.6)]' : 'border-white/5'
       )}>
         <p className="text-xs font-bold uppercase tracking-wider text-orange-500 mb-1">
           {node.type === 'assessment' ? 'التقييم' : `المرحلة 0${index}`}
