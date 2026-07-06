@@ -52,10 +52,10 @@ export function TimelineNode({ node, index }: TimelineNodeProps) {
       <button
         onClick={handleNavigation}
         className={cn(
-          'w-24 h-24 md:w-32 md:h-32 rounded-full flex items-center justify-center border-4 transition-all duration-500 hover:scale-105 cursor-pointer backdrop-blur-[2px]',
-          isActive ? 'border-orange-500 bg-transparent shadow-[0_0_30px_rgba(249,115,22,0.4)]' : 
-          isCompleted ? 'border-orange-400/50 bg-transparent' : 
-          'border-white/10 bg-transparent hover:border-orange-500/30'
+          'w-24 h-24 md:w-32 md:h-32 rounded-full flex items-center justify-center border-4 transition-all duration-500 hover:scale-105 cursor-pointer z-10',
+          isActive ? 'border-orange-500 bg-black shadow-[0_0_30px_rgba(249,115,22,0.4)]' : 
+          isCompleted ? 'border-orange-400/50 bg-black' : 
+          'border-white/10 bg-black hover:border-orange-500/30'
         )}
       >
         {isCompleted && <CheckCircle className="w-10 h-10 md:w-12 md:h-12 text-orange-400" />}

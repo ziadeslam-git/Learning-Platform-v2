@@ -11,27 +11,27 @@ export function Hero() {
         transition={{ duration: 0.8, ease: 'easeOut' }}
         className="text-center z-10 max-w-4xl mx-auto flex flex-col items-center gap-8"
       >
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-orange text-orange-500 font-medium text-sm mb-4">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-orange text-orange-500 font-medium text-sm mb-4 font-arabic">
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
           </span>
-          System Online
+          المنصة جاهزة
         </div>
 
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white glow-text leading-tight">
-          Master the <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">Science</span>
-          <br /> of Tomorrow
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white glow-text leading-relaxed font-arabic">
+          فاعلية توظيف تطبيقات <br className="hidden md:block" />
+          <span className="text-orange-500">الذكاء الاصطناعي</span> ببيئة تدريب شخصية
         </h1>
 
-        <p className="text-lg md:text-xl text-gray-400 max-w-2xl">
-          An advanced, enterprise-grade learning platform designed to accelerate your scientific journey through interactive modules and rigorous assessments.
+        <p className="text-lg md:text-xl text-gray-300 max-w-3xl leading-loose font-arabic">
+          في تنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدى القيادات التعليمية
         </p>
 
         <div className="mt-4 flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
           <GlowButton onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}>
-            Start Learning
-            <ArrowRight className="w-5 h-5" />
+            <span className="font-arabic font-bold text-lg">ابدأ رحلة التعلم</span>
+            <ArrowRight className="w-5 h-5 rotate-180" />
           </GlowButton>
         </div>
       </motion.div>
