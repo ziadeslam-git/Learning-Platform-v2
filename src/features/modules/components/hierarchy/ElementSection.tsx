@@ -1,6 +1,15 @@
 import type { ParsedElement } from '../../utils/contentParser';
 import { contentRepository } from '../../../../services/content/contentRepository';
-import { ExternalLink, Play } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
+
+// YouTube SVG logo component
+function YouTubeLogo({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+    </svg>
+  );
+}
 
 export function ElementSection({ element }: { element: ParsedElement }) {
   return (
@@ -13,107 +22,155 @@ export function ElementSection({ element }: { element: ParsedElement }) {
       </div>
       
       <div className="space-y-element">
-        {element.subConcepts.map((concept, idx) => {
-          if (concept.type === 'definition') {
-            return (
-              <div key={idx} className="bg-black/20 border-r-4 border-r-white/20 p-5 rounded-2xl">
-                <h4 className="text-orange-300 font-bold mb-text text-lg font-arabic">{concept.title}</h4>
-                <p className="text-gray-200 leading-relaxed text-lg font-arabic">{concept.text}</p>
-              </div>
-            );
-          }
-          if (concept.type === 'list') {
-            return (
-              <details key={idx} className="group my-element rounded-2xl border border-white/10 bg-black/20 p-4 open:border-orange-500/30">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-orange-200 font-semibold text-lg font-arabic">
-                  <span>{concept.title}</span>
-                  <span className="text-orange-400 transition-transform group-open:rotate-180">⌄</span>
-                </summary>
-                <ul className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-300 font-arabic text-right">
-                  {concept.items.map((item, i) => (
-                    <li key={i} className="leading-relaxed rounded-xl bg-white/[0.03] border border-white/5 px-4 py-3 relative pr-7">
-                      <span className="absolute right-3 top-5 w-1.5 h-1.5 rounded-full bg-orange-500"></span>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </details>
-            );
-          }
-          if (concept.type === 'text') {
-            return (
-              <p key={idx} className="text-gray-300 leading-relaxed text-lg font-arabic">
-                {concept.text}
-              </p>
-            );
-          }
-          if (concept.type === 'media') {
-             if (concept.mediaType === 'image') {
-               const imgSrc = contentRepository.getImage(concept.url);
-               return (
-                 <div key={idx} className="my-6 rounded-2xl overflow-hidden border border-white/10 bg-black/40 p-4">
-                   {imgSrc ? (
-                     <img src={imgSrc} alt={concept.title} loading="lazy" className="w-full h-auto max-h-[600px] object-contain rounded-xl" />
-                   ) : (
-                     <div className="text-gray-400 p-8 text-center bg-white/5 rounded-xl border border-dashed border-white/20">
-                       صورة مفقودة: {concept.url}
-                     </div>
-                   )}
-                   {concept.title && concept.title !== 'صورة توضيحية' && (
-                     <p className="text-gray-400 text-center mt-4 font-arabic">{concept.title}</p>
-                   )}
-                 </div>
-               );
-             }
-             if (concept.mediaType === 'video') {
-               // Extract YouTube ID
-               const videoIdMatch = concept.url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([^&?]+)/);
-               const videoId = videoIdMatch ? videoIdMatch[1] : null;
-               
-               return (
-                 <div key={idx} className="my-6 rounded-2xl overflow-hidden border border-orange-500/20 bg-black/40">
-                   {videoId ? (
-                     <div className="relative w-full pb-[56.25%]">
-                       <iframe
-                         src={`https://www.youtube.com/embed/${videoId}`}
-                         title={concept.title || 'فيديو تعليمي'}
-                         loading="lazy"
-                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                         allowFullScreen
-                         className="absolute top-0 left-0 w-full h-full rounded-xl"
-                       />
-                     </div>
-                   ) : (
-                     <a
-                       href={concept.url}
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       aria-label="فتح فيديو YouTube في نافذة جديدة"
-                       className="group flex min-h-52 flex-col items-center justify-center gap-4 bg-gradient-to-br from-orange-500/15 via-black/50 to-black p-8 text-center transition-colors hover:from-orange-500/25"
-                     >
-                       <span className="flex h-16 w-16 items-center justify-center rounded-full bg-orange-500 text-white shadow-[0_0_30px_rgba(249,115,22,0.35)] transition-transform group-hover:scale-105">
-                         <Play className="h-8 w-8" fill="currentColor" />
-                       </span>
-                       <span className="inline-flex items-center gap-2 text-orange-300 font-bold font-arabic">
-                         فتح فيديو YouTube
-                         <ExternalLink className="h-4 w-4" />
-                       </span>
-                     </a>
-                   )}
-                   <p className="text-orange-400 text-center p-4 font-arabic font-semibold">{concept.title || 'فيديو'}</p>
-                 </div>
-               );
-             }
+        {(() => {
+          // Group consecutive media into pairs for side-by-side display
+          type ConceptType = typeof element.subConcepts[0];
+          type GroupItem =
+            | { type: 'single'; concept: ConceptType; idx: number }
+            | { type: 'media-group'; items: { concept: ConceptType; idx: number }[] };
 
-             return (
-               <a key={idx} href={concept.url} target="_blank" rel="noopener noreferrer" aria-label="فتح رابط خارجي في نافذة جديدة" className="block p-4 bg-black/40 border border-white/10 rounded-2xl hover:border-orange-500/50 transition-colors my-4 group">
-                  <span className="text-orange-400 font-bold group-hover:text-orange-300 transition-colors">{concept.title}</span>
-                  <span className="block text-gray-400 text-sm mt-1 truncate group-hover:text-gray-300 transition-colors">{concept.url}</span>
-               </a>
-             );
+          const grouped: GroupItem[] = [];
+          let currentGroup: { concept: ConceptType; idx: number }[] = [];
+
+          element.subConcepts.forEach((concept, idx) => {
+            if (concept.type === 'media') {
+              currentGroup.push({ concept, idx });
+            } else {
+              if (currentGroup.length > 0) {
+                grouped.push({ type: 'media-group', items: currentGroup });
+                currentGroup = [];
+              }
+              grouped.push({ type: 'single', concept, idx });
+            }
+          });
+          if (currentGroup.length > 0) {
+            grouped.push({ type: 'media-group', items: currentGroup });
           }
-          return null;
-        })}
+
+          return grouped.map((group, groupIdx) => {
+            if (group.type === 'single') {
+              const { concept, idx } = group;
+
+              // Definition block
+              if (concept.type === 'definition') {
+                return (
+                  <div key={idx} className="bg-black/20 border-r-4 border-r-orange-500/50 p-5 rounded-2xl">
+                    <h4 className="text-orange-300 font-bold mb-text text-lg font-arabic">{concept.title}</h4>
+                    <p className="text-gray-200 leading-relaxed text-lg font-arabic">{concept.text}</p>
+                  </div>
+                );
+              }
+
+              // List block - shown always open with numbered grid
+              if (concept.type === 'list') {
+                const cleanTitle = concept.title?.replace(/[()]/g, '').trim();
+                return (
+                  <div key={idx} className="my-element">
+                    {cleanTitle && (
+                      <h4 className="text-orange-200 font-semibold text-base font-arabic mb-3">
+                        {cleanTitle}:-
+                      </h4>
+                    )}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      {concept.items.map((item: string, i: number) => {
+                        const cleanItem = item.replace(/[()]/g, '').trim();
+                        return (
+                          <div key={i} className="flex items-start gap-3 rounded-xl bg-white/[0.03] border border-white/5 px-4 py-3">
+                            <span className="flex items-center justify-center min-w-[1.5rem] h-6 rounded-full bg-orange-500/20 text-orange-400 text-xs font-bold shrink-0 mt-0.5">
+                              {i + 1}
+                            </span>
+                            <span className="leading-relaxed text-gray-300 font-arabic" dir="auto">{cleanItem}</span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              }
+
+              // Plain text
+              if (concept.type === 'text') {
+                return (
+                  <p key={idx} className="text-gray-300 leading-relaxed text-lg font-arabic">
+                    {concept.text}
+                  </p>
+                );
+              }
+            }
+
+            // Media group - displayed 2 per row
+            if (group.type === 'media-group') {
+              return (
+                <div key={`group-${groupIdx}`} className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
+                  {group.items.map(({ concept, idx }) => {
+                    const cleanTitle = concept.title?.replace(/[()]/g, '').trim();
+
+                    if (concept.type !== 'media') return null;
+
+                    if (concept.mediaType === 'image') {
+                      const imgSrc = contentRepository.getImage(concept.url);
+                      return (
+                        <div key={idx} className="rounded-2xl overflow-hidden border border-white/10 bg-black/30 p-3 flex flex-col">
+                          {imgSrc ? (
+                            <img src={imgSrc} alt={cleanTitle} loading="lazy" className="w-full h-auto max-h-72 object-contain rounded-xl" />
+                          ) : (
+                            <div className="text-gray-500 p-6 text-center bg-white/5 rounded-xl border border-dashed border-white/10 flex-1 flex items-center justify-center text-sm font-arabic">
+                              صورة مفقودة
+                            </div>
+                          )}
+                          {cleanTitle && cleanTitle !== 'صورة توضيحية' && (
+                            <p className="text-gray-400 text-center text-sm mt-2 font-arabic" dir="auto">{cleanTitle}</p>
+                          )}
+                        </div>
+                      );
+                    }
+
+                    // Video — compact YouTube button
+                    if (concept.mediaType === 'video') {
+                      return (
+                        <div key={idx} className="flex flex-col gap-2">
+                          {cleanTitle && (
+                            <span className="text-orange-200 font-semibold font-arabic text-sm" dir="auto">{cleanTitle}</span>
+                          )}
+                          <a
+                            href={concept.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group inline-flex items-center gap-3 bg-[#FF0000]/10 border border-[#FF0000]/30 hover:bg-[#FF0000]/20 hover:border-[#FF0000]/60 transition-all px-5 py-3 rounded-xl w-full"
+                          >
+                            <YouTubeLogo className="h-6 w-6 text-[#FF0000] shrink-0" />
+                            <span className="text-white font-bold text-sm font-arabic">مشاهدة على YouTube</span>
+                            <ExternalLink className="h-3.5 w-3.5 text-gray-400 ml-auto group-hover:text-white transition-colors" />
+                          </a>
+                        </div>
+                      );
+                    }
+
+                    // Generic link
+                    return (
+                      <div key={idx} className="flex flex-col gap-2">
+                        {cleanTitle && (
+                          <span className="text-orange-200 font-semibold font-arabic text-sm" dir="auto">{cleanTitle}</span>
+                        )}
+                        <a
+                          href={concept.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="group inline-flex items-center gap-3 bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all px-5 py-3 rounded-xl w-full"
+                        >
+                          <ExternalLink className="h-5 w-5 text-orange-500 shrink-0" />
+                          <span className="text-white font-bold text-sm font-arabic truncate">فتح الرابط</span>
+                        </a>
+                      </div>
+                    );
+                  })}
+                </div>
+              );
+            }
+
+            return null;
+          });
+        })()}
       </div>
     </div>
   );

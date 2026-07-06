@@ -43,6 +43,77 @@ export interface ParsedAssessment {
 const sectionBoundaryPattern = /^(الدرس|العنصر|الأهداف التعليمية|عرض المحتوى|الأنشطة|نشاط|التقويم|ملخص|الخلاصة)/;
 const listHeadingPattern = /^(أهمية|مجالات|مكونات|خطوات|فوائد|أدوات|خصائص|مهارات|أساليب|متطلبات|إجراءات)/;
 
+/**
+ * Static answer key for lesson quizzes derived from scientific content analysis.
+ * Keys are normalized question text (trimmed). Values are the correct answer text.
+ */
+const LESSON_QUIZ_ANSWER_KEY: Record<string, string> = {
+  // Module 1 - Lesson 1
+  'يقصد بالقيادة الرقمية': 'استخدام التكنولوجيا في العمل الإداري',
+  'من مراحل التخطيط الرقمي:': 'التنفيذ',
+  'تساعد التقارير الرقمية في دعم اتخاذ القرار.': 'صواب',
+  'لا ترتبط القيادة الرقمية بالتحول الرقمي.': 'خطأ',
+  // Module 1 - Lesson 2
+  'من مكونات البنية الرقمية': 'الشبكات والأجهزة والبرمجيات',
+  '1- من مكونات البنية الرقمية': 'الشبكات والأجهزة والبرمجيات',
+  'من فوائد تنظيم الملفات الرقمية': 'سهولة استرجاع الملفات',
+  '2- من فوائد تنظيم الملفات الرقمية': 'سهولة استرجاع الملفات',
+  'تساعد مشاركة الموارد الرقمية في تعزيز التعاون بين العاملين': 'صواب',
+  'لا تؤثر تحديثات الأنظمة على أمن المعلومات': 'خطأ',
+  'يعد Google Drive من أدوات مشاركة الموارد التعليمية': 'صواب',
+  // Module 2 - Lesson 1
+  'من أدوات التواصل المتزامن:': 'Microsoft Teams',
+  'تساعد الاجتماعات الإلكترونية في توفير الوقت والجهد.': 'صواب',
+  'لا يجب حفظ تسجيلات الاجتماعات الإلكترونية.': 'خطأ',
+  // Module 2 - Lesson 2
+  'يهدف النسخ الاحتياطي إلى': 'حماية البيانات من الفقد',
+  '1- يهدف النسخ الاحتياطي إلى': 'حماية البيانات من الفقد',
+  'من خطوات اتخاذ القرار': 'تحليل البيانات',
+  '2: من خطوات اتخاذ القرار': 'تحليل البيانات',
+  'يساعد تنظيم البيانات على سرعة الوصول للمعلومات.': 'صواب',
+  'لا أهمية لتحديث البيانات الرقمية بصورة مستمرة.': 'خطأ',
+  'يمكن للذكاء الاصطناعي دعم عملية اتخاذ القرار.': 'صواب',
+  // Module 3 - Lesson 1
+  'من خصائص كلمة المرور القوية': 'مزيج من الحروف والأرقام والرموز',
+  'من مؤشرات الروابط المشبوهة:': 'طلب معلومات شخصية',
+  'يساعد تحديث برامج الحماية في تعزيز الأمن السيبراني.': 'صواب',
+  'يمكن فتح أي رابط يصل عبر البريد الإلكتروني دون التحقق منه.': 'خطأ',
+  'تعد المصادقة متعددة العوامل وسيلة لتعزيز حماية الحسابات.': 'صواب',
+  // Module 3 - Lesson 2
+  '1. يقصد بالإشراف الرقمي:': 'متابعة العملية التعليمية باستخدام التقنيات الرقمية',
+  'يقصد بالإشراف الرقمي:': 'متابعة العملية التعليمية باستخدام التقنيات الرقمية',
+  '2. من أدوات التقويم الرقمي:': 'Google Forms',
+  'من أدوات التقويم الرقمي:': 'Google Forms',
+  'تساعد التغذية الراجعة الرقمية في تحسين الأداء التعليمي.': 'صواب',
+  'لا يمكن تحليل نتائج الاختبارات إلكترونياً.': 'خطأ',
+  'يعد Microsoft Forms من أدوات التقويم الرقمي.': 'صواب',
+};
+
+/** Look up correct answer from static key (normalize by trimming) */
+function lookupAnswer(questionText: string, options?: string[]): string | undefined {
+  const key = questionText.trim();
+  const directMatch = LESSON_QUIZ_ANSWER_KEY[key];
+  if (directMatch) {
+    // For MCQ, match against options to find the actual option text
+    if (options && options.length > 0) {
+      const matched = options.find(opt => opt.includes(directMatch) || directMatch.includes(opt));
+      return matched || directMatch;
+    }
+    return directMatch;
+  }
+  // Try partial match
+  for (const [k, v] of Object.entries(LESSON_QUIZ_ANSWER_KEY)) {
+    if (key.includes(k) || k.includes(key)) {
+      if (options && options.length > 0) {
+        const matched = options.find(opt => opt.includes(v) || v.includes(opt));
+        return matched || v;
+      }
+      return v;
+    }
+  }
+  return undefined;
+}
+
 function cleanListItem(content: string) {
   return content.replace(/^\d+[-.]\s*/, '').replace(/^[-*•]\s*/, '').trim();
 }
@@ -319,7 +390,8 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
 
       if (currentAssessmentType === 'mcq') {
          if (!content.match(/^(?:\.\s*)?[اأبجد][)-]/)) {
-            const qText = content;
+            // Strip leading question numbers like "1-" or "1." or "2:"
+            const qText = content.replace(/^\d+[-.:)\s]+/, '').trim();
             const choices: string[] = [];
             let correctAnswer: string | undefined;
             let j = i + 1;
@@ -343,13 +415,20 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
                break;
             }
             if (choices.length > 0) {
+              // If no ✓ marker found, look up from static key
+              if (!correctAnswer) {
+                correctAnswer = lookupAnswer(qText, choices) || lookupAnswer(content, choices);
+              }
               currentLesson.assessments.push({ id: block.id, type: 'mcq', text: qText, options: choices, correctAnswer });
               i = j - 1;
             }
          }
       }
       else if (currentAssessmentType === 'tf') {
-         currentLesson.assessments.push({ id: block.id, type: 'tf', text: cleanAnswerMarker(content), correctAnswer: markerAnswer(content) });
+         const tfText = cleanAnswerMarker(content);
+         const markerAns = markerAnswer(content);
+         const correct = markerAns || lookupAnswer(tfText) || lookupAnswer(content);
+         currentLesson.assessments.push({ id: block.id, type: 'tf', text: tfText, correctAnswer: correct });
       }
       else if (currentAssessmentType === 'task') {
          const last = currentLesson.assessments[currentLesson.assessments.length - 1];
