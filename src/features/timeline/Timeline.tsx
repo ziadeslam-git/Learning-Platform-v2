@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { learningPath } from '../../data/learningPath';
+import { useLearningProgress } from '../../hooks/useLearningProgress';
 import { SectionTitle } from '../../shared/ui/SectionTitle';
 import { TimelineNode } from './TimelineNode';
 import { TimelinePath } from './TimelinePath';
@@ -52,6 +53,22 @@ export function Timeline() {
     };
   }, []);
 
+  const { modules, completedAssessments } = useLearningProgress();
+
+  let activeIndex = learningPath.length - 1;
+  for (let i = 0; i < learningPath.length; i++) {
+    const node = learningPath[i];
+    const isCompleted = node.type === 'assessment'
+      ? Boolean(completedAssessments[node.id])
+      : Boolean(modules[node.moduleId!] && modules[node.moduleId!].percent >= 100);
+    
+    if (!isCompleted) {
+      activeIndex = i;
+      break;
+    }
+  }
+  const progressRatio = learningPath.length > 1 ? activeIndex / (learningPath.length - 1) : 0;
+
   return (
     <section className="relative py-32 px-4 md:px-8 max-w-7xl mx-auto w-full">
       <SectionTitle 
@@ -61,7 +78,7 @@ export function Timeline() {
       />
       
       <div ref={containerRef} className="relative flex flex-col gap-32 md:gap-40">
-        <TimelinePath points={points} containerHeight={containerHeight} />
+        <TimelinePath points={points} containerHeight={containerHeight} progressRatio={progressRatio} />
         
         {learningPath.map((node, i) => (
           <TimelineNode key={node.id} node={node} index={i} />

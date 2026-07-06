@@ -4,6 +4,7 @@ import { ElementSection } from './ElementSection';
 import { ActivityChecklist } from './ActivityChecklist';
 import { QuizComponent } from './QuizComponent';
 import { LessonSummary } from './LessonSummary';
+import { useLearningProgress } from '../../../../hooks/useLearningProgress';
 
 interface Props {
   lesson: ParsedLesson;
@@ -12,6 +13,8 @@ interface Props {
 }
 
 export function LessonContainer({ lesson, moduleId, totalSections }: Props) {
+  const { setSectionCompleted } = useLearningProgress();
+
   return (
     <div className="mb-module">
       <h2 className="text-3xl md:text-4xl font-bold text-blue-400 mb-section font-arabic border-b border-white/10 pb-4">
@@ -27,7 +30,14 @@ export function LessonContainer({ lesson, moduleId, totalSections }: Props) {
         
         {lesson.activities.length > 0 && <ActivityChecklist moduleId={moduleId} activities={lesson.activities} />}
         
-        {lesson.assessments.length > 0 && <QuizComponent assessments={lesson.assessments} />}
+        {lesson.assessments.length > 0 && (
+          <QuizComponent
+            moduleId={moduleId}
+            lessonId={lesson.id}
+            assessments={lesson.assessments}
+            onCompleted={() => setSectionCompleted(moduleId, lesson.id, totalSections)}
+          />
+        )}
         
         {(lesson.summary || lesson.summaryImage) && (
           <LessonSummary

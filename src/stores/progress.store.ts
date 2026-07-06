@@ -14,6 +14,8 @@ function createModuleProgress(moduleId: string): ModuleProgress {
     activeSectionId: null,
     activeAccordionId: null,
     checklist: {},
+    quizAnswers: {},
+    completedQuizzes: {},
     completedSections: {},
     percent: 0,
     lastVisitedAt: now(),
@@ -39,6 +41,9 @@ interface ProgressStore extends LearningProgressState {
   setActiveAccordion: (moduleId: string, accordionId: string | null) => void;
   setSectionCompleted: (moduleId: string, sectionId: string, totalSections: number) => void;
   setChecklistItem: (moduleId: string, itemId: string, checked: boolean) => void;
+  setQuizAnswer: (moduleId: string, questionId: string, answer: string) => void;
+  markQuizCompleted: (moduleId: string, quizId: string) => void;
+  completeModule: (moduleId: string) => void;
   markAssessmentCompleted: (assessmentId: string) => void;
   addLearningSeconds: (seconds: number) => void;
   getStats: () => LearningStats;
@@ -89,9 +94,10 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
 
   setActiveAccordion: (moduleId, accordionId) => set((state) => {
     const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
-    const openedSectionIds = accordionId && !moduleProgress.openedSectionIds.includes(accordionId)
-      ? [...moduleProgress.openedSectionIds, accordionId]
-      : moduleProgress.openedSectionIds;
+    const currentOpenedSectionIds = moduleProgress.openedSectionIds ?? [];
+    const openedSectionIds = accordionId && !currentOpenedSectionIds.includes(accordionId)
+      ? [...currentOpenedSectionIds, accordionId]
+      : currentOpenedSectionIds;
     const next = {
       ...state,
       lastModuleId: moduleId,
@@ -113,7 +119,7 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
 
   setSectionCompleted: (moduleId, sectionId, totalSections) => set((state) => {
     const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
-    const completedSections = { ...moduleProgress.completedSections, [sectionId]: true };
+    const completedSections = { ...(moduleProgress.completedSections ?? {}), [sectionId]: true };
     const percent = totalSections > 0
       ? Math.min(100, Math.round((Object.keys(completedSections).length / totalSections) * 100))
       : moduleProgress.percent;
@@ -139,9 +145,62 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
         ...state.modules,
         [moduleId]: {
           ...moduleProgress,
-          checklist: { ...moduleProgress.checklist, [itemId]: checked },
+          checklist: { ...(moduleProgress.checklist ?? {}), [itemId]: checked },
           lastVisitedAt: now(),
         },
+      },
+    };
+    persist(next);
+    return next;
+  }),
+
+  setQuizAnswer: (moduleId, questionId, answer) => set((state) => {
+    const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
+    const next = {
+      ...state,
+      lastModuleId: moduleId,
+      lastVisitedAt: now(),
+      modules: {
+        ...state.modules,
+        [moduleId]: {
+          ...moduleProgress,
+          quizAnswers: { ...(moduleProgress.quizAnswers ?? {}), [questionId]: answer },
+          lastVisitedAt: now(),
+        },
+      },
+    };
+    persist(next);
+    return next;
+  }),
+
+  markQuizCompleted: (moduleId, quizId) => set((state) => {
+    const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
+    const next = {
+      ...state,
+      lastModuleId: moduleId,
+      lastVisitedAt: now(),
+      modules: {
+        ...state.modules,
+        [moduleId]: {
+          ...moduleProgress,
+          completedQuizzes: { ...(moduleProgress.completedQuizzes ?? {}), [quizId]: true },
+          lastVisitedAt: now(),
+        },
+      },
+    };
+    persist(next);
+    return next;
+  }),
+
+  completeModule: (moduleId) => set((state) => {
+    const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
+    const next = {
+      ...state,
+      lastModuleId: moduleId,
+      lastVisitedAt: now(),
+      modules: {
+        ...state.modules,
+        [moduleId]: { ...moduleProgress, percent: 100, lastVisitedAt: now() },
       },
     };
     persist(next);

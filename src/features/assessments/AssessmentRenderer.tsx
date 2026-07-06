@@ -8,6 +8,8 @@ import { useAssessment } from '../../hooks/useAssessment';
 import { useLearningProgress } from '../../hooks/useLearningProgress';
 import { parseAssessmentQuestions } from './utils/assessmentParser';
 import { gradeAssessment } from './utils/grading';
+import { useNavigate } from 'react-router-dom';
+import { learningPath } from '../../data/learningPath';
 
 interface Props {
   assessmentId: string;
@@ -33,10 +35,12 @@ export function AssessmentRenderer({ assessmentId }: Props) {
   if (!data || questions.length === 0) {
     return (
       <div className="p-8 text-center text-gray-400 font-arabic" dir="rtl">
-        لم يتم العثور على أسئلة التقييم.
+        لم يتم العثور على أسئلة التقييم. يرجى العودة للمسار التعليمي واختيار تقييم آخر.
       </div>
     );
   }
+
+  const navigate = useNavigate();
 
   const activeAttempt = attempt ?? startAttempt(assessmentId);
   const currentIndex = Math.min(activeAttempt.currentIndex, questions.length - 1);
@@ -45,18 +49,24 @@ export function AssessmentRenderer({ assessmentId }: Props) {
 
   if (activeAttempt.finishedAt) {
     const result = gradeAssessment(assessmentId, questions, activeAttempt);
+    const isScale = assessmentId.includes('scale');
+    const currentNodeIndex = learningPath.findIndex(n => n.id === assessmentId);
+    const nextNode = currentNodeIndex !== -1 && currentNodeIndex < learningPath.length - 1 ? learningPath[currentNodeIndex + 1] : null;
+
     return (
       <div className="font-arabic py-12" dir="rtl">
         <ResultScreen 
           score={result.score} 
-          total={questions.length} 
           gradedTotal={result.gradedTotal}
           wrong={result.wrong}
           percent={result.percent}
-          durationSeconds={result.durationSeconds}
-          ungradedCount={result.ungradedQuestionIds.length}
           review={result.review}
-          onContinue={() => window.location.assign('/')} 
+          isScale={isScale}
+          nextNodeName={nextNode?.title}
+          onContinue={() => {
+            markAssessmentCompleted(assessmentId);
+            navigate('/');
+          }} 
           onRetry={() => {
             resetAttempt(assessmentId);
             startAttempt(assessmentId);

@@ -24,17 +24,20 @@ export function ElementSection({ element }: { element: ParsedElement }) {
           }
           if (concept.type === 'list') {
             return (
-              <div key={idx} className="my-element">
-                <h5 className="text-orange-200 font-semibold mb-element text-lg font-arabic">{concept.title}</h5>
-                <ul className="columns-1 md:columns-2 gap-8 text-gray-300 font-arabic text-right">
+              <details key={idx} className="group my-element rounded-2xl border border-white/10 bg-black/20 p-4 open:border-orange-500/30">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-orange-200 font-semibold text-lg font-arabic">
+                  <span>{concept.title}</span>
+                  <span className="text-orange-400 transition-transform group-open:rotate-180">⌄</span>
+                </summary>
+                <ul className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-300 font-arabic text-right">
                   {concept.items.map((item, i) => (
-                    <li key={i} className="leading-relaxed mb-3 break-inside-avoid relative pr-5">
-                      <span className="absolute right-0 top-2.5 w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+                    <li key={i} className="leading-relaxed rounded-xl bg-white/[0.03] border border-white/5 px-4 py-3 relative pr-7">
+                      <span className="absolute right-3 top-5 w-1.5 h-1.5 rounded-full bg-orange-500"></span>
                       {item}
                     </li>
                   ))}
                 </ul>
-              </div>
+              </details>
             );
           }
           if (concept.type === 'text') {
@@ -50,7 +53,7 @@ export function ElementSection({ element }: { element: ParsedElement }) {
                return (
                  <div key={idx} className="my-6 rounded-2xl overflow-hidden border border-white/10 bg-black/40 p-4">
                    {imgSrc ? (
-                     <img src={imgSrc} alt={concept.title} className="w-full h-auto max-h-[600px] object-contain rounded-xl" />
+                     <img src={imgSrc} alt={concept.title} loading="lazy" className="w-full h-auto max-h-[600px] object-contain rounded-xl" />
                    ) : (
                      <div className="text-gray-400 p-8 text-center bg-white/5 rounded-xl border border-dashed border-white/20">
                        صورة مفقودة: {concept.url}
@@ -73,7 +76,8 @@ export function ElementSection({ element }: { element: ParsedElement }) {
                      <div className="relative w-full pb-[56.25%]">
                        <iframe
                          src={`https://www.youtube.com/embed/${videoId}`}
-                         title={concept.title}
+                         title={concept.title || 'فيديو تعليمي'}
+                         loading="lazy"
                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                          allowFullScreen
                          className="absolute top-0 left-0 w-full h-full rounded-xl"
@@ -84,6 +88,7 @@ export function ElementSection({ element }: { element: ParsedElement }) {
                        href={concept.url}
                        target="_blank"
                        rel="noopener noreferrer"
+                       aria-label="فتح فيديو YouTube في نافذة جديدة"
                        className="group flex min-h-52 flex-col items-center justify-center gap-4 bg-gradient-to-br from-orange-500/15 via-black/50 to-black p-8 text-center transition-colors hover:from-orange-500/25"
                      >
                        <span className="flex h-16 w-16 items-center justify-center rounded-full bg-orange-500 text-white shadow-[0_0_30px_rgba(249,115,22,0.35)] transition-transform group-hover:scale-105">
@@ -101,7 +106,7 @@ export function ElementSection({ element }: { element: ParsedElement }) {
              }
 
              return (
-               <a key={idx} href={concept.url} target="_blank" rel="noopener noreferrer" className="block p-4 bg-black/40 border border-white/10 rounded-2xl hover:border-orange-500/50 transition-colors my-4 group">
+               <a key={idx} href={concept.url} target="_blank" rel="noopener noreferrer" aria-label="فتح رابط خارجي في نافذة جديدة" className="block p-4 bg-black/40 border border-white/10 rounded-2xl hover:border-orange-500/50 transition-colors my-4 group">
                   <span className="text-orange-400 font-bold group-hover:text-orange-300 transition-colors">{concept.title}</span>
                   <span className="block text-gray-400 text-sm mt-1 truncate group-hover:text-gray-300 transition-colors">{concept.url}</span>
                </a>

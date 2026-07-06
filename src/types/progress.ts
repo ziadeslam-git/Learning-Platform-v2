@@ -6,6 +6,8 @@ export interface ModuleProgress {
   activeSectionId: string | null;
   activeAccordionId: string | null;
   checklist: Record<string, boolean>;
+  quizAnswers: Record<string, string>;
+  completedQuizzes: Record<string, boolean>;
   completedSections: Record<string, boolean>;
   percent: number;
   lastVisitedAt: string;

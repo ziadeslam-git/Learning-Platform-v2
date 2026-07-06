@@ -21,6 +21,15 @@ export const ImageBlockRenderer: React.FC<Props> = React.memo(({ block }) => {
         viewport={{ once: true }}
         className="my-8 relative group cursor-pointer overflow-hidden rounded-2xl glass border border-white/10"
         onClick={() => setIsOpen(true)}
+        role="button"
+        tabIndex={0}
+        aria-label="تكبير الصورة"
+        onKeyDown={(event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            setIsOpen(true);
+          }
+        }}
       >
         <img 
           src={imageSrc} 
@@ -45,6 +54,7 @@ export const ImageBlockRenderer: React.FC<Props> = React.memo(({ block }) => {
             onClick={() => setIsOpen(false)}
           >
             <button 
+              aria-label="إغلاق الصورة المكبرة"
               className="absolute top-6 right-6 p-3 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors"
               onClick={(e) => {
                 e.stopPropagation();

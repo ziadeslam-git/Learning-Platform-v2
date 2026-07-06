@@ -28,11 +28,6 @@ export function AboutPlatform() {
 
   return (
     <div className="relative p-6 md:p-12">
-      {/* Dynamic Background Effects */}
-      <div className="absolute top-0 inset-x-0 h-64 bg-gradient-to-b from-orange-500/10 to-transparent pointer-events-none" />
-      <div className="absolute -top-32 -right-32 w-96 h-96 bg-orange-600/20 rounded-full blur-[100px] pointer-events-none" />
-      <div className="absolute top-1/2 -left-32 w-80 h-80 bg-orange-500/10 rounded-full blur-[100px] pointer-events-none" />
-
       <div className="max-w-4xl mx-auto relative z-10">
         <button 
           onClick={() => navigate('/')}

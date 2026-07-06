@@ -1,32 +1,113 @@
-# React + TypeScript + Vite
+# Learning Platform v2
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Interactive LMS-style training platform for digital transformation skills, built with React, TypeScript, Vite, Tailwind CSS, Framer Motion, and Zustand.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The app presents a structured Arabic learning path with modules, activities, assessments, media cards, progress persistence, resume learning, and statistics. Generated course content lives under `generated/content`, while extracted media lives under `generated/images`.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Learning timeline with completed, active, and not-started states.
+- Module renderer with lesson sections, objectives, lists, activities, media, summaries, and reading progress.
+- Local persistence for module progress, open accordions, checklist items, assessment answers, and resume state.
+- Assessment resume after refresh.
+- Real grading for questions with a verified answer key from `docs/assessments/اجابة الاختبار.docx`.
+- Review mode that shows selected answers, verified correct answers, and source rationale.
+- Statistics page for modules, assessments, learning time, and last visit.
 
-## Expanding the Oxlint configuration
+## Known Limitations
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- The achievement test currently has 22 verified answer-key entries extracted from the original answer document. The remaining questions are intentionally marked ungraded until a source explicitly identifies their correct answers.
+- Generated JSON does not preserve rich DOCX formatting such as bold answer markers; verified grading relies on the original answer DOCX source.
+- External video links that do not expose a YouTube video id are shown as video cards that open the source link.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Architecture
+
+```text
+src/
+  data/                 static path and answer-key data
+  features/             landing, timeline, modules, assessments, footer
+  hooks/                app-level hooks for progress and assessment state
+  pages/                route-level pages
+  services/             content repository and persistence abstractions
+  stores/               Zustand stores
+  shared/               shared UI, icons, background
+  styles/               global theme and utilities
+  types/                content, progress, and assessment types
+generated/
+  content/              imported JSON documents
+  images/               extracted media files
+docs/
+  modules/              source module documents
+  assessments/          source assessment and answer documents
+scripts/
+  content-importer/     DOCX-to-JSON importer
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## State And Persistence
+
+State is managed with Zustand and persisted through service wrappers rather than direct `localStorage` calls in components.
+
+- `src/stores/progress.store.ts`: module progress, resume state, timeline state, statistics.
+- `src/stores/assessment.store.ts`: assessment attempts, current question, answers, completion state.
+- `src/services/progressStorage.ts`: progress persistence.
+- `src/services/assessmentStorage.ts`: assessment persistence.
+- `src/services/settingsStorage.ts`: settings persistence.
+
+## Installation
+
+```bash
+npm install
+```
+
+## Development
+
+```bash
+npm run dev
+```
+
+Open the printed local Vite URL in a browser.
+
+## Build
+
+```bash
+npm run build
+```
+
+This runs TypeScript project build and Vite production bundling.
+
+## Lint
+
+```bash
+npm run lint
+```
+
+The project uses Oxlint.
+
+## Content Import
+
+```bash
+npm run import-content
+```
+
+This reads DOCX sources from `docs/` and writes generated JSON/media into `generated/`.
+
+## Deployment
+
+The production build is emitted to `dist/`. Deploy `dist/` to any static hosting provider that supports single-page applications. Configure fallback routing to `index.html` for client-side routes such as `/module/m1` and `/assessment/pre-test`.
+
+## Production Checklist
+
+- `npm run build` succeeds without errors or warnings.
+- `npm run lint` succeeds.
+- Main pages load: `/`, `/about`, `/stats`, `/module/m1`, `/assessment/pre-test`, `/assessment/pre-scale`.
+- Refresh preserves module and assessment progress.
+- Media renders or falls back to explicit missing-media states.
+- No console runtime errors during primary flows.
+
+## Future Enhancements
+
+- Preserve DOCX answer formatting in the importer so all answer keys can be generated automatically.
+- Add automated browser regression tests for progress persistence and assessment resume.
+- Add a deployment-specific SPA fallback configuration for the target host.

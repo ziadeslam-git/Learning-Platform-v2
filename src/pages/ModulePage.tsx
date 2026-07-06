@@ -6,13 +6,14 @@ import { contentParser } from '../features/modules/utils/contentParser';
 import { ModuleHeader } from '../features/modules/components/hierarchy/ModuleHeader';
 import { LessonContainer } from '../features/modules/components/hierarchy/LessonContainer';
 import { useLearningProgress } from '../hooks/useLearningProgress';
+import { learningPath } from '../data/learningPath';
 
 export function ModulePage() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const data = contentRepository.getModule(id || '');
   const [isLoading, setIsLoading] = useState(true);
-  const { modules, visitModule } = useLearningProgress();
+  const { modules, visitModule, completeModule } = useLearningProgress();
   const moduleId = id?.replace('module-', 'm') || '';
 
   // Parse the data once
@@ -31,6 +32,25 @@ export function ModulePage() {
     const timer = setTimeout(() => setIsLoading(false), 500);
     return () => clearTimeout(timer);
   }, [id]);
+
+  const moduleNodes = useMemo(() => learningPath.filter((node) => node.type === 'module'), []);
+  const currentModuleIndex = moduleNodes.findIndex((node) => node.moduleId === moduleId);
+  const nextModule = currentModuleIndex >= 0 ? moduleNodes[currentModuleIndex + 1] : undefined;
+  const quizIds = parsedModule?.lessons
+    .filter((lesson) => lesson.assessments.length > 0)
+    .map((lesson) => `${lesson.id}-quiz`) ?? [];
+  const completedQuizzes = modules[moduleId]?.completedQuizzes ?? {};
+  const allLessonQuizzesCompleted = quizIds.every((quizId) => completedQuizzes[quizId]);
+  const completedLessonQuizCount = quizIds.filter((quizId) => completedQuizzes[quizId]).length;
+
+  const handleCompleteModule = () => {
+    completeModule(moduleId);
+    if (nextModule?.id) {
+      navigate(`/module/${nextModule.id}`);
+      return;
+    }
+    navigate('/assessment/post-test');
+  };
 
   if (isLoading || !parsedModule) {
     return (
@@ -76,6 +96,30 @@ export function ModulePage() {
             <LessonContainer key={lesson.id} moduleId={moduleId || parsedModule.id} lesson={lesson} totalSections={parsedModule.lessons.length} />
           ))}
         </div>
+
+        <section className="mt-12 rounded-3xl border border-orange-500/25 bg-orange-500/10 p-6 md:p-8 text-right">
+          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <div>
+              <p className="text-sm font-bold text-orange-400 mb-2">نهاية الموديول</p>
+              <h2 className="text-2xl font-bold text-white mb-2">
+                {allLessonQuizzesCompleted ? 'جاهز للانتقال للخطوة التالية' : 'أكمل تقويمات الدروس أولاً'}
+              </h2>
+              <p className="text-gray-300 leading-8">
+                {quizIds.length > 0
+                  ? `تم تسليم ${completedLessonQuizCount} من ${quizIds.length} تقويم داخل هذا الموديول.`
+                  : 'لا توجد تقويمات داخلية في هذا الموديول، يمكنك إنهاؤه مباشرة.'}
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={handleCompleteModule}
+              disabled={!allLessonQuizzesCompleted}
+              className="rounded-2xl bg-orange-500 px-6 py-4 font-bold text-white shadow-[0_0_22px_rgba(249,115,22,0.28)] transition hover:bg-orange-400 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              {nextModule ? 'إنهاء الموديول والانتقال للتالي' : 'إنهاء المسار والانتقال للاختبار البعدي'}
+            </button>
+          </div>
+        </section>
       </div>
     </main>
   );

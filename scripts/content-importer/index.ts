@@ -2,7 +2,7 @@ import * as fs from 'fs-extra';
 import * as path from 'path';
 import * as mammoth from 'mammoth';
 import { contentConfig } from '../../config/content.config.ts';
-import { DocumentModel, Section, Block, DocumentType } from '../../types/document.ts';
+import { DocumentModel, Block, DocumentType } from '../../types/document.ts';
 import { HeadingBlock, ParagraphBlock, UnknownBlock } from '../../types/blocks.ts';
 
 // Ensure directories exist

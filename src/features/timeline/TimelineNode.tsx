@@ -53,7 +53,7 @@ export function TimelineNode({ node, index }: TimelineNodeProps) {
         onClick={handleNavigation}
         className={cn(
           'w-24 h-24 md:w-32 md:h-32 rounded-full flex items-center justify-center border-4 transition-all duration-500 hover:scale-105 cursor-pointer',
-          isActive ? 'border-orange-500 bg-orange-500/20 glow-orange' : 
+          isActive ? 'border-orange-500 bg-orange-500/20 glow-orange shadow-[0_0_30px_rgba(249,115,22,0.4)]' : 
           isCompleted ? 'border-orange-400/50 bg-white/5 hover:bg-white/10' : 
           'border-white/10 bg-black/50 glass hover:border-orange-500/30'
         )}

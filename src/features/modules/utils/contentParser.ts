@@ -37,6 +37,7 @@ export interface ParsedAssessment {
   type: 'mcq' | 'tf' | 'task';
   text: string;
   options?: string[]; // For mcq
+  correctAnswer?: string;
 }
 
 const sectionBoundaryPattern = /^(الدرس|العنصر|الأهداف التعليمية|عرض المحتوى|الأنشطة|نشاط|التقويم|ملخص|الخلاصة)/;
@@ -61,6 +62,20 @@ function decodeText(content: string) {
     .replace(/&#39;/g, "'")
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>');
+}
+
+function cleanAnswerMarker(content: string) {
+  return content.replace(/\s*\([✓✔]\)\s*/g, '').replace(/\s*\([✗×]\)\s*/g, '').trim();
+}
+
+function markerAnswer(content: string) {
+  if (/[✓✔]/.test(content)) return 'صواب';
+  if (/[✗×]/.test(content)) return 'خطأ';
+  return undefined;
+}
+
+function choiceAnswer(content: string) {
+  return /[✓✔]/.test(content) ? cleanAnswerMarker(content) : undefined;
 }
 
 export function contentParser(moduleData: ModuleModel): ParsedModule {
@@ -98,14 +113,14 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
     
     if (content === 'الموديول الأول' && i + 1 < blocks.length) {
        parsedModule.title = content;
-       parsedModule.subtitle = blocks[i+1].content.trim();
+       parsedModule.subtitle = decodeText(blocks[i+1].content.trim());
        i++;
        continue;
     }
 
     if (content === 'الهدف العام للموديول') {
       if (i + 1 < blocks.length) {
-        parsedModule.generalObjective = blocks[i+1].content.trim();
+        parsedModule.generalObjective = decodeText(blocks[i+1].content.trim());
         i++;
       }
       continue;
@@ -126,8 +141,8 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
         summary: null
       };
       
-      if (i + 1 < blocks.length && !blocks[i+1].content.trim().startsWith('الأهداف')) {
-         currentLesson.title = `${content}: ${blocks[i+1].content.trim()}`;
+      if (i + 1 < blocks.length && !decodeText(blocks[i+1].content.trim()).startsWith('الأهداف')) {
+         currentLesson.title = `${content}: ${decodeText(blocks[i+1].content.trim())}`;
          i++;
       }
       
@@ -213,9 +228,9 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
       if (content.startsWith('مفهوم')) {
         let defText = '';
         if (i + 1 < blocks.length) {
-          const next = blocks[i+1].content.trim();
+          const next = decodeText(blocks[i+1].content.trim());
           if (next.endsWith(':')) {
-            defText = blocks[i+2]?.content.trim() || '';
+            defText = decodeText(blocks[i+2]?.content.trim() || '');
             i += 2;
           } else {
             defText = next;
@@ -232,7 +247,7 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
         const listItems: string[] = [];
         let j = i + 1;
         while (j < blocks.length) {
-          const nextContent = blocks[j].content.trim();
+          const nextContent = decodeText(blocks[j].content.trim());
           if (!nextContent || isUrl(nextContent) || sectionBoundaryPattern.test(nextContent) || listHeadingPattern.test(nextContent)) break;
           listItems.push(cleanListItem(nextContent));
           j++;
@@ -275,7 +290,7 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
       if (content.match(/نشاط/)) {
         let taskText = content;
         if (i + 1 < blocks.length && !blocks[i+1].content.match(/نشاط|التقويم|ملخص/)) {
-          taskText += ' - ' + blocks[i+1].content.trim();
+          taskText += ' - ' + decodeText(blocks[i+1].content.trim());
           i++;
         }
         currentLesson.activities.push(taskText);
@@ -303,33 +318,38 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
       }
 
       if (currentAssessmentType === 'mcq') {
-         if (!content.match(/^(?:\.\s*)?[أبجد][\)\-]/)) {
+         if (!content.match(/^(?:\.\s*)?[اأبجد][)-]/)) {
             const qText = content;
-            const choices = [];
+            const choices: string[] = [];
+            let correctAnswer: string | undefined;
             let j = i + 1;
             while (j < blocks.length && choices.length < 4) {
-               const nextContent = blocks[j].content.trim();
-               const inlineMatch = nextContent.match(/^(?:\.\s*)?[أبجد][\)\-]\s*(.+)/);
+               const nextContent = decodeText(blocks[j].content.trim());
+               const inlineMatch = nextContent.match(/^(?:\.\s*)?[اأبجد][)-]\s*(.+)/);
                if (inlineMatch) {
-                  choices.push(inlineMatch[1]);
+                  const answerText = cleanAnswerMarker(inlineMatch[1]);
+                  choices.push(answerText);
+                  correctAnswer = correctAnswer || choiceAnswer(inlineMatch[1]);
                   j++;
                   continue;
                }
-               if (/^(?:\.\s*)?[أبجد][\)\-]$/.test(nextContent) && j + 1 < blocks.length) {
-                  choices.push(blocks[j+1].content.trim());
+               if (/^(?:\.\s*)?[اأبجد][)-]$/.test(nextContent) && j + 1 < blocks.length) {
+                  const answerText = decodeText(blocks[j+1].content.trim());
+                  choices.push(cleanAnswerMarker(answerText));
+                  correctAnswer = correctAnswer || choiceAnswer(answerText);
                   j += 2;
                   continue;
                }
                break;
             }
             if (choices.length > 0) {
-              currentLesson.assessments.push({ id: block.id, type: 'mcq', text: qText, options: choices });
+              currentLesson.assessments.push({ id: block.id, type: 'mcq', text: qText, options: choices, correctAnswer });
               i = j - 1;
             }
          }
       }
       else if (currentAssessmentType === 'tf') {
-         currentLesson.assessments.push({ id: block.id, type: 'tf', text: content });
+         currentLesson.assessments.push({ id: block.id, type: 'tf', text: cleanAnswerMarker(content), correctAnswer: markerAnswer(content) });
       }
       else if (currentAssessmentType === 'task') {
          const last = currentLesson.assessments[currentLesson.assessments.length - 1];

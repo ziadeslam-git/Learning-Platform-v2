@@ -5,26 +5,24 @@ import type { GradedQuestion } from '../../../types/assessment';
 
 interface Props {
   score: number;
-  total: number;
   gradedTotal: number;
   wrong: number;
   percent: number;
-  durationSeconds: number;
-  ungradedCount: number;
   review: GradedQuestion[];
+  isScale?: boolean;
+  nextNodeName?: string;
   onContinue: () => void;
   onRetry?: () => void;
 }
 
 export const ResultScreen: React.FC<Props> = ({
   score,
-  total,
   gradedTotal,
   wrong,
   percent,
-  durationSeconds,
-  ungradedCount,
   review,
+  isScale,
+  nextNodeName,
   onContinue,
   onRetry,
 }) => {
@@ -50,36 +48,48 @@ export const ResultScreen: React.FC<Props> = ({
           تم حفظ إجاباتك بنجاح!
         </h2>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center">
+        <div className={`gap-4 mb-8 ${isScale ? 'flex justify-center max-w-md mx-auto w-full' : 'grid grid-cols-2 md:grid-cols-4'}`}>
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center flex-1">
              <span className="text-gray-400 text-sm mb-1">الدرجة</span>
              <bdi dir="ltr" className="text-2xl font-bold text-orange-400">{score} / {gradedTotal}</bdi>
           </div>
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center">
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center flex-1">
              <span className="text-gray-400 text-sm mb-1">النسبة</span>
              <span className="text-2xl font-bold text-blue-400">{percent}%</span>
           </div>
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center">
-             <span className="text-gray-400 text-sm mb-1">إجابات صحيحة</span>
-             <span className="text-2xl font-bold text-green-400">{score}</span>
-          </div>
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center">
-             <span className="text-gray-400 text-sm mb-1">إجابات خاطئة</span>
-             <span className="text-2xl font-bold text-red-400">{wrong}</span>
-          </div>
+          {!isScale && (
+            <>
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center">
+                <span className="text-gray-400 text-sm mb-1">إجابات صحيحة</span>
+                <span className="text-2xl font-bold text-green-400">{score}</span>
+              </div>
+              <div className="bg-white/5 border border-white/10 rounded-2xl p-4 flex flex-col items-center justify-center">
+                <span className="text-gray-400 text-sm mb-1">إجابات خاطئة</span>
+                <span className="text-2xl font-bold text-red-400">{wrong}</span>
+              </div>
+            </>
+          )}
         </div>
 
-        <p className="text-gray-400 mb-8 text-sm">
-          مدة الحل: {Math.floor(durationSeconds / 60)} دقيقة و {durationSeconds % 60} ثانية. عدد الأسئلة الكلي: {total}. {ungradedCount > 0 ? `يوجد ${ungradedCount} سؤال بدون مفتاح إجابة موثق ولم يتم تخمينه.` : 'تم تصحيح جميع الأسئلة بمفتاح إجابة موثق.'}
-        </p>
-
-        <div className="text-right mb-8 max-h-80 overflow-y-auto space-y-3 pr-1">
+        <div 
+          className="text-right mb-8 max-h-[400px] overflow-y-auto space-y-4 pr-4 py-4"
+          style={{ 
+            scrollbarWidth: 'thin',
+            scrollbarColor: 'rgba(255,255,255,0.2) transparent',
+            maskImage: 'linear-gradient(to bottom, transparent, black 5%, black 95%, transparent)',
+            WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 5%, black 95%, transparent)'
+          }}
+        >
           {review.map((item, index) => (
-            <div key={item.id} className="bg-white/5 border border-white/10 rounded-2xl p-4">
-              <p className="text-white font-semibold mb-2">{index + 1}. {item.text}</p>
-              <p className="text-gray-300 text-sm">إجابتك: {item.selectedAnswer ?? 'لم تتم الإجابة'}</p>
-              <p className="text-gray-300 text-sm">الإجابة الصحيحة: {item.correctAnswer ?? 'غير متاحة بمصدر موثق'}</p>
-              {item.rationale && <p className="text-orange-300 text-sm mt-2">{item.rationale}</p>}
+            <div key={item.id} className="backdrop-blur-md bg-white/5 border border-white/10 hover:border-white/20 transition-all rounded-2xl p-5 shadow-lg">
+              <p className="text-white font-semibold mb-3 leading-relaxed text-lg">{index + 1}. {item.text}</p>
+              <div className="space-y-2">
+                <p className="text-orange-300 text-sm">إجابتك: <span className="text-gray-200">{item.selectedAnswer ?? 'لم تتم الإجابة'}</span></p>
+                {!isScale && (
+                  <p className="text-green-400 text-sm">الإجابة الصحيحة: <span className="text-gray-200">{item.correctAnswer ?? 'غير متاحة بمصدر موثق'}</span></p>
+                )}
+                {item.rationale && <p className="text-blue-300 text-sm mt-2">{item.rationale}</p>}
+              </div>
             </div>
           ))}
         </div>
@@ -89,7 +99,7 @@ export const ResultScreen: React.FC<Props> = ({
             onClick={onContinue}
             className="w-full sm:w-auto px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-all glow-orange flex items-center justify-center gap-2"
           >
-            <span>العودة للمسار التعليمي</span>
+            <span>{nextNodeName ? `الانتقال إلى: ${nextNodeName}` : 'العودة للمسار التعليمي'}</span>
             <ChevronRight className="w-5 h-5 rotate-180" />
           </button>
           

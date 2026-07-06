@@ -1,17 +1,37 @@
-import { useState } from 'react';
 import type { ParsedAssessment } from '../../utils/contentParser';
-import { HelpCircle } from 'lucide-react';
+import { CheckCircle2, HelpCircle } from 'lucide-react';
+import { useLearningProgress } from '../../../../hooks/useLearningProgress';
 
-export function QuizComponent({ assessments }: { assessments: ParsedAssessment[] }) {
-  const [answers, setAnswers] = useState<Record<string, string>>({});
-  const [submitted, setSubmitted] = useState(false);
+interface Props {
+  moduleId: string;
+  lessonId: string;
+  assessments: ParsedAssessment[];
+  onCompleted?: () => void;
+}
+
+export function QuizComponent({ moduleId, lessonId, assessments, onCompleted }: Props) {
+  const { modules, setQuizAnswer, markQuizCompleted } = useLearningProgress();
+  const moduleProgress = modules[moduleId];
+  const answers = moduleProgress?.quizAnswers ?? {};
+  const quizId = `${lessonId}-quiz`;
+  const submitted = Boolean(moduleProgress?.completedQuizzes?.[quizId]);
+  const gradable = assessments.filter((item) => item.correctAnswer);
+  const correctCount = gradable.filter((item) => answers[item.id] === item.correctAnswer).length;
+  const wrongCount = gradable.length - correctCount;
+  const percentage = gradable.length > 0 ? Math.round((correctCount / gradable.length) * 100) : 0;
+  const requiredAssessments = assessments.filter((item) => item.type !== 'task');
+  const answeredCount = requiredAssessments.filter((item) => answers[item.id]).length;
+  const canSubmit = answeredCount === requiredAssessments.length;
 
   const handleSelect = (id: string, ans: string) => {
     if (submitted) return;
-    setAnswers(prev => ({ ...prev, [id]: ans }));
+    setQuizAnswer(moduleId, id, ans);
   };
 
-  // const score = assessments.filter(a => answers[a.id]).length;
+  const handleSubmit = () => {
+    markQuizCompleted(moduleId, quizId);
+    onCompleted?.();
+  };
 
   return (
     <div className="bg-purple-500/10 border border-purple-500/20 rounded-3xl p-6 md:p-8">
@@ -21,8 +41,11 @@ export function QuizComponent({ assessments }: { assessments: ParsedAssessment[]
       </div>
       
       <div className="space-y-section">
-        {assessments.map((quiz, i) => (
-          <div key={quiz.id} className="bg-black/40 p-6 rounded-2xl border border-white/5">
+        {assessments.map((quiz, i) => {
+          const selected = answers[quiz.id];
+          const isCorrect = quiz.correctAnswer ? selected === quiz.correctAnswer : null;
+          return (
+          <div key={quiz.id} className="bg-black/40 p-5 rounded-2xl border border-white/5">
             <p className="text-lg text-white font-arabic mb-element font-semibold">{i+1}. {quiz.text}</p>
             
             {quiz.type === 'mcq' && quiz.options && (
@@ -31,7 +54,17 @@ export function QuizComponent({ assessments }: { assessments: ParsedAssessment[]
                   <button 
                     key={j} 
                     onClick={() => handleSelect(quiz.id, opt)}
-                    className={`text-right p-3 rounded-xl border transition-colors font-arabic ${answers[quiz.id] === opt ? 'bg-purple-500/20 border-purple-500 text-purple-200' : 'bg-white/5 border-white/10 hover:border-purple-500/30 text-gray-300'}`}
+                    className={`text-right p-3 rounded-xl border transition-colors font-arabic ${
+                      selected === opt
+                        ? submitted && quiz.correctAnswer
+                          ? opt === quiz.correctAnswer
+                            ? 'bg-green-500/15 border-green-500/60 text-green-200'
+                            : 'bg-red-500/15 border-red-500/60 text-red-200'
+                          : 'bg-purple-500/20 border-purple-500 text-purple-200'
+                        : submitted && opt === quiz.correctAnswer
+                          ? 'bg-green-500/10 border-green-500/40 text-green-200'
+                          : 'bg-white/5 border-white/10 hover:border-purple-500/30 text-gray-300'
+                    }`}
                   >
                     {opt}
                   </button>
@@ -45,7 +78,17 @@ export function QuizComponent({ assessments }: { assessments: ParsedAssessment[]
                    <button 
                      key={opt}
                      onClick={() => handleSelect(quiz.id, opt)}
-                     className={`flex-1 text-center p-3 rounded-xl border transition-colors font-arabic ${answers[quiz.id] === opt ? 'bg-purple-500/20 border-purple-500 text-purple-200' : 'bg-white/5 border-white/10 hover:border-purple-500/30 text-gray-300'}`}
+                     className={`flex-1 text-center p-3 rounded-xl border transition-colors font-arabic ${
+                       selected === opt
+                         ? submitted && quiz.correctAnswer
+                           ? opt === quiz.correctAnswer
+                             ? 'bg-green-500/15 border-green-500/60 text-green-200'
+                             : 'bg-red-500/15 border-red-500/60 text-red-200'
+                           : 'bg-purple-500/20 border-purple-500 text-purple-200'
+                         : submitted && opt === quiz.correctAnswer
+                           ? 'bg-green-500/10 border-green-500/40 text-green-200'
+                           : 'bg-white/5 border-white/10 hover:border-purple-500/30 text-gray-300'
+                     }`}
                    >
                      {opt}
                    </button>
@@ -56,25 +99,51 @@ export function QuizComponent({ assessments }: { assessments: ParsedAssessment[]
             {quiz.type === 'task' && (
                <div className="bg-white/5 p-4 rounded-xl text-gray-400 text-sm font-arabic">مهمة أدائية - تتطلب تقييماً خارجياً</div>
             )}
+
+            {submitted && (
+              <div className={`mt-4 rounded-xl border p-3 text-sm font-arabic ${
+                isCorrect === true
+                  ? 'border-green-500/30 bg-green-500/10 text-green-300'
+                  : isCorrect === false
+                    ? 'border-red-500/30 bg-red-500/10 text-red-300'
+                    : 'border-white/10 bg-white/5 text-gray-300'
+              }`}>
+                {quiz.correctAnswer ? (
+                  <span>الإجابة الصحيحة: {quiz.correctAnswer}</span>
+                ) : (
+                  <span>تم تسجيل الإجابة. لا يوجد مفتاح إجابة موثق لهذا السؤال داخل المصدر الحالي.</span>
+                )}
+              </div>
+            )}
           </div>
-        ))}
+        );
+        })}
       </div>
 
       {!submitted ? (
         <button 
-          onClick={() => setSubmitted(true)}
-          className="mt-8 px-8 py-3 bg-purple-500 hover:bg-purple-600 text-white rounded-xl font-bold transition-colors w-full sm:w-auto"
+          onClick={handleSubmit}
+          disabled={!canSubmit}
+          className="mt-8 px-8 py-3 bg-purple-500 hover:bg-purple-600 disabled:opacity-50 disabled:cursor-not-allowed text-white rounded-xl font-bold transition-colors w-full sm:w-auto"
         >
           تسليم الإجابات
         </button>
       ) : (
         <div className="mt-8 p-6 bg-green-500/10 border border-green-500/20 rounded-2xl text-center">
+          <CheckCircle2 className="w-10 h-10 text-green-400 mx-auto mb-3" />
            <h4 className="text-green-400 font-bold text-xl font-arabic mb-2">
-             تم تسجيل إجاباتك بنجاح!
+             تم تسجيل نتيجة التقويم
            </h4>
            <p className="text-green-200/70 font-arabic">
-             سيتم استخراج وعرض النتيجة بمجرد اعتماد نموذج الإجابة (Answer Key) الخاص بهذا الاختبار.
+             {gradable.length > 0
+               ? `درجتك في الأسئلة الموثقة: ${correctCount} من ${gradable.length} - ${percentage}%، والإجابات الخاطئة: ${wrongCount}.`
+               : 'تم حفظ إجاباتك، ولا توجد إجابات صحيحة موثقة لهذا التقويم داخل المصدر الحالي.'}
            </p>
+           {gradable.length < assessments.length && (
+             <p className="mt-2 text-xs text-gray-400 font-arabic">
+               تم تسجيل {assessments.length - gradable.length} بند بدون تصحيح آلي لأنه لا يملك مفتاح إجابة موثق داخل المحتوى.
+             </p>
+           )}
         </div>
       )}
     </div>

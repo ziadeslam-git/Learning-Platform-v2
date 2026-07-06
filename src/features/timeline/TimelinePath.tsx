@@ -1,12 +1,13 @@
-import { motion, useScroll, useSpring } from 'framer-motion';
+import { motion, useSpring } from 'framer-motion';
 import { useRef } from 'react';
 
 interface TimelinePathProps {
   points: { x: number; y: number }[];
   containerHeight: number;
+  progressRatio: number;
 }
 
-export function TimelinePath({ points, containerHeight }: TimelinePathProps) {
+export function TimelinePath({ points, containerHeight, progressRatio }: TimelinePathProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   
   // Create a smooth SVG path using cubic beziers
@@ -27,16 +28,14 @@ export function TimelinePath({ points, containerHeight }: TimelinePathProps) {
     return d;
   };
 
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ['start center', 'end center'],
-  });
-
-  const smoothProgress = useSpring(scrollYProgress, {
+  const smoothProgress = useSpring(progressRatio, {
     stiffness: 50,
     damping: 20,
     restDelta: 0.001
   });
+
+  // Update spring when progressRatio changes
+  smoothProgress.set(progressRatio);
 
   const pathString = generatePath();
 

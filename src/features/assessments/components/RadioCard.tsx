@@ -11,9 +11,18 @@ interface Props {
 export const RadioCard: React.FC<Props> = ({ selected, label, onClick }) => {
   return (
     <motion.div
+      role="radio"
+      aria-checked={selected}
+      tabIndex={0}
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
       onClick={onClick}
+      onKeyDown={(event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          onClick();
+        }
+      }}
       className={`relative p-4 rounded-2xl border-2 cursor-pointer transition-all duration-300 flex items-center gap-4
         ${selected 
           ? 'bg-orange-500/20 border-orange-500 text-white' 

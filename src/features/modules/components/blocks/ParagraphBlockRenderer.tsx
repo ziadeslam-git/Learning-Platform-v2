@@ -61,13 +61,13 @@ export const ParagraphBlockRenderer: React.FC<Props> = React.memo(({ block }) =>
   }
 
   // Render explicit bullet markers such as -, *, •, 1-, and 2-.
-  const isBullet = /^[\-\*•\u2022\u25E6\u25AA]/.test(content) || /^\d+[-.]/.test(content);
+  const isBullet = /^[-*•\u2022\u25E6\u25AA]/.test(content) || /^\d+[-.]/.test(content);
   if (isBullet) {
     return (
       <div className="flex items-start gap-3 my-3 text-gray-200 hover:text-white transition-colors">
         <div className="w-2 h-2 rounded-full bg-orange-500 mt-2.5 shrink-0 shadow-[0_0_10px_rgba(249,115,22,0.5)]" />
         <p className="leading-relaxed text-lg font-arabic flex-1">
-          {content.replace(/^[\-\*•\u2022\u25E6\u25AA\d\s.-]+/, '')}
+          {content.replace(/^[-*•\u2022\u25E6\u25AA\d\s.-]+/, '')}
         </p>
       </div>
     );
@@ -111,6 +111,15 @@ export const ParagraphBlockRenderer: React.FC<Props> = React.memo(({ block }) =>
           ${isChecked ? 'bg-green-500/10 border-green-500/30' : 'bg-white/[0.02] border-white/10 hover:border-orange-500/30'}
         `}
         onClick={() => setIsChecked(!isChecked)}
+        role="checkbox"
+        aria-checked={isChecked}
+        tabIndex={0}
+        onKeyDown={(event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            setIsChecked(!isChecked);
+          }
+        }}
       >
         <div className="shrink-0 mt-1 transition-colors">
           {isChecked ? (

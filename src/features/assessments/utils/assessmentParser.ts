@@ -5,7 +5,7 @@ const cognitiveLevels = new Set(['تذكر', 'فهم', 'تطبيق', 'تقويم
 const likertChoices = ['أوافق بشدة', 'أوافق', 'لا أدري', 'لا أوافق', 'لا أوافق بشدة'];
 
 function isChoiceMarker(text: string) {
-  return /^[أبجده][\-.ـ]?$/.test(text.trim());
+  return /^[أبجده][-.ـ]?$/.test(text.trim());
 }
 
 export function parseAssessmentQuestions(data: AssessmentModel): ParsedQuestion[] {

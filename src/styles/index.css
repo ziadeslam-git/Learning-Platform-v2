@@ -30,6 +30,11 @@
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
   }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand-orange-500);
+    outline-offset: 3px;
+  }
 }
 
 @layer utilities {
