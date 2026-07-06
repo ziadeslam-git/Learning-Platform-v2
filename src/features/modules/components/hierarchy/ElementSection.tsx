@@ -2,7 +2,7 @@ import type { ParsedElement } from '../../utils/contentParser';
 import { contentRepository } from '../../../../services/content/contentRepository';
 import { ExternalLink } from 'lucide-react';
 
-// YouTube SVG logo component
+// YouTube SVG logo
 function YouTubeLogo({ className }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="currentColor">
@@ -11,85 +11,89 @@ function YouTubeLogo({ className }: { className?: string }) {
   );
 }
 
+/** Clean parentheses and noise from any title string */
+function cleanTitle(t: string | undefined) {
+  if (!t) return '';
+  return t.replace(/[()]/g, '').replace(/^المصدر\s*:\s*/i, '').trim();
+}
+
 export function ElementSection({ element }: { element: ParsedElement }) {
   return (
     <div className="mb-section bg-white/5 border border-white/10 p-6 md:p-8 rounded-3xl shadow-lg backdrop-blur-sm">
+      {/* Element header */}
       <div className="flex items-center gap-4 mb-element">
         <div className="w-10 h-10 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-orange-400 font-bold text-lg shrink-0">
           {element.badgeNumber}
         </div>
         <h3 className="text-2xl font-bold text-white font-arabic">{element.title}</h3>
       </div>
-      
+
       <div className="space-y-element">
         {(() => {
-          // Group consecutive media into pairs for side-by-side display
           type ConceptType = typeof element.subConcepts[0];
           type GroupItem =
-            | { type: 'single'; concept: ConceptType; idx: number }
-            | { type: 'media-group'; items: { concept: ConceptType; idx: number }[] };
+            | { kind: 'single'; concept: ConceptType; idx: number }
+            | { kind: 'media-group'; items: { concept: ConceptType; idx: number }[] };
 
+          // Group consecutive media items so they render 2-per-row
           const grouped: GroupItem[] = [];
-          let currentGroup: { concept: ConceptType; idx: number }[] = [];
+          let mediaAccum: { concept: ConceptType; idx: number }[] = [];
 
           element.subConcepts.forEach((concept, idx) => {
             if (concept.type === 'media') {
-              currentGroup.push({ concept, idx });
+              mediaAccum.push({ concept, idx });
             } else {
-              if (currentGroup.length > 0) {
-                grouped.push({ type: 'media-group', items: currentGroup });
-                currentGroup = [];
+              if (mediaAccum.length > 0) {
+                grouped.push({ kind: 'media-group', items: mediaAccum });
+                mediaAccum = [];
               }
-              grouped.push({ type: 'single', concept, idx });
+              grouped.push({ kind: 'single', concept, idx });
             }
           });
-          if (currentGroup.length > 0) {
-            grouped.push({ type: 'media-group', items: currentGroup });
+          if (mediaAccum.length > 0) {
+            grouped.push({ kind: 'media-group', items: mediaAccum });
           }
 
-          return grouped.map((group, groupIdx) => {
-            if (group.type === 'single') {
+          return grouped.map((group, gi) => {
+            if (group.kind === 'single') {
               const { concept, idx } = group;
 
-              // Definition block
+              // ── Definition ──────────────────────────────────────────────────
               if (concept.type === 'definition') {
                 return (
                   <div key={idx} className="bg-black/20 border-r-4 border-r-orange-500/50 p-5 rounded-2xl">
-                    <h4 className="text-orange-300 font-bold mb-text text-lg font-arabic">{concept.title}</h4>
+                    <h4 className="text-orange-300 font-bold mb-text text-lg font-arabic">
+                      {cleanTitle(concept.title)}
+                    </h4>
                     <p className="text-gray-200 leading-relaxed text-lg font-arabic">{concept.text}</p>
                   </div>
                 );
               }
 
-              // List block - shown always open with numbered grid
+              // ── List → toggle with orange bullet points (unchanged style) ───
               if (concept.type === 'list') {
-                const cleanTitle = concept.title?.replace(/[()]/g, '').trim();
+                const title = cleanTitle(concept.title);
                 return (
-                  <div key={idx} className="my-element">
-                    {cleanTitle && (
-                      <h4 className="text-orange-200 font-semibold text-base font-arabic mb-3">
-                        {cleanTitle}:-
-                      </h4>
-                    )}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      {concept.items.map((item: string, i: number) => {
-                        const cleanItem = item.replace(/[()]/g, '').trim();
-                        return (
-                          <div key={i} className="flex items-start gap-3 rounded-xl bg-white/[0.03] border border-white/5 px-4 py-3">
-                            <span className="flex items-center justify-center min-w-[1.5rem] h-6 rounded-full bg-orange-500/20 text-orange-400 text-xs font-bold shrink-0 mt-0.5">
-                              {i + 1}
-                            </span>
-                            <span className="leading-relaxed text-gray-300 font-arabic" dir="auto">{cleanItem}</span>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
+                  <details key={idx} open className="group my-element rounded-2xl border border-white/10 bg-black/20 p-4 open:border-orange-500/30">
+                    <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-orange-200 font-semibold text-lg font-arabic">
+                      <span>{title}</span>
+                      <span className="text-orange-400 transition-transform group-open:rotate-180 text-xl">⌄</span>
+                    </summary>
+                    <ul className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-300 font-arabic text-right">
+                      {concept.items.map((item: string, i: number) => (
+                        <li key={i} className="leading-relaxed rounded-xl bg-white/[0.03] border border-white/5 px-4 py-3 relative pr-7">
+                          <span className="absolute right-3 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-orange-500 shrink-0"></span>
+                          {cleanTitle(item)}
+                        </li>
+                      ))}
+                    </ul>
+                  </details>
                 );
               }
 
-              // Plain text
+              // ── Plain text ───────────────────────────────────────────────────
               if (concept.type === 'text') {
+                if (!concept.text) return null;
                 return (
                   <p key={idx} className="text-gray-300 leading-relaxed text-lg font-arabic">
                     {concept.text}
@@ -98,39 +102,40 @@ export function ElementSection({ element }: { element: ParsedElement }) {
               }
             }
 
-            // Media group - displayed 2 per row
-            if (group.type === 'media-group') {
+            // ── Media group (2-per-row) ────────────────────────────────────────
+            if (group.kind === 'media-group') {
               return (
-                <div key={`group-${groupIdx}`} className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
+                <div key={`mg-${gi}`} className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
                   {group.items.map(({ concept, idx }) => {
-                    const cleanTitle = concept.title?.replace(/[()]/g, '').trim();
-
                     if (concept.type !== 'media') return null;
+                    const title = cleanTitle(concept.title);
 
+                    // Image
                     if (concept.mediaType === 'image') {
                       const imgSrc = contentRepository.getImage(concept.url);
                       return (
                         <div key={idx} className="rounded-2xl overflow-hidden border border-white/10 bg-black/30 p-3 flex flex-col">
                           {imgSrc ? (
-                            <img src={imgSrc} alt={cleanTitle} loading="lazy" className="w-full h-auto max-h-72 object-contain rounded-xl" />
+                            <img src={imgSrc} alt={title} loading="lazy"
+                              className="w-full h-auto max-h-72 object-contain rounded-xl" />
                           ) : (
                             <div className="text-gray-500 p-6 text-center bg-white/5 rounded-xl border border-dashed border-white/10 flex-1 flex items-center justify-center text-sm font-arabic">
                               صورة مفقودة
                             </div>
                           )}
-                          {cleanTitle && cleanTitle !== 'صورة توضيحية' && (
-                            <p className="text-gray-400 text-center text-sm mt-2 font-arabic" dir="auto">{cleanTitle}</p>
+                          {title && title !== 'صورة توضيحية' && (
+                            <p className="text-gray-400 text-center text-sm mt-2 font-arabic">{title}</p>
                           )}
                         </div>
                       );
                     }
 
-                    // Video — compact YouTube button
+                    // YouTube video → compact red button
                     if (concept.mediaType === 'video') {
                       return (
                         <div key={idx} className="flex flex-col gap-2">
-                          {cleanTitle && (
-                            <span className="text-orange-200 font-semibold font-arabic text-sm" dir="auto">{cleanTitle}</span>
+                          {title && (
+                            <span className="text-orange-200 font-semibold font-arabic text-sm text-right">{title}</span>
                           )}
                           <a
                             href={concept.url}
@@ -140,7 +145,7 @@ export function ElementSection({ element }: { element: ParsedElement }) {
                           >
                             <YouTubeLogo className="h-6 w-6 text-[#FF0000] shrink-0" />
                             <span className="text-white font-bold text-sm font-arabic">مشاهدة على YouTube</span>
-                            <ExternalLink className="h-3.5 w-3.5 text-gray-400 ml-auto group-hover:text-white transition-colors" />
+                            <ExternalLink className="h-3.5 w-3.5 text-gray-400 mr-auto group-hover:text-white transition-colors" />
                           </a>
                         </div>
                       );
@@ -149,17 +154,17 @@ export function ElementSection({ element }: { element: ParsedElement }) {
                     // Generic link
                     return (
                       <div key={idx} className="flex flex-col gap-2">
-                        {cleanTitle && (
-                          <span className="text-orange-200 font-semibold font-arabic text-sm" dir="auto">{cleanTitle}</span>
+                        {title && (
+                          <span className="text-orange-200 font-semibold font-arabic text-sm text-right">{title}</span>
                         )}
                         <a
                           href={concept.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="group inline-flex items-center gap-3 bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all px-5 py-3 rounded-xl w-full"
+                          className="inline-flex items-center gap-3 bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all px-5 py-3 rounded-xl w-full"
                         >
                           <ExternalLink className="h-5 w-5 text-orange-500 shrink-0" />
-                          <span className="text-white font-bold text-sm font-arabic truncate">فتح الرابط</span>
+                          <span className="text-white font-bold text-sm font-arabic">فتح الرابط</span>
                         </a>
                       </div>
                     );

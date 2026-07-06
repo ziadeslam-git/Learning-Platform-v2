@@ -41,7 +41,8 @@ export interface ParsedAssessment {
 }
 
 const sectionBoundaryPattern = /^(الدرس|العنصر|الأهداف التعليمية|عرض المحتوى|الأنشطة|نشاط|التقويم|ملخص|الخلاصة)/;
-const listHeadingPattern = /^(أهمية|مجالات|مكونات|خطوات|فوائد|أدوات|خصائص|مهارات|أساليب|متطلبات|إجراءات)/;
+const listHeadingPattern = /^(أهمية|مجالات|مكونات|خطوات|فوائد|أدوات|خصائص|مهارات|أساليب|متطلبات|إجراءات|مبادئ|أنواع|معايير|قواعد|توظيف|دور|مخاطر)/;
+const mediaTitleCleanPattern = /^المصدر\s*:\s*/;
 
 /**
  * Static answer key for lesson quizzes derived from scientific content analysis.
@@ -338,12 +339,40 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
           });
         }
       }
-      else if (content.match(/(https?:\/\/[^\s]+)/)) {
+      else if (mediaTitleCleanPattern.test(content) && !isUrl(content)) {
+        // 'المصدر: YouTube' title-only block — skip it, URL is on the next line
+        continue;
+      }
+      else if (content.match(/(https?:\/\/[^\s]+)/) || /^https?:\/\//.test(content)) {
         const urlMatch = content.match(/(https?:\/\/[^\s]+)/);
-        const url = urlMatch ? urlMatch[1] : '';
+        const url = urlMatch ? urlMatch[1] : content;
+        // Extract inline title (text before the URL on the same line)
+        let rawTitle = content.replace(url, '').trim();
+        // Clean 'المصدر:' and 'YouTube' noise and parentheses
+        rawTitle = rawTitle
+          .replace(mediaTitleCleanPattern, '')
+          .replace(/\byoutube\b/gi, '')
+          .replace(/[()]/g, '')
+          .trim();
+        // If inline title is empty, look at the PREVIOUS block for a tool name
+        if (!rawTitle) {
+          for (let k = i - 1; k >= Math.max(0, i - 3); k--) {
+            const kContent = decodeText(blocks[k].content?.trim() || '');
+            if (!kContent) continue;
+            // Skip 'المصدر:' type blocks
+            if (mediaTitleCleanPattern.test(kContent)) continue;
+            // Skip boundary/heading blocks
+            if (sectionBoundaryPattern.test(kContent) || listHeadingPattern.test(kContent)) break;
+            // Use if it's a short label (tool name like Microsoft Teams, Google Workspace)
+            if (!isUrl(kContent) && kContent.length < 60) {
+              rawTitle = kContent.replace(/[()]/g, '').trim();
+            }
+            break;
+          }
+        }
         currentElement.subConcepts.push({
           type: 'media',
-          title: content.replace(url, '').trim() || 'رابط مرفق',
+          title: rawTitle,
           url: url,
           mediaType: isYouTubeReference(content, url) ? 'video' : 'link'
         });
@@ -356,6 +385,7 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
           text: content
         });
       }
+
     }
     else if (state === 'activities') {
       if (content.match(/نشاط/)) {
@@ -402,6 +432,14 @@ export function contentParser(moduleData: ModuleModel): ParsedModule {
                   const answerText = cleanAnswerMarker(inlineMatch[1]);
                   choices.push(answerText);
                   correctAnswer = correctAnswer || choiceAnswer(inlineMatch[1]);
+                  j++;
+                  continue;
+               }
+               // Reversed format: 'Microsoft Teamsب)' — letter at end
+               const reversedMatch = nextContent.match(/^(.+?)\s*[اأبجد][)-]$/);
+               if (reversedMatch && reversedMatch[1].trim().length > 0) {
+                  const answerText = cleanAnswerMarker(reversedMatch[1].trim());
+                  choices.push(answerText);
                   j++;
                   continue;
                }
