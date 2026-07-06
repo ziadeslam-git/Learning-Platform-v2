@@ -26,19 +26,19 @@ export function LandingPage() {
             {resumeTarget && (
               <Link
                 to={resumeTarget}
-                className="flex items-center gap-2 px-4 md:px-5 py-2.5 bg-orange-500/10 hover:bg-orange-500/20 text-orange-400 border border-orange-500/30 rounded-xl transition-all glow-orange hover:-translate-y-0.5"
+                className="flex items-center gap-2 px-4 md:px-5 py-2.5 bg-transparent hover:bg-orange-500/10 text-white border border-orange-500 rounded-xl transition-all hover:-translate-y-0.5"
               >
                 <Play className="w-4 h-4" />
-                <span className="font-semibold tracking-wide">متابعة من حيث توقفت</span>
+                <span className="font-semibold tracking-wide font-arabic">متابعة من حيث توقفت</span>
               </Link>
             )}
 
             <Link 
               to="/about"
-              className="flex items-center gap-2 px-4 md:px-5 py-2.5 bg-orange-500/10 hover:bg-orange-500/20 text-orange-400 border border-orange-500/30 rounded-xl transition-all glow-orange hover:-translate-y-0.5"
+              className="flex items-center gap-2 px-4 md:px-5 py-2.5 bg-transparent hover:bg-orange-500/10 text-white border border-orange-500 rounded-xl transition-all hover:-translate-y-0.5"
             >
               <Info className="w-4 h-4" />
-              <span className="font-semibold tracking-wide">عن المنصة</span>
+              <span className="font-semibold tracking-wide font-arabic">عن المنصة</span>
             </Link>
           </div>
         </div>
