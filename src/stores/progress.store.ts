@@ -47,6 +47,7 @@ interface ProgressStore extends LearningProgressState {
   markAssessmentCompleted: (assessmentId: string) => void;
   addLearningSeconds: (seconds: number) => void;
   getStats: () => LearningStats;
+  resetAll: () => void;
 }
 
 const initial = progressStorage.load();
@@ -54,6 +55,11 @@ const initial = progressStorage.load();
 export const useProgressStore = create<ProgressStore>((set, get) => ({
   ...defaultProgressState,
   ...initial,
+
+  resetAll: () => {
+    progressStorage.clear();
+    set(defaultProgressState);
+  },
 
   touch: () => set((state) => {
     const next = {

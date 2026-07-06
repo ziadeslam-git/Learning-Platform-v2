@@ -13,6 +13,7 @@ interface AssessmentStore {
   setCurrentIndex: (assessmentId: string, currentIndex: number) => void;
   finishAttempt: (assessmentId: string) => void;
   resetAttempt: (assessmentId: string) => void;
+  resetAll: () => void;
 }
 
 function persist(attempts: Record<string, AssessmentAttempt>) {
@@ -21,6 +22,11 @@ function persist(attempts: Record<string, AssessmentAttempt>) {
 
 export const useAssessmentStore = create<AssessmentStore>((set, get) => ({
   attempts: assessmentStorage.load(),
+
+  resetAll: () => {
+    assessmentStorage.clear();
+    set({ attempts: {} });
+  },
 
   startAttempt: (assessmentId) => {
     const existing = get().attempts[assessmentId];

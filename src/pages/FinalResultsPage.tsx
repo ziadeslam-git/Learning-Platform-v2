@@ -1,19 +1,43 @@
 import { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { FileText, CheckCircle2, TrendingDown, TrendingUp, RotateCcw, Home, BarChart } from 'lucide-react';
+import { FileText, CheckCircle2, TrendingDown, TrendingUp, RotateCcw, Home, BarChart, GraduationCap, HeartHandshake } from 'lucide-react';
 import { useAssessmentStore } from '../stores/assessment.store';
 import { useProgressStore } from '../stores/progress.store';
 import { contentRepository } from '../services/content/contentRepository';
 import { parseAssessmentQuestions } from '../features/assessments/utils/assessmentParser';
+import { contentParser } from '../features/modules/utils/contentParser';
 import { gradeAssessment } from '../features/assessments/utils/grading';
 import { cn } from '../lib/utils';
 import { learningPath } from '../data/learningPath';
 
+const getModuleScore = (moduleId: string, quizAnswers: Record<string, string>) => {
+  const moduleData = contentRepository.getModule(moduleId);
+  if (!moduleData) return { score: 0, total: 0, percent: 0 };
+  
+  const parsedModule = contentParser(moduleData);
+  let score = 0;
+  let total = 0;
+
+  for (const lesson of parsedModule.lessons) {
+    for (const quiz of lesson.assessments) {
+      if (quiz.correctAnswer) {
+        total++;
+        if (quizAnswers[quiz.id] === quiz.correctAnswer) {
+          score++;
+        }
+      }
+    }
+  }
+
+  const percent = total > 0 ? (score / total) * 100 : 0;
+  return { score, total, percent };
+};
+
 export function FinalResultsPage() {
   const navigate = useNavigate();
-  const { attempts } = useAssessmentStore();
-  const { modules } = useProgressStore();
+  const { attempts, resetAll: resetAssessments } = useAssessmentStore();
+  const { modules, resetAll: resetProgress } = useProgressStore();
 
   const getAssessmentResult = (id: string) => {
     const attempt = attempts[id];
@@ -26,18 +50,17 @@ export function FinalResultsPage() {
 
   const preTest = useMemo(() => getAssessmentResult('pre-test'), [attempts]);
   const postTest = useMemo(() => getAssessmentResult('post-test'), [attempts]);
+  
+  const preScale = useMemo(() => getAssessmentResult('pre-scale'), [attempts]);
+  const postScale = useMemo(() => getAssessmentResult('post-scale'), [attempts]);
 
-  const preScore = preTest?.score ?? 0;
-  const preTotal = preTest?.gradedTotal ?? 50;
-  const prePercent = preTest?.percent ?? 0;
-
-  const postScore = postTest?.score ?? 0;
-  const postTotal = postTest?.gradedTotal ?? 50;
-  const postPercent = postTest?.percent ?? 0;
-
-  const diff = postPercent - prePercent;
-  const isImprovement = diff > 0;
-  const isNeutral = diff === 0;
+  const handleReset = () => {
+    if (window.confirm('هل أنت متأكد من إعادة البرنامج؟ سيتم مسح جميع الإحصائيات والدرجات وإعادة البرنامج من البداية.')) {
+      resetAssessments();
+      resetProgress();
+      navigate('/');
+    }
+  };
 
   const getStatusText = (percent: number) => {
     if (percent >= 80) return 'ممتاز';
@@ -53,41 +76,39 @@ export function FinalResultsPage() {
     return 'text-red-400';
   };
 
-  const moduleNodes = learningPath.filter(n => n.type === 'module');
+  const renderComparisonSection = (
+    title: string, 
+    icon: React.ReactNode, 
+    pre: ReturnType<typeof getAssessmentResult>, 
+    post: ReturnType<typeof getAssessmentResult>,
+    maxFallback: number
+  ) => {
+    const preScore = pre?.score ?? 0;
+    const preTotal = pre?.gradedTotal ?? maxFallback;
+    const prePercent = pre?.percent ?? 0;
 
-  return (
-    <div className="min-h-screen bg-black font-arabic p-6 md:p-12 relative overflow-hidden text-gray-200" dir="rtl">
-      
-      {/* Background Elements */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/20 via-black to-black opacity-60 pointer-events-none" />
-      <div className="absolute inset-0 bg-grid-white/[0.02] bg-[length:40px_40px] pointer-events-none" />
+    const postScore = post?.score ?? 0;
+    const postTotal = post?.gradedTotal ?? maxFallback;
+    const postPercent = post?.percent ?? 0;
 
-      <div className="max-w-5xl mx-auto relative z-10 pt-10">
-        
-        {/* Header */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-center mb-12"
-        >
-          <div className="inline-flex items-center justify-center p-3 bg-white/5 rounded-2xl mb-4 border border-white/10">
-            <BarChart className="w-8 h-8 text-blue-400" />
+    const diff = postPercent - prePercent;
+    const isImprovement = diff > 0;
+    const isNeutral = diff === 0;
+
+    return (
+      <div className="mb-12">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="p-2 bg-orange-500/20 text-orange-400 rounded-lg">
+            {icon}
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-2 tracking-tight">
-            نتائج البرنامج التدريبي
-          </h1>
-          <p className="text-gray-400 text-lg">
-            مقارنة الأداء بين الاختبار القبلي والبعدي
-          </p>
-        </motion.div>
-
-        {/* Top Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-          
+          <h2 className="text-2xl font-bold text-white">{title}</h2>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             className="glass rounded-3xl p-6 border border-white/5 flex flex-col items-center justify-center text-center relative overflow-hidden"
           >
             <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center mb-4 text-orange-400 border border-white/10">
@@ -96,13 +117,14 @@ export function FinalResultsPage() {
             <h3 className="text-gray-400 font-bold mb-2">الاختبار القبلي</h3>
             <div className="text-5xl font-black text-white mb-2">{Math.round(prePercent)}<span className="text-2xl text-gray-500">%</span></div>
             <p className={cn("font-bold text-lg mb-1", getStatusColor(prePercent))}>{getStatusText(prePercent)}</p>
-            <p className="text-sm text-gray-500">{preScore} / {preTotal} إجابة صحيحة</p>
+            <p className="text-sm text-gray-500">{preScore} / {preTotal} نقطة</p>
           </motion.div>
 
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
             className="glass rounded-3xl p-6 border border-white/5 flex flex-col items-center justify-center text-center relative overflow-hidden"
           >
             <div className="absolute inset-0 bg-gradient-to-b from-blue-500/5 to-transparent pointer-events-none" />
@@ -112,13 +134,14 @@ export function FinalResultsPage() {
             <h3 className="text-gray-400 font-bold mb-2">الاختبار البعدي</h3>
             <div className="text-5xl font-black text-white mb-2">{Math.round(postPercent)}<span className="text-2xl text-gray-500">%</span></div>
             <p className={cn("font-bold text-lg mb-1", getStatusColor(postPercent))}>{getStatusText(postPercent)}</p>
-            <p className="text-sm text-gray-500">{postScore} / {postTotal} إجابة صحيحة</p>
+            <p className="text-sm text-gray-500">{postScore} / {postTotal} نقطة</p>
           </motion.div>
 
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
             className="glass rounded-3xl p-6 border border-white/5 flex flex-col items-center justify-center text-center relative overflow-hidden"
           >
             <div className={cn(
@@ -148,15 +171,8 @@ export function FinalResultsPage() {
           </motion.div>
         </div>
 
-        {/* Visual Comparison */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          className="glass rounded-3xl p-6 md:p-8 border border-white/5 mb-8"
-        >
-          <h2 className="text-xl font-bold text-white mb-6 border-b border-white/10 pb-4">مقارنة بصرية للأداء</h2>
-          
+        {/* Visual Comparison for this section */}
+        <div className="glass rounded-3xl p-6 md:p-8 border border-white/5">
           <div className="space-y-6">
             <div>
               <div className="flex justify-between text-sm font-bold text-gray-300 mb-2">
@@ -166,8 +182,9 @@ export function FinalResultsPage() {
               <div className="h-3 w-full bg-white/5 rounded-full overflow-hidden flex flex-row-reverse">
                 <motion.div 
                   initial={{ width: 0 }}
-                  animate={{ width: `${prePercent}%` }}
-                  transition={{ duration: 1, delay: 0.5 }}
+                  whileInView={{ width: `${prePercent}%` }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 1, delay: 0.3 }}
                   className="h-full bg-gray-500 rounded-full"
                 />
               </div>
@@ -181,43 +198,88 @@ export function FinalResultsPage() {
               <div className="h-3 w-full bg-white/5 rounded-full overflow-hidden flex flex-row-reverse">
                 <motion.div 
                   initial={{ width: 0 }}
-                  animate={{ width: `${postPercent}%` }}
-                  transition={{ duration: 1, delay: 0.7 }}
+                  whileInView={{ width: `${postPercent}%` }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 1, delay: 0.5 }}
                   className={cn("h-full rounded-full bg-gradient-to-l", isImprovement ? "from-green-400 to-green-600" : isNeutral ? "from-gray-400 to-gray-500" : "from-red-400 to-orange-500")}
                 />
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    );
+  };
+
+  const moduleNodes = learningPath.filter(n => n.type === 'module');
+
+  return (
+    <div className="min-h-screen bg-black font-arabic p-6 md:p-12 relative overflow-hidden text-gray-200" dir="rtl">
+      
+      {/* Background Elements */}
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-900/20 via-black to-black opacity-60 pointer-events-none" />
+      <div className="absolute inset-0 bg-grid-white/[0.02] bg-[length:40px_40px] pointer-events-none" />
+
+      <div className="max-w-5xl mx-auto relative z-10 pt-10">
+        
+        {/* Header */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-center mb-12"
+        >
+          <div className="inline-flex items-center justify-center p-3 bg-white/5 rounded-2xl mb-4 border border-white/10">
+            <BarChart className="w-8 h-8 text-blue-400" />
+          </div>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-2 tracking-tight">
+            النتائج الشاملة للبرنامج
+          </h1>
+          <p className="text-gray-400 text-lg">
+            مقارنة دقيقة للأداء الفعلي ومستوى التطور
+          </p>
         </motion.div>
+
+        {renderComparisonSection('التحصيل المعرفي', <GraduationCap className="w-6 h-6" />, preTest, postTest, 50)}
+        {renderComparisonSection('مقياس التقبل التكنولوجي', <HeartHandshake className="w-6 h-6" />, preScale, postScale, 100)}
 
         {/* Module Analysis */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.5 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           className="glass rounded-3xl p-6 md:p-8 border border-white/5 mb-12"
         >
-          <h2 className="text-xl font-bold text-white mb-6 border-b border-white/10 pb-4">تحليل حسب الموديول</h2>
+          <div className="flex items-center justify-between mb-6 border-b border-white/10 pb-4">
+            <h2 className="text-xl font-bold text-white">درجات التقويم البنائي للموديولات</h2>
+            <span className="text-sm text-gray-400">بناءً على الإجابات الصحيحة للتقويمات المستمرة</span>
+          </div>
           
           <div className="space-y-4">
             {moduleNodes.map((node, idx) => {
               const moduleId = node.moduleId;
               const moduleData = moduleId ? modules[moduleId] : null;
-              const percent = moduleData?.percent ?? 0;
+              
+              // Calculate actual module score from quizAnswers
+              const quizAnswers = moduleData?.quizAnswers ?? {};
+              const { score, total, percent } = moduleId ? getModuleScore(moduleId, quizAnswers) : { score: 0, total: 0, percent: 0 };
               
               return (
                 <div key={node.id} className="flex items-center gap-4 bg-white/5 p-4 rounded-2xl border border-white/5 hover:bg-white/10 transition-colors">
                   <div className="w-10 h-10 rounded-xl bg-orange-500/10 flex items-center justify-center text-orange-400 shrink-0 border border-orange-500/20">
                     <span className="font-black text-lg">{idx + 1}</span>
                   </div>
-                  <div className="flex-1 min-w-0">
-                    <h4 className="font-bold text-gray-200 truncate text-right">{node.title}</h4>
-                    <div className="flex items-center gap-3 mt-2 flex-row-reverse">
-                      <div className="h-1.5 flex-1 bg-black/50 rounded-full overflow-hidden flex flex-row-reverse">
+                  <div className="flex-1 min-w-0 flex flex-col sm:flex-row sm:items-center justify-between">
+                    <h4 className="font-bold text-gray-200 truncate ml-4">{node.title}</h4>
+                    <div className="flex items-center gap-4 mt-2 sm:mt-0">
+                      <div className="text-sm text-gray-400 whitespace-nowrap">
+                        {total > 0 ? `${score} / ${total} صحيحة` : 'لم يُختبر بعد'}
+                      </div>
+                      <div className="w-32 sm:w-48 h-1.5 bg-black/50 rounded-full overflow-hidden flex flex-row-reverse">
                         <motion.div 
                           initial={{ width: 0 }}
-                          animate={{ width: `${percent}%` }}
-                          transition={{ duration: 1, delay: 0.8 + (idx * 0.1) }}
+                          whileInView={{ width: `${percent}%` }}
+                          viewport={{ once: true }}
+                          transition={{ duration: 1, delay: 0.2 + (idx * 0.1) }}
                           className="h-full bg-orange-500 rounded-full"
                         />
                       </div>
@@ -243,13 +305,11 @@ export function FinalResultsPage() {
           </button>
           
           <button 
-            onClick={() => {
-              navigate('/');
-            }}
+            onClick={handleReset}
             className="flex items-center gap-2 px-6 py-3 bg-red-500/10 hover:bg-red-500/20 border border-red-500/30 rounded-xl transition-all hover:-translate-y-1 text-red-400 font-bold"
           >
             <RotateCcw className="w-5 h-5" />
-            إعادة البرنامج
+            إعادة البرنامج بالكامل
           </button>
         </div>
 

@@ -20,4 +20,7 @@ export const progressStorage = {
   save(state: LearningProgressState) {
     writeJson(key, state);
   },
+  clear() {
+    window.localStorage.removeItem(key);
+  },
 };
