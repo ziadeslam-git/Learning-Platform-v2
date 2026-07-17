@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { contentRepository } from '../services/content/contentRepository';
-import { User, Users, Info, ChevronLeft, Target, ShieldCheck } from 'lucide-react';
+import { Users, Info, ChevronLeft, Target, ShieldCheck } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 export function AboutPlatform() {
@@ -22,8 +22,6 @@ export function AboutPlatform() {
   const researcherName = blocks.find(b => b.content === 'أيه محمد عنتر على')?.content || 'أيه محمد عنتر على';
   const supervisor1 = blocks.find(b => b.content?.includes('الغريب زاهر إسماعيل'))?.content || 'أ.د / الغريب زاهر إسماعيل';
   const supervisor1Title = blocks.find(b => b.content?.includes('أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة'))?.content || 'أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة';
-  const supervisor2 = blocks.find(b => b.content?.includes('رشا حمدى حسن هداية'))?.content || 'أ.د / رشا حمدى حسن هداية';
-  const supervisor2Title = blocks.find(b => b.content === 'استاذ تكنولوجيا التعليم' || b.content?.includes('كلية التربية'))?.content || 'استاذ تكنولوجيا التعليم - كلية التربية جامعة المنصورة';
   const description = blocks.find(b => b.content?.includes('بيئة تدريب شخصية قائمة على تطبيقات الذكاء الاصطناعي'))?.content || 'بيئة تدريب شخصية قائمة على تطبيقات الذكاء الاصطناعي لتنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية';
 
   return (
@@ -56,8 +54,8 @@ export function AboutPlatform() {
           className="glass-orange rounded-3xl p-8 mb-12 text-center relative overflow-hidden group border border-orange-500/30"
         >
           <div className="absolute inset-0 bg-gradient-to-b from-orange-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-          <div className="w-20 h-20 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-4 border border-orange-500/30">
-            <User className="w-10 h-10 text-orange-400" />
+          <div className="w-32 h-32 rounded-full mx-auto mb-4 p-1 border-2 border-orange-500/30 shadow-[0_0_20px_rgba(249,115,22,0.2)] overflow-hidden relative">
+            <img src="/team/3.jpeg" alt={researcherName} className="w-full h-full object-cover rounded-full" />
           </div>
           <h2 className="text-sm text-orange-400 uppercase tracking-wider mb-2 font-semibold">إعداد الباحثة</h2>
           <h3 className="text-2xl font-bold text-white mb-2">{researcherName}</h3>
@@ -83,8 +81,11 @@ export function AboutPlatform() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
-                className="glass-card rounded-2xl p-6 hover:border-orange-500/30 transition-colors border border-white/10"
+                className="glass-card rounded-2xl p-6 hover:border-orange-500/30 transition-colors border border-white/10 flex flex-col items-center text-center"
               >
+                <div className="w-24 h-24 rounded-full mb-4 p-1 border-2 border-orange-500/20 shadow-[0_0_15px_rgba(255,255,255,0.05)] overflow-hidden relative">
+                  <img src="/team/1.jpeg" alt={supervisor1} className="w-full h-full object-cover rounded-full" />
+                </div>
                 <h4 className="text-xl font-bold text-orange-400 mb-3">{supervisor1}</h4>
                 <p className="text-sm text-gray-400 leading-relaxed">{supervisor1Title}</p>
               </motion.div>
@@ -93,10 +94,13 @@ export function AboutPlatform() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.3 }}
-                className="glass-card rounded-2xl p-6 hover:border-orange-500/30 transition-colors border border-white/10"
+                className="glass-card rounded-2xl p-6 hover:border-orange-500/30 transition-colors border border-white/10 flex flex-col items-center text-center"
               >
-                <h4 className="text-xl font-bold text-orange-400 mb-3">{supervisor2}</h4>
-                <p className="text-sm text-gray-400 leading-relaxed">{supervisor2Title}</p>
+                <div className="w-24 h-24 rounded-full mb-4 p-1 border-2 border-orange-500/20 shadow-[0_0_15px_rgba(255,255,255,0.05)] overflow-hidden relative">
+                  <img src="/team/2.jpeg" alt="أ.د / رشا هدية" className="w-full h-full object-cover rounded-full" />
+                </div>
+                <h4 className="text-xl font-bold text-orange-400 mb-3">أ.د / رشا هدية</h4>
+                <p className="text-sm text-gray-400 leading-relaxed">أستاذ تكنولوجيا التعليم بكلية التربية النوعية جامعة المنصورة</p>
               </motion.div>
             </div>
           </div>

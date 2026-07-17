@@ -104,6 +104,11 @@
           "content": "وتعتمد القيادة الرقمية على استخدام التكنولوجيا بصورة استراتيجية لتحقيق أهداف المؤسسة التعليمية وتحسين جودة الخدمات التعليمية والإدارية"
         },
         {
+          "id": "image_m1_1",
+          "type": "ImageBlock",
+          "src": "/content-images/m1_digital_leadership.png"
+        },
+        {
           "id": "paragraph_20",
           "type": "ParagraphBlock",
           "content": "أهمية القيادة الرقمية"
@@ -674,9 +679,14 @@
           "content": "مجموعة الأجهزة والشبكات والبرمجيات والأنظمة الرقمية التي تعتمد عليها المؤسسة التعليمية في تنفيذ أعمالها التعليمية والإدارية."
         },
         {
+          "id": "image_m1_2",
+          "type": "ImageBlock",
+          "src": "/content-images/m1_digital_infrastructure.png"
+        },
+        {
           "id": "paragraph_134",
           "type": "ParagraphBlock",
-          "content": "مكونات البنية الرقمية"
+          "content": "مكونات البنية الرقمية الفعالة"
         },
         {
           "id": "paragraph_135",

@@ -104,6 +104,11 @@
           "content": "هو عملية تبادل المعلومات والرسائل باستخدام الوسائط والتقنيات الرقمية بما يحقق التفاعل الفعال بين الأفراد والمؤسسات."
         },
         {
+          "id": "image_m2_1",
+          "type": "ImageBlock",
+          "src": "/content-images/m2_digital_communication.png"
+        },
+        {
           "id": "paragraph_20",
           "type": "ParagraphBlock",
           "content": "أهمية الاتصال الرقمي"
@@ -557,6 +562,11 @@
           "id": "paragraph_110",
           "type": "ParagraphBlock",
           "content": "هي مجموعة من الحقائق والأرقام والمعلومات التي يتم جمعها وتخزينها ومعالجتها إلكترونياً بهدف الاستفادة منها في العمل المؤسسي واتخاذ القرار."
+        },
+        {
+          "id": "image_m2_2",
+          "type": "ImageBlock",
+          "src": "/content-images/m2_data_management.png"
         },
         {
           "id": "paragraph_111",

@@ -109,6 +109,11 @@
           "content": "https://share.google/kNqmXJdRI8TdDFm7s"
         },
         {
+          "id": "image_m3_1",
+          "type": "ImageBlock",
+          "src": "/content-images/m3_cybersecurity.png"
+        },
+        {
           "id": "paragraph_21",
           "type": "ParagraphBlock",
           "content": "أهمية الأمن السيبراني"
@@ -557,6 +562,11 @@
           "id": "paragraph_110",
           "type": "ParagraphBlock",
           "content": "هو استخدام التقنيات والمنصات الرقمية لمتابعة العملية التعليمية وتقويمها وتحسينها بصورة مستمرة."
+        },
+        {
+          "id": "image_m3_2",
+          "type": "ImageBlock",
+          "src": "/content-images/m3_digital_supervision.png"
         },
         {
           "id": "paragraph_111",
