@@ -54,6 +54,9 @@ export const contentRepository = {
   },
 
   getImage(src: string): string | null {
+    if (src.startsWith('/') || src.startsWith('http')) {
+      return src;
+    }
     try {
       const images = import.meta.glob('../../../generated/images/**/*.{png,jpg,jpeg,svg,gif,webp}', { eager: true, query: '?url', import: 'default' });
       const decodedSrc = decodeURIComponent(src);
