@@ -102,10 +102,10 @@ export function ElementSection({ element }: { element: ParsedElement }) {
               }
             }
 
-            // ── Media group (2-per-row) ────────────────────────────────────────
+            // ── Media ────────────────────────────────────────
             if (group.kind === 'media-group') {
               return (
-                <div key={`mg-${gi}`} className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
+                <div key={`mg-${gi}`} className="flex flex-col gap-6 my-6">
                   {group.items.map(({ concept, idx }) => {
                     if (concept.type !== 'media') return null;
                     const title = cleanTitle(concept.title);
@@ -114,10 +114,10 @@ export function ElementSection({ element }: { element: ParsedElement }) {
                     if (concept.mediaType === 'image') {
                       const imgSrc = contentRepository.getImage(concept.url);
                       return (
-                        <div key={idx} className="rounded-2xl overflow-hidden border border-white/10 bg-black/30 p-3 flex flex-col">
+                        <div key={idx} className="rounded-2xl overflow-hidden border border-white/10 bg-black/30 flex flex-col w-full">
                           {imgSrc ? (
                             <img src={imgSrc} alt={title} loading="lazy"
-                              className="w-full h-auto max-h-72 object-contain rounded-xl" />
+                              className="w-full h-auto object-cover" />
                           ) : (
                             <div className="text-gray-500 p-6 text-center bg-white/5 rounded-xl border border-dashed border-white/10 flex-1 flex items-center justify-center text-sm font-arabic">
                               صورة مفقودة
