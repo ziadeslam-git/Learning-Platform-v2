@@ -14,7 +14,7 @@
   --spacing-text: 0.5rem;
   
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-arabic: 'Cairo', 'Tajawal', system-ui, sans-serif;
+  --font-arabic: 'Noto Kufi Arabic', system-ui, sans-serif;
 }
 
 @layer base {
