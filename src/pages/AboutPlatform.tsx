@@ -99,7 +99,7 @@ export function AboutPlatform() {
                 <div className="w-24 h-24 rounded-full mb-4 p-1 border-2 border-orange-500/20 shadow-[0_0_15px_rgba(255,255,255,0.05)] overflow-hidden relative">
                   <img src="/team/2.jpeg" alt="أ.د / رشا هدية" className="w-full h-full object-cover rounded-full" />
                 </div>
-                <h4 className="text-xl font-bold text-orange-400 mb-3">أ.د / رشا هدية</h4>
+                <h4 className="text-xl font-bold text-orange-400 mb-3">أ.د / رشا حمدي حسن هداية</h4>
                 <p className="text-sm text-gray-400 leading-relaxed">أستاذ تكنولوجيا التعليم بكلية التربية النوعية جامعة المنصورة</p>
               </motion.div>
             </div>
