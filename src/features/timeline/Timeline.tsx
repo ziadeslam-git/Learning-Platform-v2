@@ -1,58 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
 import { learningPath } from '../../data/learningPath';
 import { useLearningProgress } from '../../hooks/useLearningProgress';
 import { SectionTitle } from '../../shared/ui/SectionTitle';
 import { TimelineNode } from './TimelineNode';
-import { TimelinePath } from './TimelinePath';
 
 export function Timeline() {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [points, setPoints] = useState<{ x: number; y: number }[]>([]);
-  const [containerHeight, setContainerHeight] = useState(0);
-
-  useEffect(() => {
-    const updatePositions = () => {
-      if (!containerRef.current) return;
-      
-      const containerRect = containerRef.current.getBoundingClientRect();
-      const nodeElements = containerRef.current.querySelectorAll('[data-timeline-node]');
-      
-      const newPoints: { x: number; y: number }[] = [];
-      
-      nodeElements.forEach((el) => {
-        const rect = el.getBoundingClientRect();
-        // Calculate center relative to the container
-        const x = (rect.left + rect.right) / 2 - containerRect.left;
-        const y = (rect.top + rect.bottom) / 2 - containerRect.top;
-        newPoints.push({ x, y });
-      });
-      
-      setPoints(newPoints);
-      setContainerHeight(containerRef.current.scrollHeight);
-    };
-
-    // Initial calculation
-    updatePositions();
-
-    // Use ResizeObserver for responsive updates
-    const observer = new ResizeObserver(() => {
-      // Add a slight delay to allow layout shifts to settle
-      requestAnimationFrame(updatePositions);
-    });
-
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
-    }
-    
-    // Also observe window resize as a fallback
-    window.addEventListener('resize', updatePositions);
-
-    return () => {
-      observer.disconnect();
-      window.removeEventListener('resize', updatePositions);
-    };
-  }, []);
-
   const { modules, completedAssessments } = useLearningProgress();
 
   let activeIndex = learningPath.length - 1;
@@ -67,22 +18,47 @@ export function Timeline() {
       break;
     }
   }
-  const progressRatio = learningPath.length > 1 ? activeIndex / (learningPath.length - 1) : 0;
 
   return (
-    <section className="relative py-32 px-4 md:px-8 max-w-7xl mx-auto w-full">
+    <section className="relative py-24 px-4 md:px-8 max-w-7xl mx-auto w-full">
       <SectionTitle 
-        title="Your Journey" 
-        subtitle="Follow the structured path to mastery. Each node unlocks profound scientific concepts."
-        className="mb-24"
+        title="رحلة التدريب" 
+        subtitle="مسار منظم. كل مرحلة تفتح لك مفاهيم تقنية جديدة."
+        className="mb-16 md:mb-24"
       />
       
-      <div ref={containerRef} className="relative flex flex-col gap-32 md:gap-40">
-        <TimelinePath points={points} containerHeight={containerHeight} progressRatio={progressRatio} />
+      <div className="relative flex flex-col md:flex-row items-center justify-between gap-12 md:gap-4 w-full">
+        {/* Horizontal line for desktop */}
+        <div className="hidden md:block absolute top-12 left-0 w-full h-1 bg-white/10 -translate-y-1/2 z-0 rounded-full" />
         
-        {learningPath.map((node, i) => (
-          <TimelineNode key={node.id} node={node} index={i} />
-        ))}
+        {/* Progress line for desktop */}
+        <div 
+          className="hidden md:block absolute top-12 right-0 h-1 bg-orange-500 -translate-y-1/2 z-0 transition-all duration-1000 ease-out rounded-full shadow-[0_0_15px_rgba(249,115,22,0.5)]" 
+          style={{ width: `${learningPath.length > 1 ? (activeIndex / (learningPath.length - 1)) * 100 : 0}%` }}
+        />
+
+        {/* Vertical line for mobile */}
+        <div className="md:hidden absolute left-1/2 top-0 w-1 h-full bg-white/10 -translate-x-1/2 z-0 rounded-full" />
+
+        {/* Vertical progress line for mobile */}
+        <div 
+          className="md:hidden absolute left-1/2 top-0 w-1 bg-orange-500 -translate-x-1/2 z-0 transition-all duration-1000 ease-out rounded-full shadow-[0_0_15px_rgba(249,115,22,0.5)]"
+          style={{ height: `${learningPath.length > 1 ? (activeIndex / (learningPath.length - 1)) * 100 : 0}%` }}
+        />
+        
+        {learningPath.map((node, i) => {
+          const isLocked = i > activeIndex;
+          const isActive = i === activeIndex;
+          return (
+            <TimelineNode 
+              key={node.id} 
+              node={node} 
+              index={i} 
+              isLocked={isLocked} 
+              isActive={isActive} 
+            />
+          );
+        })}
       </div>
     </section>
   );

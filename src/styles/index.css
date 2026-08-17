@@ -14,7 +14,7 @@
   --spacing-text: 0.5rem;
   
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
-  --font-arabic: 'Noto Kufi Arabic', system-ui, sans-serif;
+  --font-arabic: 'Simplified Arabic', system-ui, sans-serif;
 }
 
 @layer base {
@@ -35,6 +35,16 @@
   :focus-visible {
     outline: 2px solid var(--color-brand-orange-500);
     outline-offset: 3px;
+  }
+
+  /* Global Arabic Typography Improvements */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-arabic font-bold text-gray-100 tracking-normal;
+    line-height: 1.4;
+  }
+
+  p {
+    @apply text-gray-300 leading-relaxed md:leading-[1.8] max-w-prose;
   }
 }
 

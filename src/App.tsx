@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { LandingPage } from './features/landing';
+import { LearningAssistant } from './features/assistant';
 
 import { AnimatedBackground } from './shared/components/AnimatedBackground';
 import { useLearningProgress } from './hooks/useLearningProgress';
@@ -31,6 +32,7 @@ function App() {
             <Route path="/final-results" element={<FinalResultsPage />} />
           </Routes>
         </Suspense>
+        <LearningAssistant />
       </div>
     </div>
   );

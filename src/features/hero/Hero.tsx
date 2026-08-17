@@ -1,8 +1,40 @@
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { GlowButton } from '../../shared/ui/GlowButton';
 import { ArrowRight } from '../../shared/icons';
+import { useLearningProgress } from '../../hooks/useLearningProgress';
+import { learningPath } from '../../data/learningPath';
 
 export function Hero() {
+  const navigate = useNavigate();
+  const { modules, completedAssessments } = useLearningProgress();
+
+  // Find active node
+  let activeNode = learningPath[0];
+  for (let i = 0; i < learningPath.length; i++) {
+    const node = learningPath[i];
+    const isCompleted = node.type === 'assessment'
+      ? Boolean(completedAssessments[node.id])
+      : Boolean(modules[node.moduleId!] && modules[node.moduleId!].percent >= 100);
+    
+    if (!isCompleted) {
+      activeNode = node;
+      break;
+    }
+  }
+
+  // Check if there is actual progress to show 'Resume' vs 'Start'
+  // Removed unused ctaText dynamic behavior since it is now hardcoded
+
+  const handleStart = () => {
+    if (activeNode.id === 'final-results') {
+      navigate('/final-results');
+    } else if (activeNode.type === 'assessment') {
+      navigate(`/assessment/${activeNode.id}`);
+    } else if (activeNode.type === 'module' && activeNode.moduleId) {
+      navigate(`/module/${activeNode.moduleId}`);
+    }
+  };
   return (
     <section className="relative min-h-[90vh] flex flex-col items-center justify-center px-4 overflow-hidden pt-28 md:pt-20" style={{ perspective: 1200 }}>
       <motion.div
@@ -26,13 +58,8 @@ export function Hero() {
         </motion.div>
 
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-extrabold tracking-tight text-white glow-text leading-relaxed font-arabic" style={{ transform: 'translateZ(50px)' }}>
-          فاعلية توظيف تطبيقات <br className="hidden md:block" />
-          <span className="text-orange-500 inline-block">الذكاء الاصطناعي</span> ببيئة تدريب شخصية
+          بيئة تدريب شخصية قائمة علي تطبيقات <span className="text-orange-500 inline-block">الذكاء الاصطناعي</span>
         </h1>
-
-        <p className="text-lg md:text-2xl text-gray-300 max-w-3xl leading-loose font-arabic mt-4" style={{ transform: 'translateZ(30px)' }}>
-          في تنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدى القيادات التعليمية
-        </p>
 
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -40,8 +67,8 @@ export function Hero() {
           transition={{ delay: 0.6, duration: 0.5 }}
           className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center" style={{ transform: 'translateZ(40px)' }}
         >
-          <GlowButton onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}>
-            <span className="font-arabic font-bold text-lg">ابدأ رحلة التعلم</span>
+          <GlowButton onClick={handleStart}>
+            <span className="font-arabic font-bold text-lg">بدء رحلة التدريب</span>
             <ArrowRight className="w-5 h-5 rotate-180" />
           </GlowButton>
         </motion.div>

@@ -44,7 +44,7 @@ export const ResultScreen: React.FC<Props> = ({
           <Award className="w-12 h-12" />
         </motion.div>
 
-        <h2 className="text-3xl font-bold text-white mb-8">
+        <h2 className="text-3xl font-bold text-white mb-8 font-arabic">
           تم حفظ إجاباتك بنجاح!
         </h2>
         
@@ -82,13 +82,13 @@ export const ResultScreen: React.FC<Props> = ({
         >
           {review.map((item, index) => (
             <div key={item.id} className="backdrop-blur-md bg-white/5 border border-white/10 hover:border-white/20 transition-all rounded-2xl p-5 shadow-lg">
-              <p className="text-white font-semibold mb-3 leading-relaxed text-lg">{index + 1}. {item.text}</p>
+              <p className="text-white font-semibold mb-3 leading-relaxed text-lg font-arabic">{index + 1}. {item.text}</p>
               <div className="space-y-2">
                 <p className="text-orange-300 text-sm">إجابتك: <span className="text-gray-200">{item.selectedAnswer ?? 'لم تتم الإجابة'}</span></p>
                 {!isScale && (
                   <p className="text-green-400 text-sm">الإجابة الصحيحة: <span className="text-gray-200">{item.correctAnswer ?? 'غير متاحة بمصدر موثق'}</span></p>
                 )}
-                {item.rationale && <p className="text-blue-300 text-sm mt-2">{item.rationale}</p>}
+                {item.rationale && <p className="text-blue-300 text-sm mt-2 font-arabic leading-relaxed">{item.rationale}</p>}
               </div>
             </div>
           ))}
@@ -97,7 +97,7 @@ export const ResultScreen: React.FC<Props> = ({
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <button 
             onClick={onContinue}
-            className="w-full sm:w-auto px-8 py-4 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-all glow-orange flex items-center justify-center gap-2"
+            className="w-full sm:w-auto px-10 py-4 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-2xl transition-all glow-orange flex items-center justify-center gap-2 font-arabic text-lg"
           >
             <span>{nextNodeName ? `الانتقال إلى: ${nextNodeName}` : 'العودة للمسار التعليمي'}</span>
             <ChevronRight className="w-5 h-5 rotate-180" />

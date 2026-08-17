@@ -7,9 +7,7 @@ export function useLearningProgress() {
   const completedAssessments = useProgressStore((state) => state.completedAssessments);
   const visitModule = useProgressStore((state) => state.visitModule);
   const visitAssessment = useProgressStore((state) => state.visitAssessment);
-  const setActiveAccordion = useProgressStore((state) => state.setActiveAccordion);
   const setSectionCompleted = useProgressStore((state) => state.setSectionCompleted);
-  const setChecklistItem = useProgressStore((state) => state.setChecklistItem);
   const setQuizAnswer = useProgressStore((state) => state.setQuizAnswer);
   const markQuizCompleted = useProgressStore((state) => state.markQuizCompleted);
   const completeModule = useProgressStore((state) => state.completeModule);
@@ -24,9 +22,7 @@ export function useLearningProgress() {
     completedAssessments,
     visitModule,
     visitAssessment,
-    setActiveAccordion,
     setSectionCompleted,
-    setChecklistItem,
     setQuizAnswer,
     markQuizCompleted,
     completeModule,

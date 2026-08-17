@@ -1,16 +1,24 @@
 export type LearningItemStatus = 'completed' | 'active' | 'not-started';
 
+export type ActivityStatus = 'idle' | 'in-progress' | 'correct' | 'failed' | 'remediation-required' | 'remediation-completed';
+
+/** Tracks the user's position inside the sequential learning journey for a module */
+export interface JourneyState {
+  currentLessonIndex: number;
+  currentStepIndex: number;
+  completedSteps: string[];                            // step IDs that are done
+  activityResults: Record<string, 'correct' | 'incorrect'>;  // stepId → result
+  activityStates?: Record<string, ActivityStatus>;           // stepId → granular state
+}
+
 export interface ModuleProgress {
   moduleId: string;
-  openedSectionIds: string[];
-  activeSectionId: string | null;
-  activeAccordionId: string | null;
-  checklist: Record<string, boolean>;
   quizAnswers: Record<string, string>;
   completedQuizzes: Record<string, boolean>;
   completedSections: Record<string, boolean>;
   percent: number;
   lastVisitedAt: string;
+  journeyState?: JourneyState;
 }
 
 export interface LearningProgressState {

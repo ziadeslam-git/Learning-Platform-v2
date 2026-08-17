@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { learningPath } from '../data/learningPath';
 import { defaultProgressState, progressStorage } from '../services/progressStorage';
-import type { LearningProgressState, LearningStats, ModuleProgress } from '../types/progress';
+import type { JourneyState, LearningProgressState, LearningStats, ModuleProgress, ActivityStatus } from '../types/progress';
 
 function now() {
   return new Date().toISOString();
@@ -10,10 +10,6 @@ function now() {
 function createModuleProgress(moduleId: string): ModuleProgress {
   return {
     moduleId,
-    openedSectionIds: [],
-    activeSectionId: null,
-    activeAccordionId: null,
-    checklist: {},
     quizAnswers: {},
     completedQuizzes: {},
     completedSections: {},
@@ -38,9 +34,7 @@ interface ProgressStore extends LearningProgressState {
   touch: () => void;
   visitModule: (moduleId: string) => void;
   visitAssessment: (assessmentId: string) => void;
-  setActiveAccordion: (moduleId: string, accordionId: string | null) => void;
   setSectionCompleted: (moduleId: string, sectionId: string, totalSections: number) => void;
-  setChecklistItem: (moduleId: string, itemId: string, checked: boolean) => void;
   setQuizAnswer: (moduleId: string, questionId: string, answer: string) => void;
   markQuizCompleted: (moduleId: string, quizId: string) => void;
   completeModule: (moduleId: string) => void;
@@ -48,6 +42,11 @@ interface ProgressStore extends LearningProgressState {
   addLearningSeconds: (seconds: number) => void;
   getStats: () => LearningStats;
   resetAll: () => void;
+  // Journey actions
+  setJourneyStep: (moduleId: string, lessonIndex: number, stepIndex: number) => void;
+  markStepCompleted: (moduleId: string, stepId: string) => void;
+  recordActivityResult: (moduleId: string, stepId: string, result: 'correct' | 'incorrect') => void;
+  setActivityState: (moduleId: string, stepId: string, state: ActivityStatus) => void;
 }
 
 const initial = progressStorage.load();
@@ -98,31 +97,6 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
     return next;
   }),
 
-  setActiveAccordion: (moduleId, accordionId) => set((state) => {
-    const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
-    const currentOpenedSectionIds = moduleProgress.openedSectionIds ?? [];
-    const openedSectionIds = accordionId && !currentOpenedSectionIds.includes(accordionId)
-      ? [...currentOpenedSectionIds, accordionId]
-      : currentOpenedSectionIds;
-    const next = {
-      ...state,
-      lastModuleId: moduleId,
-      lastVisitedAt: now(),
-      modules: {
-        ...state.modules,
-        [moduleId]: {
-          ...moduleProgress,
-          activeAccordionId: accordionId,
-          activeSectionId: accordionId,
-          openedSectionIds,
-          lastVisitedAt: now(),
-        },
-      },
-    };
-    persist(next);
-    return next;
-  }),
-
   setSectionCompleted: (moduleId, sectionId, totalSections) => set((state) => {
     const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
     const completedSections = { ...(moduleProgress.completedSections ?? {}), [sectionId]: true };
@@ -136,24 +110,6 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
       modules: {
         ...state.modules,
         [moduleId]: { ...moduleProgress, completedSections, percent, lastVisitedAt: now() },
-      },
-    };
-    persist(next);
-    return next;
-  }),
-
-  setChecklistItem: (moduleId, itemId, checked) => set((state) => {
-    const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
-    const next = {
-      ...state,
-      lastVisitedAt: now(),
-      modules: {
-        ...state.modules,
-        [moduleId]: {
-          ...moduleProgress,
-          checklist: { ...(moduleProgress.checklist ?? {}), [itemId]: checked },
-          lastVisitedAt: now(),
-        },
       },
     };
     persist(next);
@@ -247,4 +203,112 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
       lastVisitedAt: state.lastVisitedAt,
     };
   },
+
+  setJourneyStep: (moduleId, lessonIndex, stepIndex) => set((state) => {
+    const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
+    const prevJourney: JourneyState = moduleProgress.journeyState ?? {
+      currentLessonIndex: 0,
+      currentStepIndex: 0,
+      completedSteps: [],
+      activityResults: {},
+    };
+    const next = {
+      ...state,
+      lastModuleId: moduleId,
+      lastVisitedAt: now(),
+      modules: {
+        ...state.modules,
+        [moduleId]: {
+          ...moduleProgress,
+          journeyState: { ...prevJourney, currentLessonIndex: lessonIndex, currentStepIndex: stepIndex },
+          lastVisitedAt: now(),
+        },
+      },
+    };
+    persist(next);
+    return next;
+  }),
+
+  markStepCompleted: (moduleId, stepId) => set((state) => {
+    const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
+    const prevJourney: JourneyState = moduleProgress.journeyState ?? {
+      currentLessonIndex: 0,
+      currentStepIndex: 0,
+      completedSteps: [],
+      activityResults: {},
+    };
+    const completedSteps = prevJourney.completedSteps.includes(stepId)
+      ? prevJourney.completedSteps
+      : [...prevJourney.completedSteps, stepId];
+    const next = {
+      ...state,
+      lastModuleId: moduleId,
+      lastVisitedAt: now(),
+      modules: {
+        ...state.modules,
+        [moduleId]: {
+          ...moduleProgress,
+          journeyState: { ...prevJourney, completedSteps },
+          lastVisitedAt: now(),
+        },
+      },
+    };
+    persist(next);
+    return next;
+  }),
+
+  recordActivityResult: (moduleId, stepId, result) => set((state) => {
+    const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
+    const prevJourney: JourneyState = moduleProgress.journeyState ?? {
+      currentLessonIndex: 0,
+      currentStepIndex: 0,
+      completedSteps: [],
+      activityResults: {},
+      activityStates: {},
+    };
+    const next = {
+      ...state,
+      lastModuleId: moduleId,
+      lastVisitedAt: now(),
+      modules: {
+        ...state.modules,
+        [moduleId]: {
+          ...moduleProgress,
+          journeyState: {
+            ...prevJourney,
+            activityResults: { ...prevJourney.activityResults, [stepId]: result },
+          },
+          lastVisitedAt: now(),
+        },
+      },
+    };
+    persist(next);
+    return next;
+  }),
+
+  setActivityState: (moduleId, stepId, activityState) => set((state) => {
+    const moduleProgress = state.modules[moduleId] ?? createModuleProgress(moduleId);
+    const prevJourney: JourneyState = moduleProgress.journeyState ?? {
+      currentLessonIndex: 0,
+      currentStepIndex: 0,
+      completedSteps: [],
+      activityResults: {},
+      activityStates: {},
+    };
+    const next = {
+      ...state,
+      modules: {
+        ...state.modules,
+        [moduleId]: {
+          ...moduleProgress,
+          journeyState: {
+            ...prevJourney,
+            activityStates: { ...(prevJourney.activityStates ?? {}), [stepId]: activityState },
+          },
+        },
+      },
+    };
+    persist(next);
+    return next;
+  }),
 }));

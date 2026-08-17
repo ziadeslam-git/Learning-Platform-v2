@@ -1,6 +1,8 @@
 import type { ParsedAssessment } from '../../utils/contentParser';
 import { CheckCircle2, HelpCircle, XCircle } from 'lucide-react';
 import { useLearningProgress } from '../../../../hooks/useLearningProgress';
+import { ResultScreen } from '../../../assessments/components/ResultScreen';
+import type { GradedQuestion } from '../../../../types/assessment';
 
 interface Props {
   moduleId: string;
@@ -34,7 +36,6 @@ export function QuizComponent({ moduleId, lessonId, assessments, onCompleted }: 
 
   const handleSubmit = () => {
     markQuizCompleted(moduleId, quizId);
-    onCompleted?.();
   };
 
   return (
@@ -152,27 +153,24 @@ export function QuizComponent({ moduleId, lessonId, assessments, onCompleted }: 
           تسليم الإجابات {canSubmit ? '' : `(${answeredCount}/${requiredAssessments.length})`}
         </button>
       ) : (
-        <div className="mt-8 p-6 bg-black/30 border border-purple-500/20 rounded-2xl">
-          <div className="flex items-center gap-3 mb-4">
-            <CheckCircle2 className="w-8 h-8 text-green-400 shrink-0" />
-            <h4 className="text-green-400 font-bold text-xl font-arabic">تم تسليم التقويم</h4>
-          </div>
-          {gradable.length > 0 && (
-            <div className="grid grid-cols-3 gap-4 text-center">
-              <div className="bg-white/5 rounded-xl p-3">
-                <div className="text-2xl font-bold text-white">{correctCount}/{gradable.length}</div>
-                <div className="text-gray-400 text-xs font-arabic mt-1">الدرجة</div>
-              </div>
-              <div className="bg-white/5 rounded-xl p-3">
-                <div className="text-2xl font-bold text-blue-400">{percentage}%</div>
-                <div className="text-gray-400 text-xs font-arabic mt-1">النسبة</div>
-              </div>
-              <div className="bg-white/5 rounded-xl p-3">
-                <div className="text-2xl font-bold text-red-400">{wrongCount}</div>
-                <div className="text-gray-400 text-xs font-arabic mt-1">أخطاء</div>
-              </div>
-            </div>
-          )}
+        <div className="mt-8">
+          <ResultScreen
+            score={correctCount}
+            gradedTotal={gradable.length}
+            wrong={wrongCount}
+            percent={percentage}
+            review={assessments.map((quiz): GradedQuestion => ({
+              id: quiz.id,
+              text: quiz.text,
+              selectedAnswer: answers[quiz.id] || null,
+              correctAnswer: quiz.correctAnswer || null,
+              isCorrect: quiz.correctAnswer ? answers[quiz.id] === quiz.correctAnswer : null,
+              rationale: null,
+            }))}
+            isScale={false}
+            nextNodeName="الدرس التالي"
+            onContinue={onCompleted || (() => {})}
+          />
         </div>
       )}
     </div>

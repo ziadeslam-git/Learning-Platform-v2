@@ -50,13 +50,27 @@ export function AssessmentRenderer({ assessmentId }: Props) {
   if (activeAttempt.finishedAt) {
     const result = gradeAssessment(assessmentId, questions, activeAttempt);
     const isScale = assessmentId.includes('scale');
+
+    // Determine where "Continue" should go after finishing this assessment
+    const getNextRoute = () => {
+      if (assessmentId === 'post-test') return '/assessment/post-scale';
+      if (assessmentId === 'post-scale') return '/final-results';
+      // For pre-test / pre-scale, use the existing learningPath lookup
+      const currentNodeIndex = learningPath.findIndex(n => n.id === assessmentId);
+      const nextNode = currentNodeIndex !== -1 && currentNodeIndex < learningPath.length - 1 ? learningPath[currentNodeIndex + 1] : null;
+      if (!nextNode) return '/';
+      if (nextNode.type === 'module') return `/module/${nextNode.id}`;
+      if (nextNode.id === 'final-results') return '/final-results';
+      return `/assessment/${nextNode.id}`;
+    };
+
     const currentNodeIndex = learningPath.findIndex(n => n.id === assessmentId);
     const nextNode = currentNodeIndex !== -1 && currentNodeIndex < learningPath.length - 1 ? learningPath[currentNodeIndex + 1] : null;
 
     return (
       <div className="font-arabic py-12" dir="rtl">
-        <ResultScreen 
-          score={result.score} 
+        <ResultScreen
+          score={result.score}
           gradedTotal={result.gradedTotal}
           wrong={result.wrong}
           percent={result.percent}
@@ -65,8 +79,8 @@ export function AssessmentRenderer({ assessmentId }: Props) {
           nextNodeName={nextNode?.title}
           onContinue={() => {
             markAssessmentCompleted(assessmentId);
-            navigate('/');
-          }} 
+            navigate(getNextRoute());
+          }}
           onRetry={() => {
             resetAttempt(assessmentId);
             startAttempt(assessmentId);

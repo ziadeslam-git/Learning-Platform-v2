@@ -46,6 +46,7 @@ export function LandingPage() {
 
       <Hero />
       <Timeline />
+      
       <Footer />
     </main>
   );
