@@ -178,11 +178,21 @@ export function ActivityStep({ group, stepId, moduleId, onNext }: Props) {
 
         {/* FAILED (Brief feedback before remediation) */}
         {state === 'failed' && (
-          <motion.div key="failed" initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="text-center py-4">
-            <div className="flex justify-center items-center gap-3 mb-4">
-              <h4 className="text-red-400 font-bold text-lg font-arabic">❌ الإجابة غير صحيحة</h4>
+          <motion.div key="failed" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ type: 'spring', stiffness: 300, damping: 24 }} className="flex flex-col items-center text-center py-6 gap-4">
+            {/* Error icon */}
+            <div className="w-20 h-20 rounded-3xl bg-red-500/15 border border-red-500/25 flex items-center justify-center shadow-[0_0_40px_rgba(239,68,68,0.15)]">
+              <svg className="w-10 h-10 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
+              </svg>
             </div>
-            <p className="text-gray-300 font-arabic text-sm">جاري التوجيه للمراجعة...</p>
+            {/* Text */}
+            <div>
+              <h4 className="text-red-400 font-bold text-xl mb-1 font-arabic">إجابة غير صحيحة</h4>
+              <p className="text-gray-500 text-sm font-arabic flex items-center justify-center gap-2">
+                <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse inline-block" />
+                جاري التوجيه للمراجعة...
+              </p>
+            </div>
           </motion.div>
         )}
 
