@@ -32,13 +32,25 @@ export function parseAssessmentQuestions(data: AssessmentModel): ParsedQuestion[
     return questions;
   }
 
+  let currentImage: string | undefined;
+
   for (let i = 0; i < blocks.length; i++) {
-    const text = blocks[i].content.trim();
+    const block = blocks[i];
+    
+    if (block.type === 'ImageBlock') {
+      currentImage = (block as any).src;
+      continue;
+    }
+    
+    if (block.type !== 'ParagraphBlock') continue;
+    
+    const text = block.content.trim();
 
     if (text === 'صواب' && blocks[i + 1]?.content.trim() === 'خطأ') {
       const previous = blocks[i - 1]?.content.trim();
       if (previous && !cognitiveLevels.has(previous)) {
-        questions.push({ id: blocks[i - 1].id, text: previous, choices: ['صواب', 'خطأ'] });
+        questions.push({ id: blocks[i - 1].id, text: previous, choices: ['صواب', 'خطأ'], image: currentImage });
+        currentImage = undefined;
       }
       i += 1;
       continue;
@@ -48,16 +60,23 @@ export function parseAssessmentQuestions(data: AssessmentModel): ParsedQuestion[
       const choices: string[] = [];
       let j = i;
 
-      while (j < blocks.length && choices.length < 4 && isChoiceMarker(blocks[j].content)) {
+      while (j < blocks.length && choices.length < 4 && blocks[j].type === 'ParagraphBlock' && isChoiceMarker(blocks[j].content)) {
         const choiceText = blocks[j + 1]?.content.trim();
         if (!choiceText || isChoiceMarker(choiceText) || cognitiveLevels.has(choiceText)) break;
         choices.push(choiceText);
         j += 2;
       }
 
-      const questionText = blocks[i - 1].content.trim();
+      // To find the question text, we look backwards, skipping the ImageBlock if present
+      let qIndex = i - 1;
+      if (blocks[qIndex].type === 'ImageBlock') {
+        qIndex--;
+      }
+
+      const questionText = blocks[qIndex]?.content?.trim();
       if (choices.length >= 2 && questionText && !cognitiveLevels.has(questionText)) {
-        questions.push({ id: blocks[i - 1].id, text: questionText, choices });
+        questions.push({ id: blocks[qIndex].id, text: questionText, choices, image: currentImage });
+        currentImage = undefined;
         i = j - 1;
       }
     }

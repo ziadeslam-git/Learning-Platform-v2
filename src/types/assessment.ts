@@ -2,6 +2,7 @@ export interface ParsedQuestion {
   id: string;
   text: string;
   choices: string[];
+  image?: string;
 }
 
 export interface AssessmentAnswerKeyEntry {

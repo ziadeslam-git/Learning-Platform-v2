@@ -123,6 +123,12 @@ export function AssessmentRenderer({ assessmentId }: Props) {
               {currentQ.text}
             </h3>
             
+            {currentQ.image && (
+              <div className="mb-8 flex justify-center">
+                <img src={currentQ.image} alt="صورة السؤال" className="max-h-[300px] max-w-full rounded-lg shadow-lg border border-white/10 object-contain" />
+              </div>
+            )}
+
             <div className="space-y-4">
               {currentQ.choices.map((choice, idx) => (
                 <RadioCard 

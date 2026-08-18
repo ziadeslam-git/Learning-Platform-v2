@@ -11,2057 +11,3077 @@
         {
           "id": "paragraph_1",
           "type": "ParagraphBlock",
-          "content": "كلية التربية"
+          "content": "تعليمات الاختبار"
         },
         {
           "id": "paragraph_2",
           "type": "ParagraphBlock",
-          "content": "قسم تكنولوجيا التعليم"
+          "content": "اقرأ التعليمات جيدا قبل أن تبدأ الاختبار:"
         },
         {
           "id": "paragraph_3",
           "type": "ParagraphBlock",
-          "content": "اختبار تحصيل الجوانب المعرفية لمهارات التحول الرقمي المهنية لدي القيادات التعليمية"
+          "content": "أولا: أسئلة الاختبار التحصيلي:"
         },
         {
           "id": "paragraph_4",
           "type": "ParagraphBlock",
-          "content": "إعداد"
+          "content": "تلقيت تعميماً يطلب تحديد الأداة التكنولوجية المستخدمة بشكل أساسي لإدارة وتوثيق حسابات الطلاب والمعلمين بالمدرسة، ما هي هذه الأداة؟"
         },
         {
-          "id": "paragraph_5",
-          "type": "ParagraphBlock",
-          "content": "أيه محمد عنتر على"
+          "id": "image_5",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q1.png"
         },
         {
           "id": "paragraph_6",
           "type": "ParagraphBlock",
-          "content": "إشراف"
+          "content": "أ-"
         },
         {
           "id": "paragraph_7",
           "type": "ParagraphBlock",
-          "content": "أ.د / الغريب زاهر إسماعيل"
+          "content": "المنصات التعليمية الرسمية"
         },
         {
           "id": "paragraph_8",
           "type": "ParagraphBlock",
-          "content": "أستاذ تكنولوجيا التعليم بكلية التربية جامعة المنصورة، ومقرر اللجنة العلمية لترقية الاساتذة والأساتذة المساعدين تخصص تكنولوجيا التعليم والحاسب الآلي بالمجلس الأعلى للجامعات المصرية"
+          "content": "ب-"
         },
         {
           "id": "paragraph_9",
           "type": "ParagraphBlock",
-          "content": "أ.د/ رشا حمدى حسن هداية"
+          "content": "مجموعات التواصل الاجتماعي غير الرسمية"
         },
         {
           "id": "paragraph_10",
           "type": "ParagraphBlock",
-          "content": "استاذ تكنولوجيا التعليم"
+          "content": "ج-"
         },
         {
           "id": "paragraph_11",
           "type": "ParagraphBlock",
-          "content": "كلية التربية جامعة المنصورة"
+          "content": "البرامج الفردية غير المتصلة بالإنترنت"
         },
         {
           "id": "paragraph_12",
           "type": "ParagraphBlock",
-          "content": "2026م- 1448هـ"
+          "content": "د-"
         },
         {
           "id": "paragraph_13",
           "type": "ParagraphBlock",
-          "content": "كلية التربية"
+          "content": "الملفات الورقية المحفوظة في الأرشيف"
         },
         {
           "id": "paragraph_14",
           "type": "ParagraphBlock",
-          "content": "قسم تكنولوجيا التعليم"
+          "content": "ما هو الإجراء الوقائي الأول والأساسي المستهدف في الأمن السيبراني لحماية أجهزة المدرسة من الاختراقات الأمنية الشائعة؟"
         },
         {
-          "id": "paragraph_15",
-          "type": "ParagraphBlock",
-          "content": "استطلاع رأي السادة المحكمين في اختبار تحصيل الجوانب المعرفية لمهارات التحول الرقمي المهنية لدى القيادات التعليمية."
+          "id": "image_15",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q2.png"
         },
         {
           "id": "paragraph_16",
           "type": "ParagraphBlock",
-          "content": "السيد الأستاذ الدكتور/ ................................................................................"
+          "content": "أ-"
         },
         {
           "id": "paragraph_17",
           "type": "ParagraphBlock",
-          "content": "السلام عليكم ورحمة الله وبركاته"
+          "content": "تحديث برامج الحماية وأنظمة التشغيل دورياً"
         },
         {
           "id": "paragraph_18",
           "type": "ParagraphBlock",
-          "content": "تقوم الباحثة / أيه محمد عنتر على، بإعداد دراسة بعنوان \" فاعلية توظيف تطبيقات الذكاء الاصطناعي ببيئة تدريب شخصية في تنمية مهارات التحول الرقمي المهنية والتقبل التكنولوجي لدي القيادات التعليمية\" للحصول على درجة الدكتوراه في التربية تخصص تكنولوجيا التعليم، ومن متطلبات الدراسة إعداد اختبار تحصيل خاص بمهارات التحول الرقمي المهنية لقياس الجوانب المعرفية لدى القيادات التعليمية، وتأمل الباحثة من سيادتكم التكرم بالإطلاع على اسئلة الاختبار وابداء الرأى فيما يلى:"
+          "content": "ب-"
         },
         {
           "id": "paragraph_19",
           "type": "ParagraphBlock",
-          "content": "ولسيادتكم جزيل الشكر"
+          "content": "إغلاق أجهزة الحاسب طوال اليوم الدراسي"
         },
         {
           "id": "paragraph_20",
           "type": "ParagraphBlock",
-          "content": "الباحثة"
+          "content": "ج-"
         },
         {
           "id": "paragraph_21",
           "type": "ParagraphBlock",
-          "content": "تعليمات الاختبار"
+          "content": "الاعتماد على كلمات مرور بسيطة لتسهيل الحفظ"
         },
         {
           "id": "paragraph_22",
           "type": "ParagraphBlock",
-          "content": "عزيزي المدير/ المديرة:"
+          "content": "د-"
         },
         {
           "id": "paragraph_23",
           "type": "ParagraphBlock",
-          "content": "اقرأ التعليمات جيدا قبل أن تبدأ الاختبار:"
+          "content": "منع المعلمين من استخدام الإنترنت نهائياً"
         },
         {
           "id": "paragraph_24",
           "type": "ParagraphBlock",
-          "content": "مع أطيب التمنيات بالنجاح والتوفيق"
+          "content": "أي من الأدوات التالية تعد وسيلة الاتصال الرقمي الرسمية المعتمدة لإرسال التقارير الدورية للمشرفين والجهات الإدارية العليا؟"
         },
         {
-          "id": "paragraph_25",
-          "type": "ParagraphBlock",
-          "content": "م"
+          "id": "image_25",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q3.png"
         },
         {
           "id": "paragraph_26",
           "type": "ParagraphBlock",
-          "content": "أسئلة الاختبار"
+          "content": "أ-"
         },
         {
           "id": "paragraph_27",
           "type": "ParagraphBlock",
-          "content": "المستوى المعرفي"
+          "content": "البريد الإلكتروني المؤسسي"
         },
         {
           "id": "paragraph_28",
           "type": "ParagraphBlock",
-          "content": "مناسب"
+          "content": "ب-"
         },
         {
           "id": "paragraph_29",
           "type": "ParagraphBlock",
-          "content": "غير مناسب"
+          "content": "تطبيقات الدردشة الفورية الشخصية"
         },
         {
           "id": "paragraph_30",
           "type": "ParagraphBlock",
-          "content": "أولا: أسئلة تحديد الصواب من الخطأ:"
+          "content": "ج-"
         },
         {
           "id": "paragraph_31",
           "type": "ParagraphBlock",
-          "content": "يساعد تحديد الاحتياجات الرقمية للمؤسسة في نجاح التحول الرقمي."
+          "content": "المنشورات العامة على وسائل التواصل الاجتماعي"
         },
         {
           "id": "paragraph_32",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "د-"
         },
         {
           "id": "paragraph_33",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "الرسائل النصية القصيرة العادية SMS"
         },
         {
           "id": "paragraph_34",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "عند رغبتك في تبسيط عملية الوصول إلى ملفات المدرسة الرقمية المحفوظة، ما الإجراء التنظيمي الذي يجب تذكره وتطبيقه؟"
         },
         {
-          "id": "paragraph_35",
-          "type": "ParagraphBlock",
-          "content": "يعد توزيع المهام إلكترونيًا من معوقات التحول الرقمي."
+          "id": "image_35",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q4.png"
         },
         {
           "id": "paragraph_36",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "أ-"
         },
         {
           "id": "paragraph_37",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "تصنيف البيانات وتنظيمها في مجلدات ذات مسميات واضحة"
         },
         {
           "id": "paragraph_38",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "ب-"
         },
         {
           "id": "paragraph_39",
           "type": "ParagraphBlock",
-          "content": "تستخدم التقارير الإلكترونية في متابعة تنفيذ الخطط الرقمية."
+          "content": "تسمية جميع المجلدات برموز عشوائية متطابقة"
         },
         {
           "id": "paragraph_40",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "ج-"
         },
         {
           "id": "paragraph_41",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "حفظ كل الملفات على سطح المكتب بدون مجلدات"
         },
         {
           "id": "paragraph_42",
           "type": "ParagraphBlock",
-          "content": "تطبيق"
+          "content": "د-"
         },
         {
           "id": "paragraph_43",
           "type": "ParagraphBlock",
-          "content": "لا يمكن استخراج تقارير من المنصات التعليمية."
+          "content": "تجنب استخدام ميزة البحث الذكي بالكمبيوتر"
         },
         {
           "id": "paragraph_44",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "ما هي الأداة الرئيسية المستخدمة لتطبيق التقويم الرقمي وقياس مستويات تحصيل الطلاب المعرفية عبر الإنترنت؟"
         },
         {
-          "id": "paragraph_45",
-          "type": "ParagraphBlock",
-          "content": "خطأ"
+          "id": "image_45",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q5.png"
         },
         {
           "id": "paragraph_46",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "أ-"
         },
         {
           "id": "paragraph_47",
           "type": "ParagraphBlock",
-          "content": "يساعد تحديث التطبيقات الرقمية في تحسين الأداء التقني."
+          "content": "منظومة الاختبارات الإلكترونية"
         },
         {
           "id": "paragraph_48",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "ب-"
         },
         {
           "id": "paragraph_49",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "الكتب المدرسية المطبوعة ورقياً"
         },
         {
           "id": "paragraph_50",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "ج-"
         },
         {
           "id": "paragraph_51",
           "type": "ParagraphBlock",
-          "content": "يمكن استرجاع الملفات الإلكترونية عند الحاجة إذا تم حفظها بطريقة منظمة."
+          "content": "لوحات الإعلانات الحائطية بالمدرسة"
         },
         {
           "id": "paragraph_52",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "د-"
         },
         {
           "id": "paragraph_53",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "الاستبيانات الورقية المفتوحة"
         },
         {
           "id": "paragraph_54",
           "type": "ParagraphBlock",
-          "content": "تطبيق"
+          "content": "عند بدء تدريب المعلمين على مهارات التحول الرقمي، ما هي المهارة الإدارية الأساسية المرتبطة بمعالجة وإدارة المشكلات التقنية البسيطة؟"
         },
         {
-          "id": "paragraph_55",
-          "type": "ParagraphBlock",
-          "content": "تعد الاجتماعات الإلكترونية أحد أساليب التواصل الرقمي."
+          "id": "image_55",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q6.png"
         },
         {
           "id": "paragraph_56",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "أ-"
         },
         {
           "id": "paragraph_57",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "إدارة وصيانة التحديثات البرمجية للتطبيقات"
         },
         {
           "id": "paragraph_58",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "ب-"
         },
         {
           "id": "paragraph_59",
           "type": "ParagraphBlock",
-          "content": "لا يفيد تسجيل الاجتماعات الإلكترونية في العمل الإداري."
+          "content": "تفكيك المكونات الصلبة للحاسب الآلي شخصياً"
         },
         {
           "id": "paragraph_60",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "ج-"
         },
         {
           "id": "paragraph_61",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "تجاهل الأعطال البرمجية والاعتماد على بدائل ورقية"
         },
         {
           "id": "paragraph_62",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "د-"
         },
         {
           "id": "paragraph_63",
           "type": "ParagraphBlock",
-          "content": "يجب متابعة استفسارات أولياء الأمور إلكترونيًا."
+          "content": "شراء برمجيات جديدة مكلفة عند كل عطل بسيط"
         },
         {
           "id": "paragraph_64",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "الغرض الأساسي من استخدام القائد التعليمي لمنصات الاجتماعات الإلكترونية المرئية كأداة تواصل مهني:"
         },
         {
-          "id": "paragraph_65",
-          "type": "ParagraphBlock",
-          "content": "خطأ"
+          "id": "image_65",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q7.png"
         },
         {
           "id": "paragraph_66",
           "type": "ParagraphBlock",
-          "content": "تطبيق"
+          "content": "أ-"
         },
         {
           "id": "paragraph_67",
           "type": "ParagraphBlock",
-          "content": "يساعد تصنيف البيانات إلكترونيًا في سهولة الوصول إليها."
+          "content": "تسهيل التواصل والعمل الجماعي دون التقيد بالمكان"
         },
         {
           "id": "paragraph_68",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "ب-"
         },
         {
           "id": "paragraph_69",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "تقليص عدد ساعات العمل الرسمية للمعلمين"
         },
         {
           "id": "paragraph_70",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "ج-"
         },
         {
           "id": "paragraph_71",
           "type": "ParagraphBlock",
-          "content": "ليس من المهم إنشاء نسخ احتياطية للبيانات."
+          "content": "مراقبة المعلمين في منازلهم بشكل دائم"
         },
         {
           "id": "paragraph_72",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "د-"
         },
         {
           "id": "paragraph_73",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "الاستغناء الكامل عن اللقاءات التربوية المباشرة مستقبلاً"
         },
         {
           "id": "paragraph_74",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "لاحظت كمدير مدرسة مقاومة بعض المعلمين لاستخدام المنصات التعليمية بحجة أنها تزيد الأعباء. كيف توضح لهم الفهم الصحيح للهدف من التحول الرقمي؟"
         },
         {
-          "id": "paragraph_75",
-          "type": "ParagraphBlock",
-          "content": "حماية البيانات من الفقد من مهارات إدارة البيانات الرقمية."
+          "id": "image_75",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q8.png"
         },
         {
           "id": "paragraph_76",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "أ-"
         },
         {
           "id": "paragraph_77",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "شرح كيف يسهم العمل الرقمي في تنظيم المهام وتوفير الجهد والوقت على المدى الطويل"
         },
         {
           "id": "paragraph_78",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "ب-"
         },
         {
           "id": "paragraph_79",
           "type": "ParagraphBlock",
-          "content": "تعد كلمات المرور القوية من وسائل الأمن السيبراني."
+          "content": "إخبارهم بأنها أوامر وزارية يجب تنفيذها دون مناقشة أسبابها"
         },
         {
           "id": "paragraph_80",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "ج-"
         },
         {
           "id": "paragraph_81",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "الموافقة على رأيهم والعودة الكاملة للأنظمة الورقية التقليدية"
         },
         {
           "id": "paragraph_82",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "د-"
         },
         {
           "id": "paragraph_83",
           "type": "ParagraphBlock",
-          "content": "يجب فتح جميع الروابط الواردة بالبريد الإلكتروني للتأكد من محتواها."
+          "content": "معاقبة كل معلم لا ينشر موارد تعليمية يومية على المنصة"
         },
         {
           "id": "paragraph_84",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "خلال اجتماع مجلس الإدارة، سأل أحد الأعضاء عن أهمية صياغة 'أهداف رقمية واضحة للمدرسة'. كيف تعبر عن فهمك لأهمية هذه الخطوة؟"
         },
         {
-          "id": "paragraph_85",
-          "type": "ParagraphBlock",
-          "content": "خطأ"
+          "id": "image_85",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q9.png"
         },
         {
           "id": "paragraph_86",
           "type": "ParagraphBlock",
-          "content": "تطبيق"
+          "content": "أ-"
         },
         {
           "id": "paragraph_87",
           "type": "ParagraphBlock",
-          "content": "يساعد تحديث برامج الحماية في تقليل المخاطر الأمنية."
+          "content": "تساعد في توجيه وتنظيم العمل الرقمي وقياس مدى نجاح الخطة بدقة"
         },
         {
           "id": "paragraph_88",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "ب-"
         },
         {
           "id": "paragraph_89",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "تسهم في زيادة الميزانية المخصصة لشراء الأجهزة التقنية فقط"
         },
         {
           "id": "paragraph_90",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "ج-"
         },
         {
           "id": "paragraph_91",
           "type": "ParagraphBlock",
-          "content": "الإبلاغ عن الأعطال الأمنية من مسؤوليات القيادة التعليمية."
+          "content": "تضمن التخلص من جميع الكوادر البشرية غير التقنية بالمدرسة"
         },
         {
           "id": "paragraph_92",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "د-"
         },
         {
           "id": "paragraph_93",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "تستهدف زيادة عدد المنشورات على صفحة المدرسة الرسمية"
         },
         {
           "id": "paragraph_94",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "اشتكى بعض أولياء الأمور من صعوبة معرفة درجات أبنائهم ورقياً. كيف يوضح القائد فهمه لتوظيف 'التقارير الإلكترونية' لحل المشكلة؟"
         },
         {
-          "id": "paragraph_95",
-          "type": "ParagraphBlock",
-          "content": "يمكن متابعة حضور الطلاب باستخدام المنصات التعليمية."
+          "id": "image_95",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q10.png"
         },
         {
           "id": "paragraph_96",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "أ-"
         },
         {
           "id": "paragraph_97",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "التقارير الإلكترونية تتيح استخراج البيانات ومشاركتها فورياً وبشفافية مع أولياء الأمور عبر المنصة"
         },
         {
           "id": "paragraph_98",
           "type": "ParagraphBlock",
-          "content": "تطبيق"
+          "content": "ب-"
         },
         {
           "id": "paragraph_99",
           "type": "ParagraphBlock",
-          "content": "لا تستخدم الاختبارات الإلكترونية في تقويم الطلاب."
+          "content": "التقارير الإلكترونية معقدة للغاية ويفضل حجبها عن غير المتخصصين"
         },
         {
           "id": "paragraph_100",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "ج-"
         },
         {
           "id": "paragraph_101",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "استبدال التقارير بإرسال رسائل نصية قصيرة مبهمة خالية من التفاصيل"
         },
         {
           "id": "paragraph_102",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "د-"
         },
         {
           "id": "paragraph_103",
           "type": "ParagraphBlock",
-          "content": "تساعد التغذية الراجعة الرقمية في تحسين أداء المعلمين."
+          "content": "طلب حضور أولياء الأمور شخصياً للمدرسة لاستلام الدرجات يدوياً"
         },
         {
           "id": "paragraph_104",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "أثناء مناقشة كفاءة الإشراف التربوي، كيف تعبر عن فهمك لفوائد تقديم 'التغذية الراجعة الرقمية' للمعلمين عبر المنصات التعليمية؟"
         },
         {
-          "id": "paragraph_105",
-          "type": "ParagraphBlock",
-          "content": "خطأ"
+          "id": "image_105",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q11.png"
         },
         {
           "id": "paragraph_106",
           "type": "ParagraphBlock",
-          "content": "تقويم"
+          "content": "أ-"
         },
         {
           "id": "paragraph_107",
           "type": "ParagraphBlock",
-          "content": "يستخدم التصحيح الإلكتروني في تصحيح الاختبارات الرقمية."
+          "content": "تساعد في تحسين الأداء التدريسي للمعلمين بشكل فوري ومستمر بناءً على أدلة رقمية"
         },
         {
           "id": "paragraph_108",
           "type": "ParagraphBlock",
-          "content": "صواب"
+          "content": "ب-"
         },
         {
           "id": "paragraph_109",
           "type": "ParagraphBlock",
-          "content": "خطأ"
+          "content": "تستخدم لتوثيق أخطاء المعلمين بهدف معاقبتهم مادياً بنهاية الشهر"
         },
         {
           "id": "paragraph_110",
           "type": "ParagraphBlock",
-          "content": "تطبيق"
+          "content": "ج-"
         },
         {
           "id": "paragraph_111",
           "type": "ParagraphBlock",
-          "content": "ثانيا: أسئلة الاختيار من متعدد"
+          "content": "تؤدي إلى إضعاف العلاقة المهنية بين المدير وهيئة التدريس بالمدرسة"
         },
         {
           "id": "paragraph_112",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يعد خطوة أولى في التخطيط للتحول الرقمي؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_113",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "تغني تماماً عن حاجة المعلم لحضور دورات تدريبية متخصصة"
         },
         {
           "id": "paragraph_114",
           "type": "ParagraphBlock",
-          "content": "إعداد التقارير."
+          "content": "طلب منك منسق التكنولوجيا مبرراً علمياً لتفعيل 'أدوات التصحيح الإلكتروني' بالمدرسة. كيف تبين فهمك للمردود الإداري لهذه الأدوات؟"
         },
         {
-          "id": "paragraph_115",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_115",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q12.png"
         },
         {
           "id": "paragraph_116",
           "type": "ParagraphBlock",
-          "content": "تحديد الاحتياجات الرقمية."
+          "content": "أ-"
         },
         {
           "id": "paragraph_117",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "تضمن سرعة ودقة تصحيح الاختبارات وإعلان النتائج وتقليل الأخطاء البشرية"
         },
         {
           "id": "paragraph_118",
           "type": "ParagraphBlock",
-          "content": "تحديث التطبيقات."
+          "content": "ب-"
         },
         {
           "id": "paragraph_119",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "تزيد من الوقت المستغرق في التصحيح لكي يراجع الكمبيوتر بدقة"
         },
         {
           "id": "paragraph_120",
           "type": "ParagraphBlock",
-          "content": "حفظ الملفات."
+          "content": "ج-"
         },
         {
           "id": "paragraph_121",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "تمنح الطلاب درجات عشوائية لضمان نجاح الجميع بالمدرسة"
         },
         {
           "id": "paragraph_122",
           "type": "ParagraphBlock",
-          "content": "الهدف الرئيس من صياغة أهداف رقمية واضحة هو:"
+          "content": "د-"
         },
         {
           "id": "paragraph_123",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "تؤدي إلى إلغاء دور المعلم في وضع الاختبارات وتقويم مستويات الطلاب"
         },
         {
           "id": "paragraph_124",
           "type": "ParagraphBlock",
-          "content": "زيادة الأعمال الورقية"
+          "content": "إذا سألك أحد الإداريين: لماذا نصر على تجنب الروابط غير المعروفة بالبريد الإلكتروني؟ كيف تشرح له فهمك للمخاطر السيبرانية؟"
         },
         {
-          "id": "paragraph_125",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_125",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q13.png"
         },
         {
           "id": "paragraph_126",
           "type": "ParagraphBlock",
-          "content": "تنظيم العمل الرقمي"
+          "content": "أ-"
         },
         {
           "id": "paragraph_127",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "لأنها قد تحتوي على برمجيات خبيثة تسبب اختراقاً أمنياً وسرقة لبيانات المدرسة"
         },
         {
           "id": "paragraph_128",
           "type": "ParagraphBlock",
-          "content": "تقليل التواصل"
+          "content": "ب-"
         },
         {
           "id": "paragraph_129",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "لأن فتحها يستهلك كمية كبيرة من باقة إنترنت المدرسة دون فائدة"
         },
         {
           "id": "paragraph_130",
           "type": "ParagraphBlock",
-          "content": "حذف البيانات"
+          "content": "ج-"
         },
         {
           "id": "paragraph_131",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "لأنها تؤدي إلى مسح وتفريغ شاشة الكمبيوتر وتحويلها للون الأبيض دائماً"
         },
         {
           "id": "paragraph_132",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يساعد في متابعة تنفيذ الخطة الرقمية؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_133",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "لأن الوزارة تمنع تصفح أي موقع لا يحتوي على صور متحركة"
         },
         {
           "id": "paragraph_134",
           "type": "ParagraphBlock",
-          "content": "التقارير الإلكترونية"
+          "content": "كيف يوضح المدير فهمه لأهمية 'تسجيل الاجتماعات الإلكترونية' لمجلس المعلمين بانتظام؟"
         },
         {
-          "id": "paragraph_135",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_135",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q14.png"
         },
         {
           "id": "paragraph_136",
           "type": "ParagraphBlock",
-          "content": "حذف الملفات"
+          "content": "أ-"
         },
         {
           "id": "paragraph_137",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "يتيح الرجوع لتفاصيل القرارات والتوجيهات لاحقاً من قبل الغائبين أو للتوثيق الإداري"
         },
         {
           "id": "paragraph_138",
           "type": "ParagraphBlock",
-          "content": "تجاهل البيانات"
+          "content": "ب-"
         },
         {
           "id": "paragraph_139",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "يهدف إلى إثبات تقصير المعلمين واستخدامه كوسيلة للضغط النفسي عليهم"
         },
         {
           "id": "paragraph_140",
           "type": "ParagraphBlock",
-          "content": "إيقاف المنصات"
+          "content": "ج-"
         },
         {
           "id": "paragraph_141",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "يساعد في زيادة مساحة التخزين الفارغة على السيرفر المركزي للمدرسة"
         },
         {
           "id": "paragraph_142",
           "type": "ParagraphBlock",
-          "content": "أي من الآتي يستخدم لإدارة الحسابات الإلكترونية؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_143",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "يمنع المعلمين من التعبير عن آرائهم بحرية أثناء الجلسات النقاشية"
         },
         {
           "id": "paragraph_144",
           "type": "ParagraphBlock",
-          "content": "المنصات التعليمية"
+          "content": "عندما يقوم المعلم برفع 'موارد تعليمية إضافية' على المنصة، كيف تفهم انعكاس هذا الإجراء على بيئة التعلم بالمدرسة؟"
         },
         {
-          "id": "paragraph_145",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_145",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q15.png"
         },
         {
           "id": "paragraph_146",
           "type": "ParagraphBlock",
-          "content": "الطابعة"
+          "content": "أ-"
         },
         {
           "id": "paragraph_147",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "يسهل على الطلاب الوصول للمحتوى ومشاركته والتعلم في أي وقت وأي مكان"
         },
         {
           "id": "paragraph_148",
           "type": "ParagraphBlock",
-          "content": "الماسح الضوئي"
+          "content": "ب-"
         },
         {
           "id": "paragraph_149",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "يؤدي إلى استغناء الطلاب عن الكتاب المدرسي الرسمي وإهماله تماماً"
         },
         {
           "id": "paragraph_150",
           "type": "ParagraphBlock",
-          "content": "السبورة التقليدية"
+          "content": "ج-"
         },
         {
           "id": "paragraph_151",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "يقلل من رغبة الطلاب في الحضور والتفاعل المباشر داخل الفصول الدراسية"
         },
         {
           "id": "paragraph_152",
           "type": "ParagraphBlock",
-          "content": "رفع الموارد التعليمية على المنصة يساعد في:"
+          "content": "د-"
         },
         {
           "id": "paragraph_153",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "يتسبب في تشتيت ذهن الطالب وتراجع كفاءة المنظومة التعليمية"
         },
         {
           "id": "paragraph_154",
           "type": "ParagraphBlock",
-          "content": "صعوبة الوصول للمحتوى"
+          "content": "أوضح أحد الإداريين أن توزيع المهام عبر البريد الإلكتروني يعوق العمل. كيف تبين له الفهم السليم لآليات 'التواصل الرقمي'؟"
         },
         {
-          "id": "paragraph_155",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_155",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q16.png"
         },
         {
           "id": "paragraph_156",
           "type": "ParagraphBlock",
-          "content": "مشاركة المحتوى مع المستخدمين."
+          "content": "أ-"
         },
         {
           "id": "paragraph_157",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "التواصل الرقمي يوثق التكليفات ويحدد المسؤوليات بوضوح ويسهل متابعة الإنجاز"
         },
         {
           "id": "paragraph_158",
           "type": "ParagraphBlock",
-          "content": "حذف البيانات"
+          "content": "ب-"
         },
         {
           "id": "paragraph_159",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "التواصل الرقمي مجرد رفاهية تكنولوجية ولا يغني عن التوجيهات الشفهية اليومية"
         },
         {
           "id": "paragraph_160",
           "type": "ParagraphBlock",
-          "content": "إيقاف التعلم"
+          "content": "ج-"
         },
         {
           "id": "paragraph_161",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "التواصل الرقمي يهدف لتقليل الصداقات والعلاقات الاجتماعية بين موظفي المدرسة"
         },
         {
           "id": "paragraph_162",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يعد من مهارات إدارة التقنية؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_163",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "التواصل الرقمي يؤخر وصول القرارات مقارنة بإرسال مراسل ورقي بين المباني"
         },
         {
           "id": "paragraph_164",
           "type": "ParagraphBlock",
-          "content": "إرسال الرسائل الورقية"
+          "content": "ما الفهم الصحيح لعملية 'تصنيف البيانات الرقمية' داخل منظومة الإدارة المدرسية الحديثة؟"
         },
         {
-          "id": "paragraph_165",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_165",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q17.png"
         },
         {
           "id": "paragraph_166",
           "type": "ParagraphBlock",
-          "content": "تحديث التطبيقات الرقمية"
+          "content": "أ-"
         },
         {
           "id": "paragraph_167",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "فرز وتجميع الملفات المتشابهة لضمان سرعة استرجاعها ودعم دقة اتخاذ القرار الإداري"
         },
         {
           "id": "paragraph_168",
           "type": "ParagraphBlock",
-          "content": "إهمال الأجهزة"
+          "content": "ب-"
         },
         {
           "id": "paragraph_169",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "عملية شكلية تستهدف تزيين واجهة الكمبيوتر الخاص بمدير المدرسة"
         },
         {
           "id": "paragraph_170",
           "type": "ParagraphBlock",
-          "content": "حذف الملفات المهمة"
+          "content": "ج-"
         },
         {
           "id": "paragraph_171",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "إجراء معقد يهدف إلى منع المعلمين من رؤية ملفات الأنشطة المدرسية"
         },
         {
           "id": "paragraph_172",
           "type": "ParagraphBlock",
-          "content": "أفضل طريقة لحفظ الملفات الرقمية هي:"
+          "content": "د-"
         },
         {
           "id": "paragraph_173",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "وسيلة لحذف الملفات القديمة تلقائياً دون الرجوع للإدارة العليا للمدرسة"
         },
         {
           "id": "paragraph_174",
           "type": "ParagraphBlock",
-          "content": "حفظها دون تصنيف"
+          "content": "قررت تفعيل خطة التحول الرقمي بمدرستك وتطبيق المهارات المهنية المعرفية. ما الإجراء الفوري الذي ستتخذه لتنفيذ التخطيط الرقمي؟"
         },
         {
-          "id": "paragraph_175",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_175",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q18.png"
         },
         {
           "id": "paragraph_176",
           "type": "ParagraphBlock",
-          "content": "حذفها باستمرار"
+          "content": "أ-"
         },
         {
           "id": "paragraph_177",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "تشكيل فريق عمل لصياغة أهداف رقمية محددة بناءً على قائمة الاحتياجات المعتمدة للمدرسة"
         },
         {
           "id": "paragraph_178",
           "type": "ParagraphBlock",
-          "content": "تنظيمها في مجلدات"
+          "content": "ب-"
         },
         {
           "id": "paragraph_179",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "إصدار أمر فوري بنسخ جميع دفاتر الحضور الورقية القديمة وحفظها كصور عشوائية بالكمبيوتر"
         },
         {
           "id": "paragraph_180",
           "type": "ParagraphBlock",
-          "content": "تجاهل تسميتها"
+          "content": "ج-"
         },
         {
           "id": "paragraph_181",
           "type": "ParagraphBlock",
-          "content": "تطبيق"
+          "content": "طلب ميزانية ضخمة لشراء برامج حماية سيبرانية دون فحص حالة الأجهزة الحالية"
         },
         {
           "id": "paragraph_182",
           "type": "ParagraphBlock",
-          "content": "مشاركة الملفات عبر المنصات الرقمية تساعد في:"
+          "content": "د-"
         },
         {
           "id": "paragraph_183",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "تعطيل تواصل المعلمين بالبريد الإلكتروني لحين تركيب سيرفر جديد بالمدرسة"
         },
         {
           "id": "paragraph_184",
           "type": "ParagraphBlock",
-          "content": "ضعف التواصل"
+          "content": "ترغب في تطبيق مهارات 'إدارة التقنية' لحل مشكلة البطء المفاجئ والتوقف المتكرر لتطبيقات المنصات التعليمية بمدرستك. ماذا تفعل؟"
         },
         {
-          "id": "paragraph_185",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_185",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q19.png"
         },
         {
           "id": "paragraph_186",
           "type": "ParagraphBlock",
-          "content": "تسهيل تبادل المعلومات"
+          "content": "أ-"
         },
         {
           "id": "paragraph_187",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "توجيه مسؤول التطوير التكنولوجي لتثبيت آخر التحديثات البرمجية وفحص توافقها مع الأنظمة"
         },
         {
           "id": "paragraph_188",
           "type": "ParagraphBlock",
-          "content": "زيادة المشكلات التقنية"
+          "content": "ب-"
         },
         {
           "id": "paragraph_189",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "توجيه المعلمين بالعودة فوراً للشرح على السبورة التقليدية لحين انتهاء العام الدراسي"
         },
         {
           "id": "paragraph_190",
           "type": "ParagraphBlock",
-          "content": "إيقاف العمل الجماعي"
+          "content": "ج-"
         },
         {
           "id": "paragraph_191",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "إلقاء اللوم على الشركة المزودة للإنترنت ومخاطبتها هاتفياً بشكل ودي دون فحص داخلي للأجهزة"
         },
         {
           "id": "paragraph_192",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يعد من أدوات التواصل الرقمي:"
+          "content": "د-"
         },
         {
           "id": "paragraph_193",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "مسح جميع حسابات المعلمين والطلاب وإعادة إنشائها من جديد للتخلص من البطء"
         },
         {
           "id": "paragraph_194",
           "type": "ParagraphBlock",
-          "content": "البريد الإلكتروني"
+          "content": "وصلتك دفعة جديدة من ملفات الإنجاز الرقمية الخاصة بالمعلمين للعام الحالي. كيف تطبق مهارة 'حفظ الملفات الرقمية بأسلوب منظم'؟"
         },
         {
-          "id": "paragraph_195",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_195",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q20.png"
         },
         {
           "id": "paragraph_196",
           "type": "ParagraphBlock",
-          "content": "السبورة التقليدية"
+          "content": "أ-"
         },
         {
           "id": "paragraph_197",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "إنشاء مجلد رئيسي باسم 'ملفات إنجاز 2026' وبداخله مجلدات فرعية بأسماء التخصصات ثم"
         },
         {
           "id": "paragraph_198",
           "type": "ParagraphBlock",
-          "content": "الملف الورقي"
+          "content": "ب-"
         },
         {
           "id": "paragraph_199",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "وضعها جميعاً في مجلد واحد مسمى بـ 'جديد' على سطح المكتب دون فرز لحين مراجعتها لاحقاً"
         },
         {
           "id": "paragraph_200",
           "type": "ParagraphBlock",
-          "content": "الطابعة اليدوية"
+          "content": "ج-"
         },
         {
           "id": "paragraph_201",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "حفظها على قرص مرن قديم وتخزينه في مكتب المدير العام للمدرسة"
         },
         {
           "id": "paragraph_202",
           "type": "ParagraphBlock",
-          "content": "عند إنشاء اجتماع إلكتروني يجب أولًا:"
+          "content": "د-"
         },
         {
           "id": "paragraph_203",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "توجيه المعلمين بإرسالها كصور عبر مجموعات الواتساب الشخصية الخاصة بالإدارة"
         },
         {
           "id": "paragraph_204",
           "type": "ParagraphBlock",
-          "content": "حذف المشاركين"
+          "content": "تريد عقد اجتماع طارئ لمجلس إدارة المدرسة لمناقشة الاستعداد للاختبارات، وترغب في تطبيق مهارة 'الاجتماعات الإلكترونية الكفؤة'. كيف تتصرف؟"
         },
         {
-          "id": "paragraph_205",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_205",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q21.png"
         },
         {
           "id": "paragraph_206",
           "type": "ParagraphBlock",
-          "content": "اختيار منصة مناسبة"
+          "content": "أ-"
         },
         {
           "id": "paragraph_207",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "تحديد أداة رسمية مثل MS Teams، وإرسال رابط موعد الاجتماع والأجندة مسبقاً عبر البريد الإلكتروني للمشاركين"
         },
         {
           "id": "paragraph_208",
           "type": "ParagraphBlock",
-          "content": "إغلاق الشبكة"
+          "content": "ب-"
         },
         {
           "id": "paragraph_209",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "الاتصال بالمعلمين فجأة وبدء مكالمة فيديو جماعية دون تحديد جدول أعمال واضح للاجتماع"
         },
         {
           "id": "paragraph_210",
           "type": "ParagraphBlock",
-          "content": "إيقاف الصوت دائمًا"
+          "content": "ج-"
         },
         {
           "id": "paragraph_211",
           "type": "ParagraphBlock",
-          "content": "تطبيق"
+          "content": "كتابة موعد الاجتماع الافتراضي على لوحة الإعلانات الورقية ببهو المدرسة الرئيسي فقط"
         },
         {
           "id": "paragraph_212",
           "type": "ParagraphBlock",
-          "content": "من فوائد تسجيل الاجتماعات الإلكترونية:"
+          "content": "د-"
         },
         {
           "id": "paragraph_213",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "طلب حضور المعلمين للمدرسة ليلاً لمشاهدة كلمة مسجلة لك عبر شاشة العرض الرقمية"
         },
         {
           "id": "paragraph_214",
           "type": "ParagraphBlock",
-          "content": "صعوبة المراجعة"
+          "content": "لاحظت أن المعلمين ينشرون تعليمات الواجبات المدرسية بشكل غير موحد ومبهم على المنصة. كيف تطبق مهارة 'توضيح التعليمات الدراسية رقمياً'؟"
         },
         {
-          "id": "paragraph_215",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_215",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q22.png"
         },
         {
           "id": "paragraph_216",
           "type": "ParagraphBlock",
-          "content": "الرجوع للاجتماع لاحقًا"
+          "content": "أ-"
         },
         {
           "id": "paragraph_217",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "إعداد قالب موحد للتعليمات على المنصة يتضمن خطوات واضحة، معايير الحل، وموعد التسليم النهائي"
         },
         {
           "id": "paragraph_218",
           "type": "ParagraphBlock",
-          "content": "حذف المعلومات"
+          "content": "ب-"
         },
         {
           "id": "paragraph_219",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "توجيه المعلمين بكتابة عبارة 'انظروا للكتاب المدرسي' دون تفاصيل رقمية إضافية عبر حساباتهم"
         },
         {
           "id": "paragraph_220",
           "type": "ParagraphBlock",
-          "content": "تقليل التواصل"
+          "content": "ج-"
         },
         {
           "id": "paragraph_221",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "منع الطلاب من الاستفسار إلكترونياً عن أي بند في الواجبات المدرسية لتقليل الأعباء"
         },
         {
           "id": "paragraph_222",
           "type": "ParagraphBlock",
-          "content": "توضيح التعليمات الدراسية رقميًا يساعد في:"
+          "content": "د-"
         },
         {
           "id": "paragraph_223",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "إلغاء خاصية كتابة التعليمات بالمنصة والاعتماد على الإملاء الشفهي داخل الفصل فقط"
         },
         {
           "id": "paragraph_224",
           "type": "ParagraphBlock",
-          "content": "زيادة الغموض"
+          "content": "قررت حماية قواعد البيانات الحساسة لشؤون العاملين بالمدرسة من الفقد المفاجئ. كيف تطبق مهارة 'إدارة البيانات الرقمية الوقائية' بشكل إجرائي؟"
         },
         {
-          "id": "paragraph_225",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_225",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q23.png"
         },
         {
           "id": "paragraph_226",
           "type": "ParagraphBlock",
-          "content": "تحسين الفهم لدى الطلاب"
+          "content": "أ-"
         },
         {
           "id": "paragraph_227",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "جدولة عملية نسخ احتياطي تلقائي أسبوعي للبيانات على سحابة تخزينية آمنة تابعة للوزارة"
         },
         {
           "id": "paragraph_228",
           "type": "ParagraphBlock",
-          "content": "تقليل التواصل"
+          "content": "ب-"
         },
         {
           "id": "paragraph_229",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "طباعة كافة سجلات العاملين وتخزينها في صناديق خشبية مغلقة بمستودع المدرسة السفلي"
         },
         {
           "id": "paragraph_230",
           "type": "ParagraphBlock",
-          "content": "إيقاف التعلم"
+          "content": "ج-"
         },
         {
           "id": "paragraph_231",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "توجيه الموظفين بحفظ نسخة واحدة فقط على أجهزة الكمبيوتر الشخصية الخاصة بهم في المنازل"
         },
         {
           "id": "paragraph_232",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يعد مثالًا على إدارة البيانات؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_233",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "تعطيل تعديل بيانات السجلات نهائياً لمنع حدوث أي أخطاء أو فقدان في الملفات"
         },
         {
           "id": "paragraph_234",
           "type": "ParagraphBlock",
-          "content": "تصنيف البيانات إلكترونيًا"
+          "content": "اكتشفت أن بعض المعلمين يشاركون كلمات المرور الخاصة بحساباتهم الإدارية على المنصة لتسهيل العمل. كيف تطبق مهارات 'الأمن السيبراني القيادية'؟"
         },
         {
-          "id": "paragraph_235",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_235",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q24.png"
         },
         {
           "id": "paragraph_236",
           "type": "ParagraphBlock",
-          "content": "حذف التقارير"
+          "content": "أ-"
         },
         {
           "id": "paragraph_237",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "إصدار تعميم عاجل يمنع مشاركة الحسابات، ويلزم الجميع بإنشاء كلمات مرور معقدة وتحديثها بشكل دوري"
         },
         {
           "id": "paragraph_238",
           "type": "ParagraphBlock",
-          "content": "تجاهل التحديثات"
+          "content": "ب-"
         },
         {
           "id": "paragraph_239",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "تجميع كلمات المرور من جميع الموظفين وحفظها في ملف نصي مفتوح على كمبيوتر الاستقبال بالمدرسة"
         },
         {
           "id": "paragraph_240",
           "type": "ParagraphBlock",
-          "content": "إغلاق الأجهزة"
+          "content": "ج-"
         },
         {
           "id": "paragraph_241",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "توجيه مسؤول التقنية بتعطيل كلمات المرور تماماً لجعل الدخول للمنصة أسرع وأبسط للجميع"
         },
         {
           "id": "paragraph_242",
           "type": "ParagraphBlock",
-          "content": "الغرض من النسخ الاحتياطي للبيانات هو:"
+          "content": "د-"
         },
         {
           "id": "paragraph_243",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "تجاهل الأمر طالما أن العمل يسير بسلاسة والمعلمون يثقون في بعضهم البعض مهنياً"
         },
         {
           "id": "paragraph_244",
           "type": "ParagraphBlock",
-          "content": "حذف البيانات"
+          "content": "أراد معلمو العلوم تطبيق 'التقويم الرقمي' لقياس مهارات الطلاب المعرفية في نهاية الوحدة الأولى. ما الخطوة التطبيقية التي توجههم إليها؟"
         },
         {
-          "id": "paragraph_245",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_245",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q25.png"
         },
         {
           "id": "paragraph_246",
           "type": "ParagraphBlock",
-          "content": "حماية البيانات من الفقد"
+          "content": "أ-"
         },
         {
           "id": "paragraph_247",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "بناء اختبار إلكتروني تفاعلي عبر المنصة الرسمية يحتوي على بنود موضوعية متنوّعة مرتبطة بنواتج التعلم"
         },
         {
           "id": "paragraph_248",
           "type": "ParagraphBlock",
-          "content": "إبطاء الأجهزة"
+          "content": "ب-"
         },
         {
           "id": "paragraph_249",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "توجيه الطلاب لكتابة ملخص للوحدة على ورقة خارجية وتصويرها بالهاتف لإرسالها عبر البريد الشخصي للمعلم"
         },
         {
           "id": "paragraph_250",
           "type": "ParagraphBlock",
-          "content": "تقليل التخزين"
+          "content": "ج-"
         },
         {
           "id": "paragraph_251",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "تأجيل التقويم لنهاية العام الدراسي والاكتفاء بالأسئلة الشفهية السريعة داخل الفصول المدرسية"
         },
         {
           "id": "paragraph_252",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يساعد في حماية البيانات الرقمية؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_253",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "طلب أبحاث جاهزة ومطبوعة من المكتبات الخارجية المحيطة بالمدرسة لتوفير الوقت"
         },
         {
           "id": "paragraph_254",
           "type": "ParagraphBlock",
-          "content": "مشاركة كلمات المرور"
+          "content": "ترغب في تطبيق مهارة 'متابعة نتائج الطلاب رقمياً' لتقديم تقرير لمجلس الآباء. ما هو الإجراء الإجرائي الصحيح؟"
         },
         {
-          "id": "paragraph_255",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_255",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q26.png"
         },
         {
           "id": "paragraph_256",
           "type": "ParagraphBlock",
-          "content": "إنشاء كلمات مرور قوية"
+          "content": "أ-"
         },
         {
           "id": "paragraph_257",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "استخراج إحصائيات ورسوم بيانية لمستويات الطلاب مباشرة من لوحة تحكم المنصة لتبين نقاط القوة والضعف"
         },
         {
           "id": "paragraph_258",
           "type": "ParagraphBlock",
-          "content": "فتح الروابط المشبوهة"
+          "content": "ب-"
         },
         {
           "id": "paragraph_259",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "تجميع كشوف الدرجات الورقية وقراءتها بالترتيب اسماً اسماً أمام أولياء الأمور في الاجتماع العام"
         },
         {
           "id": "paragraph_260",
           "type": "ParagraphBlock",
-          "content": "تعطيل برامج الحماية"
+          "content": "ج-"
         },
         {
           "id": "paragraph_261",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "إخبار أولياء الأمور بأن الكمبيوتر لم يستخرج النتائج بعد بسبب عطل مجهول بالمخدم الرئيسي"
         },
         {
           "id": "paragraph_262",
           "type": "ParagraphBlock",
-          "content": "يجب تجنب الروابط المشبوهة لأنها قد:"
+          "content": "د-"
         },
         {
           "id": "paragraph_263",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "طلب من كل ولي أمر الدخول بمفرده لغرفة تكنولوجيا المعلومات للبحث عن اسم ابنه في الكمبيوتر"
         },
         {
           "id": "paragraph_264",
           "type": "ParagraphBlock",
-          "content": "تحسن الأداء"
+          "content": "طلب منك مدير التعليم تطبيق مهارة 'الاتصال الرقمي المهني الفعال' مع المجتمع المحلي والمدارس المجاورة. ما المقترح التطبيقي الأنسب؟"
         },
         {
-          "id": "paragraph_265",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_265",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q27.png"
         },
         {
           "id": "paragraph_266",
           "type": "ParagraphBlock",
-          "content": "تسبب اختراقًا أمنيًا"
+          "content": "أ-"
         },
         {
           "id": "paragraph_267",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "تفعيل بوابة إلكترونية للمدرسة وتنظيم ندوات افتراضية دورية مشتركة لمناقشة قضايا التطوير التعليمي"
         },
         {
           "id": "paragraph_268",
           "type": "ParagraphBlock",
-          "content": "تنظم الملفات"
+          "content": "ب-"
         },
         {
           "id": "paragraph_269",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "إرسال خطابات ورقية ممهورة بختم المدرسة عبر البريد التقليدي لكل مدرسة مجاورة مطلع كل شهر"
         },
         {
           "id": "paragraph_270",
           "type": "ParagraphBlock",
-          "content": "تسرع الإنترنت"
+          "content": "ج-"
         },
         {
           "id": "paragraph_271",
           "type": "ParagraphBlock",
-          "content": "تحليل"
+          "content": "الاعتماد على الزيارات الميدانية المفاجئة لمديري المدارس الأخرى دون تنسيق رقمي مسبق"
         },
         {
           "id": "paragraph_272",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يعد إجراءً وقائيًا للأمن السيبراني؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_273",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "إنشاء صفحة شخصية غير رسمية للمدير لنشر الخواطر الاجتماعية اليومية والصور العائلية"
         },
         {
           "id": "paragraph_274",
           "type": "ParagraphBlock",
-          "content": "تعطيل برامج الحماية"
+          "content": "أظهر تقرير أداء المدرسة الرقمي تبايناً حاداً بين تفاعل معلمي المواد العلمية والأدبية على المنصة. كيف تحلل هذا الموقف تربوياً؟"
         },
         {
-          "id": "paragraph_275",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_275",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q28.png"
         },
         {
           "id": "paragraph_276",
           "type": "ParagraphBlock",
-          "content": "تحديث برامج الحماية"
+          "content": "أ-"
         },
         {
           "id": "paragraph_277",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "دراسة الخصائص الفنية للمواد المختلفة، وتحديد الفجوات المهارية لدى معلمي المواد الأدبية لوضع حلول مخصصة"
         },
         {
           "id": "paragraph_278",
           "type": "ParagraphBlock",
-          "content": "مشاركة الحسابات"
+          "content": "ب-"
         },
         {
           "id": "paragraph_279",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "افتراض أن معلمي المواد الأدبية لا يحبون التكنولوجيا بطبيعتهم ونقلهم لمدارس تقليدية"
         },
         {
           "id": "paragraph_280",
           "type": "ParagraphBlock",
-          "content": "تجاهل الأعطال"
+          "content": "ج-"
         },
         {
           "id": "paragraph_281",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "إجبار معلمي المواد العلمية على تقليل تفاعلهم الرقمي حتى يتساوى أداء المدرستين معاً"
         },
         {
           "id": "paragraph_282",
           "type": "ParagraphBlock",
-          "content": "فحص الأجهزة دوريًا يساعد في:"
+          "content": "د-"
         },
         {
           "id": "paragraph_283",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "إلغاء التقرير الرقمي بالكامل واعتباره أداة غير دقيقة لإصدار الأحكام على هيئة التدريس"
         },
         {
           "id": "paragraph_284",
           "type": "ParagraphBlock",
-          "content": "اكتشاف المشكلات الأمنية"
+          "content": "تلقيت بلاغاً من مسؤول الأمن السيبراني بالمدرسة يفيد بمحاولة دخول متكررة فاشلة لحسابك الإداري من خارج البلاد. كيف تحلل هذا المؤشر؟"
         },
         {
-          "id": "paragraph_285",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_285",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q29.png"
         },
         {
           "id": "paragraph_286",
           "type": "ParagraphBlock",
-          "content": "حذف البيانات"
+          "content": "أ-"
         },
         {
           "id": "paragraph_287",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "محاولة اختراق مستهدفة (الهندسة الاجتماعية أو التخمين) تتطلب فحص سلامة النظام وتغيير فوري لبيانات الاعتماد بأمان"
         },
         {
           "id": "paragraph_288",
           "type": "ParagraphBlock",
-          "content": "تعطيل الشبكة"
+          "content": "ب-"
         },
         {
           "id": "paragraph_289",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "خطأ تقني بسيط من أحد معلمي المدرسة نسى كلمة مروره الخاصة به أثناء محاولة الدخول"
         },
         {
           "id": "paragraph_290",
           "type": "ParagraphBlock",
-          "content": "إيقاف البرامج"
+          "content": "ج-"
         },
         {
           "id": "paragraph_291",
           "type": "ParagraphBlock",
-          "content": "تحليل"
+          "content": "دليل على أن المنصة التعليمية سريعة للغاية وتجذب الزوار من جميع أنحاء العالم للتصفح"
         },
         {
           "id": "paragraph_292",
           "type": "ParagraphBlock",
-          "content": "عند اكتشاف اختراق إلكتروني يجب:"
+          "content": "د-"
         },
         {
           "id": "paragraph_293",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "إشارة إلى ضرورة حذف المنصة بالكامل للتخلص من الإزعاج الأمني الخارجي"
         },
         {
           "id": "paragraph_294",
           "type": "ParagraphBlock",
-          "content": "تجاهله"
+          "content": "عند فحص إحصائيات الغياب الإلكتروني، لاحظت قفزة كبيرة في غياب الطلاب يوم الثلاثاء من كل أسبوع في الحصص الافتراضية. كيف تحلل الموقف؟"
         },
         {
-          "id": "paragraph_295",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_295",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q30.png"
         },
         {
           "id": "paragraph_296",
           "type": "ParagraphBlock",
-          "content": "مشاركة المعلومات"
+          "content": "أ-"
         },
         {
           "id": "paragraph_297",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "مقارنة جدول يوم الثلاثاء بالجدول الدراسي العام لمعرفة طبيعة المواد، الأنشطة، أو المعلمين في تلك الحصص المحددة"
         },
         {
           "id": "paragraph_298",
           "type": "ParagraphBlock",
-          "content": "الإبلاغ عنه فورًا"
+          "content": "ب-"
         },
         {
           "id": "paragraph_299",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "معاقبة جميع الطلاب الغائبين يوم الثلاثاء بالحرمان من درجات الأنشطة دون البحث عن السبب"
         },
         {
           "id": "paragraph_300",
           "type": "ParagraphBlock",
-          "content": "حذف النظام"
+          "content": "ج-"
         },
         {
           "id": "paragraph_301",
           "type": "ParagraphBlock",
-          "content": "تطبيق"
+          "content": "تعديل تقويم المدرسة ليصبح يوم الثلاثاء إجازة رسمية للجميع لتفادي ظهور نسب الغياب المرتفعة"
         },
         {
           "id": "paragraph_302",
           "type": "ParagraphBlock",
-          "content": "متابعة تنفيذ الدروس إلكترونيًا تساعد في:"
+          "content": "د-"
         },
         {
           "id": "paragraph_303",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "افتراض أن هناك عطلاً في سيرفر المنصة يحدث تلقائياً فقط يوم الثلاثاء من كل أسبوع"
         },
         {
           "id": "paragraph_304",
           "type": "ParagraphBlock",
-          "content": "تحسين الإشراف التعليمي"
+          "content": "طلب منك المشرف التربوي مراجعة نتائج أحد الفصول التي طبقت التصحيح الإلكتروني، ووجد أن جميع الطلاب حصلوا على 100%. كيف تحلل هذه النتيجة؟"
         },
         {
-          "id": "paragraph_305",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_305",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q31.png"
         },
         {
           "id": "paragraph_306",
           "type": "ParagraphBlock",
-          "content": "إيقاف التعليم"
+          "content": "أ-"
         },
         {
           "id": "paragraph_307",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "فحص سلامة مفتاح الإجابة المدخل للنظام، وتحليل مستوى صعوبة الأسئلة لضمان عدم تسريب الاختبار"
         },
         {
           "id": "paragraph_308",
           "type": "ParagraphBlock",
-          "content": "تقليل التواصل"
+          "content": "ب-"
         },
         {
           "id": "paragraph_309",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "تهنئة المعلم فوراً واعتبار هذا الفصل عبقرياً دون حاجة لأي فحص تكنولوجي إضافي"
         },
         {
           "id": "paragraph_310",
           "type": "ParagraphBlock",
-          "content": "حذف الأنشطة"
+          "content": "ج-"
         },
         {
           "id": "paragraph_311",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "اتهام نظام التصحيح الآلي بالفشل الكامل والعودة الفورية للتصحيح اليدوي التقليدي بالقلم الأحمر"
         },
         {
           "id": "paragraph_312",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يستخدم لمتابعة حضور الطلاب؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_313",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "حذف درجات الطلاب وإجبارهم على إعادة الاختبار ورقياً تحت إشرافك الشخصي المباشر"
         },
         {
           "id": "paragraph_314",
           "type": "ParagraphBlock",
-          "content": "المنصات التعليمية"
+          "content": "تبين لك من خلال نظام إدارة الملفات المركزي بالمدرسة أن السعة التخزينية للسيرفر قاربت على الامتلاء. كيف تقود عملية تحليل البيانات لتوفير المساحة؟"
         },
         {
-          "id": "paragraph_315",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_315",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q32.png"
         },
         {
           "id": "paragraph_316",
           "type": "ParagraphBlock",
-          "content": "الأوراق القديمة"
+          "content": "أ-"
         },
         {
           "id": "paragraph_317",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "فرز الملفات وتصنيفها حسب تاريخ الإنشاء والأهمية، وتحديد الملفات المكررة والقديمة لنقلها لأرشيف خارجي"
         },
         {
           "id": "paragraph_318",
           "type": "ParagraphBlock",
-          "content": "الملفات التالفة"
+          "content": "ب-"
         },
         {
           "id": "paragraph_319",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "حذف عشوائي لأول 50 مجلداً تقابلك في السيستم لتوفير المساحة المطلوبة بسرعة دون فحص محتواها"
         },
         {
           "id": "paragraph_320",
           "type": "ParagraphBlock",
-          "content": "الأجهزة المعطلة"
+          "content": "ج-"
         },
         {
           "id": "paragraph_321",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "إيقاف تفعيل حسابات جميع المعلمين الجدد لمنعهم من رفع أي ملفات إضافية مستقبلاً"
         },
         {
           "id": "paragraph_322",
           "type": "ParagraphBlock",
-          "content": "يساعد تقديم التغذية الراجعة الرقمية للمعلمين في:"
+          "content": "د-"
         },
         {
           "id": "paragraph_323",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "شراء خادم (سيرفر) جديد فوراً دون فحص طبيعة ومحتوى الملفات المخزنة حالياً بالخادم الحالي"
         },
         {
           "id": "paragraph_324",
           "type": "ParagraphBlock",
-          "content": "تحسين الأداء التدريسي"
+          "content": "أثناء مراجعتك لتقارير تواصل المعلمين مع أولياء الأمور عبر البريد الإلكتروني، لاحظت أن 70% من الرسائل لا يتم فتحها من قبل الآباء. كيف تحلل ذلك؟"
         },
         {
-          "id": "paragraph_325",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_325",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q33.png"
         },
         {
           "id": "paragraph_326",
           "type": "ParagraphBlock",
-          "content": "تعطيل التعليم"
+          "content": "أ-"
         },
         {
           "id": "paragraph_327",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "استقصاء العينات للوقوف على الأسباب (عدم تحديث العناوين، ضعف الوعي التقني، أو صياغة العناوين بشكل غير جاذب)"
         },
         {
           "id": "paragraph_328",
           "type": "ParagraphBlock",
-          "content": "تقليل المتابعة"
+          "content": "ب-"
         },
         {
           "id": "paragraph_329",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "اعتبار أولياء الأمور غير مهتمين بالعملية التعليمية وإيقاف إرسال أي مراسلات رقمية لهم مستقبلاً"
         },
         {
           "id": "paragraph_330",
           "type": "ParagraphBlock",
-          "content": "حذف الأنشطة"
+          "content": "ج-"
         },
         {
           "id": "paragraph_331",
           "type": "ParagraphBlock",
-          "content": "تقويم"
+          "content": "توجيه المعلمين لكتابة كلمة 'عاجل وسري للغاية' في عنوان كل رسالة بريدية لضمان فتحها إجبارياً"
         },
         {
           "id": "paragraph_332",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يعد من أدوات التقويم الرقمي؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_333",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "حذف نظام البريد الإلكتروني والعودة لإرسال خطابات ورقية مع الطلاب يومياً للمنازل"
         },
         {
           "id": "paragraph_334",
           "type": "ParagraphBlock",
-          "content": "الاختبارات الإلكترونية"
+          "content": "خلال ورشة عمل للمعلمين حول 'تطبيقات الذكاء الاصطناعي في التدريب'، انقسم الحضور بين مؤيد ومعارض بشدة. كيف تحلل هذا الانقسام إدارياً؟"
         },
         {
-          "id": "paragraph_335",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_335",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q34.png"
         },
         {
           "id": "paragraph_336",
           "type": "ParagraphBlock",
-          "content": "السبورة التقليدية"
+          "content": "أ-"
         },
         {
           "id": "paragraph_337",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "تحليل مخاوف المعارضين (خوف من التغيير، نقص المهارة) ودراسة دوافع المؤيدين لدمج الفريقين في مجموعات عمل تعاونية"
         },
         {
           "id": "paragraph_338",
           "type": "ParagraphBlock",
-          "content": "الملفات الورقية"
+          "content": "ب-"
         },
         {
           "id": "paragraph_339",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "استبعاد المعلمين المعارضين من أي ترقيات مستقبلية لعدم امتلاكهم عقلية التحول الرقمي"
         },
         {
           "id": "paragraph_340",
           "type": "ParagraphBlock",
-          "content": "الكتاب اليدوي"
+          "content": "ج-"
         },
         {
           "id": "paragraph_341",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "إلغاء تطبيقات الذكاء الاصطناعي من خطة المدرسة إرضاءً للطرف المعارض وتجنباً للمشكلات المعقدة"
         },
         {
           "id": "paragraph_342",
           "type": "ParagraphBlock",
-          "content": "استخدام أدوات التصحيح الإلكتروني يؤدي إلى:"
+          "content": "د-"
         },
         {
           "id": "paragraph_343",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "إجبار الجميع على استخدام الذكاء الاصطناعي في تحضير الدروس يومياً ومعاقبة المخالفين فوراً"
         },
         {
           "id": "paragraph_344",
           "type": "ParagraphBlock",
-          "content": "زيادة الوقت المستغرق"
+          "content": "أظهر نظام المتابعة الرقمية للدروس أن بعض المعلمين يرفعون ملفات دراسية بصيغ غير مدعومة على هواتف الطلاب (مثل ملفات حجمها ضخم جداً). كيف تحلل الأثر؟"
         },
         {
-          "id": "paragraph_345",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_345",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q35.png"
         },
         {
           "id": "paragraph_346",
           "type": "ParagraphBlock",
-          "content": "سرعة تصحيح الاختبارات"
+          "content": "أ-"
         },
         {
           "id": "paragraph_347",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "يؤدي لعدم تكافؤ الفرص في الوصول للمحتوى، ويتطلب تحليل المعايير الفنية للملفات وتوحيدها بصيغة مرنة وخفيفة مثل PDF"
         },
         {
           "id": "paragraph_348",
           "type": "ParagraphBlock",
-          "content": "حذف النتائج"
+          "content": "ب-"
         },
         {
           "id": "paragraph_349",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "يدل على عبقرية المعلمين وقدرتهم على إنتاج ملفات معقدة لا يستطيع أي كمبيوتر عادي فتحها"
         },
         {
           "id": "paragraph_350",
           "type": "ParagraphBlock",
-          "content": "إيقاف الاختبارات"
+          "content": "ج-"
         },
         {
           "id": "paragraph_351",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "يتطلب إجبار أولياء الأمور على شراء أحدث الهواتف الذكية والحواسب اللوحية لأبنائهم فوراً لتتوافق مع الملفات"
         },
         {
           "id": "paragraph_352",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يعد من مهارات الاتصال الرقمي؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_353",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "دتجاهل الشكاوى طالما أن الملفات تم رفعها بنجاح على السيستم المركزي والمشكلة تخص أجهزة الطلاب فقط"
         },
         {
           "id": "paragraph_354",
           "type": "ParagraphBlock",
-          "content": "الرد على المراسلات إلكترونيًا"
+          "content": "لاحظت أن متوسط الوقت الذي يقضيه المعلمون في رصد الحضور إلكترونياً يتجاوز 15 دقيقة من زمن الحصة الفعلي. كيف تحلل هذا المؤشر الفني؟"
         },
         {
-          "id": "paragraph_355",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_355",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q36.png"
         },
         {
           "id": "paragraph_356",
           "type": "ParagraphBlock",
-          "content": "إهمال الرسائل"
+          "content": "أ-"
         },
         {
           "id": "paragraph_357",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "وجود تعقيد في واجهة النظام أو نقص في التدريب المهني للمعلم يتطلب تبسيط الإجراءات أو تفعيل الرصد التلقائي"
         },
         {
           "id": "paragraph_358",
           "type": "ParagraphBlock",
-          "content": "حذف الاجتماعات"
+          "content": "ب-"
         },
         {
           "id": "paragraph_359",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "مؤشر إيجابي يدل على دقة المعلمين وحرصهم الشديد على عدم تفويت أي طالب غائب بالمنصة"
         },
         {
           "id": "paragraph_360",
           "type": "ParagraphBlock",
-          "content": "تعطيل المنصات"
+          "content": "ج-"
         },
         {
           "id": "paragraph_361",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "يعني أن الطلاب يتعمدون الدخول متأخرين لإرباك المعلم وإفساد المنظومة التكنولوجية للمدرسة"
         },
         {
           "id": "paragraph_362",
           "type": "ParagraphBlock",
-          "content": "من مهارات إدارة البيانات:؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_363",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "يتطلب إلغاء رصد الحضور نهائياً لتوفير زمن الحصة الكامل للشرح الأكاديمي والمناهج الدراسية"
         },
         {
           "id": "paragraph_364",
           "type": "ParagraphBlock",
-          "content": "تحديث البيانات باستمرار"
+          "content": "عند تحليل خطة الطوارئ الرقمية للمدرسة، اكتشفت عدم وجود أي سيناريو للعمل في حال انقطاع الإنترنت عن المبنى بالكامل. كيف تحلل هذا الموقف؟"
         },
         {
-          "id": "paragraph_365",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_365",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q37.png"
         },
         {
           "id": "paragraph_366",
           "type": "ParagraphBlock",
-          "content": "تجاهل التقارير"
+          "content": "أ-"
         },
         {
           "id": "paragraph_367",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "ثغرة تخطيطية خطيرة تتطلب تحليل البدائل (تخزين محلي، شبكات احتياطية، العمل دون اتصال مؤقت) لضمان استمرارية الأعمال الإدارية"
         },
         {
           "id": "paragraph_368",
           "type": "ParagraphBlock",
-          "content": "حذف الملفات"
+          "content": "ب-"
         },
         {
           "id": "paragraph_369",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "موقف طبيعي لأن الإنترنت لا يمكن أن ينقطع في عصر التحول الرقمي الحديث لتوفر البنية التحتية القوية"
         },
         {
           "id": "paragraph_370",
           "type": "ParagraphBlock",
-          "content": "تعطيل الحفظ"
+          "content": "ج-"
         },
         {
           "id": "paragraph_371",
           "type": "ParagraphBlock",
-          "content": "تطبيق"
+          "content": "يعني ضرورة صرف انصراف طارئ لجميع الموظفين والطلاب بمجرد انقطاع الشبكة لعدم إمكانية العمل"
         },
         {
           "id": "paragraph_372",
           "type": "ParagraphBlock",
-          "content": "يساعد ترتيب الملفات الرقمية في:"
+          "content": "د-"
         },
         {
           "id": "paragraph_373",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "دليل على أن المدرسة يجب أن تعتمد بنسبة 100% على الأوراق وتلغي الفكرة الرقمية لتفادي هذه المواقف"
         },
         {
           "id": "paragraph_374",
           "type": "ParagraphBlock",
-          "content": "صعوبة الوصول للبيانات"
+          "content": "عُرض عليك نظامان لإدارة التعلم رقمياً: الأول يتميز بواجهة معقدة وأدوات أمنية قصوى، والثاني واجهته بسيطة جداً لكن أمانه متوسط. كيف تقيم الاختيار الأنسب لمدرستك؟"
         },
         {
-          "id": "paragraph_375",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_375",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q38.png"
         },
         {
           "id": "paragraph_376",
           "type": "ParagraphBlock",
-          "content": "سهولة الوصول للمعلومات"
+          "content": "أ-"
         },
         {
           "id": "paragraph_377",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "الموازنة بين سهولة الاستخدام للمعلمين (التقبل التكنولوجي) ومستوى الأمان المقبول لحماية البيانات، واختيار ما يحقق التوازن"
         },
         {
           "id": "paragraph_378",
           "type": "ParagraphBlock",
-          "content": "زيادة الفوضى"
+          "content": "ب-"
         },
         {
           "id": "paragraph_379",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "اختيار النظام المعقد فوراً لإثبات أن مدرستنا متقدمة جداً وتستخدم تكنولوجيا صعبة"
         },
         {
           "id": "paragraph_380",
           "type": "ParagraphBlock",
-          "content": "حذف البيانات"
+          "content": "ج-"
         },
         {
           "id": "paragraph_381",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "اختيار النظام البسيط ضعيف الأمان لتوفير وقت تدريب المعلمين والتغاضي عن احتمالات الاختراق"
         },
         {
           "id": "paragraph_382",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يعد من مهارات الأمن السيبراني؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_383",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "رفض النظامين معاً والانتظار لحين قيام المعلمين ببرمجة نظام خاص بالمدرسة من الصفر"
         },
         {
           "id": "paragraph_384",
           "type": "ParagraphBlock",
-          "content": "مشاركة الحسابات"
+          "content": "بصفتك مديراً، كيف تقيم كفاءة 'منصة الاختبارات الإلكترونية' الحالية بعد مرور فصل دراسي كامل على تفعيلها بالمدرسة؟"
         },
         {
-          "id": "paragraph_385",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_385",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q39.png"
         },
         {
           "id": "paragraph_386",
           "type": "ParagraphBlock",
-          "content": "الإبلاغ عن الأعطال الأمنية"
+          "content": "أ-"
         },
         {
           "id": "paragraph_387",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "قياس مدى مساهمتها في خفض الوقت المستغرق في التصحيح، دقة رصد الدرجات، ومدى رضا المعلمين والطلاب عنها وفق معايير واضحة"
         },
         {
           "id": "paragraph_388",
           "type": "ParagraphBlock",
-          "content": "فتح الروابط المشبوهة"
+          "content": "ب-"
         },
         {
           "id": "paragraph_389",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "حساب عدد الأسئلة الإجمالي المرفوع عليها؛ فكلما زاد العدد كانت المنصة ممتازة بالضرورة"
         },
         {
           "id": "paragraph_390",
           "type": "ParagraphBlock",
-          "content": "تعطيل الحماية"
+          "content": "ج-"
         },
         {
           "id": "paragraph_391",
           "type": "ParagraphBlock",
-          "content": "تذكر"
+          "content": "سؤال معلم واحد متميز في التكنولوجيا واعتماد رأيه الشخصي حكماً نهائياً على المنصة بالكامل"
         },
         {
           "id": "paragraph_392",
           "type": "ParagraphBlock",
-          "content": "متابعة نتائج الاختبارات الرقمية تساعد في:"
+          "content": "د-"
         },
         {
           "id": "paragraph_393",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "اعتبارها فاشلة تماماً إذا اشتكى طالب واحد فقط من انقطاع الكهرباء في منزله أثناء امتحانه"
         },
         {
           "id": "paragraph_394",
           "type": "ParagraphBlock",
-          "content": "تحليل مستوى الطلاب"
+          "content": "اكتشفت أن إحدى المعلمات تستخدم تطبيق دردشة شخصي مفتوح لتلقي أسئلة الطلاب وأولياء الأمور ليلاً. كيف تقيم هذا السلوك إدارياً وتربوياً؟"
         },
         {
-          "id": "paragraph_395",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_395",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q40.png"
         },
         {
           "id": "paragraph_396",
           "type": "ParagraphBlock",
-          "content": "حذف النتائج"
+          "content": "أ-"
         },
         {
           "id": "paragraph_397",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "سلوك ينطلق من دافعية إيجابية لكنه يفتقر للمؤسسية وينتهك الخصوصية، ويجب توجيهها لنظام الرسائل الرسمي بالمنصة"
         },
         {
           "id": "paragraph_398",
           "type": "ParagraphBlock",
-          "content": "تقليل التقويم"
+          "content": "ب-"
         },
         {
           "id": "paragraph_399",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "سلوك عبقري ورائع يجب تعميمه وإجبار جميع معلمات المدرسة على إعطاء أرقامهن الشخصية للطلاب"
         },
         {
           "id": "paragraph_400",
           "type": "ParagraphBlock",
-          "content": "تعطيل المتابعة"
+          "content": "ج-"
         },
         {
           "id": "paragraph_401",
           "type": "ParagraphBlock",
-          "content": "تحليل"
+          "content": "مخالفة جسيمة تستحق العقاب المباشر والنقل التأديبي دون الاستماع لمبررات المعلمة أو دوافعها"
         },
         {
           "id": "paragraph_402",
           "type": "ParagraphBlock",
-          "content": "أي مما يلي يعد من أهداف التحول الرقمي في التعليم؟"
+          "content": "د-"
         },
         {
           "id": "paragraph_403",
           "type": "ParagraphBlock",
-          "content": "أ-"
+          "content": "أمر لا يخص إدارة المدرسة طالما يتم خارج أوقات الدوام الرسمي ولا يؤثر على ميزانية المؤسسة المالية"
         },
         {
           "id": "paragraph_404",
           "type": "ParagraphBlock",
-          "content": "تحسين كفاءة العمل"
+          "content": "بعد تطبيق نظام الأرشفة وتصنيف البيانات الرقمية الجديد، كيف تقيم مدى نجاح هذا النظام بشكل عملي وملموس؟"
         },
         {
-          "id": "paragraph_405",
-          "type": "ParagraphBlock",
-          "content": "ب-"
+          "id": "image_405",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q41.png"
         },
         {
           "id": "paragraph_406",
           "type": "ParagraphBlock",
-          "content": "زيادة المعاملات الورقية"
+          "content": "أ-"
         },
         {
           "id": "paragraph_407",
           "type": "ParagraphBlock",
-          "content": "ج-"
+          "content": "مراقبة واختبار الوقت المستغرق لاستدعاء أي ملف إداري عند طلبه مفاجئاً مقارنة بالنظام السابق"
         },
         {
           "id": "paragraph_408",
           "type": "ParagraphBlock",
-          "content": "تعطيل الاتصال"
+          "content": "ب-"
         },
         {
           "id": "paragraph_409",
           "type": "ParagraphBlock",
-          "content": "د-"
+          "content": "حجم القرص الصلب الذي اشتريناه؛ فكلما كان القرص أكبر وأغلى كان نظام الأرشفة ناجحاً ومميزاً"
         },
         {
           "id": "paragraph_410",
           "type": "ParagraphBlock",
-          "content": "تقليل استخدام التقنية"
+          "content": "ج-"
         },
         {
           "id": "paragraph_411",
           "type": "ParagraphBlock",
-          "content": "فهم"
+          "content": "عدد المجلدات الفارغة المفتوحة بالسيستم؛ لأنها تدل على جاهزية المدرسة لاستقبال بيانات المستقبل"
+        },
+        {
+          "id": "paragraph_412",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_413",
+          "type": "ParagraphBlock",
+          "content": "تلقي المديح من زوار المدرسة الخارجيين على شكل التصميم الخارجي لشاشات الحواسب الآلية"
+        },
+        {
+          "id": "paragraph_414",
+          "type": "ParagraphBlock",
+          "content": "طلب منك تقويم أداء مسؤول التطوير التكنولوجي بالمدرسة. أي المؤشرات التالية يعد الدليل الأقوى على تميزه المهني في التحول الرقمي؟"
+        },
+        {
+          "id": "image_415",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q42.png"
+        },
+        {
+          "id": "paragraph_416",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_417",
+          "type": "ParagraphBlock",
+          "content": "نجاحه في خفض الأعطال التقنية، تقديم دعم فوري للمعلمين، وتأمين الأنظمة ضد محاولات الاختراق بنسبة عالية"
+        },
+        {
+          "id": "paragraph_418",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_419",
+          "type": "ParagraphBlock",
+          "content": "قيامه بتغيير واجهة المنصة المدرسية وألوان الخلفية يومياً لإضفاء لمسة جمالية متجددة"
+        },
+        {
+          "id": "paragraph_420",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_421",
+          "type": "ParagraphBlock",
+          "content": "موافقته المستمرة على كل طلبات شراء الأجهزة الحديثة التي يقدمها المعلمون دون مراجعة جدواها"
+        },
+        {
+          "id": "paragraph_422",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_423",
+          "type": "ParagraphBlock",
+          "content": "قدرته على إخفاء الأعطال الكبيرة عن مدير المدرسة وعدم إزعاجه بالتقارير الفنية الدورية"
+        },
+        {
+          "id": "paragraph_424",
+          "type": "ParagraphBlock",
+          "content": "قررت الوزارة إلزام المدارس بالاعتماد الكامل على 'التغذية الراجعة الرقمية' بدلاً من التقارير الورقية. كيف تقيم الأثر الاستراتيجي لهذا القرار؟"
+        },
+        {
+          "id": "image_425",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q43.png"
+        },
+        {
+          "id": "paragraph_426",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_427",
+          "type": "ParagraphBlock",
+          "content": "قرار استراتيجي يعزز الشفافية، يسرع نمو المعلمين مهنياً، ويبني قاعدة بيانات تراكمية لمسارات التطوير التدريسي"
+        },
+        {
+          "id": "paragraph_428",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_429",
+          "type": "ParagraphBlock",
+          "content": "قرار متسرع سيزيد من فجوة الخلافات الشخصية والعداوات المهنية بين القيادة التعليمية والمعلمين"
+        },
+        {
+          "id": "paragraph_430",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_431",
+          "type": "ParagraphBlock",
+          "content": "إجراء شكلي لن يغير شيئاً في الممارسات التدريسية الفعلية داخل الصفوف المدرسية التقليدية"
+        },
+        {
+          "id": "paragraph_432",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_433",
+          "type": "ParagraphBlock",
+          "content": "خطوة ستؤدي لزيادة استهلاك الطاقة الكهربائية بالمدرسة نتيجة تشغيل الحواسب لفترات أطول"
+        },
+        {
+          "id": "paragraph_434",
+          "type": "ParagraphBlock",
+          "content": "أرسل لك أحد المعلمين تقريراً يوصي بإلغاء 'كلمات المرور المعقدة' للطلاب لتقليل شكاوى نسيانها. كيف تقيم هذه التوصية؟"
+        },
+        {
+          "id": "image_435",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q44.png"
+        },
+        {
+          "id": "paragraph_436",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_437",
+          "type": "ParagraphBlock",
+          "content": "توصية خطيرة ومرفوضة لأنها تضعف الأمن السيبراني للمدرسة وتفتح الباب لتخريب بيانات وعلامات الطلاب"
+        },
+        {
+          "id": "paragraph_438",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_439",
+          "type": "ParagraphBlock",
+          "content": "توصية ممتازة يجب تطبيقها فوراً لكسب رضا الطلاب وأولياء الأمور وتوفير وقت الدعم الفني بالمدرسة"
+        },
+        {
+          "id": "paragraph_440",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_441",
+          "type": "ParagraphBlock",
+          "content": "مقبولة بشرط أن يوقع المعلم على تعهد شخصي بتحمل مسؤولية أي اختراق يحدث للمنصة التعليمية"
+        },
+        {
+          "id": "paragraph_442",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_443",
+          "type": "ParagraphBlock",
+          "content": "توصية غير مهمة ولا تستحق القراءة أو الرد ويجب حفظها مباشرة في سلة المهملات الرقمية للمدير"
+        },
+        {
+          "id": "paragraph_444",
+          "type": "ParagraphBlock",
+          "content": "كيف تقيم أثر 'تكامل أدوات التواصل الرقمي' (بريد، منصات، اجتماعات) على كفاءة 'إدارة الأزمات المدرسية المفاجئة'؟"
+        },
+        {
+          "id": "image_445",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q45.png"
+        },
+        {
+          "id": "paragraph_446",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_447",
+          "type": "ParagraphBlock",
+          "content": "يرفع الكفاءة بشكل هائل عبر سرعة تمرير القرارات، جمع الفريق افتراضياً فوراً، وتوثيق التكليفات للسيطرة على الأزمة"
+        },
+        {
+          "id": "paragraph_448",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_449",
+          "type": "ParagraphBlock",
+          "content": "يؤدي لتشتيت متخذ القرار بكثرة الرسائل والإشعارات مما يؤخر حل الأزمة المدرسية الفعلية"
+        },
+        {
+          "id": "paragraph_450",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_451",
+          "type": "ParagraphBlock",
+          "content": "لا أثر له لأن الأزمات المدرسية تتطلب دائماً الوجود البدني والضرب بالعصا على الطاولات لحلها يدوياً"
+        },
+        {
+          "id": "paragraph_452",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_453",
+          "type": "ParagraphBlock",
+          "content": "يضعف من هيبة مدير المدرسة لأنه يتواصل مع مرؤوسيه عبر الشاشات بدلاً من استدعائهم لمكتبه الفخم"
+        },
+        {
+          "id": "paragraph_454",
+          "type": "ParagraphBlock",
+          "content": "قدمت شركة برمجيات تقريراً يدعي أن استخدام 'الذكاء الاصطناعي في التدريب الشخصي للقيادات' يضمن نجاحهم بنسبة 100%. كيف تقيم مصداقية هذا التقرير؟"
+        },
+        {
+          "id": "image_455",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q46.png"
+        },
+        {
+          "id": "paragraph_456",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_457",
+          "type": "ParagraphBlock",
+          "content": "التقرير مبالغ فيه تسويقياً؛ فالتقنية أداة تمكين قوية ومحفزة لكن النجاح الفعلي يتوقف على دافعية القائد وتطبيقه العملي للمهارات"
+        },
+        {
+          "id": "paragraph_458",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_459",
+          "type": "ParagraphBlock",
+          "content": "مصداقية مطلقة لأن الذكاء الاصطناعي معصوم من الخطأ ويملك حلولاً سحرية لجميع المشكلات الإدارية والتعليمية"
+        },
+        {
+          "id": "paragraph_460",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_461",
+          "type": "ParagraphBlock",
+          "content": "تقرير كاذب ومضلل تماماً لأن الذكاء الاصطناعي مجرد لعبة إلكترونية لا تصلح لتطوير مهارات القيادات المهنية المعرفية"
+        },
+        {
+          "id": "paragraph_462",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_463",
+          "type": "ParagraphBlock",
+          "content": "صحيح بشرط أن تقوم المدرسة بدفع قيمة البرنامج التدريبي بالعملة الصعبة لضمان جودته التقنية الفعالة"
+        },
+        {
+          "id": "paragraph_464",
+          "type": "ParagraphBlock",
+          "content": "اشتكى المعلمون من صعوبة متابعة حضور الطلاب في الفصول المدمجة (حضوري وافتراضي معاً). كيف تقيم 'الحل الرقمي الأنسب' كمدير للمدرسة؟"
+        },
+        {
+          "id": "image_465",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q47.png"
+        },
+        {
+          "id": "paragraph_466",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_467",
+          "type": "ParagraphBlock",
+          "content": "اعتماد نظام رصد رقمي موحد يرتبط ببطاقات الهوية الذكية (RFID) حضورياً، وبسجلات تسجيل الدخول التلقائي للمنصة افتراضياً"
+        },
+        {
+          "id": "paragraph_468",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_469",
+          "type": "ParagraphBlock",
+          "content": "طلب من المعلم تكرار النداء على الأسماء مرتين: مرة داخل الفصل الحقيقي ومرة عبر الميكروفون للطلاب في المنازل"
+        },
+        {
+          "id": "paragraph_470",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_471",
+          "type": "ParagraphBlock",
+          "content": "إلغاء التعليم الافتراضي بالكامل والعودة للتعليم البدني التقليدي للتخلص من صداع رصد الغياب والحضور الرقمي المعقد"
+        },
+        {
+          "id": "paragraph_472",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_473",
+          "type": "ParagraphBlock",
+          "content": "تفويض رئيس اتحاد الطلاب بالفصل لرصد الغياب عبر ورقة خارجية وإرسالها لمدير المدرسة نهاية اليوم الدراسي يدوياً"
+        },
+        {
+          "id": "paragraph_474",
+          "type": "ParagraphBlock",
+          "content": "بناءً على مهاراتك القيادية المتقدمة، كيف تبتكر نموذجاً وميثاقاً جديداً لتنظيم 'الأمن السيبراني الأخلاقي والمهني' داخل مجتمع مدرستك؟"
+        },
+        {
+          "id": "image_475",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q48.png"
+        },
+        {
+          "id": "paragraph_476",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_477",
+          "type": "ParagraphBlock",
+          "content": "صياغة 'وثيقة المواطنة الرقمية والممارسات الأمنية الآمنة'، يشارك في وضعها المعلمون والطلاب وتتضمن التزامات متبادلة وجوائز للالتزام"
+        },
+        {
+          "id": "paragraph_478",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_479",
+          "type": "ParagraphBlock",
+          "content": "استيراد لائحة عقوبات صارمة من مؤسسة بنكية كبرى وتطبيقها حرفياً وبقسوة على أي معلم يرتكب خطأ تقنياً بسيطاً"
+        },
+        {
+          "id": "paragraph_480",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_481",
+          "type": "ParagraphBlock",
+          "content": "توظيف هكر محترف (مخترق) لضرب حسابات المعلمين فجأة لاختبار مدى انتباههم وقدرتهم على التصدي للهجمات"
+        },
+        {
+          "id": "paragraph_482",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_483",
+          "type": "ParagraphBlock",
+          "content": "إصدار قرار شفهي غامض يطلب من الجميع 'الحفاظ على سرية الإنترنت' دون تحديد آليات أو خطوات إجرائية واضحة للالتزام"
+        },
+        {
+          "id": "paragraph_484",
+          "type": "ParagraphBlock",
+          "content": "تواجه المدرسة مشكلة تشتت الموارد التعليمية الرقمية عبر منصات متعددة. كيف تبتكر حلاً إستراتيجياً لتوحيد إدارة هذا المحتوى؟"
+        },
+        {
+          "id": "image_485",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q49.png"
+        },
+        {
+          "id": "paragraph_486",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_487",
+          "type": "ParagraphBlock",
+          "content": "تصميم وإنشاء 'مكتبة رقمية مدرسية مركزية موحدة ومصنفة شجرياً'، ترتبط بحساب موحد لكل مستخدم وتتيح البحث الذكي"
+        },
+        {
+          "id": "paragraph_488",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_489",
+          "type": "ParagraphBlock",
+          "content": "الطلب من المعلمين التوقف عن إنتاج الموارد الرقمية والالتزام فقط بالشرح من الملخصات المطبوعة ورقياً بالمكتبة"
+        },
+        {
+          "id": "paragraph_490",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_491",
+          "type": "ParagraphBlock",
+          "content": "فتح المجال لكل معلم لإنشاء موقع ويب مستقل خاص بمادته على الإنترنت والطلب من الطلاب البحث عنها بأنفسهم"
+        },
+        {
+          "id": "paragraph_492",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_493",
+          "type": "ParagraphBlock",
+          "content": "تجميع كل الروابط والملفات في رسالة بريد إلكتروني واحدة ضخمة وإرسالها لجميع الطلاب في بداية العام الدراسي"
+        },
+        {
+          "id": "paragraph_494",
+          "type": "ParagraphBlock",
+          "content": "كيف تبتكر أسلوباً جديداً لرفع مهارات 'التقبل التكنولوجي' لدى المعلمين القدامى والمقاومين للتحول الرقمي بالمدرسة؟"
+        },
+        {
+          "id": "image_495",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q50.png"
+        },
+        {
+          "id": "paragraph_496",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_497",
+          "type": "ParagraphBlock",
+          "content": "تأسيس مبادرة 'المعلم الرقمي المرشد'، حيث يقوم المعلمون الشباب بمرافقة ودعم زملائهم القدامى تقنياً في مواقف حقيقية داخل الفصل"
+        },
+        {
+          "id": "paragraph_498",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_499",
+          "type": "ParagraphBlock",
+          "content": "نشر أسماء المعلمين غير المتفاعلين رقمياً على لوحة الشرف السلبية بمدخل المدرسة للضغط عليهم اجتماعياً علناً"
+        },
+        {
+          "id": "paragraph_500",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_501",
+          "type": "ParagraphBlock",
+          "content": "إحالة جميع المعلمين القدامى للعمل الإداري المكتبي وتعيين خريجين جدد بدلاً منهم لإدارة المنصات التعليمية مباشرة"
+        },
+        {
+          "id": "paragraph_502",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_503",
+          "type": "ParagraphBlock",
+          "content": "تنظيم مسابقة لأسرع معلم يكتب طلباً ورقياً لشراء كمبيوتر محمول خاص به من ميزانية المدرسة التطويرية"
+        },
+        {
+          "id": "paragraph_504",
+          "type": "ParagraphBlock",
+          "content": "تريد ابتكار آلية تفاعلية جديدة لإشراك أولياء الأمور في 'التقويم الرقمي الشامل' لمتابعة وتطوير أداء أبنائهم السلوكي والأكاديمي. ماذا تقترح؟"
+        },
+        {
+          "id": "image_505",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q51.png"
+        },
+        {
+          "id": "paragraph_506",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_507",
+          "type": "ParagraphBlock",
+          "content": "تطوير 'تطبيق الهاتف الذكي المدرسي التفاعلي'، يرسل إشعارات ذكية بالنتائج، ويتضمن قسماً لتقويم ولي الأمر لسلوك ابنه بالمنزل"
+        },
+        {
+          "id": "paragraph_508",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_509",
+          "type": "ParagraphBlock",
+          "content": "إلزام أولياء الأمور بحضور اختبار إلكتروني شهري بمقر المدرسة لقياس مدى متابعتهم للمناهج الدراسية لأبنائهم"
+        },
+        {
+          "id": "paragraph_510",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_511",
+          "type": "ParagraphBlock",
+          "content": "إنشاء صندوق خشبي أصفر عند بوابة المدرسة يلقي فيه الآباء ملحوظاتهم مكتوبة على قصاصات ورقية ملونة"
+        },
+        {
+          "id": "paragraph_512",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_513",
+          "type": "ParagraphBlock",
+          "content": "نشر درجات الطلاب وعناوين منازلهم في بث مباشر على منصة يوتيوب العامة ليتنافس الآباء في تحسين مستويات أولادهم"
+        },
+        {
+          "id": "paragraph_514",
+          "type": "ParagraphBlock",
+          "content": "كيف تبتكر سيناريو متكاملاً لـ 'بيئة تدريب شخصية ذكية (IPLE)' مخصصة لمعلمي مدرستك ؟"
+        },
+        {
+          "id": "image_515",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q52.png"
+        },
+        {
+          "id": "paragraph_516",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_517",
+          "type": "ParagraphBlock",
+          "content": "تطوير بيئة رقمية تحلل مهارات كل معلم عبر الذكاء الاصطناعي، وتوصي بمسار تدريبي مخصص يتناسب مع سرعته واحتياجاته الفردية"
+        },
+        {
+          "id": "paragraph_518",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_519",
+          "type": "ParagraphBlock",
+          "content": "جمع المعلمين في قاعة واحدة وإجبارهم على الاستماع لمحاضرة فيديو مسجلة مدتها 6 ساعات متواصلة دون نقاش أو توقف"
+        },
+        {
+          "id": "paragraph_520",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_521",
+          "type": "ParagraphBlock",
+          "content": "الطلب من كل معلم البحث عن دورات مجانية على موقع يوتيوب وتلخيصها في دفتر كشكول ورقي لتسليمه للمدير نهاية الشهر"
+        },
+        {
+          "id": "paragraph_522",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_523",
+          "type": "ParagraphBlock",
+          "content": "شراء حواسب جديدة وتوزيعها كهدية على المعلمين المتميزين وافتراض أن وجود الأجهزة كافٍ لتطوير مهاراتهم ذاتياً دون تدريب"
+        },
+        {
+          "id": "paragraph_524",
+          "type": "ParagraphBlock",
+          "content": "ترغب في ابتكار آلية ذكية لإدارة ملفات الإدارة المدرسية تضمن عدم تكرار المستندات وتوفر مساحات التخزين تلقائياً. ماذا تصمم؟"
+        },
+        {
+          "id": "image_525",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q53.png"
+        },
+        {
+          "id": "paragraph_526",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_527",
+          "type": "ParagraphBlock",
+          "content": "منظومة برمجية تعتمد على تقنية 'البصمة الرقمية للملف'، تفحص المستندات المرفوعة وتمنع رفع أي نسخة مكررة مع توجيه المستخدم للأصل"
+        },
+        {
+          "id": "paragraph_528",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_529",
+          "type": "ParagraphBlock",
+          "content": "إصدار أمر بمنع المعلمين من رفع أي ملف يحتوي على صور أو جداول، والالتزام فقط بالنصوص البسيطة المكتوبة بكلمات قليلة"
+        },
+        {
+          "id": "paragraph_530",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_531",
+          "type": "ParagraphBlock",
+          "content": "تعيين موظف وظيفته الوحيدة هي فتح كل ملفات المدرسة يدوياً يومياً وحذف ما يراه متشابهاً حسب تقديره الشخصي والعشوائي"
+        },
+        {
+          "id": "paragraph_532",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_533",
+          "type": "ParagraphBlock",
+          "content": "تخزين كل الملفات الجديدة على فلاشات (USB) وتوزيعها على رؤساء الأقسام ليحتفظوا بها في جيوبهم لحين الحاجة إليها إدارياً"
+        },
+        {
+          "id": "paragraph_534",
+          "type": "ParagraphBlock",
+          "content": "لاحظت أن الطلاب يملون من أدوات التقويم التقليدية على المنصة. كيف تبتكر أسلوباً جديداً لتطبيق 'الاختبارات الإلكترونية الشيقة'؟"
+        },
+        {
+          "id": "image_535",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q54.png"
+        },
+        {
+          "id": "paragraph_536",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_537",
+          "type": "ParagraphBlock",
+          "content": "دمج آليات التلعيب (Gamification) في التقويم الرقمي، مثل كسب نقاط، شارات تميز، ومستويات تفاعلية عند الإجابة الصحيحة للطلاب"
+        },
+        {
+          "id": "paragraph_538",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_539",
+          "type": "ParagraphBlock",
+          "content": "زيادة عدد أسئلة الاختبار الإلكتروني الواحد لتصل لـ 200 سؤال موضوعي لإجبار الطلاب على التركيز الشديد طوال الليل"
+        },
+        {
+          "id": "paragraph_540",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_541",
+          "type": "ParagraphBlock",
+          "content": "تحويل الأسئلة إلى ألغاز شعرية غامضة جداً لا علاقة لها بالمناهج الدراسية الرسمية المعتمدة لزيادة التحدي المعرفي للمجموع"
+        },
+        {
+          "id": "paragraph_542",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_543",
+          "type": "ParagraphBlock",
+          "content": "إلغاء الاختبارات بالكامل واستبدالها بنظام القرعة العشوائية لتحديد الطلاب الناجحين والراسبين بنهاية الفصل الدراسي المدرسي"
+        },
+        {
+          "id": "paragraph_544",
+          "type": "ParagraphBlock",
+          "content": "كيف تبتكر نموذجاً قيادياً لإدارة الاجتماعات الإلكترونية يضمن التفاعل الإيجابي الكامل بنسبة 100% من هيئة التدريس؟"
+        },
+        {
+          "id": "image_545",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q55.png"
+        },
+        {
+          "id": "paragraph_546",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_547",
+          "type": "ParagraphBlock",
+          "content": "تطبيق نموذج 'الاجتماع المعكوس'، حيث يطالع المعلمون المحتوى والأجندة مسجلة مسبقاً، ويخصص وقت اللقاء الحي للنقاش والتصويت الرقمي"
+        },
+        {
+          "id": "paragraph_548",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_549",
+          "type": "ParagraphBlock",
+          "content": "إلزام كل معلم بفتح الكاميرا والوقوف ورفع يده طوال مدة الاجتماع الافتراضي لإثبات انتباهه الكامل للمدير العام للمدرسة"
+        },
+        {
+          "id": "paragraph_550",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_551",
+          "type": "ParagraphBlock",
+          "content": "إغلاق خاصية الصوت والدردشة عن جميع المعلمين طوال الاجتماع وجعل الحديث قاصراً فقط على مدير المدرسة لإلقاء التوجيهات الحازمة"
+        },
+        {
+          "id": "paragraph_552",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_553",
+          "type": "ParagraphBlock",
+          "content": "دفع مكافآت مالية ضخمة فورية لكل معلم يكتب عبارة 'أوافق بشدة' في خانة التعليقات بالمنصة عند كل قرار يصدره المدير"
+        },
+        {
+          "id": "paragraph_554",
+          "type": "ParagraphBlock",
+          "content": "تريد ابتكار آلية إلكترونية موحدة لتصميم ونشر الجداول المدرسية وتعديلها فورياً عند غياب أي معلم طارئ. ماذا تصمم؟"
+        },
+        {
+          "id": "image_555",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q56.png"
+        },
+        {
+          "id": "paragraph_556",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_557",
+          "type": "ParagraphBlock",
+          "content": "بناء 'جدول مدرسي ديناميكي ذكي مدمج بالمنصة'، يفحص الإجازات الإلكترونية المسجلة تلقائياً ويقترح البدلاء ويشعرهم بالحصص الاحتياطية فوراً"
+        },
+        {
+          "id": "paragraph_558",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_559",
+          "type": "ParagraphBlock",
+          "content": "كتابة الجدول الدراسي الضخم بالقلم الرصاص على لوحة خشبية كبيرة بمدخل المدرسة لتسهيل المسح والتعديل بالممحاة يدوياً عند كل غياب"
+        },
+        {
+          "id": "paragraph_560",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_561",
+          "type": "ParagraphBlock",
+          "content": "إلغاء الحصة الدراسية بالكامل وصرف الطلاب لمنازلهم فوراً إذا غاب معلمهم الأساسي طارئاً لعدم إمكانية تعديل الجدول الورقي"
+        },
+        {
+          "id": "paragraph_562",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_563",
+          "type": "ParagraphBlock",
+          "content": "الاتصال الهاتفي بجميع المعلمين الاحتياط ليلاً وإجبارهم على القدوم للمدرسة قبل موعد الدوام الرسمي بساعتين لفرز الجدول يدوياً مع الإدارة"
+        },
+        {
+          "id": "paragraph_564",
+          "type": "ParagraphBlock",
+          "content": "كيف تبتكر أسلوباً شاملاً لدمج 'تطبيقات الذكاء الاصطناعي التوليدي' لمساعدة المعلمين في ابتكار وتصميم أدوات ووسائل تعليمية فريدة ومخصصة؟"
+        },
+        {
+          "id": "image_565",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q57.png"
+        },
+        {
+          "id": "paragraph_566",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_567",
+          "type": "ParagraphBlock",
+          "content": "تأسيس 'مختبر الابتكار الرقمي التوليدي بالمدرسة'، وتدريب المعلمين على صياغة الأوامر (Prompts) لإنتاج سيناريوهات دروس ونماذج محاكاة تفاعلية"
+        },
+        {
+          "id": "paragraph_568",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_569",
+          "type": "ParagraphBlock",
+          "content": "الطلب من الكمبيوتر كتابة الدروس وطباعتها وتلاوتها بصوت آلي للطلاب داخل الفصل مع جلوس المعلم صامتاً طوال اليوم الدراسي"
+        },
+        {
+          "id": "paragraph_570",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_571",
+          "type": "ParagraphBlock",
+          "content": "حظر استخدام أي تطبيق ذكاء اصطناعي داخل المدرسة واعتبار كل من يستعين به سارقاً علمياً يستحق العقاب الإداري المباشر"
+        },
+        {
+          "id": "paragraph_572",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_573",
+          "type": "ParagraphBlock",
+          "content": "شراء روبوت متحرك مكلف جداً ووضعه في ممر المدرسة الرئيسي ليرحب بالزوار الخارجيين دون أي توظيف في المناهج والتدريس الفعلي"
+        },
+        {
+          "id": "paragraph_574",
+          "type": "ParagraphBlock",
+          "content": "أراد مسؤول التطوير التكنولوجي بالمدرسة تذكيرك بالأداة الرقمية الأنسب لرصد وحساب نسب غياب وحضور الطلاب يومياً، فما هي؟"
+        },
+        {
+          "id": "image_575",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q58.png"
+        },
+        {
+          "id": "paragraph_576",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_577",
+          "type": "ParagraphBlock",
+          "content": "أنظمة الحضور والغرف الرقمية بالمنصات التعليمية"
+        },
+        {
+          "id": "paragraph_578",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_579",
+          "type": "ParagraphBlock",
+          "content": "دفاتر التحضير الورقية التقليدية"
+        },
+        {
+          "id": "paragraph_580",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_581",
+          "type": "ParagraphBlock",
+          "content": "كاميرات المراقبة في الممرات"
+        },
+        {
+          "id": "paragraph_582",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_583",
+          "type": "ParagraphBlock",
+          "content": "الاتصال الهاتفي الفردي بكل طالب"
+        },
+        {
+          "id": "paragraph_584",
+          "type": "ParagraphBlock",
+          "content": "تذكر المهارة الأساسية المطلوبة لحماية بيانات الإدارة المدرسية من التلف الكامل أو الفقد المفاجئ نتيجة عطل في نظام التشغيل:"
+        },
+        {
+          "id": "image_585",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q59.png"
+        },
+        {
+          "id": "paragraph_586",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_587",
+          "type": "ParagraphBlock",
+          "content": "إنشاء نسخ احتياطية للبيانات بانتظام"
+        },
+        {
+          "id": "paragraph_588",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_589",
+          "type": "ParagraphBlock",
+          "content": "كتابة البيانات على لوحات جدارية"
+        },
+        {
+          "id": "paragraph_590",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_591",
+          "type": "ParagraphBlock",
+          "content": "تخزين البيانات في ذاكرة عشوائية مؤقتة"
+        },
+        {
+          "id": "paragraph_592",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_593",
+          "type": "ParagraphBlock",
+          "content": "تجنب تحديث البيانات وحفظها كما هي"
+        },
+        {
+          "id": "paragraph_594",
+          "type": "ParagraphBlock",
+          "content": "أثناء إعداد الخطة الاستراتيجية للمدرسة، ما هي الخطوة الأولى التي يجب عليك تذكرها للبدء في عملية التحول الرقمي بشكل صحيح؟"
+        },
+        {
+          "id": "image_595",
+          "type": "ImageBlock",
+          "content": "",
+          "src": "/assets/exam/q60.png"
+        },
+        {
+          "id": "paragraph_596",
+          "type": "ParagraphBlock",
+          "content": "أ-"
+        },
+        {
+          "id": "paragraph_597",
+          "type": "ParagraphBlock",
+          "content": "تحديد الاحتياجات الرقمية الحالية للمؤسسة"
+        },
+        {
+          "id": "paragraph_598",
+          "type": "ParagraphBlock",
+          "content": "ب-"
+        },
+        {
+          "id": "paragraph_599",
+          "type": "ParagraphBlock",
+          "content": "شراء أحدث الأجهزة اللوحية مباشرة"
+        },
+        {
+          "id": "paragraph_600",
+          "type": "ParagraphBlock",
+          "content": "ج-"
+        },
+        {
+          "id": "paragraph_601",
+          "type": "ParagraphBlock",
+          "content": "إلغاء جميع المعاملات الورقية فوراً"
+        },
+        {
+          "id": "paragraph_602",
+          "type": "ParagraphBlock",
+          "content": "د-"
+        },
+        {
+          "id": "paragraph_603",
+          "type": "ParagraphBlock",
+          "content": "تفويض شركة خارجية لإدارة المدرسة رقمياً"
         }
       ]
     }
