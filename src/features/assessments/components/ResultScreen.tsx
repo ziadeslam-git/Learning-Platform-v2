@@ -80,18 +80,70 @@ export const ResultScreen: React.FC<Props> = ({
             WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 5%, black 95%, transparent)'
           }}
         >
-          {review.map((item, index) => (
-            <div key={item.id} className="backdrop-blur-md bg-white/5 border border-white/10 hover:border-white/20 transition-all rounded-2xl p-5 shadow-lg">
-              <p className="text-white font-semibold mb-3 leading-relaxed text-lg font-arabic">{index + 1}. {item.text}</p>
-              <div className="space-y-2">
-                <p className="text-orange-300 text-sm">إجابتك: <span className="text-gray-200">{item.selectedAnswer ?? 'لم تتم الإجابة'}</span></p>
-                {!isScale && (
-                  <p className="text-green-400 text-sm">الإجابة الصحيحة: <span className="text-gray-200">{item.correctAnswer ?? 'غير متاحة بمصدر موثق'}</span></p>
+          {review.map((item, index) => {
+            const isScale = typeof item.isCorrect !== 'boolean';
+            const isWrong = item.isCorrect === false;
+            const isRight = item.isCorrect === true;
+
+            return (
+              <div 
+                key={item.id} 
+                className={`backdrop-blur-md transition-all rounded-2xl p-5 shadow-lg border relative overflow-hidden ${
+                  isWrong ? 'bg-red-950/20 border-red-500/50 shadow-[0_0_15px_rgba(239,68,68,0.15)]' :
+                  isRight ? 'bg-green-950/20 border-green-500/30' :
+                  'bg-white/5 border-white/10'
+                }`}
+              >
+                {isWrong && (
+                  <div className="absolute top-0 right-0 w-full h-1 bg-gradient-to-l from-red-500 to-transparent" />
                 )}
-                {item.rationale && <p className="text-blue-300 text-sm mt-2 font-arabic leading-relaxed">{item.rationale}</p>}
+                
+                <p className="text-white font-semibold mb-4 leading-relaxed text-lg font-arabic">
+                  {index + 1}. {item.text}
+                </p>
+                
+                <div className="space-y-3 font-arabic">
+                  {!isScale && (
+                    <div className="flex items-center gap-2 mb-2">
+                      {isWrong ? (
+                        <span className="inline-flex items-center gap-1 px-3 py-1 bg-red-500/20 text-red-400 rounded-full text-sm font-bold border border-red-500/30">
+                          <span className="text-xs">❌</span> إجابة خاطئة
+                        </span>
+                      ) : isRight ? (
+                        <span className="inline-flex items-center gap-1 px-3 py-1 bg-green-500/20 text-green-400 rounded-full text-sm font-bold border border-green-500/30">
+                          <span className="text-xs">✅</span> إجابة صحيحة
+                        </span>
+                      ) : null}
+                    </div>
+                  )}
+
+                  <p className="text-sm flex flex-col sm:flex-row gap-1">
+                    <span className="text-gray-400">إجابتك:</span>
+                    <span className={`font-medium ${isWrong ? 'text-red-400 line-through' : 'text-orange-300'}`}>
+                      {item.selectedAnswer ?? 'لم تتم الإجابة'}
+                    </span>
+                  </p>
+                  
+                  {!isScale && isWrong && item.correctAnswer && (
+                    <p className="text-sm flex flex-col sm:flex-row gap-1 mt-1">
+                      <span className="text-gray-400">الإجابة الصحيحة:</span>
+                      <span className="font-bold text-green-400">
+                        {item.correctAnswer}
+                      </span>
+                    </p>
+                  )}
+                  
+                  {item.rationale && (
+                    <div className="mt-3 p-3 bg-blue-900/20 border border-blue-500/20 rounded-lg">
+                      <p className="text-blue-300 text-sm font-arabic leading-relaxed">
+                        {item.rationale}
+                      </p>
+                    </div>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
